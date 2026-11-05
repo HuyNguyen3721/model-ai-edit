@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-11-05T17:33:18",
+  "copyright_policy": "100% Clean-Room & CapCut Commercial Safe (Zero audio ripping from third-party videos)",
+  "discovered_transitions": {},
+  "discovered_video_effects": {},
+  "discovered_animations": {},
+  "discovered_stickers": {},
+  "clean_synthesized_sfx_files": [
+    "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav"
+  ],
+  "capcut_rescued_files_count": 2,
+  "external_sfx_registry_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/external_custom_sfx_registry.json"
+}

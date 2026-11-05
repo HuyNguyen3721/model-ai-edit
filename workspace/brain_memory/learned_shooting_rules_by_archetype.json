@@ -1,0 +1,17 @@
+{
+  "P2": {
+    "archetype": "P2",
+    "last_auto_updated": "2026-11-05T17:04:10",
+    "target_hook_dur_sec": 1.5,
+    "target_avg_cut_sec": 1.85,
+    "cuts_in_first_3_sec": 2,
+    "evolved_recommended_vibe": "V3",
+    "evolved_talent_mode": "T1",
+    "evolved_bgm_mode": "M2_SELECTIVE_HOOK_AND_CTA_SYNC",
+    "evolved_visual_hook": "Cảnh thực chiến ngay giây đầu tiên: nhấn nút máy xay nhuyễn trong 2 giây hoặc lau 1 đường sạch bóng vết bẩn cứng đầu",
+    "recommended_transition": "Clean Action Cut + Punch-In Zoom 1.15x ở cảnh 2",
+    "personal_filming_reminders": [],
+    "user_preferred_subtitle_y": -0.52,
+    "learned_sources_count": 0
+  }
+}

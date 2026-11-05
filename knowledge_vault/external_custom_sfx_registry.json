@@ -1,0 +1,150 @@
+{
+  "updated_at": "2026-11-05T17:33:18",
+  "description": "Sổ đăng ký riêng các Sound Effect & Hiệu ứng ngoài CapCut (100% sạch bản quyền & đạt chuẩn âm học)",
+  "items": {
+    "luxury_soft_pop": {
+      "sfx_key": "luxury_soft_pop",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "ENTRY_POP / Hiện chữ Điểm cộng - Điểm trừ Khen 8 Chê 2",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.09,
+        "peak_db": -22.48,
+        "rms_db": -28.87,
+        "crest_factor_db": 6.39,
+        "quality_score_100": 79.1,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:17"
+    },
+    "crystal_aha_shimmer": {
+      "sfx_key": "crystal_aha_shimmer",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "HOOK_0_3S / Khoảnh khắc mở màn sáng bóng 1.5s đầu",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.28,
+        "peak_db": -24.17,
+        "rms_db": -30.74,
+        "crest_factor_db": 6.57,
+        "quality_score_100": 79.5,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "cart_gold_chime": {
+      "sfx_key": "cart_gold_chime",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+      "subfolder": "cta_cart_chime",
+      "trigger_context": "CTA_POINT_TO_CART / Chỉ tay vào Giỏ hàng góc trái dưới",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.32,
+        "peak_db": -23.01,
+        "rms_db": -29.22,
+        "crest_factor_db": 6.21,
+        "quality_score_100": 78.7,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "clean_velvet_whoosh": {
+      "sfx_key": "clean_velvet_whoosh",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "PUSH_IN / Đưa sản phẩm từ rìa vào giữa khung hình",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.22,
+        "peak_db": -22.87,
+        "rms_db": -35.94,
+        "crest_factor_db": 13.06,
+        "quality_score_100": 93.7,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "kinetic_swipe_out": {
+      "sfx_key": "kinetic_swipe_out",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "PULL_OUT / Gạt sản phẩm cũ ra khỏi khung hình",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.19,
+        "peak_db": -22.79,
+        "rms_db": -36.5,
+        "crest_factor_db": 13.71,
+        "quality_score_100": 95.2,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "sub_bass_hook_hit": {
+      "sfx_key": "sub_bass_hook_hit",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav",
+      "subfolder": "transition_hit",
+      "trigger_context": "PUNCH_IN_ZOOM / Nhấn mạnh điểm cắt giật cấp",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.24,
+        "peak_db": -21.99,
+        "rms_db": -28.53,
+        "crest_factor_db": 6.54,
+        "quality_score_100": 79.4,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "camera_shutter_clean": {
+      "sfx_key": "camera_shutter_clean",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav",
+      "subfolder": "transition_hit",
+      "trigger_context": "FLASH_TRANSITION / Nháy trắng chụp ảnh Trước - Sau",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.07,
+        "peak_db": -15.14,
+        "rms_db": -27.28,
+        "crest_factor_db": 12.15,
+        "quality_score_100": 91.7,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    },
+    "asmr_tactile_click": {
+      "sfx_key": "asmr_tactile_click",
+      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "HAND_POINT / Chạm ngón tay chỉ vào chi tiết sản phẩm",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.055,
+        "peak_db": -23.57,
+        "rms_db": -29.89,
+        "crest_factor_db": 6.32,
+        "quality_score_100": 78.9,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-05T17:33:18"
+    }
+  }
+}
