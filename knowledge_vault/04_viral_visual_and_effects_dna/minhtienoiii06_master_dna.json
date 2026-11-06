@@ -1,0 +1,117 @@
+{
+  "channel_handle": "@minhtienoiii06",
+  "channel_nickname": "Minh Tiến Ơiii",
+  "channel_archetype": "SENSORY_FOOD_SNACK_TECH_GADGET_COZY_DESK_VIRAL_MASTER",
+  "total_videos_scanned_on_channel": 400,
+  "top_videos_deeply_deconstructed": 22,
+  "view_range_analyzed": {
+    "max_views": 19306564,
+    "top_5_views": [
+      19306564,
+      15517545,
+      13831559,
+      12913224,
+      11552406
+    ],
+    "min_views_in_top_22": 1647021,
+    "median_likes_in_top_10": 154600
+  },
+  "core_philosophy": "Bậc thầy biến những món ăn vặt tuổi thơ (bánh phồng sữa, bánh tráng, kẹo dẻo, kẹo sữa khoai môn) và phụ kiện công nghệ giá rẻ (tripod 3in1, gậy chụp ảnh, quạt/đèn mini) thành video 10M-19M views nhờ 5 vũ khí: (1) Nhịp cắt siêu tốc Micro-Cut 1.20s-1.64s (22-30 cảnh/30s); (2) Bối cảnh bàn học ấm cúng có Đèn ngủ lát bánh mì TOAST xanh lá + Cây thường xuân rủ + Điện thoại/iPad phát hoạt hình Doraemon chạy ngầm phía xa; (3) Kịch bản kết hợp sáng tạo ('Ăn kiểu này ngon' - cuộn bánh phồng sữa với kem lạnh, xếp tháp hộp thiếc, úp ngược hũ kẹo, bắn kẹo vào nắp thiếc lấy tiếng vang ASMR); (4) Câu Hook tranh luận vùng miền / hoài niệm tuổi thơ kích nổ bình luận ('Cho hỏi là Bịch hay Bao?', 'Hũ kem nhưng lại có kem :))'); (5) Hệ thống lách OCR thế hệ mới bằng Emoji nông sản thay tiền ('45 🍅', '49 🍠') + chèn dấu chấm/hai chấm vào tính từ vị giác ('p.é.o ngậy', 't:an ch:ảy', 'h.ữ.u c.ơ').",
+  "quantitative_6_layer_metrics": {
+    "pacing_and_cuts": {
+      "avg_shot_duration_sec": 1.38,
+      "fastest_viral_avg_cut_sec": 1.2,
+      "hook_first_cut_sec": 1.1,
+      "cuts_per_30s_video": "22 - 30 cuts",
+      "duration_sweet_spot_sec": "24.0s - 35.0s",
+      "cut_rhythm_pattern": "Rapid-Fire Tactile Micro-Cuts (1.1s Hook -> 1.2s Unbox/Stack -> 1.3s Macro Tear/Stretch -> 1.5s Creative Pairing/Bite)"
+    },
+    "lighting_and_color": {
+      "yavg_luminance_range": [
+        135.5,
+        158.0
+      ],
+      "saturation_mean_range": [
+        88.0,
+        125.0
+      ],
+      "signature_lighting_setups": [
+        "COZY_TOAST_LAMP_IVY_ANIME_DESK: Đèn ngủ hình lát bánh mì TOAST màu xanh lá phát sáng vàng ấm + chậu cây xanh/dây thường xuân + iPad/điện thoại mở hoạt hình Doraemon ở góc trên.",
+        "WARM_ORANGE_HALO_GLOSS_REFLECTION: Đèn Ring-light cam ấm đánh phản chiếu trực tiếp lên bề mặt bóng/trong suốt (bánh tráng dẻo, kẹo dẻo chipchip) làm bề mặt bóng mượt gấp 3 lần.",
+        "CONTRAST_UNDERLAY_PROP: Khi quay sản phẩm màu trắng/trong suốt (bánh phồng sữa trắng) trên bàn trắng, luôn lót một cuốn sổ/khay màu xanh lá đậm ở dưới để tách biệt biên dạng vật thể."
+      ]
+    },
+    "audio_and_asmr": {
+      "speech_ratio": 0.65,
+      "native_asmr_priority": "HIGH_TACTILE_FOLEY_AND_RESONANCE",
+      "acoustic_amplification_tricks": [
+        "TIN_LID_RESONANCE_TARGET: Bắn hoặc thả viên kẹo/vật nhỏ vào nắp hộp thiếc rỗng để tạo tiếng 'tách - keng' vang giòn thay vì thả xuống mặt bàn gỗ phẳng.",
+        "PLASTIC_PEEL_AND_TEAR_CLOSEUP: Kéo lớp màng nilon giòn sột soạt hoặc xé đôi miếng bánh dẻo sát micro ở giây 0.0 - 2.5.",
+        "BLISTER_PACK_POP_RHYTHM: Bấm liên hoàn vỉ kẹo nhôm (Combo 20 thanh kẹo khoai môn) theo nhịp 0.4s/viên."
+      ]
+    }
+  },
+  "signature_creative_techniques_and_hooks": {
+    "1_comment_explosion_hooks": {
+      "REGIONAL_DIALECT_DEBATE_HOOK": {
+        "description": "Đặt câu hỏi tranh luận từ vựng vùng miền ngay 2 giây đầu kèm icon ❌/✅ để hàng ngàn người vào comment tranh luận.",
+        "examples": [
+          "Bịch Bánh Tráng ❌ / Bao Bánh Tráng ✅ — Cho hỏi là Bịch hay Bao ?",
+          "Ở chỗ mọi người gọi cái này là Bánh Phồng Sữa hay Bánh Tráng Sữa ?"
+        ],
+        "best_for": "Đồ ăn vặt truyền thống, đặc sản vùng miền, vật dụng quen thuộc có nhiều tên gọi (P5, P1)."
+      },
+      "CHILDHOOD_NOSTALGIA_AND_CULTURAL_MEME_HOOK": {
+        "description": "Khơi gợi ký ức tuổi thơ đi học hoặc meme gia đình Việt Nam.",
+        "examples": [
+          "🍼 có ai hồi nhỏ hay ăn vụng sữa bột em bé hong ?",
+          "hủ kem nhưng lại có kem :)) (Meme hộp kem trong tủ lạnh không đựng cá thịt mà đựng kem thật)",
+          "Món kẹo tuổi thơ thời đi học của tui đây rồi 👏"
+        ],
+        "best_for": "Bánh kẹo tuổi thơ, đồ ăn vặt, đồ dùng học tập, quà tặng (P5, P6)."
+      },
+      "CREATIVE_PAIRING_CHALLENGE_HOOK": {
+        "description": "Kết hợp sản phẩm đang review với một món ăn/vật dụng bất ngờ để tạo trải nghiệm vị giác mới lạ.",
+        "examples": [
+          "🗣️ ai thử món này chưa ? (Lấy bánh phồng sữa cuộn kem lạnh như bánh crepe rồi cắn ngập răng)",
+          "Ăn kiểu này ngon xỉu (Chấm/cuộn biến tấu ngay trước ống kính)"
+        ],
+        "best_for": "Đồ ăn vặt, nguyên liệu pha chế, đồ bếp (P5, P1)."
+      }
+    },
+    "2_sensory_visual_choreography": {
+      "DUAL_COLOR_CONTRAST_HOLD_AND_TEAR": "Cầm 2 sản phẩm có màu tương phản mạnh (Xanh lá dứa Neon vs Trắng sữa dừa) đặt sát nhau, gấp hình tam giác hoặc cuộn ống tròn, rồi xé chậm sát ống kính để khoe độ dẻo.",
+      "VERTICAL_TOWER_STACK_TO_RAINBOW_GRID": "Với sản phẩm dạng hộp nhỏ nhiều màu (kẹo hộp thiếc, son, phấn, phụ kiện): Giây 0-1.5 xếp chồng 6-7 hộp thành tháp cao dựng đứng (Tower Hook), giây 1.5-3.0 trải thành lưới 3x3 mở nắp đồng loạt.",
+      "UPSIDE_DOWN_CUP_FLIP_CASCADE": "Với sản phẩm đựng trong hũ/cốc trong suốt: Úp ngược hũ lên đĩa rồi nhấc vỏ hũ từ từ để toàn bộ kẹo/đồ vật đổ tràn ra đĩa đầy đặn.",
+      "LIVE_SCREEN_IN_FRAME_TECH_PROOF": "Khi quay Tripod / Gậy chụp ảnh / Đèn livestream: Luôn gắn một chiếc điện thoại thứ 2 đang mở sẵn màn hình Camera quay trực tiếp (Live Viewfinder), giúp người xem thấy đồng thời cả chiếc Tripod bên ngoài LẪN góc nhìn siêu rộng bên trong màn hình điện thoại.",
+      "ON_SCREEN_DASHED_MEASUREMENT_LINE": "Vẽ đường kẻ nét đứt dọc theo thân sản phẩm (< - - - 1m7 - - - >) khi kéo dài tối đa để chứng minh kích thước thật mà không cần thước dây."
+    },
+    "3_genz_ocr_evasion_and_price_icons": {
+      "AGRICULTURAL_CURRENCY_EMOJI_SUBSTITUTION": {
+        "rule": "Tuyệt đối không viết '45k', '49.000đ' hay 'giá rẻ' bằng chữ thuần. Thay đơn vị tiền tệ bằng Emoji củ quả dễ thương để lách 100% quét giá OCR/CHR của TikTok.",
+        "mappings": {
+          "45k": "45 🍅 thoi",
+          "49k": "49 🍠",
+          "35k": "35 🥕",
+          "chụp ảnh": "[📸 icon] ảnh xinh"
+        }
+      },
+      "SENSORY_ADJECTIVE_PUNCTUATION_SPLITTING": {
+        "rule": "Chèn dấu chấm (.) hoặc dấu hai chấm (:) vào giữa các tính từ kích thích vị giác mạnh, từ chỉ số lượng khủng hoặc cam kết nguồn gốc để tạo phong cách chữ Gen-Z vừa né bộ lọc phóng đại.",
+        "dictionary": {
+          "béo ngậy": "p.é.o ngậyyy",
+          "tan chảy": "t:an ch:ảy",
+          "sữa tươi": "sữ:a tươi",
+          "hữu cơ": "h.ữ.u c.ơ",
+          "dễ thương": "d.ễ th.ư.ơ.ng",
+          "mẫu kẹo": "m.ẫ.u kẹo",
+          "tận 20 viên": "t.ận 20v",
+          "ăn siêu cuốn": "ă:n siu cuốn ✨",
+          "mê kẹo này": "m:ê kẹo này 🤤",
+          "rẻ quá": "có r.ẻ quá hong zẫy"
+        }
+      },
+      "SPEAKING_HEAD_HOOK_BADGE": "Luôn mở đầu dòng chữ Hook 2 giây đầu bằng icon 🗣️ hoặc 🍼/🍵 ở đầu câu, chữ thường không viết hoa đầu câu (lowercase aesthetic: '🗣️ ai thử món này chưa ?', '🗣️ lần đầu ăn kẹo kiểu này')."
+    }
+  }
+}

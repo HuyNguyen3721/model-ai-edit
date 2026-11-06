@@ -6,6 +6,8 @@ description: >-
 
 # TikTok Pre-Shoot Creative Director (`Node 0` — `/len-kich-ban-quay`)
 
+> **TÀI LIỆU THAM CHIẾU BẮT BUỘC:** Đọc [TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md](../../TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md) để nắm vững Ma trận điều phối thông minh theo ngữ cảnh từ **3.575 video (166 bảng Storyboard) của 8 KOC** (`@meshinthuine`, `@honghanhxinhgai_01`, `@kieneditcuong`, `@3thag8_`, `@byraanni`, `@grayunbox`, `@minhtienoiii06`, `@yuhtt09`). Tuyệt đối chọn bài test vật lý, đạo cụ, họ icon và hiệu ứng âm thanh **thông minh theo đúng ngành hàng sản phẩm** (`select_smart_contextual_shooting_strategy`), không áp đặt cứng nhắc.
+
 Kích hoạt Skill này ngay khi người dùng gửi **ảnh chụp sản phẩm** và/hoặc **mô tả sản phẩm** dự định quay video review TikTok Affiliate.
 
 ## Quy Trình Thực Thi Bắt Buộc (4 Bước)
@@ -16,7 +18,7 @@ Kích hoạt Skill này ngay khi người dùng gửi **ảnh chụp sản phẩ
    - Đọc chữ trên bao bì để phát hiện sớm rủi ro **Chính sách CHR Việt Nam (`0–1.000 điểm`)** (ví dụ: TPCN `P7`, Sữa công thức dưới 24 tháng `P4`, Mỹ phẩm đặc trị `P1`, hoặc logo thương hiệu lớn `P3`).
 2. Chạy lệnh phân tích quang học + tự động đồng bộ tri thức mới nhất từ não bộ (`auto_sync_and_evolve_shooting_brain`) và sinh bộ câu hỏi tương tác:
    ```bash
-   python3 /Users/huynguyen/Desktop/tiktok/pre_production_shooting_planner.py \
+   python3 ./pre_production_shooting_planner.py \
      --images "<đường_dẫn_ảnh_cách_nhau_dấu_phẩy>" \
      --description "<mô_tả_sản_phẩm>" \
      --ask-questions
@@ -34,7 +36,7 @@ Trình bày ngắn gọn cho người dùng:
 ### Bước 3: Xuất Bản Thiết Kế 6 Cảnh Cần Quay Chuẩn Bộ Edit (`Edit-Ready Shooting Blueprint`)
 Ngay khi người dùng chọn xong (hoặc yêu cầu tự chọn), chạy lệnh:
 ```bash
-python3 /Users/huynguyen/Desktop/tiktok/pre_production_shooting_planner.py \
+python3 ./pre_production_shooting_planner.py \
   --images "<đường_dẫn_ảnh>" \
   --description "<mô_tả_sản_phẩm>" \
   --vibe <V1|V2|V3|V4> \

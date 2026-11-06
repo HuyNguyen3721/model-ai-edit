@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T17:33:18",
+  "updated_at": "2026-11-06T08:25:23",
   "documents_learned": {
     "Cẩm nang Toàn diện TikTok Affiliate (Việt Nam).md": {
-      "file_path": "/Users/huynguyen/Desktop/tiktok/Cẩm nang Toàn diện TikTok Affiliate (Việt Nam).md",
+      "file_path": "./Cẩm nang Toàn diện TikTok Affiliate (Việt Nam).md",
       "extracted_rules_count": 16,
       "key_rules_sample": [
         "Ở Việt Nam, TikTok Shop chấm điểm nhà sáng tạo (Affiliate) bằng **Điểm tình trạng nhà sáng tạo (CHR - Creator Health Rating, thang 0–1.000, mới vào có 200 điểm)**: mỗi video hoặc LIVE vi phạm bị trừ điểm, xuống **150 điểm** là mất quyền gắn giỏ hàng 3 ngày, về **0 điểm** là bị xóa quyền bán hàng vĩnh viễn.",
@@ -22,7 +22,77 @@
         "👉 **Mẹo vàng:** Khi cả *Hình ảnh + Giọng nói + Chữ trên màn hình + Tên sản phẩm trong giỏ hàng* trùng khớp từ khóa ở 5 giây đầu, AI của TikTok sẽ lập tức đẩy video của bạn lên cả **Tab Tìm Kiếm (Search Traffic)** — nguồn traffic mang lại đơn hàng đều đặn suốt nhiều tháng sau khi đăng!",
         "Thuộc tính sản phẩm và thông tin vận chuyển (Việt Nam, cập nhật 14/10/2026):** Giấy phép sản phẩm bắt buộc từ 20/03/2026."
       ],
-      "learned_at": "2026-11-05T17:33:18"
+      "learned_at": "2026-11-06T08:25:23"
+    },
+    "Cẩm nang vi phạm TikTok Affiliate (Việt Nam).docx": {
+      "file_path": "./knowledge_vault/05_documents_and_guides_inbox/Cẩm nang vi phạm TikTok Affiliate (Việt Nam).docx",
+      "extracted_rules_count": 22,
+      "key_rules_sample": [
+        "Ở Việt Nam, TikTok Shop chấm điểm nhà sáng tạo (Affiliate) bằng Điểm tình trạng nhà sáng tạo (CHR - Creator Health Rating, thang 0–1.000, mới vào có 200 điểm): mỗi video hoặc LIVE vi phạm bị trừ điểm, xuống 150 điểm là mất quyền gắn giỏ hàng 3 ngày, về 0 điểm là bị xóa quyền bán hàng vĩnh viễn.",
+        "\tCảnh báo lần đầu (Warning) thường không làm giảm CHR; chỉ vi phạm tái diễn mới bị trừ điểm. Tuy nhiên, vi phạm nghiêm trọng hoặc rủi ro cao có thể bị phạt/trừ điểm ngay lập tức, bất kể bạn đang có bao nhiêu điểm.",
+        "Dùng giọng AI/mặt AI đóng giả bác sĩ khuyên dùng thuốc; dùng AI tạo hiệu ứng vết bẩn tự bay màu hoặc quần áo mặc lên người mẫu AI khác xa hàng thật.",
+        "Bật công tắc \"Nội dung do AI tạo\" khi đăng nếu có dùng AI tạo hình/giọng; bắt buộc quay sản phẩm vật lý thật khi test công dụng.",
+        "Nhiều nhà sáng tạo nắm rõ luật LIVE nhưng lại bị trừ điểm CHR oan uổng khi làm Video ngắn gắn giỏ hàng vì chưa biết 6 quy định ngầm dưới đây của hệ thống quét AI TikTok:",
+        "4.1. Thế nào bị tính là \"Lách luật Nội dung không nguyên bản\" (-40 điểm & Khóa quyền ngay)?",
+        "\tKhông làm giả kết quả/hiệu ứng (No Fake Results): Tuyệt đối không dùng hiệu ứng chuyển cảnh AI, bộ lọc (Beauty Filter) làm mịn da quá đà khi đang quay cảnh test mỹ phẩm/kem nền/sữa rửa mặt trên da mặt.",
+        "\tNếu sản phẩm trong video đã hết hàng màu/size bạn đang cầm hoặc hết chương trình Mua 1 Tặng 1, nhưng lời thoại trong video vẫn khẳng định chắc nịch đang còn ưu đãi đó mà không có dòng đính chính (\"Số lượng quà tặng tùy thời điểm trong giỏ hàng\"), bạn có thể bị báo cáo lỗi Giá/Khuyến mãi gây hiểu lầm (-20 điểm).",
+        "Gắn giỏ hàng hoặc chỉ cần để xuất hiện trong khung hình các sản phẩm cấm là lỗi nặng nhất (-40 điểm/nội dung). Dưới đây là danh sách tổng hợp đầy đủ từ TikTok Shop Seller/Creator Academy Việt Nam:",
+        "Từ ngày 20/03/2026, người bán ở các ngành dưới đây bắt buộc phải khai báo giấy phép trên hệ thống. Là Affiliate, bạn chỉ nên chọn sản phẩm từ Shop Mall / Shop Uy tín đã up đủ giấy phép công bố:",
+        "Shop phải có Giấy tiếp nhận đăng ký bản công bố & Giấy xác nhận nội dung quảng cáo. Bắt buộc trong video: Phải nói (hoặc hiện chữ rõ ràng) câu \"Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh\". Chỉ dùng từ \"hỗ trợ\".",
+        "Các công cụ bảo vệ tài khoản bắt buộc phải biết",
+        "Tải bản nháp video lên để AI của TikTok quét trước các lỗi chính sách trong vài phút và báo chỗ cần sửa trước khi đăng công khai (không bị trừ điểm khi test ở đây!).",
+        "☐ 1. Sản phẩm không thuộc nhóm cấm/không hỗ trợ; nếu là TPCN/Mỹ phẩm/Đồ ăn thì Shop đã có giấy phép đầy đủ. (Tuyệt đối không dính tới sữa cho bé dưới 24 tháng, thuốc giảm cân, rượu bia, vape).",
+        "\tLưu ý an toàn Policy CHR: Khi tạo cảnh test vết bẩn ở 3s đầu, hãy dùng vết bẩn nhân tạo sạch sẽ (sốt cà chua, xì dầu, bột cacao, bùn đất làm vườn) thay vì quay bồn cầu dơ thật hay vết thương thật để không bị phạt -20 điểm lỗi Nội dung gây sốc/ghê rợn.",
+        "\tTác dụng kép: Vừa khiến người xem tin bạn 100% là người dùng thật công tâm, vừa tránh hoàn toàn lỗi Tuyên bố phóng đại (-10 điểm CHR) của TikTok!",
+        "\tLưu ý Policy CHR: Tuyệt đối không nói \"Rẻ hơn Shopee 50k\" hay \"Giảm 90% chỉ còn hôm nay\" nếu không đúng sự thật trong giỏ hàng (-20 điểm).",
+        "\tHãy nối câu chỉ dẫn mua hàng vào thẳng một mẹo chọn phân loại và cắt sát sạt ở chữ cuối cùng:",
+        "\tChỉ để làm nền lấp đầy khoảng trống tần số âm thanh, tuyệt đối không được lấn át giọng nói.",
+        "👉 Mẹo vàng: Khi cả Hình ảnh + Giọng nói + Chữ trên màn hình + Tên sản phẩm trong giỏ hàng trùng khớp từ khóa ở 5 giây đầu, AI của TikTok sẽ lập tức đẩy video của bạn lên cả Tab Tìm Kiếm (Search Traffic) — nguồn traffic mang lại đơn hàng đều đặn suốt nhiều tháng sau khi đăng!",
+        "Dùng AI tạo nhân vật bác sĩ khuyên dùng sản phẩm, hoặc dùng AI tạo video sản phẩm ảo mà không bật nhãn AI.",
+        "\tThuộc tính sản phẩm và thông tin vận chuyển (Việt Nam, cập nhật 14/10/2026): Giấy phép sản phẩm bắt buộc từ 20/03/2026."
+      ],
+      "learned_at": "2026-11-06T08:25:23"
+    },
+    "File_1_Cam_Nang_Phong_Cach_Quay_Edit_Reviewer_Meshinthuine.md": {
+      "file_path": "./knowledge_vault/05_documents_and_guides_inbox/File_1_Cam_Nang_Phong_Cach_Quay_Edit_Reviewer_Meshinthuine.md",
+      "extracted_rules_count": 34,
+      "key_rules_sample": [
+        "20% các vết cắt chuyển đoạn lớn** (từ Hook sang Mở hộp, từ Mở hộp sang Test thực tế, hoặc đổi góc phòng) **BẮT BUỘC dùng Chuyển cảnh CapCut** với thời lượng cực ngắn **`0.20s – 0.35s`** (tuyệt đối không để mặc định `0.8s – 1.0s` vì sẽ làm chậm nhịp video).",
+        "Câu dài (`23 – 34 ký tự`):** Tự động thu nhẹ về **`Size 7.0 – 7.5`** kết hợp bật khóa biên **`line_max_width = 0.76` (`76%` chiều ngang màn hình)** để CapCut tự ngắt thành 2 dòng cân đối ở giữa, **tuyệt đối không bao giờ tràn sang cột nút Tim/Bình luận/Chia sẻ bên phải của TikTok**!",
+        "Vị trí đặt chữ quyết định 50% sự chuyên nghiệp của video. Tuyệt đối không để chữ đè bẹp lên mặt sản phẩm hay bàn tay đang thao tác! Hệ thống chia màn hình 9:16 thành **Lưới 9 Vùng (`9-Zone Saliency Grid`)** để định vị tọa độ sản phẩm `(sx, sy)` trong từng cảnh quay:",
+        "Khi bạn chèn một **Khung hình phụ (PiP Video)** hoặc **Thẻ ảnh thông số / Voucher (`Kịch bản R4`)** lên `Track V2`, tuyệt đối không để nó tự nhiên hiện ra rồi biến mất. Hãy gắn bộ hiệu ứng động của CapCut cho clip đó:",
+        "| **5. Tiếng Ẩm Thực & Đời Sống (`Food / Cozy`)** | `\"Crunch\"`, `\"Pouring water\"`, `\"Sizzle\"`, `\"Coffee\"` | `-10dB` (`45%`) | Bổ trợ thêm vào cảnh rót trà, bẻ bánh giòn (`P6`) nếu lúc quay mic điện thoại thu hơi nhỏ. |",
+        "| Chế độ Âm nhạc & Nhịp dựng | Khi nào bắt buộc dùng? (Điều kiện Resource & Bối cảnh) | Thể loại Nhạc, Tempo (`BPM`) & Âm sắc chuẩn | Cách Edit theo Nhịp (`Beat-Sync Strategy`) & Kiểm soát Âm lượng |",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "CẤM TUYỆT ĐỐI (`-40 điểm CHR`):** Không nhận làm Affiliate hoặc để xuất hiện trên hình **Sữa công thức cho trẻ dưới 24 tháng tuổi, bình bú và núm vú giả**. Nếu làm sữa cho bé từ 24 tháng trở lên, bắt buộc đọc và hiện chữ rõ trên màn hình: **`\"Dành cho bé từ 2 tuổi trở lên\"`** để AI không quét nhầm!",
+        "Quy tắc Trẻ vị thành niên (`-40 điểm CHR`):** Tuyệt đối không để em bé/trẻ dưới 18 tuổi xuất hiện **một mình** trong khung hình giới thiệu sản phẩm — bắt buộc luôn phải có mẹ/người lớn xuất hiện cùng và dẫn dắt nội dung hướng tới phụ huynh!",
+        "Giữa video bắt buộc có **Góc `A3` (Macro)** soi ký hiệu nhựa `PP / Tritan / BPA Free / Inox 316` và các góc cạnh bo tròn.",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Combo Vũ Khí CapCut Khuyên Dùng:**",
+        "Tuyệt đối không dùng các từ cam kết tuyệt đối hoặc phóng đại y khoa (*\"Trị dứt điểm 100%\", \"Trắng bật 3 tông sau 1 lần\", \"Rẻ nhất TikTok\", \"Hàng chính hãng 100% không đúng đền gấp 10\"*). Hãy chuyển toàn bộ sang **Câu chuyện trải nghiệm cá nhân của người thật** theo bảng dưới đây:",
+        "| Nhóm Sản Phẩm | ❌ Câu Hook Vi Phạm CHR (Dễ bị bóp tương tác/trừ điểm) | ✅ Câu Hook Chuẩn Phong Cách `meshinthuine` (Vừa cuốn vừa an toàn 100%) |",
+        "1. **Không bao giờ bàn giao mù:** Trước khi báo cáo hoàn thành, AI bắt buộc phải tự kiểm định lại toàn bộ bản dựng theo **Thang 100 Điểm (6 Trụ cột chuyên sâu)**. Nếu dưới **90/100 điểm** hoặc dính bất kỳ lỗi Đỏ nào, AI phải **tự động sửa lại ngay lập tức** trước khi gửi cho bạn!",
+        "2. **Không bao giờ im lặng chịu đựng nguyên liệu thiếu:** Nếu phát hiện chỉ cần bổ sung thêm 1 góc quay 3 giây, 1 thông số giá/khuyến mãi hoặc cần bạn chốt hướng đi sáng tạo để biến video từ mức Khá (`75 điểm`) thành mức Siêu Phẩm Viral (`98 điểm`), AI **CÓ QUYỀN VÀ BẮT BUỘC chủ động nhắn hỏi / \"đòi\" thêm từ bạn**!",
+        "### A. Cơ Chế Điểm CHR Việt Nam & Bảng Mức Trừ Điểm Chính Xác (`-10 / -20 / -40 Điểm`)",
+        "### B. Quy Định Bắt Buộc Cho 4 Nhóm Hàng Hạn Chế (Cập nhật `20/03/2026`)",
+        "1. **Thực phẩm bảo vệ sức khỏe (`TPCN`), Vitamin, Collagen, Protein:** BẮT BUỘC trong video phải đọc hoặc hiển thị rõ dòng chữ: **`\"Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh\"`** và chỉ dùng từ `\"hỗ trợ\"`.",
+        "2. **Mẹ & Bé (`Trên 24 tháng`):** Chỉ nhận làm sữa cho trẻ từ `24 tháng tuổi trở lên` và bắt buộc hiện chữ rõ ràng ngay trong video: **`\"Dành cho bé trên 2 tuổi\"`**.",
+        "Tại sao bắt buộc phải dùng `Model Chaining` + `Chain-of-Thought (CoT)` + `Self-Training Memory`?**",
+        "Giải pháp tối thượng là chia hệ thống thành **Chuỗi 7 Mắt Xích Chuyên Gia Nối Tiếp (`7-Stage Model Chaining`)**, mỗi mắt xích bắt buộc thực hiện **Suy luận Chuỗi 4 Bước (`4-Step Structured CoT`)** và ghi kết quả vào **Bộ Nhớ Tự Huấn Luyện (`./workspace/brain_memory/`)** để AI tự khôn lên sau mỗi video!",
+        "N1[\"🔗 Mắt Xích 1: RAW MINER & DIRECTOR CONSULTANT\\n(CoT 1: Lọc đoạn vàng >1p + Quét cấm CHR -40đ + Đòi thêm Resource)\"]",
+        "Tại mỗi mắt xích từ `Node 1` đến `Node 7`, AI không được phép đưa ra thông số cảm tính mà bắt buộc phải xuất khối suy luận `<cot_reasoning_trace>` gồm đúng **4 bước**:",
+        "2. **`[Bước CoT 2 - TRUY XUẤT KÝ ỨC TỰ HỌC & LUẬT CHR (Memory & Policy Retrieval)]`:** Kiểm tra xem trong `brain_memory/` bạn từng thích chỉnh thông số này thế nào ở các video trước, và kiểm tra giới hạn đỏ CHR (`-10/-20/-40đ`).",
+        "Khi nhận được ảnh chụp và mô tả sản phẩm của bạn, AI sẽ phân tích nhanh sản phẩm đó rồi **hỏi bạn 3 câu trắc nghiệm ngắn gọn** (kèm nhãn **`(Khuyên dùng)`** dựa trên dữ liệu viral thực tế của ngành hàng đó):",
+        "| Thứ tự Câu hỏi | Nội dung Câu hỏi AI dành cho bạn | Các Phương án Lựa chọn (AI tự động đánh dấu `Khuyên dùng` theo ảnh sản phẩm) | Tác động trực tiếp đến Bản Đề Xuất Quay & Bộ Edit Tự Động |",
+        "(Mẹo nhanh: Nếu bạn bận và muốn AI tự quyết định từ A–Z, bạn chỉ cần nhắn kèm ảnh: **\"Tự chọn phương án tối ưu nhất và lên danh sách cảnh quay cho tôi\"** — AI sẽ tự động chọn phương án có điểm chuyển đổi `GPM` cao nhất từ kho `learned_viral_patterns.json`!)*",
+        "| Cảnh cần quay (`Resource ID`) | Mục đích trong Kịch bản 28s | Góc máy & Khoảng cách (`A1–A8`) | Bạn cần làm hành động gì khi bấm máy? *(Thiết kế sẵn cho thuật toán Edit)* | Yêu cầu Âm thanh & Ánh sáng khi quay *(Để Mắt xích 3 & 4 xử lý)* | Thời lượng bấm máy khuyên dùng |",
+        "RULES[\"🧬 KHO QUY TẮC QUAY ĐỘNG\\nlearned_shooting_rules_by_archetype.json\\n(Ghi đè trực tiếp Góc quay, Nhịp bấm máy,\\nVibe khuyên dùng, Cảnh báo ánh sáng/mic)\"]"
+      ],
+      "learned_at": "2026-11-06T08:25:23"
     }
   }
 }

@@ -1,0 +1,205 @@
+{
+  "channel_handle": "@kieneditcuong",
+  "channel_nickname": "Kiên Edit Cường",
+  "followers": 11000,
+  "total_likes": 78400,
+  "specialty": "Hướng dẫn Edit CapCut & Visual Hook thực chiến cho Video Bán Hàng Affiliate",
+  "six_product_reveal_visual_hooks_3s": [
+    {
+      "id": "HOOK_REVEAL_01",
+      "name": "Tô Viền Phát Quang + Đóng Băng Khung Hình (Glowing Stroke Freeze-Frame Hook)",
+      "source_videos": [
+        "7695062266772868373",
+        "7694906253360762120"
+      ],
+      "how_to_shoot": "Cầm sản phẩm đưa lên trước ngực + đẩy nhẹ tay về phía camera hoặc tung nhẹ hộp sản phẩm lên.",
+      "capcut_steps": [
+        "1. Tách (Split) hoặc Dừng hình (Freeze) tại khung hình sản phẩm đưa lên đẹp nhất (1.5s - 2.0s).",
+        "2. Nhân đôi (Duplicate) đoạn đó -> Chọn Lớp phủ (Overlay) kéo xuống tầng dưới khớp 100% với tầng chính.",
+        "3. Chọn Lớp phủ -> Xóa nền (Remove BG) -> Xóa tùy chỉnh (Custom Removal) -> Dùng Cọ nhanh quét chọn sản phẩm.",
+        "4. Bấm Tô viền (Stroke) -> Chọn kiểu Phát quang (Glow) hoặc Nét giấy (Paper Border) màu Đỏ/Xanh/Trắng nổi bật.",
+        "5. Ở tầng chính phía dưới, thêm Hiệu ứng Video -> Mờ (Blur) hoặc Viền mờ dần + Chèn chữ Tên SẢN PHẨM ngay trên đỉnh hộp."
+      ]
+    },
+    {
+      "id": "HOOK_REVEAL_02",
+      "name": "Búng Tay Biến Ra Sản Phẩm (Finger Snap Cutout Reveal)",
+      "source_videos": [
+        "7688222576220458258"
+      ],
+      "how_to_shoot": "Cố định góc máy. Cảnh 1: Đưa tay vào khung hình búng ngón tay trên bàn trống. Cảnh 2: Đặt sản phẩm vào đúng vị trí đó.",
+      "capcut_steps": [
+        "1. Lướt tới đúng frame ngón tay vừa búng -> Đưa Cảnh 2 (có sản phẩm) xuống làm Lớp phủ (Overlay).",
+        "2. Bấm Xóa nền -> Xóa tùy chỉnh để tách riêng sản phẩm hiện ra ngay dưới ngón tay vừa búng.",
+        "3. Chèn hiệu ứng âm thanh: Snap finger patch 01 (00:03) + Magic reveal."
+      ]
+    },
+    {
+      "id": "HOOK_REVEAL_03",
+      "name": "Đảo Ngược Lực Hút Jedi (Reverse Throw-Catch Hook - 3s Mở Đầu)",
+      "source_videos": [
+        "7694529345087474962"
+      ],
+      "how_to_shoot": "Cầm hộp sản phẩm trên tay rồi ném/thả văng ra xa xuống mặt bàn, giữ bàn tay xòe mở.",
+      "capcut_steps": [
+        "1. Cắt lấy đoạn vừa thả sản phẩm bay ra bàn (~1.5s).",
+        "2. Bấm công cụ Đảo ngược (Reverse) trên CapCut -> Sản phẩm sẽ tự động bay từ bàn hút dính vào lòng bàn tay."
+      ]
+    },
+    {
+      "id": "HOOK_REVEAL_04",
+      "name": "Lắc Tay Biến Hình Liên Hoàn (Empty-Hand vs. Product Shake Intercut)",
+      "source_videos": [
+        "7699364162316651797"
+      ],
+      "how_to_shoot": "Quay 2 đúp cùng 1 vị trí đèn: Đúp 1 lắc bàn tay không (không cầm gì); Đúp 2 cầm sản phẩm ở đúng thế tay đó và lắc tiếp.",
+      "capcut_steps": [
+        "1. Cắt đoạn lắc tay không (~0.15s) và đoạn lắc có sản phẩm (~0.15s) sao cho thế tay khớp nhau.",
+        "2. Nhân đôi (Duplicate) và xếp xen kẽ (Tay không -> Có SP -> Tay không -> Có SP) 3-4 nhịp trước khi dừng lại mở nắp sản phẩm."
+      ]
+    },
+    {
+      "id": "HOOK_REVEAL_05",
+      "name": "Camera Bắt Chước Động Tác Tay (Camera Hand-Gesture Mimic - Top 1 Viral 41.9K Views)",
+      "source_videos": [
+        "7686356596615679239"
+      ],
+      "how_to_shoot": "Cầm hũ sản phẩm đưa từ xa lại gần ống kính, xòe 5 ngón tay giữ đáy hũ cho thật rồi xoay nhẹ cổ tay.",
+      "capcut_steps": [
+        "1. Đặt Keyframe ở đầu và cuối chuyển động tay.",
+        "2. Phóng to và xoay khung hình trên CapCut cùng chiều với góc xoay cổ tay để camera như bị hút theo tay."
+      ]
+    },
+    {
+      "id": "HOOK_REVEAL_06",
+      "name": "Keyframe Độ Mờ Nhập Hình (Opacity Ghost-Overlay Keyframe Hook)",
+      "source_videos": [
+        "7690448797079522567"
+      ],
+      "how_to_shoot": "Quay cảnh cầm chai sản phẩm đưa lên dưới ánh đèn.",
+      "capcut_steps": [
+        "1. Nhân đôi video đưa xuống Lớp phủ (Overlay).",
+        "2. Đặt Keyframe 1 giảm Độ mờ (Opacity) xuống 51% và phóng to nhẹ; Keyframe 2 kéo Độ mờ lên 100% và thu về khớp 100% với video gốc."
+      ]
+    }
+  ],
+  "six_capcut_keyframe_zoom_archetypes": {
+    "source_videos": [
+      "7700109478380784917",
+      "7687096732785691922"
+    ],
+    "zoom_types": [
+      "1. Phóng to dần (Slow Push-In): 2 Keyframes (Đầu 100% -> Cuối 130%)",
+      "2. Thu nhỏ dần (Slow Pull-Out): 2 Keyframes (Đầu 130% -> Cuối 100%)",
+      "3. Phóng to + Thu nhỏ (In-Out Bounce): 3 Keyframes (100% -> 135% -> 100%)",
+      "4. Thu nhỏ + Phóng to (Out-In Pulse): 3 Keyframes (135% -> 100% -> 135%)",
+      "5. Phóng to + Nghỉ + Thu nhỏ (Zoom In - Hold - Out): 4 Keyframes (2 key đầu đuôi 100%, 2 key giữa giữ nguyên 135% để đọc chữ trên nhãn)",
+      "6. Thu nhỏ + Nghỉ + Phóng to (Zoom Out - Hold - In): 4 Keyframes (Phóng to 135% ở 2 key rìa đầu/cuối, 2 key giữa nghỉ ở 100%)"
+    ],
+    "seamless_zoom_transition_rule": "Ở cuối Clip 1 đặt Keyframe zoom vào + nghiêng nhẹ; sang đầu Clip 2 phải zoom sẵn cho kích thước sản phẩm khớp với cuối Clip 1 rồi mới đặt Keyframe thu về."
+  },
+  "lazy_editor_effects_and_jitter_cut": {
+    "source_videos": [
+      "7685610215064079623",
+      "7693735773257878792"
+    ],
+    "four_instant_video_effects": [
+      "Ống kính zoom (Zoom Lens) - Tự động phóng to vào nhãn sản phẩm",
+      "Thu nhỏ (Zoom Out / Shrink) - Thu khung hình đầu cảnh flatlay",
+      "Lắc nhẹ (Slight Shake) - Tạo độ rung handheld tự nhiên khi cầm hộp sản phẩm",
+      "Thu phóng nhỏ (Mini Zoom) - Nhịp nhún khi mở nắp chai"
+    ],
+    "pop_candy_jitter_montage_trick": "Gắn Hiệu ứng động -> Vào -> Kẹo nổ (Pop Candy) + kéo nghiêng nhẹ trên 1 clip mẫu 0.5s -> Nhân đôi (Duplicate) ra 6-8 đoạn -> Dùng nút Thay thế (Replace) để nạp từng ảnh/clip sản phẩm vào."
+  },
+  "sharp_filming_and_export_settings": {
+    "source_video": "7686738266367806727",
+    "camera_app_recommendation": "App Blackmagic Camera (miễn phí trên iOS) giúp quay nét căng ngay cả trên iPhone XS Max nhờ khóa sáng và nhiệt độ màu chuẩn từ lúc quay, không phụ thuộc kéo sáng hậu kỳ.",
+    "capcut_export_golden_rule": {
+      "resolution": "Đẩy full thanh ngang (2K/4K)",
+      "fps": "Đẩy full thanh ngang (60fps)",
+      "bitrate_mbps": "Đẩy full thanh ngang (Cao nhất / 100 Mbps)",
+      "must_turn_off": [
+        "TẮT AI Ultra HD ở màn hình xuất file",
+        "TẮT Luồng quang học (Optical Flow)",
+        "TẮT HDR thông minh (Smart HDR)"
+      ]
+    }
+  },
+  "capcut_sfx_exact_search_dictionary": {
+    "source_videos": [
+      "7690821254063918343",
+      "7696008660945800468",
+      "7691927548673953042",
+      "7700827989575093524"
+    ],
+    "1_opening_3s_hook_sfx": [
+      "Opening/Conversion Jingle Horn System(83... (00:03 - OTO Ville - Tìm trong mục Âm thanh)",
+      "I'm surprised, den se... (00:01)",
+      "Explosion (00:03)",
+      "Ping Pong Ping Pong (00:01)",
+      "Magic reveal (00:02)"
+    ],
+    "2_ui_text_popup_sfx_keyword_UI_pop_click": [
+      "UI提示-976714 (00:01)",
+      "UI sound/computer (00:01)",
+      "Pop!! Pop UI sound(1 (00:01)",
+      "UI提示-3262 (00:01)",
+      "コ / 琴 / cute (00:01)",
+      "UI telop type cute p... (00:01)",
+      "pop! (tapping the mic) (00:01)",
+      "Mouse click sound (00:01)",
+      "click (00:01)"
+    ],
+    "3_product_reveal_sparkle_sfx_keyword_reveal": [
+      "Glitter sound 02 / m... (00:04)",
+      "Magic reveal (00:02)",
+      "Kirarin glitter star Gl... (00:03)",
+      "Snap finger patch 01 (00:03)"
+    ],
+    "4_transition_sfx_keyword_woosh_swish": [
+      "Woosh (00:01)",
+      "Swish (00:01)",
+      "swish_whoosh (larg... (00:01)",
+      "Fuwa: short wind no... (00:01)",
+      "Remembering woosh (00:03)",
+      "Woosh Wind_4(823... (00:02)",
+      "Scene switching (sc... (00:04)",
+      "Swish sound. Swaying (00:01)",
+      "Wind noise suitable (00:01)"
+    ],
+    "5_cta_and_money_sfx_keyword_ding_money_bye": [
+      "Ding (00:02)",
+      "Bell ding (00:02)",
+      "Bell ring \"ding!\" (00:01)",
+      "Ding (bell sound) (00:01)",
+      "Follow/like notificati... (00:02)",
+      "Culin. It looks like a l... (00:01)",
+      "Money, coin, cash re... (00:01)",
+      "Amount display (pay... (00:01)",
+      "coin! Get shop item (00:01)",
+      "Bye-bye_moe voice( (00:01 - từ khóa: bye bye sound)"
+    ],
+    "6_food_and_drink_review_sfx": {
+      "can_bite": [
+        "【Eat 01-1】 (71390)",
+        "[Raw recording] food...",
+        "I'm going. Eat and bi..."
+      ],
+      "nhai_chew": [
+        "The sound of ramen",
+        "Chewing sound / cri..."
+      ],
+      "ong_hut_straw": [
+        "It is the sound of dri...",
+        "Rinse water with a st..."
+      ],
+      "chien_ran_fry": [
+        "Deep-fried food [dis..."
+      ],
+      "mo_goi_snack_open_bag": [
+        "Open a bag of potat...",
+        "Washa ... Open the b..."
+      ]
+    }
+  }
+}

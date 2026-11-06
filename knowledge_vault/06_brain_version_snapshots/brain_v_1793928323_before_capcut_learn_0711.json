@@ -1,0 +1,20 @@
+{
+  "learned_preferences": {
+    "version": 1,
+    "episodes_trained": 0,
+    "preferred_subtitle_pos_y": -0.5,
+    "preferred_font_size_delta": 0.0,
+    "preferred_bgm_volume": 0.06,
+    "preferred_sfx_volume": 0.25,
+    "preferred_avg_clip_duration_sec": 1.85,
+    "favorite_transition_resource_ids": [],
+    "favorite_font_resource_ids": [],
+    "custom_director_rules": [
+      "Luôn gọt sạch 0.45s chết ở đầu clip Hook để đạt Scroll-Stop Rate > 65%.",
+      "Áp dụng công thức Khen 8 - Chê 2 ở giây thứ 15-20 để tăng độ tin cậy và tránh lỗi phóng đại CHR.",
+      "Tuyệt đối không để chữ đè lên vùng tâm sản phẩm (-0.25 < pos_y < 0.30)."
+    ]
+  },
+  "recent_immunization_lessons": [],
+  "gold_winning_few_shot_templates": []
+}

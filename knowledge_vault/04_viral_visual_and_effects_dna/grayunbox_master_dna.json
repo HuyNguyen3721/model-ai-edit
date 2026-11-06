@@ -1,0 +1,145 @@
+{
+  "creator_handle": "@grayunbox",
+  "sec_uid": "MS4wLjABAAAAlsAEjhXZ-cBL5JHBYU-vhiBCT1Odb9Aa4GAKK1AgCeGkf9vjSWeh8kc7wt5QFVbp",
+  "total_catalog_scanned": 400,
+  "top_videos_deconstructed": 22,
+  "top_viral_benchmarks": [
+    {
+      "video_id": "7661662310854855944",
+      "views": 2800000,
+      "likes": 5633,
+      "duration_sec": 28,
+      "product": "Nụ trầm quế Tân Nguyên + Lư xông trầm",
+      "archetype": "P2",
+      "total_shots": 19,
+      "avg_shot_dur_sec": 1.49,
+      "hook_first_shot_dur_sec": 1.3,
+      "yavg_luminance": 119.0,
+      "key_viral_mechanics": [
+        "Venetian Blinds Striped Sunlight (Nắng xiên qua rèm sáo tạo vệt bóng sọc chéo nghệ thuật trên bàn trắng)",
+        "Torn-Paper Manga Sketch Freeze-Frame ở giây 3.5s khi giới thiệu quà tặng kèm (Hiệu ứng xé giấy truyện tranh đen trắng)",
+        "Emoji-Rebus CHR Evasion: Dùng icon thùng rác '🚮 ẩm mốc' thay cho từ 'khử ẩm mốc'",
+        "Backlit Smoke Plume: Đốt nụ trầm trước vùng tối của iPad để dải khói trắng nổi bật dưới nắng xiên"
+      ]
+    },
+    {
+      "video_id": "7696694636328389908",
+      "views": 2100000,
+      "likes": 7905,
+      "duration_sec": 20,
+      "product": "Thiệp sinh nhật 3D có nhạc & đèn kèm khay rút tiền",
+      "archetype": "P2",
+      "total_shots": 6,
+      "avg_shot_dur_sec": 2.6,
+      "hook_first_shot_dur_sec": 2.2,
+      "yavg_luminance": 85.7,
+      "key_viral_mechanics": [
+        "Low-Key Ambient Lighting (YAVG=85.7): Chủ động hạ sáng phòng để làm nổi bật ánh đèn LED nhấp nháy bên trong bánh kem 3D của tấm thiệp",
+        "Cascade Drop Unfold Hook (0.0-2.2s): Mở thiệp cho dải tiền 500.000đ xếp tầng bung dọc từ đỉnh xuống đáy khung hình 9:16",
+        "100% Native Music/Sound Box ASMR: Giữ nguyên tiếng nhạc phát ra từ thiệp thật"
+      ]
+    },
+    {
+      "video_id": "7667597387497475348",
+      "views": 863600,
+      "likes": 1484,
+      "duration_sec": 31,
+      "product": "Sáp thơm phòng đuổi muỗi Aumira",
+      "archetype": "P2",
+      "total_shots": 21,
+      "avg_shot_dur_sec": 1.48,
+      "hook_first_shot_dur_sec": 2.0,
+      "yavg_luminance": 125.4,
+      "key_viral_mechanics": [
+        "Foil-Peel Hook (0.0-2.0s): Cận cảnh lột lớp màng bạc sáng bóng trên miệng hộp sáp hồng tím",
+        "Tower Stack Multi-Variant Shot: Xếp chồng 4 hộp sáp các màu lên nhau trên lòng bàn tay",
+        "Toothpick Jelly-Poke Proof: Dùng đầu tăm gỗ chọc nhẹ vào bề mặt sáp dưới nắng để chứng minh chất gel đặc không đổ tràn",
+        "Hand-Wafting Scent Gesture: Động tác phẩy bàn tay trên nắp lưới để diễn tả hương thơm lan tỏa"
+      ]
+    },
+    {
+      "video_id": "7666000516190702869",
+      "views": 560600,
+      "likes": 44200,
+      "duration_sec": 17,
+      "product": "Unboxing iPhone 17 Pro Max Silver/White",
+      "archetype": "P6",
+      "total_shots": 13,
+      "avg_shot_dur_sec": 1.36,
+      "hook_first_shot_dur_sec": 1.23,
+      "yavg_luminance": 169.4,
+      "key_viral_mechanics": [
+        "Pure High-Key Minimalist White Table (YAVG=169.4) + Center Ghost Watermark ('iPhone 17 pro max unboxing' ở y=0.0, alpha=0.30)",
+        "Seal Pull & Screen Paper Peel ASMR: Cận cảnh kéo dải seal giấy đáy hộp và bóc tấm giấy trắng che màn hình"
+      ]
+    },
+    {
+      "video_id": "7699120225198853396",
+      "views": 381100,
+      "likes": 735,
+      "duration_sec": 28,
+      "product": "Bàn chải kẽ răng / chỉnh nha đầu nhỏ",
+      "archetype": "P1",
+      "total_shots": 13,
+      "avg_shot_dur_sec": 2.17,
+      "hook_first_shot_dur_sec": 2.2,
+      "yavg_luminance": 118.1,
+      "key_viral_mechanics": [
+        "Clean Proxy Crevice Proof (Tránh lỗi CHR hình ảnh phản cảm trong khoang miệng): Dùng bàn chải chải vào ren xoắn nắp tuýp kem đánh răng inox và chải vào khe khớp ngón tay nắm chặt!",
+        "Suction-Cup Mirror Stick Outro: Dán phẳng 4 chiếc bàn chải đủ màu lên mặt gương/tường ở cảnh kết"
+      ]
+    },
+    {
+      "video_id": "7686526001412640021",
+      "views": 372500,
+      "likes": 1056,
+      "duration_sec": 29,
+      "product": "Xà phòng tắm sáng da Teashell kèm lưới tạo bọt",
+      "archetype": "P1",
+      "total_shots": 21,
+      "avg_shot_dur_sec": 1.39,
+      "hook_first_shot_dur_sec": 1.63,
+      "yavg_luminance": 139.3,
+      "key_viral_mechanics": [
+        "Dual Outdoor Sunlight Skin Proof PIP: Chèn 2 khung ảnh/video PIP chụp cánh tay dưới nắng thật ngoài trời ngay khi đang thoa bọt xà phòng trong phòng",
+        "Foaming Net Stretch & Lather: Cảnh cho bánh xà phòng vào túi lưới rút dây và vò bọt bông mịn"
+      ]
+    }
+  ],
+  "signature_studio_and_lighting_dna": {
+    "setup_name": "Venetian Blinds Chiaroscuro + Chrome Spring & iPad Desk (@grayunbox Signature)",
+    "table_surface": "Bàn tròn trắng mờ (Matte White Round Table) đặt sát cửa sổ có Rèm Sáo Ngang (Horizontal Venetian Blinds)",
+    "lighting_physics": "Ánh nắng hoặc đèn chiếu xiên qua khe rèm sáo tạo thành các dải sáng-tối sọc chéo (Striped Gobo Shadows, YAVG ~118-145) giúp mặt bàn trắng có chiều sâu điện ảnh tức thì",
+    "fixed_background_props": [
+      "Ống lò xo kim loại xoắn bóng (Chrome Spiral Spring Holder) đặt ở góc trên bên phải mặt bàn",
+      "iPad/Máy tính bảng dựng ngang góc trên bên trái (bật hình nền phòng chill hoặc Đồng hồ lật số đen trắng Flip-Clock)",
+      "Xe đẩy 3 tầng màu trắng + Đèn nấm trắng + Đèn bánh vòng cam ấm (Orange Donut Lamp) + Lọ khuếch tán tinh dầu que mây"
+    ],
+    "wardrobe_anchor": "Áo khoác Denim đen may chỉ trắng nổi bật hoặc Áo Hoodie đen/xám đậm kéo trùm cổ tay (Tạo độ tương phản cực đại với sản phẩm sáng màu)"
+  },
+  "signature_editing_and_vfx_dna": {
+    "torn_paper_manga_sketch_freeze": "Hiệu ứng đứng hình 0.4s kèm viền xé giấy &滤镜 phác thảo truyện tranh đen trắng (Torn-Paper Comic/Sketch VFX) tại giây 3.5s khi nhấn mạnh quà tặng kèm",
+    "scent_and_airflow_particle_vfx": "Hiệu ứng hạt lá trà xanh / cánh hoa bay lơ lửng (Floating Leaf/Petal Particles) kết hợp cử chỉ bàn tay phẩy hương khi review Sáp thơm, Nước hoa, Nụ trầm",
+    "emoji_rebus_chr_ocr_evasion": {
+      "description": "Thay thế các động từ điều trị/tuyệt đối và đơn vị tiền tệ bằng Emoji tượng hình ngay trong câu phụ đề để miễn nhiễm 100% quét OCR của TikTok",
+      "rebus_dictionary": {
+        "khử / loại bỏ": "🚮",
+        "giảm": "📉",
+        "tăng": "📈",
+        "củ / triệu đồng": "🍠",
+        "cành / nghìn đồng": "🐟",
+        "hạt dẻ / giá rẻ": "🌰",
+        "giỏ hàng": "🛒",
+        "đuổi muỗi / côn trùng": "🦟🥀"
+      }
+    },
+    "center_ghost_watermark": "Chữ mờ chính giữa khung hình (pos_x=0.0, pos_y=0.02, alpha=0.28) chống Reup tuyệt đối cho các video Unbox công nghệ/ốp lưng",
+    "upper_third_two_line_typography": "Toàn bộ câu Hook và phụ đề đều gói gọn trong 2 dòng ngắn đặt ở y = +0.56 đến +0.62 (phía trên bàn tay), cỡ chữ nhỏ tinh tế (6.2 - 7.0) viền đen mảnh"
+  },
+  "signature_physical_proof_choreography": [
+    "Plushie / Jacket Proxy Test: Đắp miếng dán mắt lên thú bông màu hồng hoặc xịt nước hoa lên áo khoác bò đen gấp gọn trên bàn (Giải pháp hoàn hảo cho kênh POV không lộ mặt)",
+    "Clean Crevice Proxy Test: Dùng bàn chải kẽ răng chải vào rãnh xoắn nắp tuýp kem đánh răng và khe khớp ngón tay thay vì quay trong miệng",
+    "Toothpick Jelly-Poke Test: Dùng đầu tăm gỗ chọc thử vào sáp thơm dưới nắng để chứng minh độ đặc dẻo không tràn",
+    "Finished-First Assembly Loop: Với đồ lắp ráp (kệ, tủ), mở đầu 2s bằng thành phẩm đã lắp xong -> rạch thùng & vặn ốc lục giác -> kết thúc bằng đúng cảnh thành phẩm đầu video"
+  ]
+}

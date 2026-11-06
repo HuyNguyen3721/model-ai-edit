@@ -251,10 +251,16 @@ def register_clean_external_sfx(
     if "items" not in registry:
         registry["items"] = {}
 
+    repo_root = os.path.dirname(os.path.abspath(__file__))
     abs_path = os.path.abspath(file_path)
+    try:
+        rel_path = "./" + os.path.relpath(abs_path, repo_root).replace("\\", "/")
+    except ValueError:
+        rel_path = abs_path
     entry = {
         "sfx_key": sfx_key,
-        "file_path": abs_path,
+        "file_path": rel_path,
+        "relative_path": rel_path,
         "subfolder": subfolder,
         "trigger_context": trigger_context,
         "source_type": source_type,
@@ -265,7 +271,10 @@ def register_clean_external_sfx(
 
     # Chỉ cập nhật nếu chưa có hoặc file mới có điểm chất lượng >= file cũ (Chống Ngu Đi!)
     existing = registry["items"].get(sfx_key)
-    if existing and os.path.exists(existing.get("file_path", "")):
+    existing_fp = existing.get("file_path", "") if existing else ""
+    if existing_fp and not os.path.isabs(existing_fp):
+        existing_fp = os.path.abspath(os.path.join(repo_root, existing_fp.lstrip("./")))
+    if existing and os.path.exists(existing_fp):
         old_score = float(existing.get("acoustic_metrics", {}).get("quality_score_100", 0.0))
         new_score = float(gate.get("quality_score_100", 0.0))
         if new_score < old_score:
@@ -338,6 +347,126 @@ def synthesize_clean_room_original_sfx_pack() -> List[str]:
             "subfolder": "asmr_foley",
             "trigger_context": "HAND_POINT / Chạm ngón tay chỉ vào chi tiết sản phẩm",
             "lavfi": "sine=frequency=1150:duration=0.055,afade=t=in:ss=0:d=0.004,afade=t=out:st=0.015:d=0.04,volume=0.75"
+        },
+        {
+            "sfx_key": "ui_double_pop",
+            "subfolder": "pivot_khen_che",
+            "trigger_context": "DUAL_COMMENT_PIN / Ghim 2 bình luận trái chiều Bịch vs Bao (@honghanhxinhgai_01 & @minhtienoiii06)",
+            "lavfi": "aevalsrc=0.6*sin(2*PI*680*t)*exp(-28*t)+0.65*gt(t\\,0.085)*sin(2*PI*920*(t-0.085))*exp(-26*(t-0.085)):d=0.22:s=44100"
+        },
+        {
+            "sfx_key": "magnifier_loupe_zoom",
+            "subfolder": "kinetic_motion",
+            "trigger_context": "DASHED_LOUPE_AND_RULER / Vòng tròn nét đứt phóng đại (@byraanni) & Thước đo 1m7 (@minhtienoiii06)",
+            "lavfi": "aevalsrc=0.45*sin(2*PI*(420+900*t)*t)*exp(-9*t)+0.35*sin(2*PI*1680*t)*exp(-14*t):d=0.28:s=44100"
+        },
+        {
+            "sfx_key": "blister_pack_pop",
+            "subfolder": "asmr_foley",
+            "trigger_context": "BLISTER_CANDY_POP / Bấm vỉ kẹo khoai môn & hộp kẹo bấm (@minhtienoiii06)",
+            "lavfi": "aevalsrc=0.75*sin(2*PI*1350*t)*exp(-45*t)+0.5*sin(2*PI*480*t)*exp(-35*t):d=0.11:s=44100"
+        },
+        {
+            "sfx_key": "radial_zoom_loop_whoosh",
+            "subfolder": "transition_hit",
+            "trigger_context": "RADIAL_ZOOM_SEAMLESS_LOOP / 0.3s cuối thu phóng xuyên tâm nối vòng lặp (@3thag8_)",
+            "lavfi": "anoisesrc=color=pink:duration=0.29:amplitude=0.65,bandpass=f=780:width_type=h:w=550,afade=t=in:ss=0:d=0.09,afade=t=out:st=0.12:d=0.17"
+        },
+        {
+            "sfx_key": "box_cutter_tape_slice",
+            "subfolder": "asmr_foley",
+            "trigger_context": "BOX_CUTTER_SLICE / Tiếng dao rọc giấy mini rạch băng keo thùng hàng giòn rụm (@yuhtt09 Flashback Unbox)",
+            "lavfi": "anoisesrc=color=white:duration=0.26:amplitude=0.72,bandpass=f=3400:width_type=h:w=1800,afade=t=in:ss=0:d=0.015,afade=t=out:st=0.09:d=0.17"
+        },
+        {
+            "sfx_key": "bubble_wrap_unroll_pop",
+            "subfolder": "asmr_foley",
+            "trigger_context": "BUBBLE_WRAP_POP / Tiếng tháo cuộn xốp nổ và bóp hạt bóng khí (@yuhtt09)",
+            "lavfi": "aevalsrc=0.75*sin(2*PI*980*t)*exp(-38*t)+0.65*gt(t\\,0.065)*sin(2*PI*1420*(t-0.065))*exp(-42*(t-0.065))+0.55*gt(t\\,0.125)*sin(2*PI*1160*(t-0.125))*exp(-40*(t-0.125)):d=0.21:s=44100"
+        },
+        {
+            "sfx_key": "screen_seal_peel_smooth",
+            "subfolder": "asmr_foley",
+            "trigger_context": "SEAL_PEEL_REVEAL / Tiếng lột tấm seal nilon khỏi mặt gương LED hoặc bảng phấn (@yuhtt09)",
+            "lavfi": "anoisesrc=color=pink:duration=0.34:amplitude=0.58,bandpass=f=4200:width_type=h:w=2100,afade=t=in:ss=0:d=0.04,afade=t=out:st=0.14:d=0.20"
+        },
+        {
+            "sfx_key": "fine_mist_spray_shimmer",
+            "subfolder": "asmr_foley",
+            "trigger_context": "MIST_SPRAY_TEST / Tiếng xịt tia sương mảnh từ chai xịt thơm quần áo / nước hoa / xịt khoáng (@yuhtt09)",
+            "lavfi": "anoisesrc=color=white:duration=0.28:amplitude=0.68,highpass=f=3600,lowpass=f=9500,afade=t=in:ss=0:d=0.012,afade=t=out:st=0.08:d=0.20"
+        },
+        {
+            "sfx_key": "pen_click_and_paper_write",
+            "subfolder": "asmr_foley",
+            "trigger_context": "PEN_CLICK_WRITE / Tiếng bấm ngòi bút bi gel 'tách' + tiếng ngòi bút sột soạt trên giấy (@yuhtt09 8.1M views)",
+            "lavfi": "aevalsrc=0.80*sin(2*PI*2150*t)*exp(-55*t)+0.55*gt(t\\,0.035)*sin(2*PI*3100*(t-0.035))*exp(-48*(t-0.035)):d=0.14:s=44100"
+        },
+        {
+            "sfx_key": "water_pour_splash_test",
+            "subfolder": "asmr_foley",
+            "trigger_context": "WATER_PROOF_SPLASH / Tiếng rót nước rào rào lên mu bàn tay hoặc vào bình giữ nhiệt (@yuhtt09 & @3thag8_)",
+            "lavfi": "anoisesrc=color=pink:duration=0.38:amplitude=0.66,bandpass=f=1850:width_type=h:w=1400,afade=t=in:ss=0:d=0.03,afade=t=out:st=0.15:d=0.23"
+        },
+        {
+            "sfx_key": "zipper_slide_bag_smooth",
+            "subfolder": "asmr_foley",
+            "trigger_context": "ZIPPER_BAG_SLIDE / Tiếng kéo khóa túi xách / bóp viết mượt mà (@yuhtt09)",
+            "lavfi": "aevalsrc=0.62*sin(2*PI*(1200+4200*t)*t)*exp(-8*t)*(0.6+0.4*sin(2*PI*65*t)):d=0.25:s=44100"
+        },
+        {
+            "sfx_key": "card_deck_fan_flip_asmr",
+            "subfolder": "asmr_foley",
+            "trigger_context": "ACCORDION_FAN_FLIP / Tiếng xòe quạt và gẩy liên thanh 10 gói mặt nạ / thẻ bài (@yuhtt09)",
+            "lavfi": "aevalsrc=0.70*sin(2*PI*1650*t)*(0.5+0.5*sin(2*PI*38*t))*exp(-6*t):d=0.32:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_kirarin_glitter_skincare_done",
+            "subfolder": "hook_attention",
+            "trigger_context": "SKINCARE_DONE_SPARKLE / Tiếng Kirarin glitter star / Cute announcement sau khi skincare hoặc biến hình (@kieneditcuong #05)",
+            "lavfi": "aevalsrc=0.45*sin(2*PI*1960*t)*exp(-7*t)+0.40*gt(t\\,0.06)*sin(2*PI*2637*(t-0.06))*exp(-8*(t-0.06))+0.45*gt(t\\,0.12)*sin(2*PI*3136*(t-0.12))*exp(-6*(t-0.12)):d=0.36:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_poyo_kawaii_skin_touch_bounce",
+            "subfolder": "pivot_khen_che",
+            "trigger_context": "KAWAII_SKIN_BOUNCE / Tiếng Poyo Poyo / Cute system Pyui khi chạm má đàn hồi hoặc nhún Sticker Chibi (@kieneditcuong #05 & @honghanhxinhgai_01)",
+            "lavfi": "aevalsrc=0.72*sin(2*PI*(520+680*t)*t)*exp(-18*t)+0.45*gt(t\\,0.08)*sin(2*PI*(640+780*(t-0.08))*(t-0.08))*exp(-20*(t-0.08)):d=0.22:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_remove_bottle_cap_unscrew",
+            "subfolder": "asmr_foley",
+            "trigger_context": "BOTTLE_CAP_UNSCREW / Tiếng Remove the bottle cap / Open a new plastic bottle vặn bật nắp lọ serum (@kieneditcuong #05)",
+            "lavfi": "aevalsrc=0.65*sin(2*PI*(850+1400*t)*t)*exp(-24*t)+0.70*gt(t\\,0.075)*sin(2*PI*1820*(t-0.075))*exp(-45*(t-0.075)):d=0.19:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_pac_low_telop_subtitle_pop",
+            "subfolder": "pivot_khen_che",
+            "trigger_context": "TELOP_SUBTITLE_POP / Tiếng Pac (low) telop sound khi hiện phụ đề hoặc thông số Floating Part-Pointer Specs (@kieneditcuong #07 & @byraanni)",
+            "lavfi": "aevalsrc=0.78*sin(2*PI*380*t)*exp(-34*t)+0.42*sin(2*PI*760*t)*exp(-42*t):d=0.11:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_money_chakin_deal_alert",
+            "subfolder": "cta_cart_chime",
+            "trigger_context": "PRICE_DEAL_ALERT / Tiếng Money Chakin(11841) / Cash Register khi báo giá hời Flash Sale (@kieneditcuong #07)",
+            "lavfi": "aevalsrc=0.55*sin(2*PI*2093*t)*exp(-16*t)+0.60*gt(t\\,0.07)*sin(2*PI*2793*(t-0.07))*exp(-10*(t-0.07)):d=0.32:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_cheese_pull_mucus_necha_mlem",
+            "subfolder": "asmr_foley",
+            "trigger_context": "VISCOUS_STRETCH_PULL / Tiếng Mucus necha(97223) khi kéo sợi phô mai chảy, múc mật táo đỏ sánh đặc hoặc kéo sợi bọt xà phòng tơ tằm (@kieneditcuong #08, @grayunbox, @3thag8_)",
+            "lavfi": "aevalsrc=0.62*sin(2*PI*(620+320*sin(2*PI*18*t))*t)*exp(-6.5*t):d=0.30:s=44100"
+        },
+        {
+            "sfx_key": "sfx_kien_sizzling_pan_fry_crackle",
+            "subfolder": "asmr_foley",
+            "trigger_context": "FOOD_SIZZLE_CRACKLE / Tiếng Fry in oil (Jar + crackle) đồ ăn xèo xèo nóng hổi (@kieneditcuong #08)",
+            "lavfi": "anoisesrc=color=white:duration=0.36:amplitude=0.62,bandpass=f=4800:width_type=h:w=2600,afade=t=in:ss=0:d=0.03,afade=t=out:st=0.16:d=0.20"
+        },
+        {
+            "sfx_key": "sfx_minhtien_vacuum_mattress_air_inflate_hiss",
+            "subfolder": "asmr_foley",
+            "trigger_context": "VACUUM_SLICE_INFLATE / Tiếng rạch túi hút chân không xì hơi tự phồng nệm lò xo 25cm / gối / sofa (@minhtienoiii06 #03)",
+            "lavfi": "anoisesrc=color=pink:duration=0.42:amplitude=0.70,bandpass=f=2200:width_type=h:w=1600,afade=t=in:ss=0:d=0.02,afade=t=out:st=0.18:d=0.24"
         }
     ]
 

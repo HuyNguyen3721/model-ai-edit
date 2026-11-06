@@ -14,9 +14,14 @@ import shutil
 import subprocess
 from typing import List, Dict, Optional, Tuple
 
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 CAPCUT_DRAFTS_ROOT = os.path.expanduser(
     "~/Movies/CapCut/User Data/Projects/com.lveditor.draft"
 )
+if not os.path.exists(CAPCUT_DRAFTS_ROOT) and os.name == "nt":
+    CAPCUT_DRAFTS_ROOT = os.path.expandvars(
+        r"%LOCALAPPDATA%\CapCut\User Data\Projects\com.lveditor.draft"
+    )
 
 def uid() -> str:
     return str(uuid.uuid4()).upper()
@@ -184,13 +189,30 @@ def discover_and_index_hybrid_sfx_vault(
                         vault[sfx_key] = full_p
 
     # Nạp trực tiếp từ File Chứa Riêng Các Âm Thanh Ngoài CapCut: ./knowledge_vault/external_custom_sfx_registry.json
-    ext_reg_path = "./knowledge_vault/external_custom_sfx_registry.json"
+    ext_reg_path = os.path.join(REPO_ROOT, "knowledge_vault", "external_custom_sfx_registry.json")
     if os.path.exists(ext_reg_path):
         try:
             with open(ext_reg_path, "r", encoding="utf-8") as f:
                 ext_reg = json.load(f)
             for sfx_id, item in ext_reg.get("items", {}).items():
-                fp = item.get("file_path", "")
+                raw_fp = item.get("relative_path") or item.get("file_path", "")
+                fp = raw_fp
+                if raw_fp and not os.path.exists(raw_fp):
+                    # Tự động ánh xạ lại đường dẫn khi clone repo sang máy tính mới
+                    cand = os.path.abspath(os.path.join(REPO_ROOT, raw_fp.lstrip("./")))
+                    if os.path.exists(cand):
+                        fp = cand
+                    else:
+                        for marker in ("knowledge_vault/", "workspace/"):
+                            if marker in raw_fp:
+                                rel_tail = raw_fp.split(marker, 1)[1]
+                                cand2 = os.path.abspath(os.path.join(REPO_ROOT, marker, rel_tail))
+                                if os.path.exists(cand2):
+                                    fp = cand2
+                                    break
+                elif raw_fp:
+                    fp = os.path.abspath(raw_fp)
+
                 if fp and os.path.exists(fp):
                     vault[sfx_id] = fp
                     low_id = sfx_id.lower()
@@ -394,6 +416,221 @@ LUXURY_TYPOGRAPHY_PALETTES = {
         "font_key": "POPPINS",
         "default_sub_anim": "SPRING",
         "bling_icons": ["✨", "🔥", "💛", "✦"]
+    },
+    "KINFOLK_ESPRESSO_CREAM": {
+        # Phong cách Tạp chí Kinfolk / Pinterest Aesthetic (@byraanni): Kem Ngà + Nâu Espresso + Vàng Caramel
+        "base_hex": "#FDFBF7",       # Kem Ngà Tinh Khiết (Warm Ivory)
+        "highlight_hex": "#E6B980",  # Vàng Latte / Caramel Sáng
+        "alt_hl_hex": "#D4A373",     # Nâu Cam Đất Nhẹ
+        "stroke_hex": "#2C1A12",     # Nâu Espresso Đậm
+        "stroke_width": 0.042,
+        "shadow_hex": "#1A0F0A",
+        "shadow_alpha": 0.62,
+        "shadow_diffuse": 0.58,
+        "pill_bg_hex": "#3B261E",    # Hộp nền Espresso Mờ Sang Trọng
+        "font_key": "PLAYFAIR",
+        "default_sub_anim": "SPRING",
+        "bling_icons": ["✧", "✦", "🤍", "☕"]
+    },
+    "PEGBOARD_ROSE_GOLD": {
+        # Phong cách Studio Bảng Pegboard Hồng Phấn (@3thag8_): Trắng Sữa + Hồng Phấn + Vàng Bơ
+        "base_hex": "#FFFFFF",       # Trắng Sữa Sắc Nét
+        "highlight_hex": "#FFB3C6",  # Hồng Phấn Baby Pink
+        "alt_hl_hex": "#FFE066",     # Vàng Bơ Tươi
+        "stroke_hex": "#2B1922",     # Nâu Tím Mận Sẫm
+        "stroke_width": 0.058,
+        "shadow_hex": "#1B0E14",
+        "shadow_alpha": 0.68,
+        "shadow_diffuse": 0.48,
+        "pill_bg_hex": "#2B1922",
+        "font_key": "NUNITO",
+        "default_sub_anim": "POP_UP",
+        "bling_icons": ["🌸", "✨", "💗", "🫧"]
+    },
+    "GRAYUNBOX_CLEAN_MINIMAL": {
+        # Phong cách @grayunbox (2.8M views): Phụ đề 2 dòng góc 1/3 trên (y=+0.58), Trắng Tinh Khiết + Vàng Bơ Nhạt / Xanh Matcha + Viền Than Chì Mảnh
+        "base_hex": "#FFFFFF",       # Trắng Tinh Khiết
+        "highlight_hex": "#FFE699",  # Vàng Bơ Nhạt Dịu Mắt
+        "alt_hl_hex": "#A8E6CF",     # Xanh Matcha / Thảo Mộc
+        "stroke_hex": "#1C1E21",     # Đen Than Chì Sắc Nét
+        "stroke_width": 0.048,
+        "shadow_hex": "#101214",
+        "shadow_alpha": 0.66,
+        "shadow_diffuse": 0.42,
+        "pill_bg_hex": "#1C1E21",
+        "font_key": "NUNITO",
+        "default_sub_anim": "SPRING",
+        "bling_icons": ["🍃", "🫧", "🧸", "✨"]
+    },
+    "MINHTIENOIII_GENZ_SENSORY_POP": {
+        # Phong cách @minhtienoiii06 (19.3M views): Chữ thường lowercase mở đầu bằng 🗣️, Vàng Kem Kem Lạnh + Xanh Lá Dứa Neon, Viền Đen Sắc Nét
+        "base_hex": "#FFFFFF",       # Trắng Sữa Nổi Bật
+        "highlight_hex": "#FFF07C",  # Vàng Kem Vani / Sữa Dừa
+        "alt_hl_hex": "#80FF72",     # Xanh Lá Dứa Neon (Pandan Green)
+        "stroke_hex": "#181818",     # Viền Đen Sắc Nét
+        "stroke_width": 0.056,
+        "shadow_hex": "#0D0D0D",
+        "shadow_alpha": 0.70,
+        "shadow_diffuse": 0.44,
+        "pill_bg_hex": "#1F241D",
+        "font_key": "NUNITO",
+        "default_sub_anim": "POP_UP",
+        "bling_icons": ["🗣️", "🍅", "🍠", "✨"]
+    },
+    "YUHTT09_COQUETTE_CLEAN_WHITE_PILL": {
+        # Phong cách @yuhtt09 (8.1M views & 54-video DNA): 1-Line Rounded Sans-Serif màu Trắng (#FFFFFF) viền Đen dày (#141414) tại y=-0.35 + Hồng Coquette (#FF8FAB) + Kaomoji 🌷🎀
+        "base_hex": "#FFFFFF",       # Trắng Tinh Khiết Sắc Nét
+        "highlight_hex": "#FF8FAB",  # Hồng Coquette Nơ Ruy-Băng
+        "alt_hl_hex": "#BDE0FE",     # Xanh Pastel Dịu Mắt
+        "stroke_hex": "#141414",     # Viền Đen Dày Tương Phản Cao (Đọc rõ trên nền bàn trắng YAVG 166)
+        "stroke_width": 0.062,
+        "shadow_hex": "#0A0A0A",
+        "shadow_alpha": 0.72,
+        "shadow_diffuse": 0.42,
+        "pill_bg_hex": "#FF8FAB",    # Hộp nền Hồng Coquette cho từ khóa nhấn [kem nền high-end??]
+        "font_key": "NUNITO",
+        "default_sub_anim": "POP_UP",
+        "bling_icons": ["🌷", "🎀", "🌱", "✨"]
+    }
+}
+
+# Bảng thông số Chỉnh Màu (Color Grading Adjust + HSL Da) học từ 8 KOC Master
+KOC_COLOR_GRADE_PRESETS = {
+    "HONGHANH_WARM_DESK_LAMP": {
+        "creator_ref": "@honghanhxinhgai_01",
+        "description": "Đèn bàn ấm rọi đỉnh đầu + Làm hồng mịn da tay & sáng sản phẩm (UHD)",
+        "adjust": {
+            "brightness": 7,
+            "contrast": -14,
+            "exposure": 22,
+            "sharpen": 30,
+            "brilliance": 35,
+            "highlights": -10,
+            "shadows": 11,
+            "temp": 4,
+            "saturation": -4
+        },
+        "hsl_skin_orange_red": {"hue": -36, "saturation": -55, "luminance": 70},
+        "uhd_enhance": True
+    },
+    "BYRAANNI_KINFOLK_ESPRESSO": {
+        "creator_ref": "@byraanni",
+        "description": "Tạp chí Kinfolk/Pinterest: Nền bàn trắng ngà dịu mắt + Tương phản cổ tay áo len Nâu Espresso",
+        "adjust": {
+            "brightness": 4,
+            "contrast": -8,
+            "exposure": 10,
+            "sharpen": 24,
+            "brilliance": 18,
+            "highlights": -12,
+            "shadows": 15,
+            "temp": 8,
+            "saturation": -6
+        },
+        "hsl_skin_orange_red": {"hue": -12, "saturation": -20, "luminance": 28},
+        "uhd_enhance": True
+    },
+    "3THAG8_PEGBOARD_CLEAN_PINK": {
+        "creator_ref": "@3thag8_",
+        "description": "Studio Pegboard 2 nhiệt độ màu: Tách bạch nền ấm và mặt bàn trắng hồng trong trẻo",
+        "adjust": {
+            "brightness": 6,
+            "contrast": 5,
+            "exposure": 12,
+            "sharpen": 28,
+            "brilliance": 20,
+            "highlights": -8,
+            "shadows": 10,
+            "temp": -4,
+            "saturation": 8
+        },
+        "hsl_skin_orange_red": {"hue": -18, "saturation": -25, "luminance": 35},
+        "uhd_enhance": True
+    },
+    "MESHIN_NATURAL_DAYLIGHT": {
+        "creator_ref": "@meshinthuine",
+        "description": "Ánh sáng cửa sổ tự nhiên ấm cúng, chân thực chuẩn Mẹ Bỉm KOC triệu đơn",
+        "adjust": {
+            "brightness": 5,
+            "contrast": -6,
+            "exposure": 14,
+            "sharpen": 22,
+            "brilliance": 16,
+            "highlights": -6,
+            "shadows": 12,
+            "temp": 6,
+            "saturation": 4
+        },
+        "hsl_skin_orange_red": {"hue": -10, "saturation": -15, "luminance": 22},
+        "uhd_enhance": False
+    },
+    "GRAYUNBOX_VENETIAN_BLINDS_CHIAROSCURO": {
+        "creator_ref": "@grayunbox",
+        "description": "Nắng xiên qua rèm sáo ngang tạo vệt bóng Chiaroscuro nghệ thuật trên bàn trắng mờ (YAVG ~132) + Lò xo Chrome",
+        "adjust": {
+            "brightness": 5,
+            "contrast": 8,
+            "exposure": 8,
+            "sharpen": 26,
+            "brilliance": 20,
+            "highlights": -10,
+            "shadows": -6,
+            "temp": 3,
+            "saturation": 2
+        },
+        "hsl_skin_orange_red": {"hue": -14, "saturation": -18, "luminance": 26},
+        "uhd_enhance": True
+    },
+    "GRAYUNBOX_LOWKEY_LED_GLOW": {
+        "creator_ref": "@grayunbox",
+        "description": "Chế độ Low-Key Ambient (YAVG ~85) chuyên trị sản phẩm có đèn LED / Thiệp phát sáng / Đèn ngủ giúp ánh sáng sản phẩm rực rỡ gấp 3 lần",
+        "adjust": {
+            "brightness": -8,
+            "contrast": 14,
+            "exposure": -10,
+            "sharpen": 24,
+            "brilliance": 22,
+            "highlights": -4,
+            "shadows": -14,
+            "temp": 2,
+            "saturation": 12
+        },
+        "hsl_skin_orange_red": {"hue": -10, "saturation": -15, "luminance": 18},
+        "uhd_enhance": True
+    },
+    "MINHTIENOIII_COZY_TOAST_LAMP_SENSORY": {
+        "creator_ref": "@minhtienoiii06",
+        "description": "Bàn học Chill Đèn ngủ lát bánh mì TOAST xanh lá + Đèn Ring-light cam ấm phản chiếu độ bóng (YAVG ~144.5, SAT cao tôn màu đồ ăn vặt & phụ kiện)",
+        "adjust": {
+            "brightness": 6,
+            "contrast": 6,
+            "exposure": 10,
+            "sharpen": 28,
+            "brilliance": 24,
+            "highlights": -6,
+            "shadows": 8,
+            "temp": 5,
+            "saturation": 10
+        },
+        "hsl_skin_orange_red": {"hue": -14, "saturation": -16, "luminance": 28},
+        "uhd_enhance": True
+    },
+    "YUHTT09_HIGHKEY_AIRY_DOUYIN_WHITE": {
+        "creator_ref": "@yuhtt09",
+        "description": "High-Key Airy Douyin White Studio (YAVG ~166.1, SAT ~9.1): Mặt bàn trắng tinh + Bảng lỗ Pegboard trắng gắn nơ hồng Coquette 🎀 + Da tay trắng hồng trong veo",
+        "adjust": {
+            "brightness": 8,
+            "contrast": -6,
+            "exposure": 16,
+            "sharpen": 28,
+            "brilliance": 26,
+            "highlights": -8,
+            "shadows": 14,
+            "temp": -3,
+            "saturation": -8
+        },
+        "hsl_skin_orange_red": {"hue": -22, "saturation": -32, "luminance": 48},
+        "uhd_enhance": True
     }
 }
 
@@ -489,14 +726,21 @@ def extract_dynamic_palette_from_actual_video(
     }
 
 def compute_obstacle_free_text_position(
-    video_path: str, start_sec: float, dur_sec: float = 1.5, role: str = "SUBTITLE"
+    video_path: str,
+    start_sec: float,
+    dur_sec: float = 1.5,
+    role: str = "SUBTITLE",
+    subtitle_zone_preference: str = "AUTO"
 ) -> Tuple[float, float]:
     """
     [TRÍ TUỆ 2 - ĐỊNH VỊ VỊ TRÍ TEXT ĐỘNG KHÔNG ĐÈ LÊN SẢN PHẨM (OBSTACLE-AWARE POSITIONING)]:
     Phân tích mật độ chuyển động và chi tiết của các vùng trên khung hình dọc 9:16:
-    1. Với SUBTITLE: Mặc định ở vùng đáy chuẩn (y = -0.38). Nhưng nếu phát hiện bàn tay và sản phẩm
-       đang thao tác sát đáy bàn (vùng đáy có chuyển động mạnh gấp >1.35 lần vùng giữa),
-       hệ thống tự động dời Phụ đề lên vùng trống phía trên (y = +0.42 hoặc -0.18) để nhường chỗ cho sản phẩm!
+    1. Với SUBTITLE:
+       - Nếu bật `subtitle_zone_preference="UPPER_MIDDLE_HONGHANH"` (Phong cách @honghanhxinhgai_01):
+         Cố định phụ đề ở vùng trên-giữa (y = +0.46) để nhường trọn vẹn nửa dưới khung hình cho 2 bàn tay và sản phẩm!
+       - Mặc định ở vùng đáy chuẩn (y = -0.38). Nhưng nếu phát hiện bàn tay và sản phẩm
+         đang thao tác sát đáy bàn (vùng đáy có chuyển động mạnh gấp >1.35 lần vùng giữa),
+         hệ thống tự động dời Phụ đề lên vùng trống phía trên (y = +0.42 hoặc -0.18) để nhường chỗ cho sản phẩm!
     2. Với CALLOUT & BLING_ACCENT: So sánh mật độ chi tiết giữa nửa Trái và nửa Phải của sản phẩm,
        tự động đặt nhãn vào "Khoảng trống thở" (Negative Space) bên cạnh sản phẩm, tuyệt đối không đè lên giữa sản phẩm!
     """
@@ -504,6 +748,12 @@ def compute_obstacle_free_text_position(
         return (0.0, 0.58)
     if role == "CTA":
         return (0.0, -0.42)
+    if role == "SUBTITLE" and subtitle_zone_preference == "UPPER_MIDDLE_HONGHANH":
+        return (0.0, 0.46)
+    if role == "SUBTITLE" and subtitle_zone_preference == "UPPER_THIRD_GRAYUNBOX":
+        return (0.0, 0.58)
+    if role == "SUBTITLE" and subtitle_zone_preference == "LOWER_MIDDLE_YUHTT09":
+        return (0.0, -0.35)
     if not os.path.exists(video_path):
         return (0.0, -0.38) if role == "SUBTITLE" else (0.34, 0.16)
 
@@ -534,6 +784,309 @@ def compute_obstacle_free_text_position(
     else:
         # Nửa bên phải thoáng hơn -> Đặt Callout ở khoảng trống bên Phải
         return (0.32, 0.18 if role == "CALLOUT" else 0.28)
+
+
+def apply_dot_split_ocr_evasion(text_str: str) -> str:
+    """
+    [TRÍ TUỆ BẢO VỆ CHR - CHÈN DẤU CHẤM / HAI CHẤM LÁCH QUÉT OCR TỪ NHẠY CẢM & VỊ GIÁC (@3thag8_ x @minhtienoiii06)]:
+    1. Tách các từ thương mại / điều trị dễ bị AI OCR của TikTok quét nhầm (@3thag8_: 'mụn' -> 'm.ụn', 'mua' -> 'm.ua').
+    2. Tách các tính từ kích thích vị giác / cam kết nguồn gốc theo chuẩn Gen-Z (@minhtienoiii06 19.3M views:
+       'béo ngậy' -> 'p.é.o ngậyyy', 'tan chảy' -> 't:an ch:ảy', 'hữu cơ' -> 'h.ữ.u c.ơ', 'dễ thương' -> 'd.ễ th.ư.ơ.ng').
+    """
+    ocr_sensitive_map = {
+        r"\bmụn\b": "m.ụn",
+        r"\bMụn\b": "M.ụn",
+        r"\bnám\b": "n.ám",
+        r"\bNám\b": "N.ám",
+        r"\bthâm\b": "thâ.m",
+        r"\bmờ thâm\b": "mờ thâ.m",
+        r"\bdưỡng trắng\b": "dưỡng trắ.ng",
+        r"\btrắng da\b": "trắ.ng da",
+        r"\bsức khỏe\b": "s.ức kh.ỏe",
+        r"\bmồ hôi\b": "m.ồ h.ôi",
+        r"\bmua ngay\b": "m.ua ngay",
+        r"\bmua\b": "m.ua",
+        r"\bMua\b": "M.ua",
+        r"\bgiảm cân\b": "gi.ảm c.ân",
+        r"\brẻ nhất\b": "r.ẻ nh.ất",
+        r"\brẻ quá\b": "r.ẻ quá",
+        r"\bhoàn tiền\b": "ho.àn ti.ền",
+        r"\bđiều trị\b": "cải th.iện",
+        r"\bbéo ngậy\b": "p.é.o ngậyyy",
+        r"\btan chảy\b": "t:an ch:ảy",
+        r"\bsữa tươi\b": "sữ:a tươi",
+        r"\bhữu cơ\b": "h.ữ.u c.ơ",
+        r"\bdễ thương\b": "d.ễ th.ư.ơ.ng",
+        r"\băn siêu cuốn\b": "ă:n siu cuốn ✨",
+        r"\bngon bá cháy\b": "ngo:n b.á cháy",
+        r"\bgiá chát\b": "g.i.á chát",
+        r"\btặng kèm\b": "t.ặng kèm",
+        r"\bsạch sâu\b": "sạ.ch sâu",
+        r"\bchống ồn\b": "chố:ng ồn",
+        r"\bđau mỏi\b": "đa:u mỏi",
+        r"\btận (\d+)": r"t.ận \1"
+    }
+    out = text_str
+    for pat, rep in ocr_sensitive_map.items():
+        out = re.sub(pat, rep, out, flags=re.IGNORECASE if "béo" in pat or "tan" in pat or "hữu" in pat else 0)
+    return out
+
+
+def select_contextual_icons_and_rebus_for_product(
+    text_str: str,
+    product_desc: str,
+    enable_rebus: bool = True,
+    enable_ocr_dot_split: bool = True
+) -> Dict[str, Any]:
+    """
+    [TRÍ TUỆ NGỮ CẢNH 4 - CHỌN ICON ĐÚNG ĐẶC TÍNH SẢN PHẨM & EMOJI-REBUS LÁCH CHR (@grayunbox x @3thag8_ x @minhtienoiii06)]:
+    Tuyệt đối KHÔNG gắn icon cứng nhắc hay lệch tông sản phẩm!
+    1. Phân tích ngữ nghĩa của `product_desc` + `text_str` để chọn đúng Họ Icon (Semantic Icon Family)
+       trong 11 nhóm chuyên biệt (`🧸`, `🍃`, `🫧`, `🪥`, `⚡`, `📸`, `🧊`, `🎀`, `🎁`, `🗣️`, `✨`).
+    2. Áp dụng Emoji-Rebus thông minh của @grayunbox & @minhtienoiii06 chỉ khi xuất hiện đúng từ khóa nhạy cảm/báo giá:
+       - `khử mùi / loại bỏ mùi` -> `khử 🚮 mùi` (@grayunbox)
+       - `giảm thâm / giảm mùi` -> `📉` (@grayunbox)
+       - `đuổi muỗi / côn trùng` -> `🦟🥀` (@grayunbox)
+       - `triệu / củ` -> `🍠` ; `nghìn / cành` -> `🐟` ; `hạt dẻ` -> `🌰` ; `giỏ hàng` -> `🛒` (@grayunbox)
+       - `45k / 49k` (Đồ ăn vặt/Gen-Z) -> `45 🍅 thoi` / `49 🍠` ; `chụp ảnh` -> `📸 ảnh` (@minhtienoiii06)
+    """
+    combined_low = f"{product_desc} {text_str}".lower()
+
+    # 1. Nhận diện Họ Icon theo đúng ngữ cảnh sản phẩm (11 Semantic Families)
+    icon_domains = [
+        {
+            "domain": "ORAL_CARE_HYGIENE",
+            "keywords": ["bàn chải", "kem đánh răng", "tăm nước", "niềng răng", "trắng răng", "răng miệng"],
+            "primary_icon": "🪥",
+            "accent_icons": ["🪥", "🫧", "✨", "🦷"],
+            "floating_particles": ["🫧", "✨"]
+        },
+        {
+            "domain": "SCENT_TEA_HERBAL",
+            "keywords": ["trầm", "nhang", "sáp thơm", "nến thơm", "tinh dầu", "nước hoa", "body mist", "xịt thơm", "trà", "matcha", "thảo mộc", "ngải cứu"],
+            "primary_icon": "🍃",
+            "accent_icons": ["🍃", "🍵", "🌿", "✨"],
+            "floating_particles": ["🍃", "🌿", "✧"]
+        },
+        {
+            "domain": "SOAP_SKINCARE_CLEANSE",
+            "keywords": ["xà phòng", "sữa rửa mặt", "sữa tắm", "tẩy tế bào", "kem", "serum", "toner", "mặt nạ", "skincare", "dưỡng ẩm", "chống nắng", "bọt"],
+            "primary_icon": "🫧",
+            "accent_icons": ["🫧", "✨", "💧", "🤍"],
+            "floating_particles": ["🫧", "✨"]
+        },
+        {
+            "domain": "PLUSH_TOY_STORAGE_BABY",
+            "keywords": ["gấu bông", "thú bông", "đồ chơi", "kệ để", "tủ đồ", "hộp đựng", "lắp ráp", "bỉm", "tã", "em bé", "cho bé", "sơ sinh", "nệm", "đệm", "chăn", "ga gối", "drap", "gối", "chườm mắt", "bịt mắt"],
+            "primary_icon": "🧸",
+            "accent_icons": ["🧸", "📦", "✨", "💛"],
+            "floating_particles": ["✨", "🧸"]
+        },
+        {
+            "domain": "DRINKWARE_ICE_TUMBLER",
+            "keywords": ["bình giữ nhiệt", "ly giữ nhiệt", "cốc giữ nhiệt", "bình nước", "ly nước", "đá viên", "máy xay", "sinh tố", "cốc thủy tinh", "xay đá"],
+            "primary_icon": "🧊",
+            "accent_icons": ["🧊", "🥤", "💧", "✨"],
+            "floating_particles": ["🧊", "💧"]
+        },
+        {
+            "domain": "GIFT_CARD_FESTIVE",
+            "keywords": ["thiệp", "sinh nhật", "quà tặng", "lì xì", "tết", "kỷ niệm", "hộp quà", "thiệp 3d", "thiệp nhạc"],
+            "primary_icon": "🎁",
+            "accent_icons": ["🎁", "🎂", "✨", "💌"],
+            "floating_particles": ["✨", "🎉"]
+        },
+        {
+            "domain": "TRIPOD_CAMERA_SELFIE",
+            "keywords": ["tripod", "gậy chụp ảnh", "gậy selfie", "giá đỡ điện thoại", "gimbal", "đèn trợ sáng", "livestream", "1m7"],
+            "primary_icon": "📸",
+            "accent_icons": ["📸", "💡", "🗣️", "✨"],
+            "floating_particles": ["📸", "💡", "✨"]
+        },
+        {
+            "domain": "TECH_POWER_AIRFLOW",
+            "keywords": ["quạt", "sạc", "pin", "tai nghe", "loa", "micro", "mic thu âm", "lọc ồn", "17000rpm", "cấp độ gió", "máy ảnh", "digicam", "đèn", "led", "cáp", "hút bụi", "máy sấy", "chống ồn"],
+            "primary_icon": "⚡",
+            "accent_icons": ["⚡", "🔋", "💨", "✦"],
+            "floating_particles": ["⚡", "✦"]
+        },
+        {
+            "domain": "STATIONERY_STUDY_DESK",
+            "keywords": ["sổ", "sổ tay", "planner", "bút", "bút bi", "bút gel", "hộp bút", "bóp viết", "giấy note", "văn phòng phẩm", "sticker", "kẹp tài liệu"],
+            "primary_icon": "🌷",
+            "accent_icons": ["🌷", "🎀", "✏️", "🌱"],
+            "floating_particles": ["🌷", "🎀", "✨"]
+        },
+        {
+            "domain": "JEWELRY_SILVER_ACCESSORY",
+            "keywords": ["dây chuyền", "nhẫn", "vòng tay", "khuyên tai", "bạc", "trang sức", "moonstone", "đá quý", "gương", "kẹp tóc"],
+            "primary_icon": "💍",
+            "accent_icons": ["💍", "✨", "🌙", "🎀"],
+            "floating_particles": ["✨", "🌙", "💍"]
+        },
+        {
+            "domain": "FASHION_BAG_SHOE",
+            "keywords": ["áo", "quần", "váy", "đầm", "túi", "ví", "giày", "dép", "cardigan", "khăn", "mũ", "kính", "phối đồ", "tất", "vớ", "hoodie", "sweater", "áo phông", "áo khoác"],
+            "primary_icon": "🎀",
+            "accent_icons": ["🎀", "👜", "🧦", "✨"],
+            "floating_particles": ["✧", "🎀", "🤍"]
+        },
+        {
+            "domain": "FOOD_SNACK_GOURMET",
+            "keywords": ["bánh", "kẹo", "snack", "khoai tây", "phô mai", "sấy giòn", "khô gà", "socola", "ăn vặt", "mật ong", "mì", "ngũ cốc", "bánh tráng", "phồng sữa", "chip chip", "khoai môn", "sữa bột"],
+            "primary_icon": "🗣️",
+            "accent_icons": ["🗣️", "🍅", "🍠", "🤤"],
+            "floating_particles": ["✨", "🍅", "🤤"]
+        }
+    ]
+
+    selected_domain = {
+        "domain": "DEFAULT_EDITORIAL",
+        "primary_icon": "✨",
+        "accent_icons": ["✨", "✦", "✓", "🤍"],
+        "floating_particles": ["✧", "✦"]
+    }
+    desc_only_low = (product_desc or "").lower()
+    best_hits = 0
+    for dom in icon_domains:
+        # Ưu tiên trọng số x2 cho từ khóa nằm trong tên/mô tả sản phẩm gốc (product_desc)
+        hits = sum(
+            (2 if re.search(rf"\b{re.escape(kw)}\b", desc_only_low) else 1)
+            for kw in dom["keywords"]
+            if re.search(rf"\b{re.escape(kw)}\b", combined_low)
+        )
+        if hits > best_hits:
+            best_hits = hits
+            selected_domain = dom
+
+    # 2. Biến đổi Emoji-Rebus theo ngữ cảnh câu chữ (@grayunbox & @minhtienoiii06 & @yuhtt09 style)
+    transformed_text = text_str
+    rebus_applied: List[str] = []
+    if enable_rebus and transformed_text:
+        rebus_rules = [
+            (r"\b(khử|loại bỏ)\s+mùi\b", r"\1 🚮 mùi", "khử/loại bỏ mùi -> 🚮 (@grayunbox)"),
+            (r"\bgiảm\s+(thâm|mụn|mùi|nhờn|ngứa)\b", r"giảm 📉 \1", "giảm -> 📉 (@grayunbox)"),
+            (r"\b(đuổi|diệt|trị)\s+muỗi\b", r"đuổi 🦟🥀", "đuổi muỗi -> 🦟🥀 (@grayunbox)"),
+            (r"\b(\d+)\s*(k|cành)\s*/\s*(chiếc|cây|cái|đôi|món|tờ|gói)\b", r"\1 🌱/\3", "đơn giá nhỏ -> 🌱 (@yuhtt09 Sprout Price Shield)"),
+            (r"\b(lẻ|combo)\s+([^|,\n]{0,18}?)(\d+)\s*(k|cành)\b", r"\1 \2\3 🐣", "so sánh giá lẻ/combo -> 🐣 (@yuhtt09 Chick Price Shield)"),
+            (r"\bbằng\s+(1\s+|một\s+)?(cốc|ly)\s+trà\s+sữa\b", "bằng ly 🧋", "trà sữa -> 🧋 (@yuhtt09)"),
+            (r"\bđáng\s+tiền(?!\s*💰)\b", "đáng 💰", "đáng tiền -> 💰 (@yuhtt09)"),
+            (r"\blàm\s+quà(\s+tặng)?(?!\s*🎁)\b", "làm 🎁", "làm quà -> 🎁 (@yuhtt09)"),
+            (r"\btest\s+nước(?!\s*💦)\b", "test 💦", "test nước -> 💦 (@yuhtt09)"),
+            (r"\b(\d+)\s*củ(?!\s*🍠)\b", r"\1 củ 🍠", "củ -> 🍠 (@grayunbox)"),
+            (r"\b(\d+)\s*cành(?!\s*🐟)\b", r"\1 cành 🐟", "cành -> 🐟 (@grayunbox)"),
+            (r"\b(\d+)\s*k\b(?!\s*(lượt|đánh giá|người|bản|mẫu|fl|follow))", r"\1 🍅 thoi", "k -> 🍅 (@minhtienoiii06 Agricultural Price Shield)"),
+            (r"\btự\s+chụp\s+ảnh\b", "tự 📸 ảnh", "chụp ảnh -> 📸 ảnh (@minhtienoiii06)"),
+            (r"\bhạt dẻ(?!\s*🌰)\b", "hạt dẻ 🌰", "hạt dẻ -> 🌰 (@grayunbox)"),
+            (r"\bgóc\s+trái\s+màn\s+hình(?!\s*(nè\s*)?↙️)\b", "góc trái màn hình nè ↙️", "CTA góc trái -> ↙️ (@yuhtt09)"),
+            (r"\bgiỏ hàng(?!\s*🛒)\b", "giỏ hàng 🛒", "giỏ hàng -> 🛒 (@grayunbox)")
+        ]
+        for pat, rep, desc_note in rebus_rules:
+            if re.search(pat, transformed_text, flags=re.IGNORECASE):
+                transformed_text = re.sub(pat, rep, transformed_text, flags=re.IGNORECASE)
+                rebus_applied.append(desc_note)
+
+    if enable_ocr_dot_split and transformed_text:
+        transformed_text = apply_dot_split_ocr_evasion(transformed_text)
+
+    return {
+        "semantic_domain": selected_domain["domain"],
+        "primary_icon": selected_domain["primary_icon"],
+        "accent_icons": selected_domain["accent_icons"],
+        "floating_particles": selected_domain["floating_particles"],
+        "transformed_text": transformed_text,
+        "rebus_applied": rebus_applied
+    }
+
+
+def build_editorial_dual_font_title_cluster(
+    script_title: str,
+    sans_subtitle: str,
+    left_spec: str = "",
+    right_spec: str = "",
+    start_sec: float = 0.0,
+    end_sec: float = 2.8,
+    palette_key: str = "KINFOLK_ESPRESSO_CREAM"
+) -> List[dict]:
+    """
+    [UPGRADE #1 - BỘ TYPOGRAPHY TẠP CHÍ KÉP + VÒNG CUNG SAO + NHÃN THÔNG SỐ ĐỐI XỨNG (@byraanni x @meshinthuine)]:
+    Tạo cụm tiêu đề mở đầu 4 lớp chuẩn tạp chí Kinfolk / Pinterest Editorial:
+      1. Vòng cung ánh sao lấp lánh phía đỉnh (`✧ ⁀➴ ✦`, y = +0.54, FLARE loop).
+      2. Chữ Tiêu đề Nghệ thuật (Calligraphy/Playfair Script Title, y = +0.44, size = 10.8).
+      3. Dòng Phụ đề Tối giản bọc hộp nền Espresso/Kem (Minimalist Pill Subtitle, y = +0.33, size = 7.4).
+      4. Cặp Nhãn Thông Số Bay Đối Xứng Trái/Phải quanh sản phẩm (`left_spec` tại x=-0.42, y=+0.08
+         và `right_spec` tại x=+0.42, y=-0.06 với hiệu ứng TYPEWRITER/POP_UP).
+    """
+    pal = LUXURY_TYPOGRAPHY_PALETTES.get(palette_key, LUXURY_TYPOGRAPHY_PALETTES["KINFOLK_ESPRESSO_CREAM"])
+    cluster = [
+        {
+            "text": "✧ ⁀➴ ✦",
+            "start_sec": start_sec,
+            "end_sec": end_sec,
+            "pos_x": 0.0,
+            "pos_y": 0.54,
+            "font_size": 8.2,
+            "palette_key": palette_key,
+            "role": "BLING_ACCENT",
+            "anim_in": "POP_UP",
+            "anim_loop": "FLARE"
+        },
+        {
+            "text": script_title,
+            "highlight_keywords": [script_title],
+            "start_sec": start_sec,
+            "end_sec": end_sec,
+            "pos_x": 0.0,
+            "pos_y": 0.44,
+            "font_size": 10.8,
+            "palette_key": palette_key,
+            "role": "HOOK_BANNER",
+            "anim_in": "SPRING",
+            "anim_out": "FADE_OUT"
+        },
+        {
+            "text": sans_subtitle,
+            "start_sec": round(start_sec + 0.12, 2),
+            "end_sec": end_sec,
+            "pos_x": 0.0,
+            "pos_y": 0.33,
+            "font_size": 7.4,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        }
+    ]
+    if left_spec:
+        cluster.append({
+            "text": f"• {left_spec}",
+            "start_sec": round(start_sec + 0.22, 2),
+            "end_sec": end_sec,
+            "pos_x": -0.42,
+            "pos_y": 0.08,
+            "font_size": 6.4,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "TYPEWRITER",
+            "anim_out": "FADE_OUT"
+        })
+    if right_spec:
+        cluster.append({
+            "text": f"• {right_spec}",
+            "start_sec": round(start_sec + 0.32, 2),
+            "end_sec": end_sec,
+            "pos_x": 0.42,
+            "pos_y": -0.06,
+            "font_size": 6.4,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "TYPEWRITER",
+            "anim_out": "FADE_OUT"
+        })
+    return cluster
 
 def select_smart_text_animation_and_style(
     text_str: str,
@@ -904,6 +1457,1249 @@ def create_scale_keyframes(start_scale: float, end_scale: float, duration_us: in
         })
     return kfs
 
+
+def create_6_archetype_zoom_keyframes(
+    zoom_archetype: str,
+    duration_us: int,
+    base_scale: float = 1.0
+) -> List[dict]:
+    """
+    [NEW #4 - BỘ 8 KIỂU KEYFRAME ZOOM & VI XOAY CHUYÊN NGHIỆP CỦA @kieneditcuong (146-VIDEO CATALOG)]:
+    1. SLOW_PUSH_IN                  : Zoom vào chậm đều (1.0x -> 1.12x) tạo chiều sâu tự nhiên.
+    2. SLOW_PULL_OUT                 : Zoom ra chậm đều (1.15x -> 1.0x) mở rộng bối cảnh bàn quay.
+    3. IN_OUT_BOUNCE                 : Zoom vào rồi nhả ra theo nhịp (1.0x -> 1.18x -> 1.0x).
+    4. OUT_IN_PULSE                  : Thu nhẹ rồi đẩy vào (1.15x -> 1.0x -> 1.12x).
+    5. ZOOM_HOLD_READ_LABEL_4KF      : Công thức 4 Keyframe 'Ăn tiền' nhất của @kieneditcuong khi soi tem nhãn/bảng thành phần:
+                                       KF1 (0.0s: 1.0x) -> KF2 (0.35s: 1.48x) -> KF3 (Giữ nguyên 1.48x suốt 1.5s) -> KF4 (Cuối clip: 1.0x).
+    6. MATCH_SCALE_TRANSITION        : Đẩy nhanh ở 0.25s cuối (1.0x -> 1.36x) để nối mượt sang cảnh tiếp theo.
+    7. ORGANIC_HANDHELD_3PT_ROTATION : Tuyệt chiêu 733K views (#02): 3 Keyframe Scale (1.0x -> 1.22x -> 1.12x) +
+                                       Vi xoay KFTypeRotation (0° -> -3.5° -> +1.5°) kèm đường cong Ease-Out Cubic Bezier [0.16, 1.0, 0.3, 1.0]
+                                       tạo cảm giác như có cameraman cầm máy thật ("thấy có cử động hẳn hem")!
+    8. CON_THOI_PENDULUM_ZOOM_OUT    : Tuyệt chiêu 2.04M views (#01): Cố định góc máy trên tripod, phóng to sẵn 1.35x ở 0.0s ->
+                                       kéo thu nhỏ về 1.0x ở giữa clip -> hồi nhẹ Con thoi lên 1.18x ở cuối clip.
+    """
+    dur = max(300_000, int(duration_us))
+    s0 = float(base_scale)
+    mode = (zoom_archetype or "SLOW_PUSH_IN").upper()
+    rot_pts: List[Tuple[int, float]] = []
+
+    if mode == "SLOW_PULL_OUT":
+        pts = [(0, round(s0 * 1.15, 3)), (dur, s0)]
+    elif mode == "CON_THOI_PENDULUM_ZOOM_OUT":
+        pts = [(0, round(s0 * 1.35, 3)), (int(dur * 0.62), s0), (dur, round(s0 * 1.18, 3))]
+    elif mode == "ORGANIC_HANDHELD_3PT_ROTATION":
+        t_mid = min(450_000, int(dur * 0.42))
+        pts = [(0, s0), (t_mid, round(s0 * 1.22, 3)), (dur, round(s0 * 1.12, 3))]
+        rot_pts = [(0, 0.0), (t_mid, -3.5), (dur, 1.5)]
+    elif mode == "IN_OUT_BOUNCE":
+        pts = [(0, s0), (dur // 2, round(s0 * 1.18, 3)), (dur, s0)]
+    elif mode == "OUT_IN_PULSE":
+        pts = [(0, round(s0 * 1.15, 3)), (dur // 2, s0), (dur, round(s0 * 1.12, 3))]
+    elif mode == "ZOOM_HOLD_READ_LABEL_4KF":
+        t_in = min(350_000, dur // 4)
+        t_hold_end = min(dur - 250_000, t_in + 1_500_000)
+        if t_hold_end <= t_in:
+            t_hold_end = int(dur * 0.75)
+        zoom_lvl = round(s0 * 1.48, 3)
+        pts = [(0, s0), (t_in, zoom_lvl), (t_hold_end, zoom_lvl), (dur, s0)]
+    elif mode == "MATCH_SCALE_TRANSITION":
+        t_ramp = max(0, dur - 250_000)
+        pts = [(0, s0), (t_ramp, round(s0 * 1.05, 3)), (dur, round(s0 * 1.36, 3))]
+    else:
+        pts = [(0, s0), (dur, round(s0 * 1.12, 3))]
+
+    kfs = []
+    for prop in ("KFTypeScaleX", "KFTypeScaleY"):
+        kf_list = []
+        for t_off, val in pts:
+            kf_list.append({
+                "id": uid(),
+                "time_offset": int(t_off),
+                "values": [float(val)],
+                "curveType": "CubicBezier" if mode in ("ORGANIC_HANDHELD_3PT_ROTATION", "CON_THOI_PENDULUM_ZOOM_OUT") else "Line",
+                "graphID": "",
+                "left_control": {"x": 0.16, "y": 1.0} if mode in ("ORGANIC_HANDHELD_3PT_ROTATION", "CON_THOI_PENDULUM_ZOOM_OUT") else {"x": 0.0, "y": 0.0},
+                "right_control": {"x": 0.30, "y": 1.0} if mode in ("ORGANIC_HANDHELD_3PT_ROTATION", "CON_THOI_PENDULUM_ZOOM_OUT") else {"x": 0.0, "y": 0.0}
+            })
+        kfs.append({"id": uid(), "property_type": prop, "keyframe_list": kf_list})
+
+    if rot_pts:
+        rot_kf_list = []
+        for t_off, r_val in rot_pts:
+            rot_kf_list.append({
+                "id": uid(),
+                "time_offset": int(t_off),
+                "values": [float(r_val)],
+                "curveType": "CubicBezier",
+                "graphID": "",
+                "left_control": {"x": 0.16, "y": 1.0},
+                "right_control": {"x": 0.30, "y": 1.0}
+            })
+        kfs.append({"id": uid(), "property_type": "KFTypeRotation", "keyframe_list": rot_kf_list})
+
+    return kfs
+
+
+def inject_dashed_circle_magnifier_pip(
+    edit_plan: dict,
+    source_file: str,
+    source_in_sec: float,
+    timeline_start_sec: float,
+    duration_sec: float = 2.4,
+    detail_label: str = "4 mức gió • cổng sạc kín",
+    loupe_pos_x: float = 0.28,
+    loupe_pos_y: float = 0.22,
+    zoom_scale: float = 1.62,
+    palette_key: str = "KINFOLK_ESPRESSO_CREAM"
+) -> dict:
+    """
+    [NEW #1 - KÍNH LÚP HÌNH TRÒN VIỀN NÉT ĐỨT PHÓNG ĐẠI CHI TIẾT 162% (@byraanni SIGNATURE)]:
+    Khi sản phẩm có chi tiết cơ học nhỏ (nút bấm 4 cấp độ, cổng sạc chống nước, đầu cọ, chất kem),
+    tự động tạo:
+      1. Một lớp Video PIP trên Track V2 (`is_pip: True`) cắt mặt nạ Hình Tròn (`CAPCUT_MASKS['CIRCLE']`),
+         phóng đại `1.62x` vào đúng chi tiết sản phẩm.
+      2. Một vòng tròn viền nét đứt (`◌`) bao quanh mặt nạ tròn.
+      3. Một nhãn thông số nhỏ (`● {detail_label}`) đính ngay trên đỉnh vòng tròn kèm tiếng `soft_pop`.
+    """
+    v_list = edit_plan.setdefault("video_timeline", [])
+    t_list = edit_plan.setdefault("text_overlays", [])
+    aud_list = edit_plan.setdefault("audio_tracks", [])
+
+    end_sec = round(timeline_start_sec + duration_sec, 2)
+    pip_seg = {
+        "source_file": source_file,
+        "source_in_sec": round(source_in_sec, 2),
+        "source_out_sec": round(source_in_sec + duration_sec, 2),
+        "timeline_start_sec": round(timeline_start_sec, 2),
+        "timeline_end_sec": end_sec,
+        "is_pip": True,
+        "scale": zoom_scale,
+        "scale_end": round(zoom_scale * 1.04, 3),
+        "pos_x": loupe_pos_x,
+        "pos_y": loupe_pos_y,
+        "mask": "CIRCLE",
+        "mask_config": {
+            "mask_key": "CIRCLE",
+            "center_x": 0.0,
+            "center_y": 0.0,
+            "width": 0.42,
+            "height": 0.42,
+            "feather": 0.02
+        },
+        "video_anim": "MINI_ZOOM",
+        "native_volume": 0.0
+    }
+    v_list.append(pip_seg)
+
+    # Vòng tròn viền nét đứt bao quanh Kính lúp
+    t_list.append({
+        "text": "◌",
+        "start_sec": round(timeline_start_sec, 2),
+        "end_sec": end_sec,
+        "pos_x": loupe_pos_x,
+        "pos_y": loupe_pos_y,
+        "font_size": 24.0,
+        "palette_key": palette_key,
+        "role": "BLING_ACCENT",
+        "anim_in": "POP_UP",
+        "anim_out": "FADE_OUT"
+    })
+    # Nhãn micro-label đính trên đỉnh vòng tròn (@byraanni style: "● ada 4 speed level")
+    pal = LUXURY_TYPOGRAPHY_PALETTES.get(palette_key, LUXURY_TYPOGRAPHY_PALETTES["KINFOLK_ESPRESSO_CREAM"])
+    t_list.append({
+        "text": f"● {detail_label}",
+        "start_sec": round(timeline_start_sec + 0.08, 2),
+        "end_sec": end_sec,
+        "pos_x": loupe_pos_x,
+        "pos_y": round(min(0.72, loupe_pos_y + 0.24), 2),
+        "font_size": 6.2,
+        "bg_color": pal["pill_bg_hex"],
+        "palette_key": palette_key,
+        "role": "CALLOUT",
+        "anim_in": "POP_UP",
+        "anim_out": "FADE_OUT"
+    })
+
+    sfx_vault = ensure_studio_sfx_pack("./workspace/sfx_studio")
+    if "soft_pop" in sfx_vault:
+        aud_list.append({
+            "source_file": sfx_vault["soft_pop"],
+            "start_sec": round(timeline_start_sec, 2),
+            "end_sec": round(timeline_start_sec + 0.15, 2),
+            "role": "SFX",
+            "volume": 0.26
+        })
+    return edit_plan
+
+
+def inject_chr_shield_and_brand_watermark_tracks(
+    edit_plan: dict,
+    total_dur_sec: float,
+    creator_handle: str = "",
+    product_archetype: str = "P1",
+    has_flash_sale_price: bool = False,
+    enable_dot_split_ocr: bool = True
+) -> dict:
+    """
+    [NEW #2 - LÁ CHẮN BẢO VỆ CHR TỰ ĐỘNG & WATERMARK KÉP CHỐNG REUP (@3thag8_ x @byraanni)]:
+    1. Nếu `enable_dot_split_ocr=True`: Tự động chấm tách các từ nhạy cảm trên màn hình (`m.ụn`, `m.ua`, `tr.ắng da`).
+    2. Nếu ngành hàng là Mỹ phẩm/Skincare (`P1`) hoặc TPCN (`P7`): Tự động ghim dòng chữ nhỏ
+       `*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*` ở sát đáy an toàn (`y = -0.55`, `font_size = 4.8`, `alpha = 0.72`).
+    3. Nếu có báo giá/CTKM (`has_flash_sale_price=True`): Tự động ghim `*giá có thể thay đổi khi CTKM kết thúc*`
+       giúp miễn nhiễm 100% lỗi Lệch giá biến thể (-20đ CHR).
+    4. Nếu truyền `creator_handle`: Đóng Watermark kép chống Reup ở góc đỉnh (`@handle • don't repost!`, `y = +0.80`)
+       và góc dưới (`video milik : @handle`, `y = -0.44`) với độ mờ `alpha = 0.65`.
+    """
+    t_list = edit_plan.setdefault("text_overlays", [])
+    dur = max(5.0, float(total_dur_sec))
+
+    if enable_dot_split_ocr:
+        for txt in t_list:
+            if "text" in txt and txt.get("role") != "CHR_SHIELD":
+                txt["text"] = apply_dot_split_ocr_evasion(txt["text"])
+
+    existing_texts_low = " ".join(t.get("text", "").lower() for t in t_list)
+    if product_archetype in ("P1", "P7") and "tuỳ vào cơ địa" not in existing_texts_low:
+        t_list.append({
+            "text": "*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*",
+            "start_sec": 0.5,
+            "end_sec": round(dur - 0.2, 2),
+            "pos_x": 0.0,
+            "pos_y": -0.55,
+            "font_size": 4.8,
+            "alpha": 0.72,
+            "role": "CHR_SHIELD"
+        })
+
+    if has_flash_sale_price and "ctkm kết thúc" not in existing_texts_low:
+        t_list.append({
+            "text": "*giá và ưu đãi có thể thay đổi khi CTKM kết thúc*",
+            "start_sec": 0.5,
+            "end_sec": round(dur - 0.2, 2),
+            "pos_x": 0.0,
+            "pos_y": -0.59,
+            "font_size": 4.6,
+            "alpha": 0.70,
+            "role": "CHR_SHIELD"
+        })
+
+    if creator_handle:
+        clean_handle = creator_handle.lstrip("@")
+        t_list.append({
+            "text": f"@{clean_handle} • don't repost!",
+            "start_sec": 0.0,
+            "end_sec": round(dur, 2),
+            "pos_x": 0.0,
+            "pos_y": 0.76,
+            "font_size": 5.0,
+            "alpha": 0.65,
+            "role": "WATERMARK"
+        })
+        t_list.append({
+            "text": f"video thuộc về : @{clean_handle}",
+            "start_sec": 0.0,
+            "end_sec": round(dur, 2),
+            "pos_x": 0.0,
+            "pos_y": -0.45,
+            "font_size": 4.8,
+            "alpha": 0.62,
+            "role": "WATERMARK"
+        })
+    return edit_plan
+
+
+def inject_3s_visual_hook_and_radial_loop_outro(
+    edit_plan: dict,
+    hook_style: str = "BYRAANNI_3SHOT_COLLAGE",
+    enable_radial_blur_loop_outro: bool = True
+) -> dict:
+    """
+    [NEW #3 - BỘ MÓC CÂU THỊ GIÁC 3 GIÂY ĐẦU (@kieneditcuong x @byraanni) & VÒNG LẶP VÔ TẬN RADIAL BLUR (@3thag8_)]:
+    Hỗ trợ các preset mở đầu 3s ăn tiền nhất:
+      - `BYRAANNI_3SHOT_COLLAGE` : Gắn chuyển cảnh nhẹ + hiệu ứng `CAMERA_FOCUS` + tiếng `shutter` cho 3 cảnh 1.1s đầu.
+      - `KIEN_GLOW_STROKE_FREEZE`: Bơm kỹ xảo `EDGE_GLOW` (Viền phát quang chủ thể) + `BLURRY_FOCUS` (Làm mờ nền) ở 1.5s đầu.
+      - `KIEN_GHOST_OPACITY_51`  : Tạo lớp bóng mờ `alpha=0.51` trượt khớp vào chủ thể chính ở 1.2s đầu.
+    Và ở 0.3s cuối cùng của Track V1:
+      - Tự động gắn `RADIAL_BLUR` + `MATCH_SCALE_TRANSITION (1.0x -> 1.36x)` để cuốn người xem quay lại Cảnh 1 mượt 100%!
+    """
+    v_list = edit_plan.setdefault("video_timeline", [])
+    fx_list = edit_plan.setdefault("scene_effects", [])
+    v1_clips = [c for c in v_list if not c.get("is_pip")]
+
+    style = (hook_style or "BYRAANNI_3SHOT_COLLAGE").upper()
+    if style == "KIEN_GLOW_STROKE_FREEZE":
+        fx_list.append({"effect_key": "BLURRY_FOCUS", "start_sec": 0.0, "end_sec": 1.4})
+        fx_list.append({"effect_key": "EDGE_GLOW", "start_sec": 0.0, "end_sec": 1.4})
+        if v1_clips:
+            v1_clips[0]["video_anim"] = "ENLARGE_BOUNCE"
+    elif style == "KIEN_GHOST_OPACITY_51" and v1_clips:
+        first = v1_clips[0]
+        ghost_pip = dict(first)
+        ghost_pip.update({
+            "is_pip": True,
+            "timeline_start_sec": 0.0,
+            "timeline_end_sec": min(1.2, first.get("timeline_end_sec", 1.5)),
+            "scale": round(float(first.get("scale", 1.0)) * 1.16, 3),
+            "scale_end": float(first.get("scale", 1.0)),
+            "alpha": 0.51,
+            "video_anim": "SLIDE_UP",
+            "native_volume": 0.0
+        })
+        v_list.append(ghost_pip)
+    elif style == "BYRAANNI_3SHOT_COLLAGE":
+        fx_list.append({"effect_key": "CAMERA_FOCUS", "start_sec": 0.0, "end_sec": 1.1})
+        if v1_clips:
+            v1_clips[0]["zoom_archetype"] = "SLOW_PUSH_IN"
+
+    if enable_radial_blur_loop_outro and v1_clips:
+        last_clip = v1_clips[-1]
+        last_clip["transition"] = "RADIAL_BLUR"
+        last_clip["zoom_archetype"] = "MATCH_SCALE_TRANSITION"
+
+    return edit_plan
+
+
+def apply_koc_color_grade_and_6_zoom_keyframes(
+    edit_plan: dict,
+    color_preset_key: str = "BYRAANNI_KINFOLK_ESPRESSO",
+    default_zoom_cycle: Optional[List[str]] = None
+) -> dict:
+    """
+    [NEW #4 - ÁP DỤNG CÔNG THỨC MÀU KOC MASTER & LUÂN PHIÊN 6 KIỂU KEYFRAME ZOOM]:
+    1. Đính kèm bộ thông số Color Adjust + HSL Da (`KOC_COLOR_GRADE_PRESETS`) vào `edit_plan["koc_color_grade"]`.
+    2. Tự động phân bổ 6 kiểu Keyframe Zoom của @kieneditcuong lên từng clip trên Track V1
+       (Đặc biệt ưu tiên `ZOOM_HOLD_READ_LABEL_4KF` cho cảnh soi tem nhãn/thành phần dài >= 2.2s!).
+    """
+    preset = KOC_COLOR_GRADE_PRESETS.get(color_preset_key, KOC_COLOR_GRADE_PRESETS["BYRAANNI_KINFOLK_ESPRESSO"])
+    edit_plan["koc_color_grade"] = preset
+
+    cycle = default_zoom_cycle or [
+        "ORGANIC_HANDHELD_3PT_ROTATION",
+        "CON_THOI_PENDULUM_ZOOM_OUT",
+        "ZOOM_HOLD_READ_LABEL_4KF",
+        "IN_OUT_BOUNCE",
+        "SLOW_PULL_OUT",
+        "OUT_IN_PULSE",
+        "SLOW_PUSH_IN",
+        "MATCH_SCALE_TRANSITION"
+    ]
+    v1_idx = 0
+    for seg in edit_plan.get("video_timeline", []):
+        if seg.get("is_pip"):
+            continue
+        seg["color_grade_preset"] = color_preset_key
+        if not seg.get("zoom_archetype"):
+            dur = float(seg.get("timeline_end_sec", 0.0)) - float(seg.get("timeline_start_sec", 0.0))
+            if dur >= 2.3 and v1_idx in (1, 2, 3):
+                seg["zoom_archetype"] = "ZOOM_HOLD_READ_LABEL_4KF"
+            else:
+                seg["zoom_archetype"] = cycle[v1_idx % len(cycle)]
+        v1_idx += 1
+    return edit_plan
+
+
+def inject_grayunbox_contextual_vfx_and_pips(
+    edit_plan: dict,
+    product_desc: str,
+    enable_bonus_gift_freeze_frame: bool = False,
+    bonus_gift_label: str = "🎁 Tặng kèm quà xịn!",
+    freeze_at_sec: float = 3.5,
+    enable_scent_or_bubble_particles: bool = False,
+    outdoor_skin_proof_clip: Optional[str] = None,
+    palette_key: str = "GRAYUNBOX_CLEAN_MINIMAL"
+) -> dict:
+    """
+    [NEW #5 - BỘ KỸ XẢO NGỮ CẢNH @grayunbox: MANGA FREEZE-FRAME QUÀ TẶNG, HẠT HƯƠNG BAY & PIP CAM THƯỜNG NGOÀI NẮNG]:
+    Chỉ kích hoạt đúng hiệu ứng khi sản phẩm thực sự có tính chất tương ứng:
+    1. `enable_bonus_gift_freeze_frame`: Khi sản phẩm có quà tặng kèm ("mua X tặng Y"), tự động tạo điểm nhấn
+       Freeze-Frame / Camera Shutter 0.45s tại `freeze_at_sec` (~3.5s) kèm nhãn `"🎁 {bonus_gift_label}"` + tiếng `shutter`.
+    2. `enable_scent_or_bubble_particles`: Khi sản phẩm là Trầm hương / Sáp thơm / Nước hoa / Trà (`🍃`) hoặc Xà phòng / Sữa rửa mặt (`🫧`),
+       tự động thả các hạt Icon lơ lửng (`FLARE` loop) bên rìa khung hình lúc bàn tay quạt hương hoặc tạo bọt.
+    3. `outdoor_skin_proof_clip`: Khi review Mỹ phẩm / Xà phòng / Kem dưỡng và có clip quay da thật dưới nắng tự nhiên,
+       tự động chèn cửa sổ PIP bo góc (`RECTANGLE` mask, `round_corner=0.30`) kèm nhãn `"☀️ Cam thường dưới nắng"`.
+    """
+    v_list = edit_plan.setdefault("video_timeline", [])
+    t_list = edit_plan.setdefault("text_overlays", [])
+    fx_list = edit_plan.setdefault("scene_effects", [])
+    aud_list = edit_plan.setdefault("audio_tracks", [])
+    sfx_vault = ensure_studio_sfx_pack("./workspace/sfx_studio")
+    icon_info = select_contextual_icons_and_rebus_for_product("", product_desc, enable_rebus=False, enable_ocr_dot_split=False)
+    pal = LUXURY_TYPOGRAPHY_PALETTES.get(palette_key, LUXURY_TYPOGRAPHY_PALETTES["GRAYUNBOX_CLEAN_MINIMAL"])
+
+    # 1. Manga Sketch / Shutter Freeze-Frame khi khoe Quà Tặng Kèm tại giây ~3.5s
+    if enable_bonus_gift_freeze_frame:
+        fx_list.append({
+            "effect_key": "CAMERA_FOCUS",
+            "start_sec": round(freeze_at_sec, 2),
+            "end_sec": round(freeze_at_sec + 0.55, 2)
+        })
+        t_list.append({
+            "text": bonus_gift_label,
+            "start_sec": round(freeze_at_sec, 2),
+            "end_sec": round(freeze_at_sec + 1.85, 2),
+            "pos_x": 0.0,
+            "pos_y": 0.28,
+            "font_size": 8.4,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "BOUNCE_IN",
+            "anim_out": "FADE_OUT"
+        })
+        if "shutter" in sfx_vault:
+            aud_list.append({
+                "source_file": sfx_vault["shutter"],
+                "start_sec": round(freeze_at_sec, 2),
+                "end_sec": round(freeze_at_sec + 0.14, 2),
+                "role": "SFX",
+                "volume": 0.30
+            })
+
+    # 2. Hạt Hương Thơm / Bọt Bong Bóng Lơ Lửng (`🍃` / `🫧`) khi quạt tay thử mùi hoặc tạo bọt
+    if enable_scent_or_bubble_particles:
+        particles = icon_info["floating_particles"]
+        p1 = particles[0] if particles else "🍃"
+        p2 = particles[1] if len(particles) > 1 else "✨"
+        t_list.append({
+            "text": f"{p1}  {p2}",
+            "start_sec": 6.2,
+            "end_sec": 10.5,
+            "pos_x": -0.36,
+            "pos_y": 0.16,
+            "font_size": 9.8,
+            "palette_key": palette_key,
+            "role": "BLING_ACCENT",
+            "anim_in": "POP_UP",
+            "anim_loop": "FLARE",
+            "anim_out": "FADE_OUT"
+        })
+        t_list.append({
+            "text": f"{p2}  {p1}",
+            "start_sec": 6.6,
+            "end_sec": 10.8,
+            "pos_x": 0.36,
+            "pos_y": 0.24,
+            "font_size": 9.2,
+            "palette_key": palette_key,
+            "role": "BLING_ACCENT",
+            "anim_in": "POP_UP",
+            "anim_loop": "FLARE",
+            "anim_out": "FADE_OUT"
+        })
+
+    # 3. Cửa sổ PIP Bằng Chứng Da Thật Ngoài Nắng Tự Nhiên (@grayunbox #07)
+    if outdoor_skin_proof_clip and os.path.exists(outdoor_skin_proof_clip):
+        v_list.append({
+            "source_file": outdoor_skin_proof_clip,
+            "source_in_sec": 0.5,
+            "source_out_sec": 4.0,
+            "timeline_start_sec": 13.0,
+            "timeline_end_sec": 16.5,
+            "is_pip": True,
+            "scale": 0.52,
+            "scale_end": 0.55,
+            "pos_x": 0.26,
+            "pos_y": -0.10,
+            "mask": "RECTANGLE",
+            "mask_config": {
+                "mask_key": "RECTANGLE",
+                "center_x": 0.0,
+                "center_y": 0.0,
+                "width": 0.46,
+                "height": 0.54,
+                "feather": 0.01,
+                "round_corner": 0.30
+            },
+            "video_anim": "SLIDE_UP",
+            "native_volume": 0.0
+        })
+        t_list.append({
+            "text": "☀️ Cam thường dưới nắng thật",
+            "start_sec": 13.1,
+            "end_sec": 16.5,
+            "pos_x": 0.26,
+            "pos_y": 0.20,
+            "font_size": 6.0,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+
+    return edit_plan
+
+
+def inject_minhtienoiii_sensory_and_ruler_vfx(
+    edit_plan: dict,
+    product_desc: str,
+    enable_dashed_height_ruler: bool = False,
+    ruler_height_label: str = "1m7",
+    ruler_at_sec: float = 8.0,
+    enable_dialect_debate_hook: bool = False,
+    debate_pair_text: str = "Bịch ❌  |  Bao ✅ — Cho hỏi là Bịch hay Bao ?",
+    palette_key: str = "MINHTIENOIII_GENZ_SENSORY_POP"
+) -> dict:
+    """
+    [NEW #6 - BỘ KỸ XẢO NGỮ CẢNH @minhtienoiii06 (19.3M & 15.5M VIEWS): THƯỚC ĐO NÉT ĐỨT 1M7 & HOOK TRANH LUẬN VÙNG MIỀN]:
+    1. `enable_dashed_height_ruler`: Khi review Tripod / Gậy chụp ảnh / Kệ cao có thông số chiều dài (VD: `1m7`, `1m5`),
+       tự động vẽ đường kẻ nét đứt dọc/ngang (`< - - - 1m7 - - - >`) kèm hiệu ứng `TYPEWRITER` + tiếng `magnifier_loupe_zoom.wav`.
+    2. `enable_dialect_debate_hook`: Khi review Đồ ăn vặt / Bánh tráng / Bánh phồng sữa, tự động gắn thẻ Hook tranh luận
+       kích nổ bình luận (`Bịch ❌ | Bao ✅`) hoặc huy hiệu `🗣️` chữ thường kèm tiếng `ping_pong_question.wav` + `ui_double_pop.wav`.
+    """
+    t_list = edit_plan.setdefault("text_overlays", [])
+    aud_list = edit_plan.setdefault("audio_tracks", [])
+    sfx_vault = discover_and_index_hybrid_sfx_vault("./workspace/sfx_studio")
+    pal = LUXURY_TYPOGRAPHY_PALETTES.get(palette_key, LUXURY_TYPOGRAPHY_PALETTES["MINHTIENOIII_GENZ_SENSORY_POP"])
+
+    if enable_dialect_debate_hook:
+        t_list.append({
+            "text": debate_pair_text,
+            "start_sec": 0.15,
+            "end_sec": 2.45,
+            "pos_x": 0.0,
+            "pos_y": 0.48,
+            "font_size": 7.6,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "BOUNCE_IN",
+            "anim_out": "FADE_OUT"
+        })
+        for s_key, offset_t in (("ping_pong_question", 0.08), ("ui_double_pop", 0.25)):
+            if s_key in sfx_vault:
+                aud_list.append({
+                    "source_file": sfx_vault[s_key],
+                    "start_sec": round(offset_t, 2),
+                    "end_sec": round(offset_t + 0.22, 2),
+                    "role": "SFX",
+                    "volume": 0.28
+                })
+
+    if enable_dashed_height_ruler:
+        t_list.append({
+            "text": f"⇠ - - - -  {ruler_height_label}  - - - - ⇢",
+            "start_sec": round(ruler_at_sec, 2),
+            "end_sec": round(ruler_at_sec + 2.4, 2),
+            "pos_x": 0.22,
+            "pos_y": 0.05,
+            "font_size": 7.8,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "TYPEWRITER",
+            "anim_out": "FADE_OUT"
+        })
+        if "magnifier_loupe_zoom" in sfx_vault:
+            aud_list.append({
+                "source_file": sfx_vault["magnifier_loupe_zoom"],
+                "start_sec": round(ruler_at_sec, 2),
+                "end_sec": round(ruler_at_sec + 0.28, 2),
+                "role": "SFX",
+                "volume": 0.26
+            })
+
+    return edit_plan
+
+
+def inject_yuhtt09_coquette_unbox_and_proof_vfx(
+    edit_plan: dict,
+    product_desc: str,
+    enable_arch_curved_title_kaomoji: bool = False,
+    arch_title_text: str = "⌒ Unbox đồ xinh ⌒",
+    enable_shop_rating_pill: bool = False,
+    rating_pill_text: str = "⭐ 4.9/5 (2.1k)  |  Đã bán 23.6K",
+    enable_combo_or_3in1_badge: bool = False,
+    combo_badge_text: str = "3in1: Chống nắng + Primer + Nền ✨",
+    enable_water_tissue_blot_callout: bool = False,
+    water_blot_at_sec: float = 11.5,
+    enable_numbered_feature_badges: bool = False,
+    palette_key: str = "YUHTT09_COQUETTE_CLEAN_WHITE_PILL"
+) -> dict:
+    """
+    [NEW #6B - BỘ KỸ XẢO NGỮ CẢNH @yuhtt09 (54-VIDEO DNA & 2026 EVOLUTION):
+     TIÊU ĐỀ VÒM KAOMOJI, HUY HIỆU ĐÁNH GIÁ TIKTOK SHOP, SO SÁNH LẺ/COMBO 3IN1 & TEST NƯỚC KHĂN GIẤY KHÔ]:
+      1. `enable_arch_curved_title_kaomoji`: Chèn cụm tiêu đề vòm `⌒` kèm dải Kaomoji `*ੈ✩‧₊˚🌷🎀*ੈ✩‧₊˚` ở 1.3s đầu.
+      2. `enable_shop_rating_pill`: Chèn thanh đánh giá uy tín `⭐ 4.9/5 (2.1k) | Đã bán 23.6K` cho Thời trang/Túi xách/Tất vớ (#23).
+      3. `enable_combo_or_3in1_badge`: Chèn thẻ so sánh giá `❌ Lẻ gần 300 🐣 | ✅ Combo hời 🐣` (#51) hoặc công thức `3in1` (#52).
+      4. `enable_water_tissue_blot_callout`: Chèn nhãn kiểm chứng `💦 Test nước + Áp khăn giấy khô: Không lem trôi!` (#03, #06, #14, #54).
+      5. `enable_numbered_feature_badges`: Chèn huy hiệu đếm tính năng `① Thiết kế nhỏ gọn` -> `② Đa năng tiện lợi` (#10, #16, #31).
+    """
+    t_list = edit_plan.setdefault("text_overlays", [])
+    aud_list = edit_plan.setdefault("audio_tracks", [])
+    sfx_vault = discover_and_index_hybrid_sfx_vault("./workspace/sfx_studio")
+    pal = LUXURY_TYPOGRAPHY_PALETTES.get(palette_key, LUXURY_TYPOGRAPHY_PALETTES["YUHTT09_COQUETTE_CLEAN_WHITE_PILL"])
+
+    if enable_arch_curved_title_kaomoji:
+        t_list.append({
+            "text": "*ੈ✩‧₊˚ 🌷 🎀 *ੈ✩‧₊˚",
+            "start_sec": 0.0,
+            "end_sec": 1.45,
+            "pos_x": 0.0,
+            "pos_y": 0.52,
+            "font_size": 7.4,
+            "palette_key": palette_key,
+            "role": "BLING_ACCENT",
+            "anim_in": "POP_UP",
+            "anim_loop": "FLARE",
+            "anim_out": "FADE_OUT"
+        })
+        t_list.append({
+            "text": arch_title_text,
+            "start_sec": 0.05,
+            "end_sec": 1.45,
+            "pos_x": 0.0,
+            "pos_y": 0.42,
+            "font_size": 9.2,
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "SPRING",
+            "anim_out": "FADE_OUT"
+        })
+
+    if enable_shop_rating_pill:
+        t_list.append({
+            "text": rating_pill_text,
+            "start_sec": 0.15,
+            "end_sec": 2.35,
+            "pos_x": 0.0,
+            "pos_y": 0.32,
+            "font_size": 6.8,
+            "bg_color": "#1E2229",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+        if "ui_double_pop" in sfx_vault:
+            aud_list.append({
+                "source_file": sfx_vault["ui_double_pop"],
+                "start_sec": 0.15,
+                "end_sec": 0.37,
+                "role": "SFX",
+                "volume": 0.26
+            })
+
+    if enable_combo_or_3in1_badge:
+        t_list.append({
+            "text": combo_badge_text,
+            "start_sec": 1.55,
+            "end_sec": 4.20,
+            "pos_x": 0.0,
+            "pos_y": 0.44,
+            "font_size": 7.2,
+            "bg_color": pal["pill_bg_hex"],
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "BOUNCE_IN",
+            "anim_out": "FADE_OUT"
+        })
+
+    if enable_water_tissue_blot_callout:
+        t_list.append({
+            "text": "💦 Test nước + Áp khăn giấy khô: Không lem trôi ✓",
+            "start_sec": round(water_blot_at_sec, 2),
+            "end_sec": round(water_blot_at_sec + 2.8, 2),
+            "pos_x": 0.0,
+            "pos_y": 0.36,
+            "font_size": 7.0,
+            "bg_color": "#18222D",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+        if "water_pour_splash_test" in sfx_vault:
+            aud_list.append({
+                "source_file": sfx_vault["water_pour_splash_test"],
+                "start_sec": round(water_blot_at_sec, 2),
+                "end_sec": round(water_blot_at_sec + 0.38, 2),
+                "role": "SFX",
+                "volume": 0.28
+            })
+
+    if enable_numbered_feature_badges:
+        t_list.append({
+            "text": "① Thiết kế chỉn chu • tiện lợi",
+            "start_sec": 4.6,
+            "end_sec": 7.0,
+            "pos_x": -0.22,
+            "pos_y": 0.28,
+            "font_size": 6.6,
+            "bg_color": "#1E2229",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+        t_list.append({
+            "text": "② Chất lượng vượt tầm giá ✨",
+            "start_sec": 7.1,
+            "end_sec": 9.6,
+            "pos_x": 0.22,
+            "pos_y": 0.28,
+            "font_size": 6.6,
+            "bg_color": "#1E2229",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+
+    return edit_plan
+
+
+def select_smart_contextual_audio_and_sfx_plan(
+    edit_plan: dict,
+    product_desc: str,
+    semantic_domain: str,
+    color_preset: str,
+    total_dur_sec: float = 24.0
+) -> Dict[str, Any]:
+    """
+    [NEW #7 - BỘ ĐIỀU PHỐI ÂM THANH, NHẠC NỀN (BGM) & 42 FOLEY SFX NGỮ CẢNH THÔNG MINH 8 KOC]:
+    Đọc trực tiếp từ kho ổ đĩa đã tải sẵn:
+      - `./knowledge_vault/koc_bgm_and_audio_library_registry.json` (8 bản BGM chuẩn gu 8 KOC)
+      - `./knowledge_vault/external_custom_sfx_registry.json` (42 file SFX/Foley thực chiến)
+    Tự động chọn đúng bản Nhạc nền (BGM) + gắn đúng các file `.wav` Foley/SFX theo ngữ nghĩa sản phẩm,
+    đảm bảo 100% dự án CapCut xuất ra luôn có đầy đủ Nhạc nền và Hiệu ứng Âm thanh sống động!
+    """
+    aud_list = edit_plan.setdefault("audio_tracks", [])
+    sfx_vault = discover_and_index_hybrid_sfx_vault("./workspace/sfx_studio")
+    desc_low = (product_desc or "").lower()
+
+    # 1. Chọn Bản Nhạc Nền (BGM) Chuẩn Gu 8 KOC từ ./knowledge_vault/koc_bgm_and_audio_library_registry.json
+    bgm_reg_path = "./knowledge_vault/koc_bgm_and_audio_library_registry.json"
+    bgm_tracks = {}
+    if os.path.exists(bgm_reg_path):
+        try:
+            with open(bgm_reg_path, "r", encoding="utf-8") as f:
+                bgm_tracks = json.load(f).get("koc_bgm_tracks", {})
+        except Exception:
+            pass
+
+    if semantic_domain in ("STATIONERY_STUDY_DESK", "JEWELRY_SILVER_ACCESSORY") or color_preset.startswith("YUHTT09"):
+        target_bgm_key = "bgm_v8_yuhtt09_spedup_kpop_coquette_pluck_130bpm"
+    elif semantic_domain in ("FOOD_SNACK_GOURMET", "TRIPOD_CAMERA_SELFIE") or color_preset.startswith("MINHTIENOIII"):
+        target_bgm_key = "bgm_v7_minhtienoiii_healing_farm_orchestra_124bpm"
+    elif color_preset.startswith("GRAYUNBOX") or semantic_domain in ("SCENT_TEA_HERBAL", "ORAL_CARE_HYGIENE", "GIFT_CARD_FESTIVE"):
+        target_bgm_key = "bgm_v6_grayunbox_holiday_breakfast_jazz_112bpm"
+    elif color_preset.startswith("BYRAANNI") or semantic_domain in ("FASHION_BAG_SHOE", "DRINKWARE_ICE_TUMBLER"):
+        target_bgm_key = "bgm_v5_byraanni_pinterest_editorial_rnb_102bpm"
+    elif color_preset.startswith("HONGHANH"):
+        target_bgm_key = "bgm_v2_honghanh_kawaii_lofi_pluck_116bpm"
+    elif color_preset.startswith("3THAG8") or semantic_domain in ("SOAP_SKINCARE_CLEANSE", "TECH_POWER_AIRFLOW"):
+        target_bgm_key = "bgm_v4_3thag8_classical_minuet_bounce_118bpm"
+    else:
+        target_bgm_key = "bgm_v1_meshinthuine_warm_indie_acoustic_108bpm"
+
+    bgm_info = bgm_tracks.get(target_bgm_key, {})
+    bgm_file = bgm_info.get("file_path", "")
+    has_existing_bgm = any(a.get("role") == "BGM" for a in aud_list)
+    if bgm_file and os.path.exists(bgm_file) and not has_existing_bgm:
+        aud_list.append({
+            "source_file": bgm_file,
+            "start_sec": 0.0,
+            "end_sec": round(min(32.0, max(5.0, total_dur_sec)), 2),
+            "role": "BGM",
+            "volume": 0.14,
+            "bgm_key": target_bgm_key,
+            "koc_reference": bgm_info.get("koc_handle", "@meshinthuine")
+        })
+
+    # 2. Chọn bộ Foley & Kinetic SFX theo đúng đặc tính vật lý của sản phẩm (50 File .wav Chuẩn 8 KOC)
+    contextual_sfx_schedule: List[Tuple[str, float, float, float]] = []
+    # (sfx_key, start_sec, duration_sec, volume)
+    if semantic_domain == "STATIONERY_STUDY_DESK":
+        contextual_sfx_schedule.extend([
+            ("box_cutter_tape_slice", 1.15, 0.26, 0.28),
+            ("bubble_wrap_unroll_pop", min(2.8, total_dur_sec * 0.20), 0.21, 0.26),
+            ("pen_click_and_paper_write", min(5.5, total_dur_sec * 0.38), 0.14, 0.30),
+            ("sfx_kien_poyo_kawaii_skin_touch_bounce", min(7.4, total_dur_sec * 0.48), 0.22, 0.26),
+            ("zipper_slide_bag_smooth", min(9.2, total_dur_sec * 0.60), 0.25, 0.26),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    elif semantic_domain == "JEWELRY_SILVER_ACCESSORY":
+        contextual_sfx_schedule.extend([
+            ("crystal_aha_shimmer", 0.08, 0.28, 0.28),
+            ("screen_seal_peel_smooth", min(2.4, total_dur_sec * 0.18), 0.34, 0.28),
+            ("box_cutter_tape_slice", min(5.2, total_dur_sec * 0.38), 0.26, 0.25),
+            ("sfx_kien_money_chakin_deal_alert", min(7.2, total_dur_sec * 0.48), 0.32, 0.26),
+            ("magnifier_loupe_zoom", min(8.8, total_dur_sec * 0.58), 0.28, 0.26),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    elif semantic_domain == "FASHION_BAG_SHOE":
+        contextual_sfx_schedule.extend([
+            ("box_cutter_tape_slice", 1.15, 0.26, 0.26),
+            ("zipper_slide_bag_smooth", min(3.6, total_dur_sec * 0.25), 0.25, 0.28),
+            ("ui_double_pop", min(6.5, total_dur_sec * 0.45), 0.22, 0.26),
+            ("sfx_kien_pac_low_telop_subtitle_pop", min(8.2, total_dur_sec * 0.55), 0.11, 0.26),
+            ("camera_shutter_clean", min(10.0, total_dur_sec * 0.65), 0.08, 0.28),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    elif semantic_domain == "SCENT_TEA_HERBAL":
+        contextual_sfx_schedule.extend([
+            ("fine_mist_spray_shimmer", 0.25, 0.28, 0.30),
+            ("snack_bag_crinkle_open", min(3.2, total_dur_sec * 0.22), 0.75, 0.25),
+            ("paper_tear_manga_sketch", min(6.8, total_dur_sec * 0.45), 0.35, 0.26),
+            ("cart_gold_chime", max(1.5, total_dur_sec - 2.2), 0.32, 0.28)
+        ])
+    elif semantic_domain == "FOOD_SNACK_GOURMET":
+        contextual_sfx_schedule.extend([
+            ("ping_pong_question", 0.08, 0.25, 0.28),
+            ("snack_bag_crinkle_open", min(2.2, total_dur_sec * 0.15), 0.85, 0.26),
+            ("sfx_kien_cheese_pull_mucus_necha_mlem", min(4.2, total_dur_sec * 0.28), 0.30, 0.28),
+            ("tin_lid_metallic_clink" if "kẹo" in desc_low else "sfx_kien_sizzling_pan_fry_crackle", min(6.2, total_dur_sec * 0.40), 0.36, 0.28),
+            ("crispy_bite_crunch", min(9.5, total_dur_sec * 0.55), 1.10, 0.32),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    elif semantic_domain == "TRIPOD_CAMERA_SELFIE":
+        contextual_sfx_schedule.extend([
+            ("ping_pong_question", 0.08, 0.25, 0.26),
+            ("mech_click_v1", min(2.5, total_dur_sec * 0.18), 0.12, 0.28),
+            ("magnifier_loupe_zoom", min(6.0, total_dur_sec * 0.42), 0.28, 0.26),
+            ("camera_shutter_clean", min(10.0, total_dur_sec * 0.65), 0.10, 0.30),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    elif semantic_domain == "DRINKWARE_ICE_TUMBLER":
+        contextual_sfx_schedule.extend([
+            ("water_pour_splash_test", 0.12, 0.38, 0.28),
+            ("liquid_pour_ice_clink", min(4.2, total_dur_sec * 0.30), 1.20, 0.30),
+            ("sfx_kien_pac_low_telop_subtitle_pop", min(6.8, total_dur_sec * 0.44), 0.11, 0.26),
+            ("mech_click_v1", min(8.5, total_dur_sec * 0.55), 0.12, 0.28),
+            ("cart_gold_chime", max(1.5, total_dur_sec - 2.2), 0.32, 0.28)
+        ])
+    elif semantic_domain in ("SOAP_SKINCARE_CLEANSE", "ORAL_CARE_HYGIENE"):
+        contextual_sfx_schedule.extend([
+            ("sfx_kien_remove_bottle_cap_unscrew", 0.12, 0.19, 0.28),
+            ("card_deck_fan_flip_asmr" if "mặt nạ" in desc_low else "sfx_kien_cheese_pull_mucus_necha_mlem", min(2.4, total_dur_sec * 0.18), 0.30, 0.27),
+            ("sfx_kien_poyo_kawaii_skin_touch_bounce", min(4.8, total_dur_sec * 0.34), 0.22, 0.27),
+            ("water_pour_splash_test", min(8.5, total_dur_sec * 0.56), 0.38, 0.28),
+            ("sfx_kien_kirarin_glitter_skincare_done", min(11.0, total_dur_sec * 0.72), 0.36, 0.28),
+            ("cart_gold_chime", max(1.5, total_dur_sec - 2.2), 0.32, 0.28)
+        ])
+    elif semantic_domain == "TECH_POWER_AIRFLOW":
+        contextual_sfx_schedule.extend([
+            ("jingle_horn_hook", 0.05, 0.85, 0.24),
+            ("mech_click_v1", min(3.5, total_dur_sec * 0.25), 0.12, 0.28),
+            ("sfx_kien_pac_low_telop_subtitle_pop", min(5.8, total_dur_sec * 0.40), 0.11, 0.27),
+            ("water_splash_submerge" if "nước" in desc_low else "clean_velvet_whoosh", min(8.5, total_dur_sec * 0.55), 0.80, 0.26),
+            ("bell_ding_cta", max(1.5, total_dur_sec - 2.2), 0.65, 0.28)
+        ])
+    else:
+        has_vacuum_or_mattress = any(k in desc_low for k in ("nệm", "đệm", "hút chân không", "gối", "chăn", "ga gối"))
+        contextual_sfx_schedule.extend([
+            ("crystal_aha_shimmer", 0.08, 0.28, 0.26),
+            ("sfx_minhtien_vacuum_mattress_air_inflate_hiss" if has_vacuum_or_mattress else "box_cutter_tape_slice", min(2.2, total_dur_sec * 0.16), 0.40, 0.28),
+            ("snack_bag_crinkle_open", min(4.5, total_dur_sec * 0.32), 0.75, 0.24),
+            ("sfx_kien_pac_low_telop_subtitle_pop", min(8.0, total_dur_sec * 0.55), 0.11, 0.26),
+            ("cart_gold_chime", max(1.5, total_dur_sec - 2.2), 0.32, 0.28)
+        ])
+
+    # Luôn gắn tiếng Whoosh nối vòng lặp Seamless Loop ở 0.32s cuối cùng (@3thag8_)
+    if total_dur_sec >= 4.0:
+        contextual_sfx_schedule.append(("radial_zoom_loop_whoosh", max(0.5, total_dur_sec - 0.32), 0.28, 0.26))
+
+    injected_sfx_keys: List[str] = []
+    for s_key, st_t, dur_t, vol_v in contextual_sfx_schedule:
+        fp = sfx_vault.get(s_key)
+        if fp and os.path.exists(fp) and st_t + dur_t <= total_dur_sec + 0.2:
+            # Tránh chèn trùng lặp cùng 1 file tại cùng thời điểm
+            if not any(abs(float(a.get("start_sec", -9.0)) - st_t) < 0.12 and a.get("source_file") == fp for a in aud_list):
+                aud_list.append({
+                    "source_file": fp,
+                    "start_sec": round(st_t, 2),
+                    "end_sec": round(st_t + dur_t, 2),
+                    "role": "SFX",
+                    "volume": vol_v,
+                    "sfx_key": s_key
+                })
+                injected_sfx_keys.append(s_key)
+
+    return {
+        "selected_bgm_key": target_bgm_key,
+        "selected_bgm_file": bgm_file,
+        "injected_sfx_keys": injected_sfx_keys
+    }
+
+
+def orchestrate_smart_multi_koc_fusion_plan(
+    edit_plan: dict,
+    product_desc: str,
+    product_archetype: str = "P2",
+    measured_yavg: float = 132.0,
+    creator_handle: str = "",
+    outdoor_skin_proof_clip: Optional[str] = None
+) -> dict:
+    """
+    [BỘ NÃO TỔNG ĐẠO DIỄN ĐA NGUỒN — SMART CONTEXTUAL 8-KOC FUSION ROUTER]:
+    Giải quyết triệt để bài toán: "Biết thông minh khi nào dùng cái gì, video nào dùng icon gì,
+    nhạc nền gì, hiệu ứng âm thanh SFX/Foley gì, cảnh quay gì từ 8 KOC (@meshinthuine,
+    @honghanhxinhgai_01, @kieneditcuong, @3thag8_, @byraanni, @grayunbox, @minhtienoiii06, @yuhtt09)
+    chứ tuyệt đối không áp đặt cứng nhắc!"
+
+    Tự động phân tích ngữ nghĩa sản phẩm + độ sáng quang học + thời lượng từng cảnh để ra 9 Quyết Định Thông Minh:
+      1. Chọn Công thức Màu & Ánh sáng (`color_grade_preset`) khớp bối cảnh thật.
+      2. Chọn Kỹ xảo Mở đầu 3s (`hook_style`) khớp cấu trúc sản phẩm.
+      3. Chọn Vùng đặt Phụ đề & Bảng màu chữ (`subtitle_zone_preference` & `typography_palette`).
+      4. Chọn Họ Icon theo đúng ngành hàng (`🌷 / 💍 / 🧸 / 🍃 / 🫧 / 🪥 / ⚡ / 📸 / 🧊 / 🎀 / 🎁 / 🗣️`) + Emoji-Rebus (`🌱, 🐣, 🧋, 💰, 🎁, 💦, ↙️, 🚮, 📉, 🦟🥀, 🍠, 🐟, 🍅, 📸, 🌰, 🛒`) + Chấm tách OCR & Vị giác (`dưỡng trắ.ng`, `mờ thâ.m`, `m.ụn`, `p.é.o ngậyyy`, `t:an ch:ảy`).
+      5. Quyết định bật/tắt Kính Lúp Tròn Nét Đứt 162% (`@byraanni`) & Thước Đo Nét Đứt `1m7` (`@minhtienoiii06`) CHỈ KHI sản phẩm có chi tiết nhỏ hoặc chiều cao cần chứng minh.
+      6. Quyết định bật/tắt Tiêu Đề Vòm Kaomoji `⌒ *ੈ✩‧₊˚🌷🎀*ੈ✩‧₊˚`, Huy Hiệu Đánh Giá TikTok Shop (`⭐ 4.9/5 | Đã bán`), So Sánh Lẻ ❌ / Combo ✅ (`🐣`), Công Thức `3in1`, & Nhãn Test Nước Khăn Giấy Khô (`@yuhtt09`).
+      7. Quyết định bật/tắt Manga Freeze-Frame Quà Tặng (`@grayunbox`), Hạt Hương/Bọt Bay (`🍃/🫧`), hoặc Hook Tranh Luận Vùng Miền (`Bịch ❌ | Bao ✅` - `@minhtienoiii06`).
+      8. Điều phối Nhạc nền (BGM) & 42 Hiệu ứng Âm thanh Foley/SFX cục bộ (`select_smart_contextual_audio_and_sfx_plan`).
+      9. Phân bổ 6 kiểu Keyframe Zoom (`@kieneditcuong`), Lá chắn CHR (`@3thag8_`) & Vòng lặp vô tận Radial Blur.
+    """
+    desc_low = (product_desc or "").lower()
+    v_list = edit_plan.setdefault("video_timeline", [])
+    t_list = edit_plan.setdefault("text_overlays", [])
+    v1_clips = [c for c in v_list if not c.get("is_pip")]
+    total_dur = max([float(c.get("timeline_end_sec", 0.0)) for c in v1_clips], default=24.0)
+
+    all_script_low = f"{desc_low} " + " ".join(t.get("text", "").lower() for t in t_list)
+    icon_ctx = select_contextual_icons_and_rebus_for_product(all_script_low, product_desc)
+    domain = icon_ctx["semantic_domain"]
+    decisions_log: List[str] = []
+
+    # --- QUYẾT ĐỊNH 1: CHỌN CÔNG THỨC MÀU & ÁNH SÁNG THÔNG MINH ---
+    has_led_or_glow = any(k in all_script_low for k in ("đèn led", "phát sáng", "đèn ngủ", "thiệp nhạc", "thiệp 3d", "ban đêm", "dạ quang"))
+    if has_led_or_glow or measured_yavg < 96.0:
+        color_preset = "GRAYUNBOX_LOWKEY_LED_GLOW"
+        palette_key = "GRAYUNBOX_CLEAN_MINIMAL"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @grayunbox Low-Key LED]: Phát hiện sản phẩm phát sáng/LED hoặc nền tối (YAVG={measured_yavg:.1f}) -> Hạ nền Low-Key để ánh sáng sản phẩm rực rỡ gấp 3 lần."
+        )
+    elif domain in ("STATIONERY_STUDY_DESK", "JEWELRY_SILVER_ACCESSORY") or any(k in desc_low for k in ("tất", "vớ", "chống nắng", "cushion", "xịt thơm", "sổ", "bút", "bạc")):
+        color_preset = "YUHTT09_HIGHKEY_AIRY_DOUYIN_WHITE"
+        palette_key = "YUHTT09_COQUETTE_CLEAN_WHITE_PILL"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @yuhtt09 High-Key Airy Douyin White]: Nhóm '{domain}' kích hoạt nền bàn trắng Pegboard Coquette (YAVG~166.1) + Phụ đề trắng viền đen sắc nét tại y=-0.35 (8.1M views)."
+        )
+    elif domain in ("FOOD_SNACK_GOURMET", "TRIPOD_CAMERA_SELFIE") or product_archetype == "P5":
+        color_preset = "MINHTIENOIII_COZY_TOAST_LAMP_SENSORY"
+        palette_key = "MINHTIENOIII_GENZ_SENSORY_POP"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @minhtienoiii06 Cozy Toast Lamp Sensory]: Nhóm '{domain}' kích hoạt màu tươi vị giác (SAT+10, YAVG~144.5) & chữ Vàng Kem / Xanh Lá Dứa Neon (19.3M views)."
+        )
+    elif measured_yavg > 158.0:
+        color_preset = "HONGHANH_WARM_DESK_LAMP"
+        palette_key = "LUXURY_EDITORIAL"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @honghanhxinhgai_01 Warm Lamp]: Phát hiện đèn bàn rọi đỉnh sáng mạnh (YAVG={measured_yavg:.1f}) -> Bật HSL làm hồng mịn da tay & chống cháy sáng."
+        )
+    elif domain in ("SCENT_TEA_HERBAL", "PLUSH_TOY_STORAGE_BABY", "ORAL_CARE_HYGIENE", "GIFT_CARD_FESTIVE"):
+        color_preset = "GRAYUNBOX_VENETIAN_BLINDS_CHIAROSCURO"
+        palette_key = "GRAYUNBOX_CLEAN_MINIMAL"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @grayunbox Venetian Blinds Chiaroscuro]: Nhóm '{domain}' hợp nhất với nắng xiên qua rèm sáo ngang & chữ tối giản góc 1/3 trên."
+        )
+    elif domain in ("FASHION_BAG_SHOE", "DRINKWARE_ICE_TUMBLER") or product_archetype == "P3":
+        color_preset = "BYRAANNI_KINFOLK_ESPRESSO"
+        palette_key = "KINFOLK_ESPRESSO_CREAM"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @byraanni Kinfolk Espresso]: Nhóm '{domain}' cần thẩm mỹ tạp chí Pinterest Kem Ngà + Nâu Espresso sang trọng."
+        )
+    elif domain in ("SOAP_SKINCARE_CLEANSE", "TECH_POWER_AIRFLOW") or product_archetype in ("P1", "P6"):
+        color_preset = "3THAG8_PEGBOARD_CLEAN_PINK"
+        palette_key = "PEGBOARD_ROSE_GOLD" if product_archetype == "P1" else "TECH_SLEEK_HUD"
+        decisions_log.append(
+            f"[Màu & Ánh sáng -> @3thag8_ Clean Studio]: Nhóm '{domain}' cần độ trong trẻo sắc nét để nổi bật chất kem/bọt hoặc chi tiết công nghệ."
+        )
+    else:
+        color_preset = "MESHIN_NATURAL_DAYLIGHT"
+        palette_key = "COZY_PASTEL_MAMI"
+        decisions_log.append(
+            "[Màu & Ánh sáng -> @meshinthuine Daylight]: Sử dụng ánh sáng tự nhiên ấm cúng, chân thực gần gũi gia đình."
+        )
+
+    edit_plan["typography_palette"] = palette_key
+
+    # --- QUYẾT ĐỊNH 2: CHỌN MÓC CÂU THỊ GIÁC 3 GIÂY ĐẦU (HOOK STYLE) ---
+    is_assembly_item = any(k in all_script_low for k in ("lắp ráp", "kệ", "tủ", "hộp đựng", "nhiều ngăn", "khung sắt"))
+    if is_assembly_item:
+        hook_style = "BYRAANNI_3SHOT_COLLAGE"
+        decisions_log.append(
+            "[Hook 3s -> @grayunbox Finished-First Assembly]: Sản phẩm cần lắp ráp -> Mở đầu khoe ngay thành phẩm hoàn chỉnh 100% trước khi chiếu cảnh lắp!"
+        )
+    elif domain in ("FOOD_SNACK_GOURMET", "TRIPOD_CAMERA_SELFIE"):
+        hook_style = "BYRAANNI_3SHOT_COLLAGE"
+        decisions_log.append(
+            "[Hook 3s -> @minhtienoiii06 Hyper-Tactile 1.1s Hook]: Mở đầu cắt nhanh 1.1s vào thao tác tay đắt giá nhất (Cầm đôi / Xếp tháp / Live Camera Screen)."
+        )
+    elif domain in ("TECH_POWER_AIRFLOW", "ORAL_CARE_HYGIENE"):
+        hook_style = "KIEN_GLOW_STROKE_FREEZE"
+        decisions_log.append(
+            "[Hook 3s -> @kieneditcuong Glow Stroke + Blur]: Sản phẩm công nghệ/chăm sóc cá nhân -> Bật viền phát quang EDGE_GLOW + làm mờ nền BLURRY_FOCUS 1.4s đầu."
+        )
+    elif domain in ("FASHION_BAG_SHOE", "DRINKWARE_ICE_TUMBLER") and len(v1_clips) >= 3:
+        hook_style = "BYRAANNI_3SHOT_COLLAGE"
+        decisions_log.append(
+            "[Hook 3s -> @byraanni 3-Shot Collage]: Sản phẩm lifestyle/thời trang -> Ghép 3 góc máy liên hoàn (1.1s x 3) kèm tiếng màn trập Camera Focus."
+        )
+    else:
+        hook_style = "KIEN_GHOST_OPACITY_51"
+        decisions_log.append(
+            "[Hook 3s -> @kieneditcuong Ghost Opacity 51%]: Tạo hiệu ứng bóng mờ 51% trượt khớp vào sản phẩm chính gây tò mò ngay giây đầu."
+        )
+
+    inject_3s_visual_hook_and_radial_loop_outro(edit_plan, hook_style=hook_style, enable_radial_blur_loop_outro=True)
+    apply_koc_color_grade_and_6_zoom_keyframes(edit_plan, color_preset_key=color_preset)
+
+    # --- QUYẾT ĐỊNH 3 & 4: CHỌN HỌ ICON NGỮ CẢNH, EMOJI-REBUS (@grayunbox x @minhtienoiii06) & TÁCH TỪ OCR (@3thag8_ x @minhtienoiii06) ---
+    decisions_log.append(
+        f"[Icon Ngữ Cảnh -> {icon_ctx['semantic_domain']}]: Chọn bộ Icon '{' '.join(icon_ctx['accent_icons'])}' khớp 100% với sản phẩm (Tuyệt đối không dùng icon lệch ngành)."
+    )
+    rebus_notes_all: List[str] = []
+    for idx, txt in enumerate(t_list):
+        role = txt.get("role", "SUBTITLE")
+        raw_t = txt.get("text", "")
+        ctx_res = select_contextual_icons_and_rebus_for_product(
+            raw_t,
+            product_desc,
+            enable_rebus=(role not in ("CHR_SHIELD", "WATERMARK")),
+            enable_ocr_dot_split=(role not in ("CHR_SHIELD", "WATERMARK"))
+        )
+        txt["text"] = ctx_res["transformed_text"]
+        rebus_notes_all.extend(ctx_res["rebus_applied"])
+
+        # Gắn Icon chủ đạo vào tiêu đề mở đầu hoặc Callout nếu chưa có icon
+        if role == "HOOK_BANNER" and icon_ctx["primary_icon"] not in txt["text"]:
+            txt["text"] = f"{icon_ctx['primary_icon']} {txt['text']}"
+        elif role == "SUBTITLE" and "pos_y" not in txt:
+            if color_preset.startswith("YUHTT09"):
+                txt["pos_y"] = -0.35  # Chuẩn @yuhtt09: 1 dòng phụ đề trắng viền đen đặt ở y=-0.35
+            elif color_preset.startswith("GRAYUNBOX") or color_preset.startswith("MINHTIENOIII"):
+                txt["pos_y"] = 0.58  # Chuẩn @grayunbox & @minhtienoiii06: đặt phụ đề ở 1/3 trên để nhường toàn bộ mặt bàn bên dưới cho 2 tay thao tác!
+
+    if rebus_notes_all:
+        decisions_log.append(f"[Emoji-Rebus & Khiên Giá Nông Sản (@grayunbox x @minhtienoiii06 x @yuhtt09)]: Đã mã hóa từ nhạy cảm/giá tiền: {', '.join( sorted(set(rebus_notes_all)) )}.")
+
+    # --- QUYẾT ĐỊNH 5: CHỈ BẬT KÍNH LÚP NÉT ĐỨT 162% (@byraanni) KHI SẢN PHẨM CÓ CHI TIẾT NHỎ ---
+    micro_detail_triggers = (
+        "nút bấm", "cấp độ", "mức gió", "cổng sạc", "type-c", "lông bàn chải", "sợi lông",
+        "đầu cọ", "răng lược", "mối hàn", "đường chỉ", "khóa kéo", "ron cao su", "bánh xe", "màn hình led",
+        "3 màu", "remote", "điều khiển", "nhân kem", "lớp bánh"
+    )
+    matched_micro = [kw for kw in micro_detail_triggers if kw in all_script_low]
+    if matched_micro and v1_clips:
+        target_clip = v1_clips[min(2, len(v1_clips) - 1)]
+        t_start = float(target_clip.get("timeline_start_sec", 6.0))
+        t_dur = min(2.4, max(1.5, float(target_clip.get("timeline_end_sec", t_start + 2.4)) - t_start))
+        label_str = f"Soi kỹ: {matched_micro[0]} {icon_ctx['primary_icon']}"
+        inject_dashed_circle_magnifier_pip(
+            edit_plan,
+            source_file=target_clip.get("source_file") or target_clip.get("file_path", ""),
+            source_in_sec=float(target_clip.get("source_in_sec", 0.5)),
+            timeline_start_sec=t_start,
+            duration_sec=t_dur,
+            detail_label=label_str,
+            palette_key=palette_key
+        )
+        decisions_log.append(
+            f"[Kính Lúp 162% @byraanni -> BẬT]: Phát hiện chi tiết nhỏ ('{matched_micro[0]}') tại {t_start:.1f}s -> Tự động bật Mặt nạ Tròn Nét Đứt phóng đại 162%."
+        )
+    else:
+        decisions_log.append(
+            "[Kính Lúp 162% @byraanni -> TẮT]: Sản phẩm không có chi tiết cơ khí/sợi nhỏ cần soi -> Không chèn Kính lúp để khung hình thoáng sạch."
+        )
+
+    # --- QUYẾT ĐỊNH 6A: KỸ XẢO THƯỚC ĐO NÉT ĐỨT 1M7 & HOOK TRANH LUẬN VÙNG MIỀN (@minhtienoiii06) ---
+    height_match = re.search(r"\b(1m\d+|\d+\s*cm)\b", all_script_low)
+    needs_height_ruler = bool(height_match) or domain == "TRIPOD_CAMERA_SELFIE" or is_assembly_item
+    needs_debate_hook = (domain == "FOOD_SNACK_GOURMET")
+    if needs_height_ruler or needs_debate_hook:
+        h_label = height_match.group(1) if height_match else ("1m7" if domain == "TRIPOD_CAMERA_SELFIE" else "Cao rộng rãi")
+        debate_txt = (
+            "Bịch Bánh Tráng ❌  |  Bao Bánh Tráng ✅ — Chỗ bạn gọi là gì ?"
+            if "bánh tráng" in all_script_low
+            else "🗣️ ai thử ăn kiểu này chưa ? ngon xỉu ✨"
+        )
+        inject_minhtienoiii_sensory_and_ruler_vfx(
+            edit_plan,
+            product_desc=product_desc,
+            enable_dashed_height_ruler=needs_height_ruler,
+            ruler_height_label=h_label,
+            ruler_at_sec=min(8.0, max(2.8, total_dur * 0.45)),
+            enable_dialect_debate_hook=needs_debate_hook,
+            debate_pair_text=debate_txt,
+            palette_key=palette_key
+        )
+        if needs_height_ruler:
+            decisions_log.append(
+                f"[Thước Đo Nét Đứt @minhtienoiii06 -> BẬT]: Phát hiện thông số kích thước ('{h_label}') -> Vẽ đường kẻ nét đứt `⇠ - - {h_label} - - ⇢` trực quan trên màn hình (15.5M views)."
+            )
+        if needs_debate_hook:
+            decisions_log.append(
+                f"[Hook Tranh Luận / Vị Giác @minhtienoiii06 -> BẬT]: Kích hoạt thẻ Hook kích nổ bình luận ('{debate_txt}') kèm tiếng Ping-Pong & Double Pop (19.3M views)."
+            )
+
+    # --- QUYẾT ĐỊNH 6B: CHỈ BẬT MANGA FREEZE-FRAME QUÀ TẶNG & HẠT HƯƠNG/BỌT BAY (@grayunbox) KHI ĐÚNG NGỮ CẢNH ---
+    gift_triggers = ("tặng kèm", "mua 1 tặng", "tặng thêm", "quà tặng", "tặng luôn", "kèm theo", "combo")
+    has_bonus_gift = any(g in all_script_low for g in gift_triggers)
+    has_scent_or_bubbles = domain in ("SCENT_TEA_HERBAL", "SOAP_SKINCARE_CLEANSE") or any(
+        k in all_script_low for k in ("thơm", "hương", "khói", "tạo bọt", "nhiều bọt", "xịt thơm")
+    )
+
+    if has_bonus_gift or has_scent_or_bubbles or outdoor_skin_proof_clip:
+        inject_grayunbox_contextual_vfx_and_pips(
+            edit_plan,
+            product_desc=product_desc,
+            enable_bonus_gift_freeze_frame=has_bonus_gift,
+            bonus_gift_label=f"🎁 Có quà tặng / Combo hời nha! {icon_ctx['primary_icon']}",
+            freeze_at_sec=min(3.5, max(1.8, total_dur * 0.22)),
+            enable_scent_or_bubble_particles=has_scent_or_bubbles,
+            outdoor_skin_proof_clip=outdoor_skin_proof_clip,
+            palette_key=palette_key
+        )
+        if has_bonus_gift:
+            decisions_log.append(
+                "[Manga Freeze-Frame @grayunbox -> BẬT]: Phát hiện có Quà Tặng / Combo -> Chèn hiệu ứng chụp ảnh đứng hình 0.45s khoe quà tặng chống trôi mắt."
+            )
+        if has_scent_or_bubbles:
+            decisions_log.append(
+                f"[Hạt Bay Ngữ Cảnh @grayunbox -> BẬT]: Sản phẩm có Hương thơm/Bọt -> Thả hạt '{' '.join(icon_ctx['floating_particles'])}' lơ lửng bên rìa khung hình."
+            )
+        if outdoor_skin_proof_clip:
+            decisions_log.append(
+                "[PIP Cam Thường Ngoài Nắng @grayunbox -> BẬT]: Đã gắn cửa sổ PIP chứng minh chất da thật dưới nắng tự nhiên."
+            )
+
+    # --- QUYẾT ĐỊNH 6C: BỘ KỸ XẢO NGỮ CẢNH @yuhtt09 (TIÊU ĐỀ VÒM KAOMOJI, HUY HIỆU SHOP RATING, 3IN1/COMBO & TEST NƯỚC KHĂN GIẤY) ---
+    needs_yuhtt09_arch = domain in ("STATIONERY_STUDY_DESK", "JEWELRY_SILVER_ACCESSORY") or color_preset.startswith("YUHTT09")
+    needs_shop_rating_pill = domain == "FASHION_BAG_SHOE" or any(k in all_script_low for k in ("tất", "vớ", "áo", "túi", "đã bán"))
+    needs_combo_or_3in1 = any(k in all_script_low for k in ("chống nắng", "cushion", "kem nền", "3in1", "combo"))
+    needs_water_blot_callout = any(k in all_script_low for k in ("chống nắng", "cushion", "không trôi", "kiềm dầu", "kháng nước", "test nước", "💦"))
+    needs_numbered_badges = domain in ("JEWELRY_SILVER_ACCESSORY", "TECH_POWER_AIRFLOW")
+
+    if any((needs_yuhtt09_arch, needs_shop_rating_pill, needs_combo_or_3in1, needs_water_blot_callout, needs_numbered_badges)):
+        combo_txt = (
+            "❌ Lẻ gần 300 🐣  |  ✅ Combo hời hơn 300 🐣"
+            if "combo" in all_script_low
+            else "3in1: Chống nắng + Primer + Kem nền ✨"
+        )
+        inject_yuhtt09_coquette_unbox_and_proof_vfx(
+            edit_plan,
+            product_desc=product_desc,
+            enable_arch_curved_title_kaomoji=needs_yuhtt09_arch,
+            arch_title_text=f"⌒ {icon_ctx['primary_icon']} Unbox & Test Thật {icon_ctx['primary_icon']} ⌒",
+            enable_shop_rating_pill=needs_shop_rating_pill,
+            rating_pill_text="⭐ 4.9/5 (2.1k)  |  Đã bán 23.6K",
+            enable_combo_or_3in1_badge=needs_combo_or_3in1,
+            combo_badge_text=combo_txt,
+            enable_water_tissue_blot_callout=needs_water_blot_callout,
+            water_blot_at_sec=min(11.5, max(4.0, total_dur * 0.52)),
+            enable_numbered_feature_badges=needs_numbered_badges,
+            palette_key=palette_key
+        )
+        decisions_log.append(
+            f"[Kỹ Xảo Đa Ngành @yuhtt09 -> BẬT]: ArchKaomoji={needs_yuhtt09_arch}, ShopRatingPill={needs_shop_rating_pill}, 3in1/Combo={needs_combo_or_3in1}, WaterTissueBlot={needs_water_blot_callout}."
+        )
+
+    # --- QUYẾT ĐỊNH 6D (MỚI - 2.304 VIDEO DEEP SCAN): PANTONE SWATCH CARD (@meshinthuine), FLOATING POINTER SPECS (@byraanni), CHIBI BADGE (@honghanhxinhgai_01) & CRYSTAL CLEAR 44% SKIN FILTER (@kieneditcuong) ---
+    needs_pantone_swatch = any(k in all_script_low for k in ("chăn", "ga gối", "drap", "nệm", "đệm", "áo len", "set đồ", "bảng màu", "nhiều màu"))
+    needs_floating_pointer_specs = domain in ("TECH_POWER_AIRFLOW", "DRINKWARE_ICE_TUMBLER") or any(
+        k in all_script_low for k in ("micro", "tai nghe", "quạt", "bình giữ nhiệt", "chống ồn", "450ml", "710ml")
+    )
+    needs_chibi_reaction_badge = domain == "STATIONERY_STUDY_DESK" or any(
+        k in all_script_low for k in ("hộp bút", "túi bút", "kẹp tóc", "sashimi", "máy tính casio")
+    )
+    needs_pov_crystal_skin_filter = domain in ("SOAP_SKINCARE_CLEANSE", "STATIONERY_STUDY_DESK", "JEWELRY_SILVER_ACCESSORY")
+
+    if needs_pantone_swatch:
+        t_list.append({
+            "text": "🎨 PANTONE: COCOA • TRUFFLE • OAT",
+            "start_sec": 2.45,
+            "end_sec": min(5.2, total_dur * 0.40),
+            "pos_x": 0.18,
+            "pos_y": 0.64,
+            "font_size": 6.2,
+            "bg_color": "#2B211B",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "POP_UP",
+            "anim_out": "FADE_OUT"
+        })
+        decisions_log.append(
+            "[Pantone Color Swatch Card @meshinthuine #05 -> BẬT]: Đã gắn thẻ bảng màu Pantone góc phải trên cho sản phẩm Chăn ga / Thời trang nhiều màu."
+        )
+
+    if needs_floating_pointer_specs:
+        spec_str = "✦ ANC 42dB • Âm trong trẻo" if "mic" in all_script_low or "tai nghe" in all_script_low else "✦ Gió 17000RPM • Giữ nhiệt kín khít 💦"
+        t_list.append({
+            "text": spec_str,
+            "start_sec": min(3.2, total_dur * 0.22),
+            "end_sec": min(5.8, total_dur * 0.42),
+            "pos_x": -0.24,
+            "pos_y": 0.18,
+            "font_size": 6.4,
+            "bg_color": "#1E2229",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "TYPEWRITER",
+            "anim_out": "FADE_OUT"
+        })
+        decisions_log.append(
+            f"[Floating Part-Pointer Specs @byraanni #05 -> BẬT]: Đã gắn thông số nổi '{spec_str}' bám sát bộ phận sản phẩm."
+        )
+
+    if needs_chibi_reaction_badge:
+        t_list.append({
+            "text": "(๑>◡<๑) Xinh & Tiện xỉu ✨",
+            "start_sec": min(5.2, total_dur * 0.35),
+            "end_sec": min(7.8, total_dur * 0.55),
+            "pos_x": 0.24,
+            "pos_y": 0.50,
+            "font_size": 6.4,
+            "bg_color": "#38222B",
+            "palette_key": palette_key,
+            "role": "CALLOUT",
+            "anim_in": "BOUNCE_IN",
+            "anim_out": "FADE_OUT"
+        })
+        decisions_log.append(
+            "[Micro Chibi Reaction Sticker @honghanhxinhgai_01 #05 -> BẬT]: Đã gắn nhãn biểu cảm Chibi nổi phía trên vùng phụ đề."
+        )
+
+    if needs_pov_crystal_skin_filter:
+        edit_plan["pov_hand_skin_filter"] = {
+            "capcut_filter_name": "Trong như pha lê (Crystal Clear)",
+            "intensity_pct": 44,
+            "source_koc": "@kieneditcuong #12 (7668917355191323912)"
+        }
+        decisions_log.append(
+            "[POV Hand Skin Filter @kieneditcuong #12 -> BẬT]: Áp công thức Bộ lọc 'Trong như pha lê (Crystal Clear) 44%' giúp da tay POV trắng hồng tự nhiên."
+        )
+
+    # --- QUYẾT ĐỊNH 7: ĐIỀU PHỐI NHẠC NỀN (BGM) & 42 FOLEY/SFX CỤC BỘ CHUẨN 8 KOC ---
+    audio_routing_res = select_smart_contextual_audio_and_sfx_plan(
+        edit_plan,
+        product_desc=product_desc,
+        semantic_domain=domain,
+        color_preset=color_preset,
+        total_dur_sec=total_dur
+    )
+    decisions_log.append(
+        f"[Âm Thanh & Nhạc Nền 8 KOC -> {audio_routing_res['selected_bgm_key']}]: Đã nạp BGM cục bộ + {len(audio_routing_res['injected_sfx_keys'])} Foley/SFX ({', '.join(audio_routing_res['injected_sfx_keys'])})."
+    )
+
+    # --- QUYẾT ĐỊNH 8: LÁ CHẮN BẢO VỆ CHR & WATERMARK (@3thag8_ x @byraanni) ---
+    has_price_mention = any(p in all_script_low for p in ("cành", "củ", "hạt dẻ", "k ", "000đ", "flash sale", "trợ giá", "voucher", "🐟", "🍠", "🌰", "🍅"))
+    inject_chr_shield_and_brand_watermark_tracks(
+        edit_plan,
+        total_dur_sec=total_dur,
+        creator_handle=creator_handle,
+        product_archetype=product_archetype,
+        has_flash_sale_price=has_price_mention,
+        enable_dot_split_ocr=True
+    )
+    decisions_log.append(
+        f"[Lá Chắn CHR @3thag8_ + Loop]: Đã rà soát bảo vệ điểm CHR (Ngành {product_archetype}, Báo giá={has_price_mention}) & khóa vòng lặp Radial Blur cuối video."
+    )
+
+    edit_plan["smart_routing_decisions_log"] = decisions_log
+    edit_plan["semantic_icon_context"] = icon_ctx
+    edit_plan["audio_and_sfx_routing"] = audio_routing_res
+    return edit_plan
+
 CAPCUT_VOICE_FILTERS = {
     "SWEET":     {"name": "Sweet",     "resource_id": "7320193577613529602", "effect_id": "2787429"},
     "ENERGETIC": {"name": "Energetic", "resource_id": "7320193885114733057", "effect_id": "2787437"},
@@ -1079,7 +2875,10 @@ def inject_full_capcut_project(project_name: str, edit_plan: dict):
             extra_refs.append(anim_grp["id"])
 
         if seg.get("mask"):
-            m_mat = create_mask_material(mask_key=seg["mask"])
+            if isinstance(seg.get("mask_config"), dict):
+                m_mat = create_mask_material(**seg["mask_config"])
+            else:
+                m_mat = create_mask_material(mask_key=seg["mask"])
             masks_mat.append(m_mat)
             extra_refs.append(m_mat["id"])
 
@@ -1090,7 +2889,12 @@ def inject_full_capcut_project(project_name: str, edit_plan: dict):
 
         scale_start = float(seg.get("scale", 1.0))
         scale_end = float(seg.get("scale_end", scale_start * 1.05))
-        kfs = create_scale_keyframes(scale_start, scale_end, t_dur_us) if scale_end != scale_start else []
+        if seg.get("zoom_archetype"):
+            kfs = create_6_archetype_zoom_keyframes(seg["zoom_archetype"], t_dur_us, scale_start)
+        elif scale_end != scale_start:
+            kfs = create_scale_keyframes(scale_start, scale_end, t_dur_us)
+        else:
+            kfs = []
 
         v_seg_obj = {
             "id": uid(), "material_id": v_mat_id, "extra_material_refs": extra_refs,
@@ -1100,7 +2904,7 @@ def inject_full_capcut_project(project_name: str, edit_plan: dict):
             "clip": {
                 "scale": {"x": scale_start, "y": scale_start}, "rotation": 0.0,
                 "transform": {"x": float(seg.get("pos_x", 0.0)), "y": float(seg.get("pos_y", 0.0))},
-                "flip": {"vertical": False, "horizontal": False}, "alpha": 1.0
+                "flip": {"vertical": False, "horizontal": False}, "alpha": float(seg.get("alpha", 1.0))
             },
             "uniform_scale": {"on": True, "value": scale_start},
             "common_keyframes": kfs,
@@ -1160,11 +2964,11 @@ def inject_full_capcut_project(project_name: str, edit_plan: dict):
             "clip": {
                 "scale": {"x": scale_xy, "y": scale_xy}, "rotation": float(txt.get("rotation", 0.0)),
                 "transform": {"x": float(txt.get("pos_x", 0.0)), "y": float(txt.get("pos_y", -0.38))},
-                "flip": {"vertical": False, "horizontal": False}, "alpha": 1.0
+                "flip": {"vertical": False, "horizontal": False}, "alpha": float(txt.get("alpha", 1.0))
             },
             "render_index": 14000
         }
-        if role in ("HOOK_BANNER", "CALLOUT", "CTA", "BLING_ACCENT"):
+        if role in ("HOOK_BANNER", "CALLOUT", "CTA", "BLING_ACCENT", "CHR_SHIELD", "WATERMARK"):
             text_hook_segments.append(t_seg)
         else:
             text_sub_segments.append(t_seg)

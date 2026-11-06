@@ -18,7 +18,13 @@ from typing import Dict, List, Optional
 
 BRAIN_DIR = "./workspace/brain_memory"
 CHAIN_DIR = "./workspace/chain_state"
-CAPCUT_DRAFTS_ROOT = "/Users/huynguyen/Movies/CapCut/User Data/Projects/com.lveditor.draft"
+CAPCUT_DRAFTS_ROOT = os.path.expanduser(
+    "~/Movies/CapCut/User Data/Projects/com.lveditor.draft"
+)
+if not os.path.exists(CAPCUT_DRAFTS_ROOT) and os.name == "nt":
+    CAPCUT_DRAFTS_ROOT = os.path.expandvars(
+        r"%LOCALAPPDATA%\CapCut\User Data\Projects\com.lveditor.draft"
+    )
 
 PREF_FILE = os.path.join(BRAIN_DIR, "learned_user_preferences.json")
 REFLEXION_FILE = os.path.join(BRAIN_DIR, "reflexion_lessons.jsonl")

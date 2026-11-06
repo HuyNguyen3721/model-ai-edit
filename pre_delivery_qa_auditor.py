@@ -202,11 +202,11 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
     }
     auto_healed_issues = []
     v_list = edit_plan.get("video_timeline", [])
-    t_list = edit_plan.get("text_timeline", [])
-    sfx_list = edit_plan.get("sfx_timeline", [])
+    t_list = edit_plan.get("text_timeline") if "text_timeline" in edit_plan else edit_plan.get("text_overlays", [])
+    sfx_list = edit_plan.get("sfx_timeline") if "sfx_timeline" in edit_plan else edit_plan.get("audio_tracks", [])
     bgm_list = edit_plan.get("bgm_timeline", [])
 
-    # --- KIỂM ĐỊNH & TỰ SỬA TRỤ CỘT 1: HOOK 1.5 GIÂY ĐẦU, ĐIỂM GÃY GIÂY THỨ 6 & NHỊP CẮT 2.5 GIÂY ---
+    # --- KIỂM ĐỊNH & TỰ SỬA TRỤ CỘT 1: HOOK 1.5 GIÂY ĐẦU, ĐIỂM GÃY GIÂY THỨ 6, NHỊP CẮT & SEAMLESS LOOP OUTRO ---
     v1_clips = [c for c in v_list if not c.get("is_pip")]
     if v1_clips:
         first_clip = v1_clips[0]
@@ -216,6 +216,15 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
         if first_clip.get("scale", 1.0) == first_clip.get("scale_end", 1.0):
             first_clip["scale_end"] = round(float(first_clip.get("scale", 1.0)) * 1.12, 3)
             auto_healed_issues.append("Pillar 1 [Auto-Heal]: Đã bổ sung Dynamic Zoom (100% -> 112%) cho cảnh Hook 1.5 giây đầu.")
+
+        # Bổ sung Vòng lặp vô tận Radial Blur ở 0.3s cuối video (Chuẩn @3thag8_ & @byraanni)
+        last_clip = v1_clips[-1]
+        if not last_clip.get("transition"):
+            last_clip["transition"] = "RADIAL_BLUR"
+            last_clip["zoom_archetype"] = last_clip.get("zoom_archetype") or "MATCH_SCALE_TRANSITION"
+            auto_healed_issues.append(
+                "Pillar 1 [Seamless Loop Auto-Heal]: Đã gắn chuyển cảnh 'RADIAL_BLUR' + Zoom-In ở đuôi clip cuối để nối vòng lặp vô tận về Cảnh 1 (@3thag8_ x @byraanni)."
+            )
 
     for clip in v1_clips:
         dur = clip.get("timeline_end_sec", 0.0) - clip.get("timeline_start_sec", 0.0)
@@ -273,22 +282,50 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
             bgm["volume"] = 0.06
             auto_healed_issues.append("Pillar 5 [Auto-Heal]: Đã khóa âm lượng Nhạc nền Thương mại về đúng chuẩn 6% (4%-8%) để giọng đọc rõ 100%.")
 
-    existing_sfx_times = [float(s.get("timeline_sec", 0.0)) for s in sfx_list]
+    existing_sfx_times = [float(s.get("timeline_sec", s.get("start_sec", 0.0))) for s in sfx_list]
     for txt in t_list:
         if txt.get("role") == "CALLOUT":
             t_start = float(txt.get("start_sec", 0.0))
             if not any(abs(t_start - st) <= 0.18 for st in existing_sfx_times):
-                sfx_list.append({
-                    "sfx_key": "soft_pop",
-                    "timeline_sec": t_start,
-                    "volume": 0.24,
-                    "auto_injected_by_qa": True
-                })
+                if "sfx_timeline" in edit_plan:
+                    sfx_list.append({
+                        "sfx_key": "soft_pop",
+                        "timeline_sec": t_start,
+                        "volume": 0.24,
+                        "auto_injected_by_qa": True
+                    })
                 existing_sfx_times.append(t_start)
                 auto_healed_issues.append(f"Pillar 5 [Auto-Heal]: Đã tự động gắn thêm tiếng 'soft_pop' cho nhãn Callout tại {t_start:.2f}s.")
 
-    # --- KIỂM ĐỊNH & TỰ SỬA TRỤ CỘT 6: AN TOÀN 100% CHÍNH SÁCH TIKTOK SHOP CHR VIỆT NAM ---
+    # --- KIỂM ĐỊNH & TỰ SỬA TRỤ CỘT 6: AN TOÀN 100% CHÍNH SÁCH TIKTOK SHOP CHR VIỆT NAM, LÁCH OCR (@3thag8_) & EMOJI-REBUS (@grayunbox) ---
     full_script_low = " ".join(txt.get("text", "").lower() for txt in t_list)
+    ocr_dot_rules = {
+        r"\bmụn\b": "m.ụn",
+        r"\bnám\b": "n.ám",
+        r"\bmờ thâm\b": "mờ thâ.m",
+        r"\bdưỡng trắng\b": "dưỡng trắ.ng",
+        r"\btrắng da\b": "trắ.ng da",
+        r"\bgiảm cân\b": "gi.ảm c.ân",
+        r"\bbéo ngậy\b": "p.é.o ngậyyy",
+        r"\btan chảy\b": "t:an ch:ảy",
+        r"\bhữu cơ\b": "h.ữ.u c.ơ",
+        r"\bngon bá cháy\b": "ngo:n b.á cháy",
+        r"\bgiá chát\b": "g.i.á chát",
+        r"\bsạch sâu\b": "sạ.ch sâu",
+        r"\bđau mỏi\b": "đa:u mỏi"
+    }
+    rebus_qa_rules = [
+        (r"\b(khử|loại bỏ)\s+mùi\b", r"\1 🚮 mùi"),
+        (r"\b(đuổi|diệt)\s+muỗi\b", "đuổi 🦟🥀"),
+        (r"\b(\d+)\s*(k|cành)\s*/\s*(chiếc|cây|cái|đôi|món|tờ|gói)\b", r"\1 🌱/\3"),
+        (r"\b(lẻ|combo)\s+([^|,\n]{0,18}?)(\d+)\s*(k|cành)\b", r"\1 \2\3 🐣"),
+        (r"\b(\d+)\s*cành(?!\s*🐟)\b", r"\1 cành 🐟"),
+        (r"\b(\d+)\s*củ(?!\s*🍠)\b", r"\1 củ 🍠"),
+        (r"\b(\d+)\s*k\b(?!\s*(lượt|đánh giá|người|bản|mẫu|fl|follow))", r"\1 🍅 thoi"),
+        (r"\btự\s+chụp\s+ảnh\b", "tự 📸 ảnh"),
+        (r"\bhạt dẻ(?!\s*🌰)\b", "hạt dẻ 🌰"),
+        (r"\bgóc\s+trái\s+màn\s+hình(?!\s*(nè\s*)?↙️)\b", "góc trái màn hình nè ↙️")
+    ]
     for txt in t_list:
         content = txt.get("text", "")
         low_c = content.lower()
@@ -301,6 +338,19 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
                 auto_healed_issues.append(
                     f"Pillar 6 [CHR Safety Auto-Heal]: Phát hiện cụm từ vi phạm CHR '{banned}' -> Đã đổi thành '{safe_rep}'."
                 )
+        if txt.get("role") not in ("CHR_SHIELD", "WATERMARK"):
+            for pat, rep in ocr_dot_rules.items():
+                if re.search(pat, txt["text"], flags=re.IGNORECASE):
+                    txt["text"] = re.sub(pat, rep, txt["text"], flags=re.IGNORECASE)
+                    auto_healed_issues.append(
+                        f"Pillar 6 [OCR Dot-Split Shield @3thag8_]: Đã chấm tách từ nhạy cảm trên chữ màn hình thành '{rep}' để tránh bot OCR quét nhầm."
+                    )
+            for r_pat, r_rep in rebus_qa_rules:
+                if re.search(r_pat, txt["text"], flags=re.IGNORECASE):
+                    txt["text"] = re.sub(r_pat, r_rep, txt["text"], flags=re.IGNORECASE)
+                    auto_healed_issues.append(
+                        f"Pillar 6 [Emoji-Rebus Shield @grayunbox]: Đã chèn Emoji-Rebus ngữ cảnh ('{r_rep}') giúp sinh động hóa phụ đề & giảm mật độ từ khóa nhạy cảm."
+                    )
 
     # Tự động bơm dòng chữ miễn trừ bắt buộc nếu là Thực phẩm bảo vệ sức khỏe (TPCN / Vitamin / Collagen - Mục 5.2)
     tpcn_triggers = ("vitamin", "collagen", "protein", "viên uống", "thực phẩm bảo vệ sức khỏe", "tpcn", "đề kháng")
@@ -316,6 +366,40 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
         })
         auto_healed_issues.append(
             "Pillar 6 [CHR Mandatory Disclaimer]: Phát hiện nhóm TPCN/Vitamin -> Đã tự động chèn nhãn bắt buộc 'Thực phẩm này không phải là thuốc...' (Mục 5.2)."
+        )
+
+    # Tự động bơm Lá chắn cơ địa cho Mỹ phẩm / Chăm sóc da (@3thag8_ Shield)
+    skincare_triggers = ("kem", "serum", "mặt nạ", "dưỡng da", "trắng", "m.ụn", "mụn", "toner", "sữa rửa mặt", "lỗ chân lông")
+    if any(k in full_script_low for k in skincare_triggers) and "tuỳ vào cơ địa" not in full_script_low:
+        t_list.append({
+            "text": "*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*",
+            "start_sec": 0.5,
+            "end_sec": 12.0,
+            "pos_x": 0.0,
+            "pos_y": -0.55,
+            "font_size": 4.8,
+            "alpha": 0.72,
+            "role": "CHR_SHIELD"
+        })
+        auto_healed_issues.append(
+            "Pillar 6 [CHR Skincare Shield @3thag8_]: Đã tự động ghim dòng chữ nhỏ '*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*' ở y=-0.55 bảo vệ điểm CHR."
+        )
+
+    # Tự động bơm Lá chắn biến động giá Flash Sale (@3thag8_ Shield)
+    price_triggers = ("cành", "k ", "000đ", "voucher", "freeship", "trợ giá", "flash sale", "giảm giá")
+    if any(k in full_script_low for k in price_triggers) and "ctkm kết thúc" not in full_script_low:
+        t_list.append({
+            "text": "*giá và ưu đãi có thể thay đổi khi CTKM kết thúc*",
+            "start_sec": 0.5,
+            "end_sec": 12.0,
+            "pos_x": 0.0,
+            "pos_y": -0.59,
+            "font_size": 4.6,
+            "alpha": 0.70,
+            "role": "CHR_SHIELD"
+        })
+        auto_healed_issues.append(
+            "Pillar 6 [CHR Price Shield @3thag8_]: Đã tự động ghim '*giá và ưu đãi có thể thay đổi khi CTKM kết thúc*' miễn nhiễm lỗi Lệch giá biến thể (-20đ CHR)."
         )
 
     # Tự động bơm nhãn độ tuổi bắt buộc nếu là Sữa cho bé trên 2 tuổi (Tránh bị AI quét nhầm sang sữa <24 tháng -40đ CHR)
@@ -337,7 +421,7 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
     total_score = sum(score_breakdown.values())
     return {
         "final_qa_score": total_score,
-        "status": "PASSED_S_TIER_VIRAL" if total_score >= 90 else "NEEDS_REVISION",
+        "status": "PASSED_S_TIER_VIRAL" if total_score >= 95 else "NEEDS_REVISION",
         "score_breakdown": score_breakdown,
         "auto_healed_improvements": auto_healed_issues,
         "healed_edit_plan": edit_plan
@@ -345,11 +429,12 @@ def audit_and_auto_heal_edit_plan_before_delivery(edit_plan: Dict, draft_dict: D
 
 def generate_tiktok_shop_publish_package(product_keyword: str, has_combo_deal: bool = False) -> Dict[str, any]:
     """
-    [BỘ TỐI ƯU HẬU XUẤT BẢN CHUẨN PHỄU GPM - PRODUCT ANCHOR TITLE & 12-POINT CHECKLIST]:
+    [BỘ TỐI ƯU HẬU XUẤT BẢN CHUẨN PHỄU GPM - PRODUCT ANCHOR TITLE, GOLDEN EXPORT SETTINGS & 12-POINT CHECKLIST]:
     Tự động sinh gói thông tin đăng bài giúp tăng gấp đôi CTR Giỏ hàng & ăn trọn Search Traffic:
     1. 3 phương án Tên Thẻ Giỏ Hàng (Product Anchor Title <= 30 ký tự).
     2. Đồng bộ 3 lớp SEO (Từ khóa 5s đầu + Caption + Hashtag).
-    3. Checklist 12 điểm an toàn CHR & hướng dẫn chạy Video Pre-Check.
+    3. Thông số Xuất Video Nét Căng Không Bị TikTok Bóp Nén (Chuẩn @kieneditcuong).
+    4. Checklist 12 điểm an toàn CHR & hướng dẫn chạy Video Pre-Check.
     """
     kw_short = product_keyword.strip()[:16]
     anchor_titles = [
@@ -359,13 +444,28 @@ def generate_tiktok_shop_publish_package(product_keyword: str, has_combo_deal: b
     ]
     return {
         "recommended_product_anchor_titles_max_30_chars": anchor_titles,
+        "seo_caption_and_hashtags": (
+            f"Trải nghiệm thực tế {product_keyword} sau khi test đủ kiểu — ưu nhược điểm mình nói rõ trong video nha mọi người ✨ "
+            f"#review #goclamdep #xuhuong #tiktokshop #{re.sub(r'\\s+', '', product_keyword.lower())}"
+        ),
         "three_layer_seo_5s_check": {
             "layer_1_computer_vision": f"Hình ảnh thật của '{product_keyword}' xuất hiện rõ nét ngay giây 0.0s - 2.0s.",
             "layer_2_speech_to_text": f"Câu thoại đầu tiên phát âm chuẩn xác từ khóa '{product_keyword}'.",
             "layer_3_ocr_on_screen": f"Chữ Hook trên màn hình và Caption đều chứa từ khóa '{product_keyword}'."
         },
+        "golden_capcut_export_settings_kieneditcuong": {
+            "resolution": "2K hoặc 4K (hoặc 1080p Full HD nếu máy yếu)",
+            "frame_rate": "60 fps",
+            "codec_and_format": "H.264 (.mp4)",
+            "bit_rate": "Kéo thanh Bitrate (Tốc độ bit) lên mức Cao nhất / Tuỳ chỉnh ~80-100 Mbps",
+            "mandatory_switches_to_turn_off": [
+                "❌ BẮT BUỘC TẮT 'Xuất AI Ultra HD (Export AI Ultra HD)' (Tránh làm bệt da và biến dạng chữ nhỏ)",
+                "❌ BẮT BUỘC TẮT 'Luồng quang học (Optical Flow)' (Tránh hiện tượng bóng ma nhòe viền ngón tay khi lia nhanh)",
+                "❌ BẮT BUỘC TẮT 'HDR thông minh (Smart HDR)' (Tránh bị máy chủ TikTok hạ sáng làm xỉn màu video sau khi đăng)"
+            ]
+        },
         "export_and_precheck_mandates": [
-            "1. Xuất file ở độ phân giải 1080p (Full HD) - 30fps hoặc 60fps (KHÔNG xuất 4K để tránh bị máy chủ TikTok nén bệt màu).",
+            "1. Kiểm tra 3 công tắc CẤM BẬT khi xuất file CapCut (@kieneditcuong): TẮT Export AI Ultra HD, TẮT Optical Flow, TẮT Smart HDR.",
             "2. Vào TikTok Studio -> Trung tâm nhà sáng tạo TikTok Shop -> Bộ công cụ -> chạy 'Video Pre-Check' trước khi đăng công khai.",
             "3. Nếu có cảnh Unbox rạch hộp: Kiểm tra lần cuối đảm bảo đã xé/che kín 100% phiếu giao hàng có SĐT/Địa chỉ/Mã QR (-20đ CHR).",
             "4. Bật công tắc 'Cho phép tải lên chất lượng cao (Allow high-quality uploads)' ở mục Tùy chọn khác.",

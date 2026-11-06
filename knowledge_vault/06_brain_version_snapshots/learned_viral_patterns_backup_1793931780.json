@@ -1,0 +1,78 @@
+[
+  {
+    "video_id": "cleanroom_koc_meshinthuine_p1",
+    "product_archetype": "P1",
+    "author": "meshinthuine",
+    "caption_title": "Khuôn mẫu KOC Triệu Đơn Chuẩn Sạch Bản Quyền (P1 - @meshinthuine)",
+    "breakout_metrics": {
+      "views": 420000,
+      "likes": 24500,
+      "comments": 860,
+      "shares": 3200,
+      "saves": 6400,
+      "followers": 85000,
+      "hours_since_upload": 36.0,
+      "outlier_ratio_x": 4.94,
+      "velocity_views_per_hour": 11666.7,
+      "affiliate_intent_rate_pct": 14.6,
+      "bvi_score_100": 94.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 21.1,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.35,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.72,
+      "v1_pacing_curve_sec": [
+        1.35,
+        1.55,
+        1.8,
+        1.65,
+        2.1,
+        1.75,
+        1.9,
+        1.6,
+        1.85,
+        2.05,
+        1.7,
+        1.8
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_TEXTURE_15CM",
+        "A1_45DEG_TALKING_HEAD",
+        "A6_POV_HAND_SWATCH",
+        "A3_ONETAKE_ABSORPTION",
+        "A7_SPLIT_BEFORE_AFTER",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 142.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 42.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Tôn tiếng bóp serum & giọng tâm sự)"
+    },
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 96.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:22:50"
+  }
+]

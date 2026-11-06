@@ -6,6 +6,8 @@ description: >-
 
 # TikTok Auto-Edit Master (`Node 1 -> Node 7` — `/edit-video-capcut`)
 
+> **TÀI LIỆU THAM CHIẾU BẮT BUỘC:** Đọc [TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md](../../TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md) để nắm vững Bộ não điều phối 9 quyết định thông minh (`orchestrate_smart_multi_koc_fusion_plan`), 6 kiểu Keyframe Zoom `@kieneditcuong` (`ORGANIC_HANDHELD_3PT_ROTATION`, `CON_THOI_PENDULUM_ZOOM_OUT`...), kho **50 file `.wav` SFX + 8 bản `.wav` BGM cục bộ** tại `./workspace/sfx_studio/`, và từ điển chấm tách 24 cụm từ OCR bảo vệ điểm CHR (`apply_dot_split_ocr_evasion`).
+
 Kích hoạt Skill này khi người dùng đã có video thô (1 video dài `>1 phút` hoặc nhiều clip ngắn trong `./raw_videos/`) và yêu cầu dựng thành dự án hoàn chỉnh trên **CapCut Desktop**.
 
 ## Quy Trình Chuỗi 7 Mắt Xích (`7-Node Model Chaining x 4-Step CoT`)
@@ -16,11 +18,11 @@ Tại mỗi mắt xích, AI bắt buộc suy luận theo 4 bước (`Quan sát �
 1. **Tự động chuyển ảnh/video từ Hộp thư chung (`./raw_photos/`, `./raw_videos/`) sang Thư mục riêng của Dự án (`./projects/<slug>/videos/`):**
    - Trước khi phân tích hay bơm đường dẫn vào CapCut Desktop, **BẮT BUỘC** chạy lệnh gom file tự động để người dùng **không bao giờ phải tự tay xóa file cũ** trong `./raw_videos/` và dự án trên CapCut Desktop **vĩnh viễn không bị lỗi `Media Lost`**:
      ```bash
-     python3 /Users/huynguyen/Desktop/tiktok/self_evolving_trainer.py --ingest-project "<ten_du_an_slug>"
+     python3 ./self_evolving_trainer.py --ingest-project "<ten_du_an_slug>"
      ```
    - Kiểm tra xem dự án có sẵn file `./projects/<slug>/blueprint/<slug>_shooting_plan.json` (hoặc trong `./workspace/shooting_blueprints/`) từ `Node 0` không và nạp bộ nhớ tự học:
      ```bash
-     python3 /Users/huynguyen/Desktop/tiktok/self_evolving_trainer.py --show-brain
+     python3 ./self_evolving_trainer.py --show-brain
      ```
 2. Dùng `smart_raw_miner.py` và hàm `audit_raw_resources_and_generate_user_requests()` trong `pre_delivery_qa_auditor.py` để quét toàn bộ video trong `./projects/<slug>/videos/`:
    - Nếu phát hiện **thiếu cảnh cốt lõi** (ví dụ: không có cảnh chứng minh công dụng `One-Take`, clip dài `>3.2s` mà không có cảnh cận `Macro` cắt ngang, hoặc thiếu sáng nặng `YAVG < 85`), **hãy chủ động nhắn hỏi người dùng xem họ có muốn cung cấp thêm clip/ghi âm bổ sung không**, đồng thời đưa sẵn **Phương án chữa cháy (`AI Fallback Plan`)** nếu người dùng chọn dựng luôn!
@@ -53,5 +55,5 @@ Tại mỗi mắt xích, AI bắt buộc suy luận theo 4 bước (`Quan sát �
 
 ### Mắt Xích 6 & 7 (`Node 6 & 7`): Bơm CapCut Draft, Tự Kiểm Duyệt 100 Điểm & Bàn Giao
 1. Chạy `audit_and_auto_heal_edit_plan_before_delivery()` trong `pre_delivery_qa_auditor.py` để tự chấm điểm trên thang 100 và tự sửa lỗi (`Auto-Heal`) cho đến khi đạt **`>= 95/100 điểm`**.
-2. Gọi `inject_master_draft()` và `verify_and_auto_heal_draft()` trong `capcut_master_injector.py` để bơm dự án vào `/Users/huynguyen/Movies/CapCut/User Data/Projects/com.lveditor.draft/<Project_Name>/` và lưu bản chụp `save_initial_ai_draft_snapshot()` phục vụ việc học ngược sau này.
+2. Gọi `inject_master_draft()` và `verify_and_auto_heal_draft()` trong `capcut_master_injector.py` để bơm dự án vào `~/Movies/CapCut/User Data/Projects/com.lveditor.draft/<Project_Name>/` và lưu bản chụp `save_initial_ai_draft_snapshot()` phục vụ việc học ngược sau này.
 3. Xuất **Bảng Điểm QA 100 Điểm** + **Gói Đăng Bài TikTok Shop (`generate_tiktok_shop_publish_package`: Tiêu đề Thẻ Giỏ Hàng `<= 30 ký tự`, Caption SEO, Hashtag, Miễn trừ TPCN nếu có)** cho người dùng!

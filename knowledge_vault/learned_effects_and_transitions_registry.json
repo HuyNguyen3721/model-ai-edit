@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:33:18",
+  "updated_at": "2026-11-06T16:18:22",
   "copyright_policy": "100% Clean-Room & CapCut Commercial Safe (Zero audio ripping from third-party videos)",
   "discovered_transitions": {},
   "discovered_video_effects": {},
@@ -13,8 +13,28 @@
     "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav",
     "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav",
     "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav",
-    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav"
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/ui_double_pop.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/magnifier_loupe_zoom.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/blister_pack_pop.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/radial_zoom_loop_whoosh.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/box_cutter_tape_slice.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/bubble_wrap_unroll_pop.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/screen_seal_peel_smooth.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/fine_mist_spray_shimmer.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/pen_click_and_paper_write.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/water_pour_splash_test.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/zipper_slide_bag_smooth.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/card_deck_fan_flip_asmr.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/sfx_kien_kirarin_glitter_skincare_done.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_poyo_kawaii_skin_touch_bounce.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_remove_bottle_cap_unscrew.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_pac_low_telop_subtitle_pop.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/sfx_kien_money_chakin_deal_alert.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_cheese_pull_mucus_necha_mlem.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_sizzling_pan_fry_crackle.wav",
+    "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_minhtien_vacuum_mattress_air_inflate_hiss.wav"
   ],
   "capcut_rescued_files_count": 2,
-  "external_sfx_registry_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/external_custom_sfx_registry.json"
+  "external_sfx_registry_path": "./knowledge_vault/external_custom_sfx_registry.json"
 }

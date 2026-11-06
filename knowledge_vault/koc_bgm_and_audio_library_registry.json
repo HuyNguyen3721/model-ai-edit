@@ -1,0 +1,148 @@
+{
+  "updated_at": "2026-11-06T15:46:00",
+  "description": "Kho Nhạc Nền (BGM) & Hồ Sơ Kỹ Thuật Âm Thanh Chuẩn Gu 8 KOC Đỉnh Cao (Đã tải sẵn trên ổ đĩa, sẵn sàng tiêm thẳng vào CapCut Desktop)",
+  "koc_bgm_tracks": {
+    "bgm_v1_meshinthuine_warm_indie_acoustic_108bpm": {
+      "bgm_key": "bgm_v1_meshinthuine_warm_indie_acoustic_108bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v1_meshinthuine_warm_indie_acoustic_108bpm.wav",
+      "koc_handle": "@meshinthuine",
+      "reference_tracks": [
+        "Feels Like Magic - Axis7",
+        "Lưu Niên - Lê Bảo",
+        "original sound - vandalrock"
+      ],
+      "bpm": 108,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P3_Baby_Mother",
+        "P2_Home_Decor",
+        "P1_Skincare"
+      ],
+      "ducking_profile": "Voiceover Primary (18% -> 5% when speaking), Native ASMR Fabric/Silicone Rubbing"
+    },
+    "bgm_v2_honghanh_kawaii_lofi_pluck_116bpm": {
+      "bgm_key": "bgm_v2_honghanh_kawaii_lofi_pluck_116bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v2_honghanh_kawaii_lofi_pluck_116bpm.wav",
+      "koc_handle": "@honghanhxinhgai_01",
+      "reference_tracks": [
+        "fluffy - さりい (Sarii)",
+        "cutie - Mofeny",
+        "biscuits - koteon",
+        "KAWAII Japanese lo-fi element R&B(875210) - Tsuyoshi_san"
+      ],
+      "bpm": 116,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P1_Beauty_Lipstick",
+        "P6_Cute_Accessories",
+        "P4_Stationery_Blindbox"
+      ],
+      "ducking_profile": "Fast Sassy Voiceover 1.18x (14% -> 4% when speaking) + Cute UI Telop Pops on Pinned Comments"
+    },
+    "bgm_v3_kienedit_quirky_pizzicato_cat_122bpm": {
+      "bgm_key": "bgm_v3_kienedit_quirky_pizzicato_cat_122bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v3_kienedit_quirky_pizzicato_cat_122bpm.wav",
+      "koc_handle": "@kieneditcuong",
+      "reference_tracks": [
+        "The Cat's Alibi - Kaito Mori",
+        "Opening/Conversion Jingle Horn System(834801) - OTO Ville"
+      ],
+      "bpm": 122,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "ALL_FAST_HOOK_REVIEWS",
+        "P1_P2_P6_Affiliate"
+      ],
+      "ducking_profile": "High-Impact 3s Hook Jingle Horn + 6-Category Kinetic SFX Layering (-12dB SFX, -22dB BGM)"
+    },
+    "bgm_v4_3thag8_classical_minuet_bounce_118bpm": {
+      "bgm_key": "bgm_v4_3thag8_classical_minuet_bounce_118bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v4_3thag8_classical_minuet_bounce_118bpm.wav",
+      "koc_handle": "@3thag8_",
+      "reference_tracks": [
+        "Elegant and gentle, Boccellini's Menuet - Kohrogi",
+        "Happy Feels (NPC Life) - Trendify",
+        "Sweet Tea - Neyaraf"
+      ],
+      "bpm": 118,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P1_Hair_Skincare",
+        "P2_Household_Proof",
+        "P6_Waterproof_Tech"
+      ],
+      "ducking_profile": "Extreme Physical Proof Foley (Water Splash / Wet Tear / Serum Squeeze) + Whip-Pan Swish + Radial Loop Whoosh"
+    },
+    "bgm_v5_byraanni_pinterest_editorial_rnb_102bpm": {
+      "bgm_key": "bgm_v5_byraanni_pinterest_editorial_rnb_102bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v5_byraanni_pinterest_editorial_rnb_102bpm.wav",
+      "koc_handle": "@byraanni",
+      "reference_tracks": [
+        "303 Music Vibes",
+        "prodbycvplis",
+        "EXY COOL BEATS (Pinterest Aesthetic R&B)"
+      ],
+      "bpm": 102,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P2_Tumbler_Decor",
+        "P3_Fashion_Shoes",
+        "P6_Aesthetic_Mini_Fan"
+      ],
+      "ducking_profile": "M2 Pure ASMR + Editorial Beat-Sync (Zero Voiceover, BGM at 35% mixed with Frosted Paper Crinkle, Ice Pour & 4-Speed Click)"
+    },
+    "bgm_v6_grayunbox_holiday_breakfast_jazz_112bpm": {
+      "bgm_key": "bgm_v6_grayunbox_holiday_breakfast_jazz_112bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v6_grayunbox_holiday_breakfast_jazz_112bpm.wav",
+      "koc_handle": "@grayunbox",
+      "reference_tracks": [
+        "Elegant holiday breakfast(1003938) - sano mika",
+        "all.about.junyoung Cafe Bossanova"
+      ],
+      "bpm": 112,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P2_Home_Aromatherapy",
+        "P1_Personal_Care_Oral",
+        "P6_Smart_Gadgets"
+      ],
+      "ducking_profile": "50% Beat-Synced Cuts + Torn-Paper Manga Sketch Freeze SFX + Tactile Bristle/Box Flick ASMR"
+    },
+    "bgm_v7_minhtienoiii_healing_farm_orchestra_124bpm": {
+      "bgm_key": "bgm_v7_minhtienoiii_healing_farm_orchestra_124bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v7_minhtienoiii_healing_farm_orchestra_124bpm.wav",
+      "koc_handle": "@minhtienoiii06",
+      "reference_tracks": [
+        "A calm and warm healing song inspired by the farm - Akito orchestra",
+        "Eine Kleine Nachtmusik 1st movement(996517) - East Valley Music"
+      ],
+      "bpm": 124,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P5_Food_Snacks_Candy",
+        "P6_Tripod_Selfie_Stick",
+        "P2_Cozy_Desk_Items"
+      ],
+      "ducking_profile": "Hyper-Kinetic 1.25s Micro-Cuts + Tin-Lid Metallic Clink ASMR + Crispy Bite Crunch + Ping-Pong Debate Hook SFX"
+    },
+    "bgm_v8_yuhtt09_spedup_kpop_coquette_pluck_130bpm": {
+      "bgm_key": "bgm_v8_yuhtt09_spedup_kpop_coquette_pluck_130bpm",
+      "file_path": "./knowledge_vault/03_trending_bgm_curated/bgm_v8_yuhtt09_spedup_kpop_coquette_pluck_130bpm.wav",
+      "koc_handle": "@yuhtt09",
+      "reference_tracks": [
+        "Super Shy (Sped Up Pluck Edit)",
+        "Magnetic - ILLIT (Coquette Pluck Instrumental)",
+        "Way Back Home (Sped Up Pop Pluck)"
+      ],
+      "bpm": 130,
+      "duration_sec": 32.0,
+      "best_for_archetypes": [
+        "P4_Stationery_Study_Desk",
+        "P3_Fashion_Socks_Bags",
+        "P1_Sunscreen_Cushion_Fragrance",
+        "P6_Jewelry_Silver_Accessories"
+      ],
+      "ducking_profile": "M2 Zero-Voiceover Coquette ASMR + Sped-Up Pop Pluck (BGM at 34% mixed with Box Cutter Tape Slice, Bubble Wrap Pop, Screen Seal Peel, Fine Mist Spray & Pen Click Write)"
+    }
+  }
+}

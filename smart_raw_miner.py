@@ -482,6 +482,162 @@ def detect_kinetic_movements_for_sfx(
     return events
 
 
+# Bảng Từ Điển 35+ Từ Khóa Tìm Kiếm Hiệu Ứng Âm Thanh CapCut Chuẩn @kieneditcuong
+CAPCUT_VIRAL_SFX_SEARCH_DICTIONARY: Dict[str, List[str]] = {
+    "TRANSITION_AND_MOTION": [
+        "Swish", "Whoosh", "Swoosh", "Swipe", "Fast Whoosh", "Whip", "Air Swoosh", "的风声 (Tiếng gió vút)"
+    ],
+    "TEXT_AND_CALLOUT_POP": [
+        "Pop", "Bubble", "Water Drop", "Mouse Click", "Keyboard Typing", "Typewriter", "Plop", "Switch Click"
+    ],
+    "PRODUCT_ASMR_AND_FOLEY": [
+        "Box Open", "Paper Rip", "Bottle Cap", "Liquid Pour", "Ice Cubes", "Spray Mist", "Cloth Rustle", "Camera Shutter"
+    ],
+    "HIGHLIGHT_REVEAL_AND_CTA": [
+        "Shining", "Sparkle", "Magic Chime", "Twinkle", "Bell Ding", "Cash Register", "Coin Drop", "Level Up"
+    ],
+    "HUMOR_AND_HONEST_CON_PIVOT": [
+        "Boing", "Spring Jump", "Bonk", "Record Scratch", "Slide Whistle", "Cartoon Blink", "Pop Up"
+    ]
+}
+
+
+def build_koc_master_pacing_curve(
+    golden_windows: List[Dict],
+    pacing_style: str = "BYRAANNI_3SHOT_COLLAGE",
+    target_total_duration_sec: float = 24.0
+) -> List[Dict]:
+    """
+    [UPGRADE #3 - BỘ KIẾN TRÚC NHỊP CẮT ĐA TẦNG HỌC TỪ 5 KOC MASTER]:
+    Biến danh sách các khoảng vàng (`golden_windows`) từ video thô thành Timeline hoàn chỉnh theo 3 đường cong nhịp độ:
+      1. `BYRAANNI_3SHOT_COLLAGE` (@byraanni):
+         - 3.3s đầu: Ghép 3 cảnh ngắn `1.1s x 3` (`In-Use Hero` -> `90° Top-Down Tray Flatlay` -> `Frosted Paper Unbox`).
+         - Thân bài (`3.3s -> 20.0s`): Nhịp cắt thư thái sang trọng `1.8s - 2.5s`, tự động đánh dấu cảnh cận cảnh ổn định nhất
+           để kích hoạt `Kính Lúp Hình Tròn Nét Đứt 162% (enable_magnifier_loupe=True)` và `ZOOM_HOLD_READ_LABEL_4KF`.
+         - Kết bài (`Cuối video`): Gắn `RADIAL_BLUR` + `MATCH_SCALE_TRANSITION` tạo vòng lặp vô tận.
+      2. `MESHIN_2PHASE_STOPMOTION_MACRO` (@meshinthuine):
+         - Pha 1 (`0.0s -> 3.2s`): 4 cú cắt nhanh `0.8s` kiểu Stop-Motion gây choáng thị giác.
+         - Pha 2 (`3.2s -> 26.0s`): Giãn nhịp ra `2.2s - 2.8s` để giữ trọn vẹn cảnh One-Take Proof & Khen 8 Chê 2.
+      3. `3THAG8_EXTREME_PROOF_LOOP` (@3thag8_):
+         - Cảnh 1 (`0.0s -> 1.4s`): Đập thẳng bài test vật lý khắc nghiệt (ngâm nước / xé giấy ướt / bóp tràn tinh chất).
+         - Thân bài: Cắt đều `1.7s` kèm chuyển cảnh `PULL_IN` và kết thúc bằng `RADIAL_BLUR` loop.
+    """
+    if not golden_windows:
+        return []
+
+    style = (pacing_style or "BYRAANNI_3SHOT_COLLAGE").upper()
+    timeline_plan: List[Dict] = []
+    t_cursor = 0.0
+
+    if style == "BYRAANNI_3SHOT_COLLAGE":
+        shot_durations = [1.1, 1.1, 1.1, 2.4, 2.2, 2.5, 2.2, 2.4, 2.0, 1.8]
+    elif style == "MESHIN_2PHASE_STOPMOTION_MACRO":
+        shot_durations = [0.8, 0.8, 0.8, 0.8, 2.4, 2.6, 2.8, 2.5, 2.4, 2.2]
+    elif style == "GRAYUNBOX_FINISHED_FIRST_ASSEMBLY_LOOP":
+        # Chuẩn @grayunbox (#08): 2.0s đầu khoe thành phẩm hoàn chỉnh -> 3 cảnh lắp ráp nhanh 1.3s -> Test chịu lực & Quà tặng kèm 2.3s
+        shot_durations = [2.0, 1.3, 1.3, 1.4, 2.3, 2.4, 2.2, 2.1, 1.9, 1.7]
+    elif style == "MINHTIENOIII_HYPER_TACTILE_SNACK_GADGET_CURVE":
+        # Chuẩn @minhtienoiii06 (19.3M & 15.5M views): Hook 1.1s + Nhịp cắt siêu tốc xúc giác 1.20s - 1.40s/cảnh (18-24 cảnh)
+        shot_durations = [1.1, 1.2, 1.2, 1.3, 1.3, 1.4, 1.3, 1.4, 1.3, 1.2, 1.3, 1.4, 1.3, 1.4, 1.3, 1.2, 1.3, 1.2]
+    elif style == "YUHTT09_SILENT_ASMR_FLASHBACK_UNBOX_CURVE":
+        # Chuẩn @yuhtt09 (8.1M views & 54-video DNA, AvgCut = 1.31s): Cảnh 1 (1.15s) Mở sẵn hộp khoe trọn bộ -> Cảnh 2 (1.25s) Dao rọc giấy rạch băng keo -> Cảnh 3 (1.30s) Bóc xốp nổ -> Chuỗi test thực tế 1.25s-1.40s
+        shot_durations = [1.15, 1.25, 1.30, 1.35, 1.25, 1.35, 1.30, 1.40, 1.30, 1.35, 1.25, 1.30, 1.35, 1.30, 1.25, 1.20]
+    else:
+        shot_durations = [1.4, 1.7, 1.8, 2.2, 2.0, 2.2, 1.9, 1.8, 1.7, 1.5]
+
+    for idx, target_dur in enumerate(shot_durations):
+        if t_cursor >= target_total_duration_sec:
+            break
+        win = golden_windows[idx % len(golden_windows)]
+        w_start = float(win.get("window_start_sec", 0.5))
+        w_end = float(win.get("window_end_sec", w_start + target_dur))
+        avail_dur = max(0.8, w_end - w_start)
+        clip_dur = round(min(target_dur, avail_dur), 2)
+
+        seg_item = {
+            "shot_index": idx + 1,
+            "source_in_sec": round(w_start, 2),
+            "source_out_sec": round(w_start + clip_dur, 2),
+            "timeline_start_sec": round(t_cursor, 2),
+            "timeline_end_sec": round(t_cursor + clip_dur, 2),
+            "pacing_style": style,
+            "zoom_archetype": "SLOW_PUSH_IN",
+            "enable_magnifier_loupe": False
+        }
+
+        if style == "GRAYUNBOX_FINISHED_FIRST_ASSEMBLY_LOOP" and idx == 0:
+            seg_item["role"] = "FINISHED_PRODUCT_HERO_HOOK"
+            seg_item["zoom_archetype"] = "SLOW_PULL_OUT"
+        elif style == "BYRAANNI_3SHOT_COLLAGE" and idx < 3:
+            seg_item["role"] = f"COLLAGE_HOOK_SHOT_{idx + 1}"
+            seg_item["zoom_archetype"] = "SLOW_PUSH_IN" if idx != 1 else "SLOW_PULL_OUT"
+        elif idx == 3:
+            seg_item["role"] = "SPEC_LABEL_AND_LOUPE"
+            seg_item["zoom_archetype"] = "ZOOM_HOLD_READ_LABEL_4KF"
+            seg_item["enable_magnifier_loupe"] = True
+        elif idx == 4:
+            seg_item["role"] = "ONETAKE_PHYSICS_PROOF"
+            seg_item["zoom_archetype"] = "IN_OUT_BOUNCE"
+        else:
+            seg_item["role"] = "BODY_DETAIL"
+            seg_item["zoom_archetype"] = "OUT_IN_PULSE" if idx % 2 == 0 else "SLOW_PUSH_IN"
+
+        timeline_plan.append(seg_item)
+        t_cursor = round(t_cursor + clip_dur, 2)
+
+    if timeline_plan:
+        timeline_plan[-1]["role"] = "SEAMLESS_LOOP_OUTRO"
+        timeline_plan[-1]["transition"] = "RADIAL_BLUR"
+        timeline_plan[-1]["zoom_archetype"] = "MATCH_SCALE_TRANSITION"
+
+    return timeline_plan
+
+
+def select_smart_pacing_curve_for_product(
+    product_desc: str,
+    golden_windows: List[Dict],
+    target_total_duration_sec: float = 24.0
+) -> Dict[str, any]:
+    """
+    [TRÍ TUỆ NHỊP CẮT THEO NGỮ CẢNH — BIẾT SẢN PHẨM NÀO DÙNG NHỊP CẮT NÀO]:
+    Không ép cứng 1 đường cong nhịp cắt cho mọi video! Tự động phân tích `product_desc`:
+      - Nếu là Kệ/Tủ/Đồ lắp ráp nhiều chi tiết -> Chọn `GRAYUNBOX_FINISHED_FIRST_ASSEMBLY_LOOP` (Khoe thành phẩm 2.0s đầu rồi mới lắp).
+      - Nếu là sản phẩm Test thực chiến khắc nghiệt (chống nước, khăn giấy ướt, tẩy rửa) -> Chọn `3THAG8_EXTREME_PROOF_LOOP`.
+      - Nếu là Mẹ & Bé / Gia đình cần gây ấn tượng Stop-motion + One-Take dài -> Chọn `MESHIN_2PHASE_STOPMOTION_MACRO`.
+      - Nếu là Thời trang / Bình giữ nhiệt / Mỹ phẩm / Hương thơm -> Chọn `BYRAANNI_3SHOT_COLLAGE`.
+    """
+    low = (product_desc or "").lower()
+    if any(k in low for k in ("sổ", "sổ tay", "planner", "bút", "hộp bút", "bóp viết", "sticker", "tất", "vớ", "dây chuyền", "nhẫn", "bạc", "trang sức", "gương", "kẹp tóc", "chống nắng", "cushion")):
+        chosen_style = "YUHTT09_SILENT_ASMR_FLASHBACK_UNBOX_CURVE"
+        reason = "Sản phẩm Văn phòng phẩm / Trang sức bạc / Tất vớ / Kem chống nắng (@yuhtt09 8.1M & 5.5M views) -> Kích hoạt nhịp Flashback Unbox + ASMR 1.31s/cảnh."
+    elif any(k in low for k in ("bánh", "kẹo", "ăn vặt", "bánh tráng", "phồng sữa", "chip chip", "khoai môn", "socola", "tripod", "gậy chụp ảnh", "gậy selfie")):
+        chosen_style = "MINHTIENOIII_HYPER_TACTILE_SNACK_GADGET_CURVE"
+        reason = "Sản phẩm Đồ ăn vặt / Phụ kiện Tripod (@minhtienoiii06 19.3M & 15.5M views) -> Kích hoạt nhịp cắt siêu tốc xúc giác 1.25s/cảnh (Hook 1.1s)."
+    elif any(k in low for k in ("lắp ráp", "kệ", "tủ", "hộp đựng", "nhiều ngăn", "khung sắt")):
+        chosen_style = "GRAYUNBOX_FINISHED_FIRST_ASSEMBLY_LOOP"
+        reason = "Sản phẩm cần lắp ráp -> Mở đầu 2.0s bằng thành phẩm hoàn chỉnh (@grayunbox) để giữ chân người xem trước khi chiếu cảnh lắp."
+    elif any(k in low for k in ("khăn giấy", "chống nước", "ngâm nước", "tẩy", "rửa", "siêu dai", "chịu lực", "xà phòng", "tăm bông", "bình giữ nhiệt", "nệm", "đệm", "hút chân không", "quạt", "micro")):
+        chosen_style = "3THAG8_EXTREME_PROOF_LOOP"
+        reason = "Sản phẩm thiên về độ bền / test vật lý trực diện (@3thag8_ 2.4M views, @byraanni 1.2M views, @minhtienoiii06 731K views) -> Đập thẳng bài test vật lý ngay 1.4s đầu."
+    elif any(k in low for k in ("bé", "bỉm", "tã", "ăn dặm", "mẹ bầu", "gia đình")):
+        chosen_style = "MESHIN_2PHASE_STOPMOTION_MACRO"
+        reason = "Sản phẩm Mẹ & Bé -> Dùng nhịp 2 pha Stop-Motion 0.8s + Giãn nhịp One-Take 2.6s tạo niềm tin (@meshinthuine)."
+    else:
+        chosen_style = "BYRAANNI_3SHOT_COLLAGE"
+        reason = "Sản phẩm Lifestyle/Làm đẹp/Unbox -> Dùng nhịp Collage 3x1.1s mở đầu + Thân bài thư thái sang trọng (@byraanni x @grayunbox)."
+
+    plan = build_koc_master_pacing_curve(
+        golden_windows=golden_windows,
+        pacing_style=chosen_style,
+        target_total_duration_sec=target_total_duration_sec
+    )
+    return {
+        "selected_pacing_style": chosen_style,
+        "selection_reason": reason,
+        "timeline_plan": plan
+    }
+
+
 def ingest_and_isolate_project_videos(project_slug: str, raw_inbox_dir: str = "./raw_videos") -> Dict[str, any]:
     """
     [CƠ CHẾ HỘP THƯ ĐẾN TỰ ĐỘNG GOM THEO DỰ ÁN — KHÔNG BAO GIỜ CẦN XÓA TAY & KHÔNG BAO GIỜ MẤT FILE CAPCUT]:

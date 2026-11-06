@@ -1,0 +1,76 @@
+{
+  "channel_handle": "@honghanhxinhgai_01",
+  "channel_nickname": "lười học nhất tóp tóp ྀིྀི",
+  "followers": 102900,
+  "total_likes": 4800000,
+  "top_viral_peaks": [
+    {
+      "video_id": "7530967346933009682",
+      "views": 11800000,
+      "likes": 491100,
+      "saves": 21200,
+      "topic": "Unboxing blindbox / đồ xinh desk setup"
+    },
+    {
+      "video_id": "7681699846520179989",
+      "views": 5900000,
+      "likes": 197900,
+      "saves": 7801,
+      "topic": "Son Too Cool For School 03 Bebe Salmon - Ghim 2 comment trái chiều + Popup bằng chứng Idol Hàn"
+    },
+    {
+      "video_id": "7684654908578024725",
+      "views": 3900000,
+      "likes": 89100,
+      "saves": 4954,
+      "topic": "Hộp đựng đồ Hello Kitty - Test ngược công dụng đựng Slime & Can ngăn thật lòng"
+    },
+    {
+      "video_id": "7655756263879494919",
+      "views": 771800,
+      "likes": 25800,
+      "saves": 1445,
+      "topic": "Bí kíp Set Đèn bàn học Rạng Đông ánh sáng vàng & Góc máy POV 60-75 độ"
+    },
+    {
+      "video_id": "7666052268323523848",
+      "views": 714800,
+      "likes": 51100,
+      "saves": 5421,
+      "topic": "Công thức Chỉnh màu CapCut & Làm nét UHD Quality 4K 60fps"
+    }
+  ],
+  "capcut_warm_lamp_korean_pastel_color_recipe": {
+    "source_video_id": "7666052268323523848",
+    "camera_setting": "Camera sau 4K 60fps",
+    "lighting_condition": "Tắt 100% đèn trần trong phòng + Dùng duy nhất 1 đèn bàn học Rạng Đông ánh sáng vàng chiếu thẳng từ trên xuống cách mặt bàn 25-30cm",
+    "capcut_adjust_parameters": {
+      "brightness_do_sang": 7,
+      "contrast_tuong_phan": -14,
+      "exposure_phoi_sang": 22,
+      "sharpen_lam_sac_net": 30,
+      "brilliance_anh_sang_cam_nhan": 35,
+      "highlights_diem_sang": -10,
+      "shadows_bong": 11
+    },
+    "capcut_hsl_skin_pink_brightening": {
+      "target_channel": "Orange/Red (Màu da tay)",
+      "hue_sac_do": -36,
+      "saturation_bao_hoa": -55,
+      "luminance_do_sang": 70
+    },
+    "capcut_uhd_enhancement": "Công cụ Chất lượng UHD (UHD Quality) -> Chọn HD hoặc Ultra HD + Bật Cường độ"
+  },
+  "visual_and_staging_signature": {
+    "surface_mat": "Thảm trải bàn vải chần bông (Quilted Cotton Desk Mat) họa tiết nhí (trắng viền hồng tim nhí, chấm bi đen, sao xanh pastel)",
+    "background_props": "Kệ đựng bút nhựa trắng nhiều ngăn đặt cố định sát mép trên + Gấu bông móc khóa + Blindbox figure nhỏ + Kẹp tóc con cá xanh",
+    "camera_rig": "Chân đỡ điện thoại để bàn mini đặt ngay trước ngực, góc chúc 60-75 độ xuống mặt bàn, 2 tay luồn từ 2 bên vào thao tác POV",
+    "subtitle_zone": "Đặt ở nửa trên khung hình (pos_y = +0.42 đến +0.52, ngay dưới kệ bút và phía trên bàn tay), chữ trắng nhỏ viền nâu đen mỏng 1-2 dòng"
+  },
+  "script_and_psychology_weapons": [
+    "Đấu trường Bình luận (Dual-Comment Controversy Hook): Ghim 2 bình luận trái chiều (1 chê đắt/nghi ngờ vs 1 khen hàng nội địa Hàn xịn) trong 4s đầu để kích thích tranh luận.",
+    "Test Ngược Công Dụng & Can Ngăn Thật Lòng (Counter-Use Case Khen 8 Chê 2): Khán giả đòi mua hộp về đựng Slime -> Lấy Slime nhét vào test thật rồi khuyên ngăn đừng mua làm Slime vì hở viền khô keo, chỉ nên mua đựng dây buộc tóc/khuyên tai.",
+    "Biến Sự Cố Thành Bài Test Độ Bền (Happy Accident Proof): Mua nhầm Griptok dán keo thay vì nam châm, dán lệch phải lấy đồ cạy ra bung cả nắp nhưng chứng minh được keo 3M dính siêu chắc.",
+    "Xưng hô tạo phản tương phản thú vị: Tay nữ làm nail điệu đà nhưng xưng \"anh - mấy vợ\" hoặc \"tui - mấy bà\", giọng kể chuyện tưng tửng lôi cuốn."
+  ]
+}

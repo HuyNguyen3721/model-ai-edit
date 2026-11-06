@@ -1,0 +1,3416 @@
+[
+  {
+    "video_id": "cleanroom_koc_meshinthuine_p1",
+    "product_archetype": "P1",
+    "author": "meshinthuine",
+    "caption_title": "Khuôn mẫu KOC Triệu Đơn Chuẩn Sạch Bản Quyền (P1 - @meshinthuine)",
+    "breakout_metrics": {
+      "views": 420000,
+      "likes": 24500,
+      "comments": 860,
+      "shares": 3200,
+      "saves": 6400,
+      "followers": 85000,
+      "hours_since_upload": 36.0,
+      "outlier_ratio_x": 4.94,
+      "velocity_views_per_hour": 11666.7,
+      "affiliate_intent_rate_pct": 14.6,
+      "bvi_score_100": 94.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 21.1,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.35,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.72,
+      "v1_pacing_curve_sec": [
+        1.35,
+        1.55,
+        1.8,
+        1.65,
+        2.1,
+        1.75,
+        1.9,
+        1.6,
+        1.85,
+        2.05,
+        1.7,
+        1.8
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_TEXTURE_15CM",
+        "A1_45DEG_TALKING_HEAD",
+        "A6_POV_HAND_SWATCH",
+        "A3_ONETAKE_ABSORPTION",
+        "A7_SPLIT_BEFORE_AFTER",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 142.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 42.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Tôn tiếng bóp serum & giọng tâm sự)"
+    },
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 96.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:22:50"
+  },
+  {
+    "video_id": "cleanroom_koc_meshinthuine_p2",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Khuôn mẫu KOC Triệu Đơn Chuẩn Sạch Bản Quyền (P2 - @meshinthuine)",
+    "breakout_metrics": {
+      "views": 420000,
+      "likes": 24500,
+      "comments": 860,
+      "shares": 3200,
+      "saves": 6400,
+      "followers": 85000,
+      "hours_since_upload": 36.0,
+      "outlier_ratio_x": 4.94,
+      "velocity_views_per_hour": 11666.7,
+      "affiliate_intent_rate_pct": 14.6,
+      "bvi_score_100": 94.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 20.4,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.25,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.68,
+      "v1_pacing_curve_sec": [
+        1.25,
+        1.45,
+        1.7,
+        2.2,
+        1.6,
+        1.85,
+        1.5,
+        1.75,
+        1.95,
+        1.65,
+        1.8,
+        1.7
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A7_INSTANT_RESULT_HOOK",
+        "A6_POV_OLD_MESS_PAIN",
+        "A4_TOPDOWN_UNBOX_ASMR",
+        "A3_ONETAKE_CLEANING_PROOF",
+        "A2_MACRO_DETAIL_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 142.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 56.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync + Giữa video giữ tiếng máy/thao tác thật"
+    },
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 96.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:23:00"
+  },
+  {
+    "video_id": "cleanroom_koc_meshinthuine_p3",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "Khuôn mẫu KOC Triệu Đơn Chuẩn Sạch Bản Quyền (P3 - @meshinthuine)",
+    "breakout_metrics": {
+      "views": 420000,
+      "likes": 24500,
+      "comments": 860,
+      "shares": 3200,
+      "saves": 6400,
+      "followers": 85000,
+      "hours_since_upload": 36.0,
+      "outlier_ratio_x": 4.94,
+      "velocity_views_per_hour": 11666.7,
+      "affiliate_intent_rate_pct": 14.6,
+      "bvi_score_100": 94.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.2,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.15,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.52,
+      "v1_pacing_curve_sec": [
+        1.15,
+        1.2,
+        1.4,
+        1.65,
+        1.5,
+        1.75,
+        1.45,
+        1.6,
+        1.8,
+        1.55,
+        1.5,
+        1.65
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A5_LOW_ANGLE_OUTFIT_HOOK",
+        "A2_MACRO_FABRIC_STRETCH",
+        "A4_FLATLAY_UNBOX",
+        "A1_MIRROR_FIT_CHECK",
+        "A2_STITCHING_DETAIL",
+        "A1_CTA_SPIN_LOOP"
+      ],
+      "transitions_signature": [
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 142.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 74.0,
+      "editing_rhythm_style": "M1/M2 Beat-Sync Editing (Cắt cảnh khớp chặt theo phách nhạc/SFX)"
+    },
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 96.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:23:21"
+  },
+  {
+    "video_id": "v01_p1_serum_b5_macro_swatch",
+    "product_archetype": "P1",
+    "author": "meshinthuine",
+    "caption_title": "Test thực tế Serum B5 phục hồi da mỏng đỏ dưới nắng tự nhiên (Macro 15cm không filter)",
+    "breakout_metrics": {
+      "views": 680000,
+      "likes": 41200,
+      "comments": 1450,
+      "shares": 4800,
+      "saves": 9200,
+      "followers": 95000,
+      "hours_since_upload": 32.0,
+      "outlier_ratio_x": 7.16,
+      "velocity_views_per_hour": 21250.0,
+      "affiliate_intent_rate_pct": 14.01,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 20.65,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.3,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.7,
+      "v1_pacing_curve_sec": [
+        1.3,
+        1.5,
+        1.75,
+        1.65,
+        2.15,
+        1.7,
+        1.85,
+        1.6,
+        1.8,
+        1.95,
+        1.65,
+        1.75
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_DROPPER_15CM",
+        "A1_45DEG_TALKING_HEAD",
+        "A6_POV_HAND_SWATCH",
+        "A3_ONETAKE_ABSORPTION",
+        "A7_SPLIT_BEFORE_AFTER",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 144.0,
+      "avg_saturation_satavg": 86.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da Tự Nhiên)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 42.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Tôn tiếng bóp ống nhỏ giọt & giọng tâm sự)"
+    },
+    "key_lesson_vi": "Hook 1.3s quay Macro giọt serum rơi trên gò má (tuyệt đối không để đầu ống chạm da). Giây 18 chê nhẹ vỏ chai thủy tinh hơi nặng tay khi mang đi du lịch, sau đó khen khả năng làm dịu vết đỏ sau 1 đêm.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v02_p1_cushion_kiem_dau_8_tieng",
+    "product_archetype": "P1",
+    "author": "callmeduy_style_koc",
+    "caption_title": "Thử thách dặm Cushion nội địa đi ngoài nắng 8 tiếng và cái kết giấy thấm dầu",
+    "breakout_metrics": {
+      "views": 540000,
+      "likes": 33500,
+      "comments": 1120,
+      "shares": 3600,
+      "saves": 7800,
+      "followers": 110000,
+      "hours_since_upload": 28.0,
+      "outlier_ratio_x": 4.91,
+      "velocity_views_per_hour": 19285.7,
+      "affiliate_intent_rate_pct": 14.4,
+      "bvi_score_100": 99.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 19.75,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.25,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.65,
+      "v1_pacing_curve_sec": [
+        1.25,
+        1.45,
+        1.6,
+        1.8,
+        1.95,
+        1.55,
+        1.7,
+        1.65,
+        1.85,
+        1.75,
+        1.5,
+        1.7
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A7_SPLIT_HALF_FACE_HOOK",
+        "A2_MACRO_PUFF_PRESS",
+        "A3_ONETAKE_COVERAGE_TEST",
+        "A1_OUTDOOR_8H_CHECK",
+        "A2_OIL_BLOTTING_PROOF",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 146.0,
+      "avg_saturation_satavg": 90.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 48.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync"
+    },
+    "key_lesson_vi": "Chia đôi mặt (1 bên đã dặm che sạch thâm mụn, 1 bên mộc) ngay 1.25s đầu. Dùng cảnh One-Take dặm 1 lần che phủ 80% không cắt ghép để tăng niềm tin tuyệt đối.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v03_p1_tay_te_bao_chet_body_asmr",
+    "product_archetype": "P1",
+    "author": "chanhbeauty_style_koc",
+    "caption_title": "ASMR khui hũ tẩy da chết cà phê đặc quánh như bơ - Đừng mua nếu thích mùi hương liệu nồng",
+    "breakout_metrics": {
+      "views": 410000,
+      "likes": 26800,
+      "comments": 780,
+      "shares": 2400,
+      "saves": 6100,
+      "followers": 75000,
+      "hours_since_upload": 24.0,
+      "outlier_ratio_x": 5.47,
+      "velocity_views_per_hour": 17083.3,
+      "affiliate_intent_rate_pct": 14.62,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.6,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.4,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.78,
+      "v1_pacing_curve_sec": [
+        1.4,
+        1.6,
+        1.85,
+        1.75,
+        2.05,
+        1.8,
+        1.9,
+        1.65,
+        1.75,
+        1.85
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A4_TOPDOWN_SCOOP_ASMR",
+        "A2_MACRO_GRAIN_TEXTURE",
+        "A6_POV_WATER_RINSE",
+        "A1_45DEG_HONEST_CON",
+        "A7_BRIGHTNESS_COMPARE",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 139.0,
+      "avg_saturation_satavg": 84.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 35.0,
+      "editing_rhythm_style": "M4 Pure ASMR & Voice Driven (Giữ 100% tiếng miết kem và dội nước)"
+    },
+    "key_lesson_vi": "Tắt nhạc nền 2 giây đầu để tôn 100% tiếng mở nắp và tiếng ngón tay múc chất kem đặc (Crest Factor > 13dB). Câu Hook ngược: Đừng mua nếu thích mùi nước hoa vì em này toàn mùi cà phê rang thật.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v04_p2_may_xay_toi_ot_mini_onake",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Giải cứu đôi mắt khỏi cay xè: 3 giây bấm máy xay tỏi ớt nhuyễn đều không văng nước",
+    "breakout_metrics": {
+      "views": 890000,
+      "likes": 52000,
+      "comments": 1950,
+      "shares": 7400,
+      "saves": 12500,
+      "followers": 120000,
+      "hours_since_upload": 30.0,
+      "outlier_ratio_x": 7.42,
+      "velocity_views_per_hour": 29666.7,
+      "affiliate_intent_rate_pct": 14.39,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 19.5,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.2,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.62,
+      "v1_pacing_curve_sec": [
+        1.2,
+        1.4,
+        1.65,
+        2.25,
+        1.55,
+        1.7,
+        1.5,
+        1.65,
+        1.8,
+        1.6,
+        1.65,
+        1.55
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A7_INSTANT_CHOP_HOOK",
+        "A6_POV_HAND_CHOPPING_PAIN",
+        "A4_TOPDOWN_UNBOX_BLADES",
+        "A3_ONETAKE_3SEC_BLEND",
+        "A2_MACRO_SILICONE_RING_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 143.0,
+      "avg_saturation_satavg": 89.0,
+      "color_temperature_style": "Warm Lifestyle / Bếp Sáng Gọn Gàng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 58.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync + Giữa video giữ tiếng motor máy thật"
+    },
+    "key_lesson_vi": "Đưa cảnh nhấn nút máy xay 2 giây nhuyễn tỏi lên ngay giây 0.0 (Result-First Hook). Cảnh 4 quay One-Take không cắt ghép. Điểm trừ Khen 8 Chê 2: cối 250ml chỉ hợp gia đình 2-4 người, không xay được thịt tảng lớn.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v05_p2_ban_ui_hoi_nuoc_cam_tay_gap_gon",
+    "product_archetype": "P2",
+    "author": "kienreview_style_koc",
+    "caption_title": "Áo sơ mi nhăn như lò xo phẳng lỳ sau 1 đường kéo - Sự thật về chiếc bàn ủi 180k",
+    "breakout_metrics": {
+      "views": 620000,
+      "likes": 36000,
+      "comments": 1240,
+      "shares": 4100,
+      "saves": 8900,
+      "followers": 140000,
+      "hours_since_upload": 36.0,
+      "outlier_ratio_x": 4.43,
+      "velocity_views_per_hour": 17222.2,
+      "affiliate_intent_rate_pct": 13.93,
+      "bvi_score_100": 94.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.45,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.25,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.68,
+      "v1_pacing_curve_sec": [
+        1.25,
+        1.5,
+        1.7,
+        2.3,
+        1.6,
+        1.75,
+        1.55,
+        1.8,
+        1.7,
+        1.65,
+        1.65
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_STEAM_BURST_HOOK",
+        "A7_WRINKLED_SHIRT_BEFORE",
+        "A3_ONETAKE_ONE_SWIPE_FLAT",
+        "A4_WATER_TANK_CON",
+        "A1_FOLDABLE_TRAVEL_TEST",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 140.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Sáng Rõ Nếp Vải",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 52.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync (Giữ tiếng xì hơi nước thật)"
+    },
+    "key_lesson_vi": "Mở đầu bằng tiếng xì hơi nước mạnh (Native ASMR) + kéo 1 đường thẳng đứng làm phẳng vạt áo sơ mi. Chê thông minh: bình nước 100ml chỉ ủi được 2-3 cái áo là phải châm thêm nước, nhưng đổi lại cầm nhẹ không mỏi cổ tay.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v06_p2_cay_lau_nha_tu_vat_thong_minh",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Đổ cả bát nước sốt tương ớt ra sàn gạch trắng và thử thách lau 1 đường không bẩn tay",
+    "breakout_metrics": {
+      "views": 750000,
+      "likes": 45000,
+      "comments": 1680,
+      "shares": 5900,
+      "saves": 10400,
+      "followers": 95000,
+      "hours_since_upload": 26.0,
+      "outlier_ratio_x": 7.89,
+      "velocity_views_per_hour": 28846.2,
+      "affiliate_intent_rate_pct": 14.35,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.06,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.18,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.64,
+      "v1_pacing_curve_sec": [
+        1.18,
+        1.38,
+        1.65,
+        2.4,
+        1.55,
+        1.7,
+        1.6,
+        1.75,
+        1.65,
+        1.55,
+        1.65
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A6_POV_SPILL_SAUCE_HOOK",
+        "A3_ONETAKE_SINGLE_WIPE",
+        "A2_MACRO_WRING_MECHANISM",
+        "A8_LOW_ANGLE_UNDER_SOFA",
+        "A1_HONEST_PLASTIC_WEIGHT_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 148.0,
+      "avg_saturation_satavg": 87.0,
+      "color_temperature_style": "Warm Lifestyle / Sàn Nhà Sáng Bóng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 55.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync"
+    },
+    "key_lesson_vi": "Tạo sự tương phản thị giác cực đại (nước sốt đỏ sẫm trên nền gạch trắng bóng) và kéo sạch bong trong 1 cú máy liền mạch (One-Take Proof). Dùng góc A8 sát sàn chứng minh chui lọt gầm ghế sofa 6cm.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v07_p2_noi_lau_nuong_da_nang_sinh_vien",
+    "product_archetype": "P2",
+    "author": "beptruong_style_koc",
+    "caption_title": "Test chiếc nồi lẩu mini 150k nấu mì nướng thịt phòng trọ: Chống dính thật hay lời đồn?",
+    "breakout_metrics": {
+      "views": 510000,
+      "likes": 31000,
+      "comments": 990,
+      "shares": 3100,
+      "saves": 7200,
+      "followers": 88000,
+      "hours_since_upload": 34.0,
+      "outlier_ratio_x": 5.8,
+      "velocity_views_per_hour": 15000.0,
+      "affiliate_intent_rate_pct": 13.94,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.32,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.32,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.74,
+      "v1_pacing_curve_sec": [
+        1.32,
+        1.55,
+        1.8,
+        2.1,
+        1.7,
+        1.85,
+        1.65,
+        1.75,
+        1.8,
+        1.8
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_SIZZLE_MEAT_HOOK",
+        "A4_TOPDOWN_NO_OIL_EGG_TEST",
+        "A3_ONETAKE_WIPE_CLEAN",
+        "A2_CORD_LENGTH_CON",
+        "A1_DORM_MEAL_VIBE",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 141.0,
+      "avg_saturation_satavg": 92.0,
+      "color_temperature_style": "Warm Lifestyle / Màu Đồ Ăn Ấm Nóng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 45.0,
+      "editing_rhythm_style": "M4 Pure ASMR & Voice Driven (Tôn tiếng thịt xèo xèo)"
+    },
+    "key_lesson_vi": "Cảnh chiên trứng không dầu trượt mượt trên lòng nồi + lấy khăn giấy lau nhẹ sạch bong là bằng chứng chống dính đắt giá nhất. Điểm trừ thật lòng: dây cắm điện đi kèm hơi ngắn (80cm), nên ngồi gần ổ điện.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v08_p3_quan_ong_suong_hack_chan_1m52",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "Nấm lùn 1m52 đùi to mặc quần ống suông cạp cao 130k: Có bị dìm dáng như ảnh mạng?",
+    "breakout_metrics": {
+      "views": 780000,
+      "likes": 49000,
+      "comments": 1820,
+      "shares": 5400,
+      "saves": 11800,
+      "followers": 95000,
+      "hours_since_upload": 25.0,
+      "outlier_ratio_x": 8.21,
+      "velocity_views_per_hour": 31200.0,
+      "affiliate_intent_rate_pct": 14.88,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.55,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.12,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.48,
+      "v1_pacing_curve_sec": [
+        1.12,
+        1.18,
+        1.35,
+        1.6,
+        1.45,
+        1.65,
+        1.4,
+        1.55,
+        1.7,
+        1.5,
+        1.45,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A5_LOW_ANGLE_SPIN_HOOK",
+        "A7_BEFORE_AFTER_WAIST_FIT",
+        "A2_MACRO_FABRIC_THICKNESS",
+        "A3_ONETAKE_SQUAT_STRETCH",
+        "A2_INSIDE_SEAM_CON",
+        "A1_CTA_SPIN_LOOP"
+      ],
+      "transitions_signature": [
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 145.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Warm Lifestyle / Nịnh Da & Chuẩn Màu Vải",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 76.0,
+      "editing_rhythm_style": "M1/M2 Beat-Sync Editing (Cắt khớp phách nhạc + SFX Shutter)"
+    },
+    "key_lesson_vi": "3 nhát cắt dồn dập trong 3 giây đầu theo beat nhạc + tiếng chụp ảnh Shutter. Đọc rõ chiều cao cân nặng (1m52 - 48kg mặc size S) ngay giây thứ 2. Điểm trừ: quần mới về có 1-2 sợi chỉ thừa ở khuy, bấm nhẹ là đẹp.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v09_p3_ao_giu_nhiet_test_keo_gian_khong_xu",
+    "product_archetype": "P3",
+    "author": "fashion_haul_koc",
+    "caption_title": "Test bạo lực kéo giãn chiếc áo thun 89k và giặt máy 5 lần xem có dão cổ không?",
+    "breakout_metrics": {
+      "views": 490000,
+      "likes": 29500,
+      "comments": 840,
+      "shares": 2800,
+      "saves": 6900,
+      "followers": 82000,
+      "hours_since_upload": 29.0,
+      "outlier_ratio_x": 5.98,
+      "velocity_views_per_hour": 16896.6,
+      "affiliate_intent_rate_pct": 13.71,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 16.78,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.18,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.54,
+      "v1_pacing_curve_sec": [
+        1.18,
+        1.25,
+        1.45,
+        1.7,
+        1.55,
+        1.65,
+        1.5,
+        1.6,
+        1.75,
+        1.55,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A6_POV_STRETCH_COLLAR_HOOK",
+        "A2_MACRO_RIBBED_COTTON",
+        "A1_TRY_ON_3_COLORS",
+        "A4_FLATLAY_FOLD_NEAT",
+        "A2_LIGHT_COLOR_NOTE_CON",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 143.0,
+      "avg_saturation_satavg": 86.0,
+      "color_temperature_style": "True-to-Life Neutral / Chuẩn Màu Vải Thật",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 72.0,
+      "editing_rhythm_style": "M1/M2 Beat-Sync Editing"
+    },
+    "key_lesson_vi": "Cảnh kéo căng cổ áo rồi thả tay ra cổ áo đàn hồi phẳng phiu ngay lập tức giữ chân người xem 100%. Nhắc thật lòng: màu trắng kem hơi mỏng nhẹ dưới nắng gắt, nên mặc nội y tiệp màu da.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v10_p3_tui_xach_da_mem_test_suc_chua",
+    "product_archetype": "P3",
+    "author": "unbox_local_koc",
+    "caption_title": "Nhét cả thế giới vào chiếc túi kẹp nách 160k: Đựng vừa iPad, ô gấp, ví dài mà không mất form?",
+    "breakout_metrics": {
+      "views": 430000,
+      "likes": 27200,
+      "comments": 760,
+      "shares": 2500,
+      "saves": 6300,
+      "followers": 70000,
+      "hours_since_upload": 31.0,
+      "outlier_ratio_x": 6.14,
+      "velocity_views_per_hour": 13871.0,
+      "affiliate_intent_rate_pct": 14.28,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.32,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.22,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.58,
+      "v1_pacing_curve_sec": [
+        1.22,
+        1.35,
+        1.55,
+        1.75,
+        1.6,
+        1.7,
+        1.5,
+        1.65,
+        1.75,
+        1.6,
+        1.65
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A4_TOPDOWN_PACK_ITEMS_HOOK",
+        "A2_MACRO_LEATHER_SQUEEZE",
+        "A6_POV_ZIPPER_SLIDE_ASMR",
+        "A1_SHOULDER_WEAR_FIT",
+        "A2_NEW_BAG_SMELL_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 140.0,
+      "avg_saturation_satavg": 84.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 64.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync + Giữ tiếng kéo khóa mượt"
+    },
+    "key_lesson_vi": "Bắt đầu bằng cảnh xếp liên tiếp 6 món đồ vào túi theo nhịp Pop SFX. Giữ tiếng kéo khóa kim loại mượt mà. Điểm trừ Khen 8 Chê 2: túi da PU mới bóc hộp hơi có mùi da mới nhẹ, để thoáng gió 1 buổi là hết.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v11_p4_bim_mong_test_do_400ml_nuoc",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Đổ thẳng 400ml nước ấm vào chiếc bỉm mỏng 2mm và ấp giấy ăn lên: Liệu có thấm ngược?",
+    "breakout_metrics": {
+      "views": 640000,
+      "likes": 38500,
+      "comments": 1420,
+      "shares": 4900,
+      "saves": 9500,
+      "followers": 95000,
+      "hours_since_upload": 27.0,
+      "outlier_ratio_x": 6.74,
+      "velocity_views_per_hour": 23703.7,
+      "affiliate_intent_rate_pct": 14.69,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.76,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.28,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.7,
+      "v1_pacing_curve_sec": [
+        1.28,
+        1.48,
+        1.75,
+        2.35,
+        1.65,
+        1.8,
+        1.6,
+        1.75,
+        1.85,
+        1.65,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A6_POV_POUR_BLUE_WATER_HOOK",
+        "A3_ONETAKE_DRY_TISSUE_PRESS",
+        "A2_MACRO_WAISTBAND_ELASTIC",
+        "A1_MOM_TALKING_SAFE_CHR",
+        "A2_FORM_SIZE_NOTE_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 146.0,
+      "avg_saturation_satavg": 83.0,
+      "color_temperature_style": "Warm Lifestyle / Dịu Mắt An Toàn Cho Bé",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 38.0,
+      "editing_rhythm_style": "M4 Pure ASMR & Voice Driven (Giọng mẹ ấm áp, tin cậy)"
+    },
+    "key_lesson_vi": "Quay POV tay mẹ đổ nước pha màu xanh và ấn mạnh tờ giấy ăn khô cong ngay trong 1 cú máy One-Take. TUYỆT ĐỐI tuân thủ CHR: Không quay cảnh bé mặc bỉm một mình trong khung hình (-40đ). Nhắc mẹ chọn tăng 1 size nếu bé trộm vía đùi bụ.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v12_p4_may_ham_sua_tiet_trung_ban_dem",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Cứu tinh của mẹ bỉm lúc 2h sáng: Máy hâm nước pha sữa giữ nhiệt 24/24 chuẩn 45 độ C",
+    "breakout_metrics": {
+      "views": 520000,
+      "likes": 32000,
+      "comments": 1150,
+      "shares": 3800,
+      "saves": 8400,
+      "followers": 95000,
+      "hours_since_upload": 33.0,
+      "outlier_ratio_x": 5.47,
+      "velocity_views_per_hour": 15757.6,
+      "affiliate_intent_rate_pct": 15.25,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.45,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.35,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.75,
+      "v1_pacing_curve_sec": [
+        1.35,
+        1.55,
+        1.8,
+        2.1,
+        1.7,
+        1.85,
+        1.65,
+        1.8,
+        1.9,
+        1.75
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_LED_45DEG_HOOK",
+        "A6_POV_ONE_HAND_POUR",
+        "A4_GLASS_KETTLE_DETAIL",
+        "A3_ONETAKE_THERMOMETER_CHECK",
+        "A2_BOIL_TIME_CON",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 138.0,
+      "avg_saturation_satavg": 82.0,
+      "color_temperature_style": "Warm Lifestyle / Ánh Vàng Dịu Ban Đêm",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 36.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Nhạc Lullaby cực nhỏ 8% + tiếng tít êm)"
+    },
+    "key_lesson_vi": "Dùng nhiệt kế điện tử đo trực tiếp nước rót ra đúng 45.0 độ C (bằng chứng khoa học thuyết phục các mẹ bỉm). Điểm trừ: chế độ đun sôi 100 độ rồi hạ nhiệt tự nhiên mất khoảng 25 phút nên mẹ nhớ bật sẵn từ tối.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v13_p4_ghe_an_dam_gap_gon_lau_sach_3s",
+    "product_archetype": "P4",
+    "author": "mebim_thongthai_koc",
+    "caption_title": "Bé tập ăn dặm bày bừa cỡ nào cũng nhàn tênh với chiếc ghế gấp gọn 1 nút bấm này",
+    "breakout_metrics": {
+      "views": 450000,
+      "likes": 28000,
+      "comments": 890,
+      "shares": 2900,
+      "saves": 7100,
+      "followers": 78000,
+      "hours_since_upload": 30.0,
+      "outlier_ratio_x": 5.77,
+      "velocity_views_per_hour": 15000.0,
+      "affiliate_intent_rate_pct": 14.86,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.05,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.3,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.72,
+      "v1_pacing_curve_sec": [
+        1.3,
+        1.5,
+        1.75,
+        2.15,
+        1.65,
+        1.8,
+        1.6,
+        1.75,
+        1.85,
+        1.7
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A6_POV_DETACH_TRAY_RINSE_HOOK",
+        "A3_ONETAKE_1SEC_FOLD",
+        "A2_MACRO_SAFETY_BELT_5POINT",
+        "A1_MOM_AND_CHAIR_SIZE",
+        "A2_NO_CUSHION_SUMMER_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 143.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "Warm Lifestyle / Sáng Sạch",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 44.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync"
+    },
+    "key_lesson_vi": "Quay cảnh tháo rời khay ăn mang ra vòi nước xịt 3 giây sạch bóng + bấm nút gập gọn chỉ dày 15cm nhét vừa khe tủ lạnh. Điểm trừ: bản tiêu chuẩn là nhựa PP trơn không kèm đệm da để mùa hè thoáng mát và dễ rửa.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v14_p5_banh_pia_kim_sa_tan_chay_asmr",
+    "product_archetype": "P5",
+    "author": "meshinthuine",
+    "caption_title": "ASMR bẻ đôi chiếc bánh pía kim sa trứng muối tan chảy - Vị ít ngọt cho người sợ ngấy",
+    "breakout_metrics": {
+      "views": 810000,
+      "likes": 51000,
+      "comments": 1760,
+      "shares": 6200,
+      "saves": 11200,
+      "followers": 95000,
+      "hours_since_upload": 24.0,
+      "outlier_ratio_x": 8.53,
+      "velocity_views_per_hour": 33750.0,
+      "affiliate_intent_rate_pct": 14.56,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.2,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.15,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.66,
+      "v1_pacing_curve_sec": [
+        1.15,
+        1.4,
+        1.7,
+        2.2,
+        1.6,
+        1.75,
+        1.55,
+        1.7,
+        1.8,
+        1.65,
+        1.7
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_LAVA_BREAK_HOOK",
+        "A1_FIRST_BITE_CRUNCH_ASMR",
+        "A4_TOPDOWN_BOX_EXPIRY_DATE",
+        "A2_MACRO_PASTRY_LAYERS",
+        "A1_HONEST_SWEETNESS_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 147.0,
+      "avg_saturation_satavg": 94.0,
+      "color_temperature_style": "Warm Food / Vàng Ươm Kích Thích Vị Giác",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 32.0,
+      "editing_rhythm_style": "M4 Pure ASMR & Voice Driven (Tắt nhạc 100% đoạn bẻ bánh & cắn giòn)"
+    },
+    "key_lesson_vi": "1.15s đầu bẻ đôi chiếc bánh sát ống kính 15cm để nhân kim sa vàng óng chảy ra + thu âm tiếng vỏ bánh vỡ giòn rụm (Crest Factor >= 14dB). Bắt buộc quay rõ ngày sản xuất/hạn sử dụng trên bao bì để chuẩn CHR thực phẩm.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v15_p5_kho_ga_la_chanh_test_do_gion_cay",
+    "product_archetype": "P5",
+    "author": "mukbang_sach_koc",
+    "caption_title": "Soi cận cảnh hũ khô gà lá chanh 500g nguyên thớ thịt: Có bị độn vụn bột như hàng chợ?",
+    "breakout_metrics": {
+      "views": 590000,
+      "likes": 35500,
+      "comments": 1180,
+      "shares": 3900,
+      "saves": 8100,
+      "followers": 90000,
+      "hours_since_upload": 28.0,
+      "outlier_ratio_x": 6.56,
+      "velocity_views_per_hour": 21071.4,
+      "affiliate_intent_rate_pct": 13.89,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 16.75,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.2,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.68,
+      "v1_pacing_curve_sec": [
+        1.2,
+        1.45,
+        1.65,
+        2.15,
+        1.6,
+        1.75,
+        1.65,
+        1.7,
+        1.85,
+        1.75
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A4_TOPDOWN_POUR_TRAY_HOOK",
+        "A2_MACRO_MEAT_FIBER_TEAR",
+        "A1_CRUNCH_MIC_15CM_ASMR",
+        "A2_FOOD_SAFETY_SEAL",
+        "A1_SPICY_LEVEL_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 145.0,
+      "avg_saturation_satavg": 95.0,
+      "color_temperature_style": "Warm Food / Đỏ Vàng Rực Rỡ",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 30.0,
+      "editing_rhythm_style": "M4 Pure ASMR & Voice Driven"
+    },
+    "key_lesson_vi": "Đổ toàn bộ hũ 500g ra mâm lớn ngay giây đầu tiên để chứng minh 99% là sợi thịt nguyên và lá chanh giòn, không có vụn bột ở đáy hũ. Điểm trừ: vị ớt hiểm hơi the nhẹ đầu lưỡi nên trẻ nhỏ dưới 5 tuổi khó ăn.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v16_p5_tra_hoa_qua_nhiet_doi_pha_30s",
+    "product_archetype": "P5",
+    "author": "homecafe_style_koc",
+    "caption_title": "Tự pha ly trà hoa quả nhiệt đới 12k tại nhà ngon như quán: Tiếng đá rơi ASMR mát lạnh",
+    "breakout_metrics": {
+      "views": 470000,
+      "likes": 29800,
+      "comments": 820,
+      "shares": 3100,
+      "saves": 7500,
+      "followers": 68000,
+      "hours_since_upload": 26.0,
+      "outlier_ratio_x": 6.91,
+      "velocity_views_per_hour": 18076.9,
+      "affiliate_intent_rate_pct": 15.05,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 16.8,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.25,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.56,
+      "v1_pacing_curve_sec": [
+        1.25,
+        1.2,
+        1.35,
+        1.75,
+        1.55,
+        1.65,
+        1.5,
+        1.6,
+        1.75,
+        1.6,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_ICE_DROP_SPLASH_HOOK",
+        "A6_POV_TEAR_PACK_POUR",
+        "A3_ONETAKE_DISSOLVE_STIR",
+        "A2_REAL_FRUIT_SLICE_ZOOM",
+        "A1_WATER_RATIO_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 149.0,
+      "avg_saturation_satavg": 93.0,
+      "color_temperature_style": "Warm Lifestyle / Trong Trẻo Tươi Mát",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 50.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync + ASMR rót trà & lắc đá"
+    },
+    "key_lesson_vi": "Chuỗi 3 âm thanh ASMR liên hoàn trong 3s đầu: Xé gói -> Đổ đá lách cách -> Rót trà sủi bọt. Nhắc người mua pha đúng 250ml nước (nếu pha cốc 500ml sẽ bị nhạt vị).",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v17_p6_mic_thu_am_khong_day_test_khu_on_quat",
+    "product_archetype": "P6",
+    "author": "duytham_style_koc",
+    "caption_title": "Bật quạt công nghiệp thổi thẳng vào mặt để test khả năng lọc ồn của chiếc Mic 220k",
+    "breakout_metrics": {
+      "views": 920000,
+      "likes": 58000,
+      "comments": 2150,
+      "shares": 8200,
+      "saves": 14600,
+      "followers": 150000,
+      "hours_since_upload": 28.0,
+      "outlier_ratio_x": 6.13,
+      "velocity_views_per_hour": 32857.1,
+      "affiliate_intent_rate_pct": 15.79,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.65,
+      "total_shots": 11,
+      "hook_first_shot_dur_sec": 1.15,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.6,
+      "v1_pacing_curve_sec": [
+        1.15,
+        1.35,
+        1.6,
+        2.4,
+        1.5,
+        1.65,
+        1.55,
+        1.7,
+        1.6,
+        1.55,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A1_FAN_BLOWING_BEFORE_AFTER_HOOK",
+        "A2_MACRO_MIC_CLIP_LED",
+        "A3_ONETAKE_20M_DISTANCE_TEST",
+        "A4_CHARGING_CASE_CLICK_ASMR",
+        "A2_NO_35MM_JACK_CON",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 136.0,
+      "avg_saturation_satavg": 84.0,
+      "color_temperature_style": "Cool Studio / Sắc Nét Hiện Đại",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 54.0,
+      "editing_rhythm_style": "M2 Selective Hook & CTA Beat-Sync (Tắt nhạc đoạn test âm thanh Trước/Sau)"
+    },
+    "key_lesson_vi": "So sánh âm thanh Trước (tiếng quạt ù ù) và Sau khi bấm nút lọc ồn (giọng trong vắt, im phăng phắc) ngay trong 3 giây đầu. Tuân thủ CHR: nói rõ Chân cắm Type-C/Lightning dùng cho điện thoại, không mạo danh thương hiệu.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v18_p6_pin_sac_du_phong_trong_suot_20w",
+    "product_archetype": "P6",
+    "author": "tech_setup_koc",
+    "caption_title": "Cục sạc dự phòng lộ bảng mạch Cyberpunk nhỏ bằng thỏi son: Cắm thử xem có lên sạc nhanh 20W thật không?",
+    "breakout_metrics": {
+      "views": 560000,
+      "likes": 34200,
+      "comments": 1080,
+      "shares": 3700,
+      "saves": 8800,
+      "followers": 85000,
+      "hours_since_upload": 30.0,
+      "outlier_ratio_x": 6.59,
+      "velocity_views_per_hour": 18666.7,
+      "affiliate_intent_rate_pct": 14.76,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 16.39,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.22,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.64,
+      "v1_pacing_curve_sec": [
+        1.22,
+        1.42,
+        1.65,
+        2.2,
+        1.55,
+        1.7,
+        1.6,
+        1.65,
+        1.75,
+        1.65
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_TRANSPARENT_CHIP_HOOK",
+        "A3_ONETAKE_PLUG_FAST_CHARGE_PROOF",
+        "A6_POV_BUILT_IN_CABLE_PULL",
+        "A2_CAPACITY_10000MAH_NOTE_CON",
+        "A1_POCKET_SIZE_COMPARE",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (100% -> 118%)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 134.0,
+      "avg_saturation_satavg": 88.0,
+      "color_temperature_style": "Cool Studio / Tương Phản Sắc Nét",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 62.0,
+      "editing_rhythm_style": "M1/M2 Beat-Sync Editing + SFX Mech Click"
+    },
+    "key_lesson_vi": "Quay One-Take cảnh cắm trực tiếp vào máy hiện tia sét sạc nhanh và màn hình LED nhảy % pin. Chê khách quan: vỏ nhựa trong suốt nhìn rất mê nhưng nếu để chung với chìa khóa trong túi sẽ dễ bị xước dăm nhẹ.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v19_p7_vien_sui_vitamin_c_tang_de_khang_chr_safe",
+    "product_archetype": "P7",
+    "author": "meshinthuine",
+    "caption_title": "Thói quen 1 ly nước cam sủi mỗi sáng của mình sau chuỗi ngày thức khuya làm việc (Chuẩn CHR 100%)",
+    "breakout_metrics": {
+      "views": 480000,
+      "likes": 29000,
+      "comments": 910,
+      "shares": 2800,
+      "saves": 7400,
+      "followers": 95000,
+      "hours_since_upload": 32.0,
+      "outlier_ratio_x": 5.05,
+      "velocity_views_per_hour": 15000.0,
+      "affiliate_intent_rate_pct": 14.34,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.57,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.32,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.76,
+      "v1_pacing_curve_sec": [
+        1.32,
+        1.55,
+        1.8,
+        2.2,
+        1.7,
+        1.85,
+        1.65,
+        1.8,
+        1.9,
+        1.8
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_FIZZ_TABLET_DROP_HOOK",
+        "A4_AUTHENTIC_STAMP_AND_LABEL",
+        "A1_MORNING_DRINK_ROUTINE",
+        "A2_NO_SUGAR_TASTE_CON",
+        "A1_DISCLAIMER_SUBTITLE_VIEW",
+        "A6_CTA_POINT_CART"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 146.0,
+      "avg_saturation_satavg": 89.0,
+      "color_temperature_style": "Warm Lifestyle / Nắng Sáng Trong Lành",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 36.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Tôn tiếng viên sủi xèo xèo trong ly thủy tinh)"
+    },
+    "key_lesson_vi": "Hook 1.32s thả viên sủi vào cốc nước trong suốt dưới nắng sớm. TUYỆT ĐỐI KHÔNG dùng từ Thuốc/Chữa bệnh/Trị dứt điểm; hiển thị rõ dòng miễn trừ trách nhiệm TPCN suốt video và nói thật lòng cần duy trì đều đặn kết hợp ngủ đủ giấc.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "v20_p7_collagen_peptide_dang_nuoc_de_hap_thu",
+    "product_archetype": "P7",
+    "author": "koc_suckhoe_chinhhang",
+    "caption_title": "Review thật lòng vị của gói Collagen Peptide thủy phân sau 1 tháng trải nghiệm: Có bị tanh không?",
+    "breakout_metrics": {
+      "views": 530000,
+      "likes": 32500,
+      "comments": 1040,
+      "shares": 3400,
+      "saves": 8200,
+      "followers": 105000,
+      "hours_since_upload": 29.0,
+      "outlier_ratio_x": 5.05,
+      "velocity_views_per_hour": 18275.9,
+      "affiliate_intent_rate_pct": 14.64,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.73,
+      "total_shots": 10,
+      "hook_first_shot_dur_sec": 1.36,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.78,
+      "v1_pacing_curve_sec": [
+        1.36,
+        1.58,
+        1.82,
+        2.15,
+        1.72,
+        1.85,
+        1.7,
+        1.8,
+        1.9,
+        1.85
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "recommended_angle_sequence_a1_a8": [
+        "A2_MACRO_LIQUID_POUR_SPOON_HOOK",
+        "A4_MINISTRY_APPROVAL_SEAL",
+        "A1_TASTE_REACTION_HONEST",
+        "A6_POV_ICE_MIX_TIP_CON",
+        "A1_DISCLAIMER_SUBTITLE_VIEW",
+        "A1_CTA_LEFT_BOTTOM"
+      ],
+      "transitions_signature": [
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Punch-In Jump Cut (100% -> 118%)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 144.0,
+      "avg_saturation_satavg": 86.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Hồng Sang Trọng",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room Benchmark (Zero third-party media used)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 38.0,
+      "editing_rhythm_style": "M3 Aesthetic Chill Synth (Nhạc nền 10% + giọng kể chuyện chân thành)"
+    },
+    "key_lesson_vi": "Trả lời ngay nỗi sợ lớn nhất của khách mua Collagen ở giây đầu tiên: Có bị tanh mùi cá không? Điểm trừ Khen 8 Chê 2: uống ở nhiệt độ phòng hơi chua nhẹ vị lựu, nhưng ướp lạnh trong ngăn mát tủ lạnh thì ngon như nước trái cây.",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "learned_timestamp": "2026-11-06T09:26:35"
+  },
+  {
+    "video_id": "7700630570442804532",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "Gu hoàng tử công tử hông còn lạ gì nhà @Tiệm Hy Kem nữa rồi 🤩 Set nào cũng xinh xỉu luôn 😚",
+    "breakout_metrics": {
+      "views": 279500,
+      "likes": 3914,
+      "comments": 88,
+      "shares": 459,
+      "saves": 469,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 18.63,
+      "velocity_views_per_hour": 5822.9,
+      "affiliate_intent_rate_pct": 2.63,
+      "bvi_score_100": 83.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 30.0,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.43,
+      "v1_pacing_curve_sec": [
+        0.9,
+        0.83,
+        0.87,
+        0.83,
+        0.6,
+        0.77,
+        0.77,
+        0.6,
+        0.46,
+        1.1,
+        3.54,
+        0.93,
+        5.2,
+        4.27,
+        0.96
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7700630570442804532_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7700630570442804532_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.7,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 1.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.4,
+          "peak_motion_ydif": 33.6
+        },
+        {
+          "at_sec": 2.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.5,
+          "peak_motion_ydif": 39.1
+        },
+        {
+          "at_sec": 3.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.2,
+          "peak_motion_ydif": 43.3
+        },
+        {
+          "at_sec": 4.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.3,
+          "peak_motion_ydif": 34.0
+        },
+        {
+          "at_sec": 4.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.1,
+          "peak_motion_ydif": 33.2
+        },
+        {
+          "at_sec": 5.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.1,
+          "peak_motion_ydif": 34.4
+        },
+        {
+          "at_sec": 6.17,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 150.8,
+          "peak_motion_ydif": 24.1
+        },
+        {
+          "at_sec": 6.63,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.7,
+          "peak_motion_ydif": 19.1
+        },
+        {
+          "at_sec": 7.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 219.0,
+          "peak_motion_ydif": 73.6
+        },
+        {
+          "at_sec": 11.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.9,
+          "peak_motion_ydif": 51.6
+        },
+        {
+          "at_sec": 12.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 210.8,
+          "peak_motion_ydif": 53.6
+        },
+        {
+          "at_sec": 17.4,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 171.8,
+          "peak_motion_ydif": 15.5
+        },
+        {
+          "at_sec": 21.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.1,
+          "peak_motion_ydif": 33.4
+        },
+        {
+          "at_sec": 22.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.8,
+          "peak_motion_ydif": 57.2
+        },
+        {
+          "at_sec": 23.7,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 155.9,
+          "peak_motion_ydif": 18.0
+        },
+        {
+          "at_sec": 26.2,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 145.3,
+          "peak_motion_ydif": 17.1
+        },
+        {
+          "at_sec": 27.5,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 143.7,
+          "peak_motion_ydif": 21.0
+        },
+        {
+          "at_sec": 28.3,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 147.4,
+          "peak_motion_ydif": 16.5
+        },
+        {
+          "at_sec": 28.77,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 145.6,
+          "peak_motion_ydif": 22.3
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 152.4,
+      "avg_saturation_satavg": 7.2,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 2,
+      "beat_sync_ratio_pct": 5.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:13",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703953232057339137",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Trả lời @Mẹ Leon đây Chục bộ chưa tới 1 củ nữa mấy mom ơi 🤭 #meshinthuine #tiktokshop1111 #domacnhachobe",
+    "breakout_metrics": {
+      "views": 572,
+      "likes": 22,
+      "comments": 9,
+      "shares": 3,
+      "saves": 2,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.04,
+      "velocity_views_per_hour": 11.9,
+      "affiliate_intent_rate_pct": 9.97,
+      "bvi_score_100": 25.5,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 26.2,
+      "total_shots": 25,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 5,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        0.57,
+        0.63,
+        0.57,
+        0.6,
+        0.6,
+        0.7,
+        1.4,
+        0.76,
+        1.9,
+        1.34,
+        3.36,
+        1.47,
+        2.33,
+        1.3,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7703953232057339137_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703953232057339137_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.1,
+          "peak_motion_ydif": 28.4
+        },
+        {
+          "at_sec": 1.2,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 151.1,
+          "peak_motion_ydif": 24.8
+        },
+        {
+          "at_sec": 1.77,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 25.9
+        },
+        {
+          "at_sec": 2.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.9,
+          "peak_motion_ydif": 25.6
+        },
+        {
+          "at_sec": 2.97,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 158.0,
+          "peak_motion_ydif": 22.1
+        },
+        {
+          "at_sec": 3.67,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 155.7,
+          "peak_motion_ydif": 18.5
+        },
+        {
+          "at_sec": 5.07,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 157.3,
+          "peak_motion_ydif": 17.1
+        },
+        {
+          "at_sec": 5.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.7,
+          "peak_motion_ydif": 33.5
+        },
+        {
+          "at_sec": 7.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 173.3,
+          "peak_motion_ydif": 25.6
+        },
+        {
+          "at_sec": 9.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 201.5,
+          "peak_motion_ydif": 48.3
+        },
+        {
+          "at_sec": 12.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 195.8,
+          "peak_motion_ydif": 39.6
+        },
+        {
+          "at_sec": 13.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 201.6,
+          "peak_motion_ydif": 34.1
+        },
+        {
+          "at_sec": 16.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 190.1,
+          "peak_motion_ydif": 44.5
+        },
+        {
+          "at_sec": 17.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.1,
+          "peak_motion_ydif": 46.5
+        },
+        {
+          "at_sec": 19.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 196.3,
+          "peak_motion_ydif": 46.7
+        },
+        {
+          "at_sec": 20.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.6,
+          "peak_motion_ydif": 37.8
+        },
+        {
+          "at_sec": 20.87,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.8,
+          "peak_motion_ydif": 24.7
+        },
+        {
+          "at_sec": 21.47,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 152.5,
+          "peak_motion_ydif": 15.5
+        },
+        {
+          "at_sec": 22.1,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 154.8,
+          "peak_motion_ydif": 14.7
+        },
+        {
+          "at_sec": 22.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 160.2,
+          "peak_motion_ydif": 19.5
+        },
+        {
+          "at_sec": 23.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.5,
+          "peak_motion_ydif": 16.1
+        },
+        {
+          "at_sec": 23.93,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 154.7,
+          "peak_motion_ydif": 21.5
+        },
+        {
+          "at_sec": 24.5,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 157.5,
+          "peak_motion_ydif": 23.8
+        },
+        {
+          "at_sec": 25.1,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.0,
+          "peak_motion_ydif": 16.9
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 155.2,
+      "avg_saturation_satavg": 10.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 6,
+      "beat_sync_ratio_pct": 4.2,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:21",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7704684768889163028",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Chưa đến trăm ca mà xinh quá chừng luôn các mom ôi 😚 #meshinthuine #domacnhachobe",
+    "breakout_metrics": {
+      "views": 189,
+      "likes": 13,
+      "comments": 4,
+      "shares": 2,
+      "saves": 1,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.01,
+      "velocity_views_per_hour": 3.9,
+      "affiliate_intent_rate_pct": 16.4,
+      "bvi_score_100": 25.1,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 23.87,
+      "total_shots": 15,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.59,
+      "v1_pacing_curve_sec": [
+        0.7,
+        0.67,
+        0.5,
+        2.03,
+        1.77,
+        0.7,
+        0.63,
+        0.67,
+        1.96,
+        0.87,
+        0.63,
+        0.6,
+        8.8,
+        0.84,
+        2.5
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7704684768889163028_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7704684768889163028_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.7,
+          "transition_type": "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+          "peak_luminance_yavg": 176.9,
+          "peak_motion_ydif": 18.2
+        },
+        {
+          "at_sec": 1.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.9,
+          "peak_motion_ydif": 22.7
+        },
+        {
+          "at_sec": 1.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 165.1,
+          "peak_motion_ydif": 48.9
+        },
+        {
+          "at_sec": 3.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 175.8,
+          "peak_motion_ydif": 45.0
+        },
+        {
+          "at_sec": 5.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 167.8,
+          "peak_motion_ydif": 44.6
+        },
+        {
+          "at_sec": 6.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.8,
+          "peak_motion_ydif": 46.1
+        },
+        {
+          "at_sec": 7.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.4,
+          "peak_motion_ydif": 44.1
+        },
+        {
+          "at_sec": 7.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 172.2,
+          "peak_motion_ydif": 43.6
+        },
+        {
+          "at_sec": 9.63,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.4,
+          "peak_motion_ydif": 24.5
+        },
+        {
+          "at_sec": 10.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.3,
+          "peak_motion_ydif": 34.7
+        },
+        {
+          "at_sec": 11.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.6,
+          "peak_motion_ydif": 27.2
+        },
+        {
+          "at_sec": 11.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 175.3,
+          "peak_motion_ydif": 21.8
+        },
+        {
+          "at_sec": 20.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.9,
+          "peak_motion_ydif": 27.3
+        },
+        {
+          "at_sec": 21.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 165.6,
+          "peak_motion_ydif": 28.7
+        }
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 165.8,
+      "avg_saturation_satavg": 8.8,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 44,
+      "beat_sync_ratio_pct": 50.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:33",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7656667386581437704",
+    "product_archetype": "P1",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "có một cái đầu mà cỡ này luôn đó 😇 #unbox #unboxing #dantoc #bangdodantoc #beauty ",
+    "breakout_metrics": {
+      "views": 11800000,
+      "likes": 73900,
+      "comments": 874,
+      "shares": 12500,
+      "saves": 14182,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 114.67,
+      "velocity_views_per_hour": 245833.3,
+      "affiliate_intent_rate_pct": 1.44,
+      "bvi_score_100": 79.5,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 60.0,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        60.0
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7656667386581437704_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 58,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:19:27",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7681699846520179989",
+    "product_archetype": "P1",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "vậy tóm lại là son có gia công không ta 🍣 #unboxing #toocoolforschool #sonbase #mutedlips #noidungduoctaitro ",
+    "breakout_metrics": {
+      "views": 5900000,
+      "likes": 28500,
+      "comments": 401,
+      "shares": 2440,
+      "saves": 4554,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 57.34,
+      "velocity_views_per_hour": 122916.7,
+      "affiliate_intent_rate_pct": 0.93,
+      "bvi_score_100": 77.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 38.95,
+      "total_shots": 14,
+      "hook_first_shot_dur_sec": 1.37,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        1.37,
+        3.55,
+        1.93,
+        4.92,
+        2.16,
+        5.02,
+        3.48,
+        2.15,
+        2.52,
+        4.05,
+        0.6,
+        3.68,
+        2.04,
+        1.48
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7681699846520179989_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7681699846520179989_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.5,
+          "peak_motion_ydif": 45.7
+        },
+        {
+          "at_sec": 4.92,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 161.9,
+          "peak_motion_ydif": 30.3
+        },
+        {
+          "at_sec": 6.85,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.9,
+          "peak_motion_ydif": 36.8
+        },
+        {
+          "at_sec": 11.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.7,
+          "peak_motion_ydif": 30.9
+        },
+        {
+          "at_sec": 13.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.0,
+          "peak_motion_ydif": 32.7
+        },
+        {
+          "at_sec": 18.95,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.2,
+          "peak_motion_ydif": 21.8
+        },
+        {
+          "at_sec": 22.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.8,
+          "peak_motion_ydif": 27.5
+        },
+        {
+          "at_sec": 24.58,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.6,
+          "peak_motion_ydif": 34.1
+        },
+        {
+          "at_sec": 27.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 175.5,
+          "peak_motion_ydif": 43.0
+        },
+        {
+          "at_sec": 31.15,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 166.8,
+          "peak_motion_ydif": 30.8
+        },
+        {
+          "at_sec": 31.75,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 167.1,
+          "peak_motion_ydif": 37.9
+        },
+        {
+          "at_sec": 35.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.0,
+          "peak_motion_ydif": 36.0
+        },
+        {
+          "at_sec": 37.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.5,
+          "peak_motion_ydif": 32.1
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 164.2,
+      "avg_saturation_satavg": 11.7,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 9,
+      "beat_sync_ratio_pct": 15.4,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:19:38",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7684654908578024725",
+    "product_archetype": "P2",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "dễ thương hénnn 😼 #unbox #unboxing #hellokitty #hopdungdo #noidungduoctaitro ",
+    "breakout_metrics": {
+      "views": 3900000,
+      "likes": 21600,
+      "comments": 196,
+      "shares": 2043,
+      "saves": 4954,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 37.9,
+      "velocity_views_per_hour": 81250.0,
+      "affiliate_intent_rate_pct": 1.23,
+      "bvi_score_100": 78.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 34.81,
+      "total_shots": 23,
+      "hook_first_shot_dur_sec": 1.52,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.51,
+      "v1_pacing_curve_sec": [
+        1.52,
+        1.98,
+        1.27,
+        1.01,
+        1.02,
+        0.5,
+        1.0,
+        0.95,
+        1.38,
+        1.47,
+        1.9,
+        2.33,
+        2.89,
+        1.4,
+        2.01
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7684654908578024725_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7684654908578024725_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.52,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.3,
+          "peak_motion_ydif": 53.0
+        },
+        {
+          "at_sec": 3.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.6,
+          "peak_motion_ydif": 44.6
+        },
+        {
+          "at_sec": 4.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.6,
+          "peak_motion_ydif": 39.8
+        },
+        {
+          "at_sec": 5.78,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 185.4,
+          "peak_motion_ydif": 33.8
+        },
+        {
+          "at_sec": 6.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 187.7,
+          "peak_motion_ydif": 34.8
+        },
+        {
+          "at_sec": 7.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 179.1,
+          "peak_motion_ydif": 33.1
+        },
+        {
+          "at_sec": 8.3,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 190.6,
+          "peak_motion_ydif": 22.7
+        },
+        {
+          "at_sec": 9.25,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 190.5,
+          "peak_motion_ydif": 50.9
+        },
+        {
+          "at_sec": 10.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.1,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 12.1,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 161.6,
+          "peak_motion_ydif": 24.5
+        },
+        {
+          "at_sec": 14.0,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 164.2,
+          "peak_motion_ydif": 24.4
+        },
+        {
+          "at_sec": 16.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.9,
+          "peak_motion_ydif": 34.5
+        },
+        {
+          "at_sec": 19.22,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.8,
+          "peak_motion_ydif": 49.1
+        },
+        {
+          "at_sec": 20.62,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 167.8,
+          "peak_motion_ydif": 50.4
+        },
+        {
+          "at_sec": 22.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 164.7,
+          "peak_motion_ydif": 36.1
+        },
+        {
+          "at_sec": 24.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.4,
+          "peak_motion_ydif": 38.2
+        },
+        {
+          "at_sec": 25.05,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.3,
+          "peak_motion_ydif": 33.7
+        },
+        {
+          "at_sec": 25.95,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.6,
+          "peak_motion_ydif": 36.4
+        },
+        {
+          "at_sec": 27.07,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 174.4,
+          "peak_motion_ydif": 24.8
+        },
+        {
+          "at_sec": 28.08,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.6,
+          "peak_motion_ydif": 42.8
+        },
+        {
+          "at_sec": 29.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 171.8,
+          "peak_motion_ydif": 40.4
+        },
+        {
+          "at_sec": 31.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 175.2,
+          "peak_motion_ydif": 46.2
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 171.3,
+      "avg_saturation_satavg": 11.1,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 62,
+      "beat_sync_ratio_pct": 18.2,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:19:53",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7655756263879494919",
+    "product_archetype": "P2",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "có ai cần tui share tips gì nữa hăm 🤔 và trong video tui dùng đèn vàng nha (tui quên không sub 👀) #unbox #unboxing #setden #denquayvideo #denquaytiktok ",
+    "breakout_metrics": {
+      "views": 771800,
+      "likes": 14200,
+      "comments": 1857,
+      "shares": 1888,
+      "saves": 4001,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 7.5,
+      "velocity_views_per_hour": 16079.2,
+      "affiliate_intent_rate_pct": 5.13,
+      "bvi_score_100": 91.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 40.7,
+      "total_shots": 14,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        2.62,
+        2.53,
+        1.32,
+        2.23,
+        12.63,
+        1.5,
+        2.52,
+        4.2,
+        3.23,
+        0.69,
+        0.71,
+        1.25,
+        2.85,
+        2.42
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7655756263879494919_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7655756263879494919_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.62,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 186.3,
+          "peak_motion_ydif": 61.4
+        },
+        {
+          "at_sec": 5.15,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.2,
+          "peak_motion_ydif": 29.4
+        },
+        {
+          "at_sec": 6.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.8,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 8.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.0,
+          "peak_motion_ydif": 30.3
+        },
+        {
+          "at_sec": 21.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.7,
+          "peak_motion_ydif": 70.1
+        },
+        {
+          "at_sec": 22.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.0,
+          "peak_motion_ydif": 63.6
+        },
+        {
+          "at_sec": 25.35,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.9,
+          "peak_motion_ydif": 53.3
+        },
+        {
+          "at_sec": 29.55,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.6,
+          "peak_motion_ydif": 56.1
+        },
+        {
+          "at_sec": 32.78,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.0,
+          "peak_motion_ydif": 50.8
+        },
+        {
+          "at_sec": 33.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.1,
+          "peak_motion_ydif": 45.4
+        },
+        {
+          "at_sec": 34.18,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 195.4,
+          "peak_motion_ydif": 34.4
+        },
+        {
+          "at_sec": 35.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.2,
+          "peak_motion_ydif": 50.9
+        },
+        {
+          "at_sec": 38.28,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.9,
+          "peak_motion_ydif": 55.7
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 160.6,
+      "avg_saturation_satavg": 12.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 85,
+      "beat_sync_ratio_pct": 38.5,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:20:04",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7662197657800051986",
+    "product_archetype": "P1",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "mấy bà tóc mỏng đâu rùiii nhờ 🥣🫐 #unbox #unboxing #keptoc #hairclip #beauty ",
+    "breakout_metrics": {
+      "views": 754700,
+      "likes": 2131,
+      "comments": 38,
+      "shares": 187,
+      "saves": 483,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 7.33,
+      "velocity_views_per_hour": 15722.9,
+      "affiliate_intent_rate_pct": 0.62,
+      "bvi_score_100": 76.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 18.78,
+      "total_shots": 14,
+      "hook_first_shot_dur_sec": 1.97,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.34,
+      "v1_pacing_curve_sec": [
+        1.97,
+        0.96,
+        0.95,
+        0.49,
+        0.96,
+        3.84,
+        0.96,
+        2.4,
+        0.97,
+        0.95,
+        1.43,
+        0.5,
+        1.44,
+        0.96
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7662197657800051986_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7662197657800051986_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 161.5,
+          "peak_motion_ydif": 63.9
+        },
+        {
+          "at_sec": 2.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.4,
+          "peak_motion_ydif": 55.6
+        },
+        {
+          "at_sec": 3.88,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.1,
+          "peak_motion_ydif": 49.1
+        },
+        {
+          "at_sec": 4.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.6,
+          "peak_motion_ydif": 26.4
+        },
+        {
+          "at_sec": 5.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.8,
+          "peak_motion_ydif": 33.0
+        },
+        {
+          "at_sec": 9.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.1,
+          "peak_motion_ydif": 28.7
+        },
+        {
+          "at_sec": 10.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.3,
+          "peak_motion_ydif": 28.3
+        },
+        {
+          "at_sec": 12.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.4,
+          "peak_motion_ydif": 38.8
+        },
+        {
+          "at_sec": 13.5,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.0,
+          "peak_motion_ydif": 21.5
+        },
+        {
+          "at_sec": 14.45,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.4,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 15.88,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.9,
+          "peak_motion_ydif": 33.0
+        },
+        {
+          "at_sec": 16.38,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 164.8,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 17.82,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.8,
+          "peak_motion_ydif": 37.1
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 147.6,
+      "avg_saturation_satavg": 11.1,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 36,
+      "beat_sync_ratio_pct": 61.5,
+      "editing_rhythm_style": "M1/M2 Beat-Sync Editing (Cắt cảnh khớp chặt theo phách nhạc/SFX)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:20:17",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7666052268323523848",
+    "product_archetype": "P2",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "cách tui chỉnh màu với làm nét đâyyyy, ai cần tui share tips gì thì cứ cmt tui lên video dần nhóo @wink.app_vn 😝 #unbox #wink #chinhmau #edits #lamnet ",
+    "breakout_metrics": {
+      "views": 714800,
+      "likes": 10700,
+      "comments": 397,
+      "shares": 1306,
+      "saves": 5421,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.95,
+      "velocity_views_per_hour": 14891.7,
+      "affiliate_intent_rate_pct": 5.19,
+      "bvi_score_100": 91.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 55.53,
+      "total_shots": 24,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.31,
+      "v1_pacing_curve_sec": [
+        5.75,
+        2.67,
+        2.11,
+        3.52,
+        2.42,
+        0.91,
+        1.2,
+        1.27,
+        6.62,
+        5.55,
+        1.31,
+        2.15,
+        8.69,
+        1.88,
+        1.4
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7666052268323523848_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7666052268323523848_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 5.75,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.3,
+          "peak_motion_ydif": 43.9
+        },
+        {
+          "at_sec": 8.42,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 148.4,
+          "peak_motion_ydif": 18.0
+        },
+        {
+          "at_sec": 10.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.0,
+          "peak_motion_ydif": 68.7
+        },
+        {
+          "at_sec": 14.05,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 162.3,
+          "peak_motion_ydif": 53.1
+        },
+        {
+          "at_sec": 16.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 162.7,
+          "peak_motion_ydif": 88.0
+        },
+        {
+          "at_sec": 17.38,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 74.9,
+          "peak_motion_ydif": 35.7
+        },
+        {
+          "at_sec": 18.58,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 200.5,
+          "peak_motion_ydif": 133.1
+        },
+        {
+          "at_sec": 19.85,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 197.8,
+          "peak_motion_ydif": 106.5
+        },
+        {
+          "at_sec": 26.47,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 109.4,
+          "peak_motion_ydif": 23.2
+        },
+        {
+          "at_sec": 32.02,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.3,
+          "peak_motion_ydif": 118.0
+        },
+        {
+          "at_sec": 33.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 203.5,
+          "peak_motion_ydif": 102.4
+        },
+        {
+          "at_sec": 35.48,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 107.6,
+          "peak_motion_ydif": 20.9
+        },
+        {
+          "at_sec": 44.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.0,
+          "peak_motion_ydif": 62.8
+        },
+        {
+          "at_sec": 46.05,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.1,
+          "peak_motion_ydif": 73.3
+        },
+        {
+          "at_sec": 47.45,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.9,
+          "peak_motion_ydif": 42.1
+        },
+        {
+          "at_sec": 48.48,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.9,
+          "peak_motion_ydif": 28.7
+        },
+        {
+          "at_sec": 49.12,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 120.6,
+          "peak_motion_ydif": 19.0
+        },
+        {
+          "at_sec": 50.33,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 125.4,
+          "peak_motion_ydif": 19.1
+        },
+        {
+          "at_sec": 51.23,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 125.6,
+          "peak_motion_ydif": 20.1
+        },
+        {
+          "at_sec": 52.02,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 120.9,
+          "peak_motion_ydif": 21.8
+        },
+        {
+          "at_sec": 52.67,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 120.9,
+          "peak_motion_ydif": 18.7
+        },
+        {
+          "at_sec": 53.25,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 120.4,
+          "peak_motion_ydif": 16.1
+        },
+        {
+          "at_sec": 53.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.1,
+          "peak_motion_ydif": 66.8
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 144.2,
+      "avg_saturation_satavg": 15.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 99,
+      "beat_sync_ratio_pct": 39.1,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:20:32",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7660113578279587090",
+    "product_archetype": "P1",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "tui đã quên nói là em nó còn siêu thơm 🌝 #unbox #unboxing #romand #romandjuicyflashlipoil #sonbong ",
+    "breakout_metrics": {
+      "views": 698500,
+      "likes": 22900,
+      "comments": 108,
+      "shares": 4895,
+      "saves": 7104,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.79,
+      "velocity_views_per_hour": 14552.1,
+      "affiliate_intent_rate_pct": 9.48,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 240.04,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        240.04
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7660113578279587090_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 293,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:20:40",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7668255705534647559",
+    "product_archetype": "P6",
+    "author": "honghanhxinhgai_01",
+    "caption_title": "suýt tốn 85 🐟 🌝 #unbox #unboxing #phonecase #opdienthoai #fyb ",
+    "breakout_metrics": {
+      "views": 561600,
+      "likes": 20300,
+      "comments": 132,
+      "shares": 753,
+      "saves": 1784,
+      "followers": 102900,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 5.46,
+      "velocity_views_per_hour": 11700.0,
+      "affiliate_intent_rate_pct": 5.33,
+      "bvi_score_100": 91.7,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 29.42,
+      "total_shots": 12,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 2.45,
+      "v1_pacing_curve_sec": [
+        1.03,
+        2.8,
+        2.15,
+        5.55,
+        2.8,
+        7.0,
+        1.55,
+        1.12,
+        1.15,
+        1.33,
+        1.52,
+        1.42
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7668255705534647559_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7668255705534647559_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 172.6,
+          "peak_motion_ydif": 43.3
+        },
+        {
+          "at_sec": 3.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 174.1,
+          "peak_motion_ydif": 48.3
+        },
+        {
+          "at_sec": 5.98,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 174.1,
+          "peak_motion_ydif": 28.7
+        },
+        {
+          "at_sec": 11.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 174.1,
+          "peak_motion_ydif": 47.4
+        },
+        {
+          "at_sec": 14.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.3,
+          "peak_motion_ydif": 48.4
+        },
+        {
+          "at_sec": 21.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 182.9,
+          "peak_motion_ydif": 34.3
+        },
+        {
+          "at_sec": 22.88,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.8,
+          "peak_motion_ydif": 49.9
+        },
+        {
+          "at_sec": 24.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 170.2,
+          "peak_motion_ydif": 47.8
+        },
+        {
+          "at_sec": 25.15,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 170.1,
+          "peak_motion_ydif": 43.8
+        },
+        {
+          "at_sec": 26.48,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 170.5,
+          "peak_motion_ydif": 53.2
+        },
+        {
+          "at_sec": 28.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 171.2,
+          "peak_motion_ydif": 35.5
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 167.4,
+      "avg_saturation_satavg": 11.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 0,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T11:20:52",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  }
+]

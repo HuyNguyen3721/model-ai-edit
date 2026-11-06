@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-05T17:33:18",
+  "updated_at": "2026-11-06T16:18:22",
   "description": "Sổ đăng ký riêng các Sound Effect & Hiệu ứng ngoài CapCut (100% sạch bản quyền & đạt chuẩn âm học)",
   "items": {
     "luxury_soft_pop": {
       "sfx_key": "luxury_soft_pop",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
       "subfolder": "pivot_khen_che",
       "trigger_context": "ENTRY_POP / Hiện chữ Điểm cộng - Điểm trừ Khen 8 Chê 2",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -18,11 +18,12 @@
         "quality_score_100": 79.1,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:17"
+      "registered_at": "2026-11-06T16:18:19",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav"
     },
     "crystal_aha_shimmer": {
       "sfx_key": "crystal_aha_shimmer",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
       "subfolder": "hook_attention",
       "trigger_context": "HOOK_0_3S / Khoảnh khắc mở màn sáng bóng 1.5s đầu",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -36,11 +37,12 @@
         "quality_score_100": 79.5,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T16:18:19",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav"
     },
     "cart_gold_chime": {
       "sfx_key": "cart_gold_chime",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
       "subfolder": "cta_cart_chime",
       "trigger_context": "CTA_POINT_TO_CART / Chỉ tay vào Giỏ hàng góc trái dưới",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -54,11 +56,12 @@
         "quality_score_100": 78.7,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav"
     },
     "clean_velvet_whoosh": {
       "sfx_key": "clean_velvet_whoosh",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav",
       "subfolder": "kinetic_motion",
       "trigger_context": "PUSH_IN / Đưa sản phẩm từ rìa vào giữa khung hình",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -66,17 +69,18 @@
       "acoustic_metrics": {
         "passed": true,
         "duration_sec": 0.22,
-        "peak_db": -22.87,
-        "rms_db": -35.94,
-        "crest_factor_db": 13.06,
-        "quality_score_100": 93.7,
+        "peak_db": -18.78,
+        "rms_db": -34.55,
+        "crest_factor_db": 15.77,
+        "quality_score_100": 99.7,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T11:58:40",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
     },
     "kinetic_swipe_out": {
       "sfx_key": "kinetic_swipe_out",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav",
       "subfolder": "kinetic_motion",
       "trigger_context": "PULL_OUT / Gạt sản phẩm cũ ra khỏi khung hình",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -84,17 +88,18 @@
       "acoustic_metrics": {
         "passed": true,
         "duration_sec": 0.19,
-        "peak_db": -22.79,
-        "rms_db": -36.5,
-        "crest_factor_db": 13.71,
-        "quality_score_100": 95.2,
+        "peak_db": -20.57,
+        "rms_db": -37.0,
+        "crest_factor_db": 16.43,
+        "quality_score_100": 100.0,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/kinetic_swipe_out.wav"
     },
     "sub_bass_hook_hit": {
       "sfx_key": "sub_bass_hook_hit",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav",
       "subfolder": "transition_hit",
       "trigger_context": "PUNCH_IN_ZOOM / Nhấn mạnh điểm cắt giật cấp",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -108,11 +113,12 @@
         "quality_score_100": 79.4,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/sub_bass_hook_hit.wav"
     },
     "camera_shutter_clean": {
       "sfx_key": "camera_shutter_clean",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav",
       "subfolder": "transition_hit",
       "trigger_context": "FLASH_TRANSITION / Nháy trắng chụp ảnh Trước - Sau",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -120,17 +126,18 @@
       "acoustic_metrics": {
         "passed": true,
         "duration_sec": 0.07,
-        "peak_db": -15.14,
-        "rms_db": -27.28,
-        "crest_factor_db": 12.15,
-        "quality_score_100": 91.7,
+        "peak_db": -12.16,
+        "rms_db": -27.18,
+        "crest_factor_db": 15.03,
+        "quality_score_100": 98.1,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T15:06:38",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/camera_shutter_clean.wav"
     },
     "asmr_tactile_click": {
       "sfx_key": "asmr_tactile_click",
-      "file_path": "/Users/huynguyen/Desktop/tiktok/knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav",
       "subfolder": "asmr_foley",
       "trigger_context": "HAND_POINT / Chạm ngón tay chỉ vào chi tiết sản phẩm",
       "source_type": "clean_dsp_synthesized_100pct_copyright_free",
@@ -144,7 +151,883 @@
         "quality_score_100": 78.9,
         "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
       },
-      "registered_at": "2026-11-05T17:33:18"
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/asmr_tactile_click.wav"
+    },
+    "whoosh_in_v1": {
+      "sfx_key": "whoosh_in_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/whoosh_in_v1.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "PUSH_IN / Đưa sản phẩm từ ngoài vào tâm khung hình",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.212,
+        "peak_db": -1.9,
+        "rms_db": -15.97,
+        "crest_factor_db": 14.06,
+        "quality_score_100": 95.9,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:32",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/whoosh_in_v1.wav"
+    },
+    "whoosh_out_v1": {
+      "sfx_key": "whoosh_out_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/whoosh_out_v1.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "PULL_OUT / Gạt sản phẩm cũ ra khỏi khung hình",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.47,
+        "peak_db": -1.79,
+        "rms_db": -15.44,
+        "crest_factor_db": 13.65,
+        "quality_score_100": 95.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:32",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/whoosh_out_v1.wav"
+    },
+    "jump_boing_v1": {
+      "sfx_key": "jump_boing_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/jump_boing_v1.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "JUMP_MATCH_CUT / Nhảy biến hình hoặc bật nảy",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.676,
+        "peak_db": -2.52,
+        "rms_db": -18.9,
+        "crest_factor_db": 16.38,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:32",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/jump_boing_v1.wav"
+    },
+    "soft_pop_v1": {
+      "sfx_key": "soft_pop_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/soft_pop_v1.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "ENTRY_POP / Hiện chữ Điểm cộng - Điểm trừ Khen 8 Chê 2",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.199,
+        "peak_db": -1.41,
+        "rms_db": -17.69,
+        "crest_factor_db": 16.28,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:33",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/soft_pop_v1.wav"
+    },
+    "bubble_pop_v1": {
+      "sfx_key": "bubble_pop_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/bubble_pop_v1.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BUBBLE_REVEAL / Giọt serum hoặc bọt mịn",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.023,
+        "peak_db": -1.41,
+        "rms_db": -19.96,
+        "crest_factor_db": 18.55,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:33",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/bubble_pop_v1.wav"
+    },
+    "sparkle_ding_v1": {
+      "sfx_key": "sparkle_ding_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/sparkle_ding_v1.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "HOOK_AHA / Khoảnh khắc sáng bóng 1.5s đầu",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.908,
+        "peak_db": -8.13,
+        "rms_db": -19.85,
+        "crest_factor_db": 11.73,
+        "quality_score_100": 90.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:33",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/sparkle_ding_v1.wav"
+    },
+    "cash_chime_v1": {
+      "sfx_key": "cash_chime_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cash_chime_v1.wav",
+      "subfolder": "cta_cart_chime",
+      "trigger_context": "CTA_POINT_TO_CART / Chỉ tay vào Giỏ hàng góc trái dưới",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.898,
+        "peak_db": -1.41,
+        "rms_db": -17.79,
+        "crest_factor_db": 16.38,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:34",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cash_chime_v1.wav"
+    },
+    "shutter_v1": {
+      "sfx_key": "shutter_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/shutter_v1.wav",
+      "subfolder": "transition_hit",
+      "trigger_context": "FLASH_TRANSITION / Chuyển cảnh nháy trắng chụp ảnh Trước-Sau",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.48,
+        "peak_db": -4.42,
+        "rms_db": -23.64,
+        "crest_factor_db": 19.21,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:34",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/shutter_v1.wav"
+    },
+    "mech_click_v1": {
+      "sfx_key": "mech_click_v1",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/mech_click_v1.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BUTTON_CLICK / Bấm nút máy hoặc đóng nắp",
+      "source_type": "curated_short_foley_sfx",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.107,
+        "peak_db": -26.18,
+        "rms_db": -45.49,
+        "crest_factor_db": 19.31,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T08:24:34",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/mech_click_v1.wav"
+    },
+    "ping_pong_question": {
+      "sfx_key": "ping_pong_question",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/ping_pong_question.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "HOOK_DEBATE_QUESTION / Câu hỏi tranh luận Bịch hay Bao (@minhtienoiii06 & @kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.263,
+        "peak_db": -1.41,
+        "rms_db": -15.43,
+        "crest_factor_db": 14.02,
+        "quality_score_100": 95.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:42",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/ping_pong_question.wav"
+    },
+    "finger_snap_reveal": {
+      "sfx_key": "finger_snap_reveal",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/finger_snap_reveal.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "HOOK_SNAP_REVEAL / Búng tay biến ra sản phẩm (@kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.089,
+        "peak_db": -1.41,
+        "rms_db": -22.84,
+        "crest_factor_db": 21.43,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:43",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/finger_snap_reveal.wav"
+    },
+    "crispy_bite_crunch": {
+      "sfx_key": "crispy_bite_crunch",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/crispy_bite_crunch.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "FOOD_BITE_CRUNCH / Tiếng cắn bánh phồng sữa giòn rụm (@minhtienoiii06 & @kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.958,
+        "peak_db": -3.42,
+        "rms_db": -21.9,
+        "crest_factor_db": 18.48,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:44",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/crispy_bite_crunch.wav"
+    },
+    "paper_tear_manga_sketch": {
+      "sfx_key": "paper_tear_manga_sketch",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/paper_tear_manga_sketch.wav",
+      "subfolder": "transition_hit",
+      "trigger_context": "MANGA_SKETCH_FREEZE / Tiếng xé giấy đóng băng khung hình (@grayunbox)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.535,
+        "peak_db": -7.55,
+        "rms_db": -28.39,
+        "crest_factor_db": 20.84,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:45",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/paper_tear_manga_sketch.wav"
+    },
+    "water_splash_submerge": {
+      "sfx_key": "water_splash_submerge",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/water_splash_submerge.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "WATER_PROOF_TEST / Thả sản phẩm vào cốc nước (@3thag8_)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.843,
+        "peak_db": -2.48,
+        "rms_db": -23.17,
+        "crest_factor_db": 20.69,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:46",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/water_splash_submerge.wav"
+    },
+    "keyboard_typing_tick": {
+      "sfx_key": "keyboard_typing_tick",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/keyboard_typing_tick.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "SEARCH_BAR_TYPING / Gõ chữ thanh tìm kiếm (@meshinthuine & @honghanhxinhgai_01)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.099,
+        "peak_db": -4.66,
+        "rms_db": -27.57,
+        "crest_factor_db": 22.91,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:47",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/keyboard_typing_tick.wav"
+    },
+    "bell_ding_cta": {
+      "sfx_key": "bell_ding_cta",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/bell_ding_cta.wav",
+      "subfolder": "cta_cart_chime",
+      "trigger_context": "PRICE_EMOJI_DING / Hiện giá nông sản 45 cà chua & chỉ giỏ hàng (@minhtienoiii06 & @kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.422,
+        "peak_db": -14.44,
+        "rms_db": -28.8,
+        "crest_factor_db": 14.36,
+        "quality_score_100": 96.6,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:49",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/bell_ding_cta.wav"
+    },
+    "glowing_stroke_freeze": {
+      "sfx_key": "glowing_stroke_freeze",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/glowing_stroke_freeze.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "GLOW_STROKE_REVEAL / Tô viền phát quang lấp lánh (@kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.007,
+        "peak_db": -1.41,
+        "rms_db": -14.23,
+        "crest_factor_db": 12.81,
+        "quality_score_100": 93.2,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:25:50",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/glowing_stroke_freeze.wav"
+    },
+    "tin_lid_metallic_clink": {
+      "sfx_key": "tin_lid_metallic_clink",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/tin_lid_metallic_clink.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "TIN_LID_RESONANCE / Tiếng viên kẹo bắn vào nắp hộp thiếc tách-keng (@minhtienoiii06)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.655,
+        "peak_db": -18.48,
+        "rms_db": -25.89,
+        "crest_factor_db": 7.41,
+        "quality_score_100": 81.3,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:26:47",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/tin_lid_metallic_clink.wav"
+    },
+    "snack_bag_crinkle_open": {
+      "sfx_key": "snack_bag_crinkle_open",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/snack_bag_crinkle_open.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "SNACK_BAG_OPEN / Tiếng bóc túi bánh tráng, giấy nến sột soạt (@minhtienoiii06 & @byraanni)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 2.276,
+        "peak_db": -7.41,
+        "rms_db": -36.89,
+        "crest_factor_db": 29.48,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:26:48",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/snack_bag_crinkle_open.wav"
+    },
+    "ui_cute_telop_pop": {
+      "sfx_key": "ui_cute_telop_pop",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/ui_cute_telop_pop.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "UI_CUTE_TELOP / Tiếng hiện bình luận ghim & nhãn chữ cute (@honghanhxinhgai_01 & @kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 2.263,
+        "peak_db": -1.4,
+        "rms_db": -12.22,
+        "crest_factor_db": 10.83,
+        "quality_score_100": 88.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:26:48",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/ui_cute_telop_pop.wav"
+    },
+    "liquid_pour_ice_clink": {
+      "sfx_key": "liquid_pour_ice_clink",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/liquid_pour_ice_clink.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "TUMBLER_ICE_POUR / Tiếng rót nước đá vào bình giữ nhiệt (@byraanni & @minhtienoiii06)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.808,
+        "peak_db": -9.27,
+        "rms_db": -21.65,
+        "crest_factor_db": 12.38,
+        "quality_score_100": 92.2,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:26:51",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/liquid_pour_ice_clink.wav"
+    },
+    "jingle_horn_hook": {
+      "sfx_key": "jingle_horn_hook",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/jingle_horn_hook.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "OPENING_JINGLE_HORN / Tiếng kèn hiệu 3s mở đầu (@kieneditcuong)",
+      "source_type": "myinstants_verified_foley",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 1.52,
+        "peak_db": -4.18,
+        "rms_db": -15.34,
+        "crest_factor_db": 11.16,
+        "quality_score_100": 89.6,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T14:26:52",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/jingle_horn_hook.wav"
+    },
+    "ui_double_pop": {
+      "sfx_key": "ui_double_pop",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/ui_double_pop.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "DUAL_COMMENT_PIN / Ghim 2 bình luận trái chiều Bịch vs Bao (@honghanhxinhgai_01 & @minhtienoiii06)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.22,
+        "peak_db": -6.8,
+        "rms_db": -17.83,
+        "crest_factor_db": 11.03,
+        "quality_score_100": 89.3,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/ui_double_pop.wav"
+    },
+    "magnifier_loupe_zoom": {
+      "sfx_key": "magnifier_loupe_zoom",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/magnifier_loupe_zoom.wav",
+      "subfolder": "kinetic_motion",
+      "trigger_context": "DASHED_LOUPE_AND_RULER / Vòng tròn nét đứt phóng đại (@byraanni) & Thước đo 1m7 (@minhtienoiii06)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.28,
+        "peak_db": -5.39,
+        "rms_db": -18.57,
+        "crest_factor_db": 13.18,
+        "quality_score_100": 94.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/magnifier_loupe_zoom.wav"
+    },
+    "blister_pack_pop": {
+      "sfx_key": "blister_pack_pop",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/blister_pack_pop.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BLISTER_CANDY_POP / Bấm vỉ kẹo khoai môn & hộp kẹo bấm (@minhtienoiii06)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.11,
+        "peak_db": -2.52,
+        "rms_db": -16.51,
+        "crest_factor_db": 14.0,
+        "quality_score_100": 95.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:20",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/blister_pack_pop.wav"
+    },
+    "radial_zoom_loop_whoosh": {
+      "sfx_key": "radial_zoom_loop_whoosh",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/radial_zoom_loop_whoosh.wav",
+      "subfolder": "transition_hit",
+      "trigger_context": "RADIAL_ZOOM_SEAMLESS_LOOP / 0.3s cuối thu phóng xuyên tâm nối vòng lặp (@3thag8_)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.29,
+        "peak_db": -19.19,
+        "rms_db": -35.2,
+        "crest_factor_db": 16.01,
+        "quality_score_100": 100.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T15:29:41",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/transition_hit/radial_zoom_loop_whoosh.wav"
+    },
+    "box_cutter_tape_slice": {
+      "sfx_key": "box_cutter_tape_slice",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/box_cutter_tape_slice.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BOX_CUTTER_SLICE / Tiếng dao rọc giấy mini rạch băng keo thùng hàng giòn rụm (@yuhtt09 Flashback Unbox)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.26,
+        "peak_db": -9.81,
+        "rms_db": -23.53,
+        "crest_factor_db": 13.72,
+        "quality_score_100": 95.2,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T15:45:25",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/box_cutter_tape_slice.wav"
+    },
+    "bubble_wrap_unroll_pop": {
+      "sfx_key": "bubble_wrap_unroll_pop",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/bubble_wrap_unroll_pop.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BUBBLE_WRAP_POP / Tiếng tháo cuộn xốp nổ và bóp hạt bóng khí (@yuhtt09)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.21,
+        "peak_db": -5.6,
+        "rms_db": -17.16,
+        "crest_factor_db": 11.57,
+        "quality_score_100": 90.5,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/bubble_wrap_unroll_pop.wav"
+    },
+    "screen_seal_peel_smooth": {
+      "sfx_key": "screen_seal_peel_smooth",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/screen_seal_peel_smooth.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "SEAL_PEEL_REVEAL / Tiếng lột tấm seal nilon khỏi mặt gương LED hoặc bảng phấn (@yuhtt09)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.34,
+        "peak_db": -23.44,
+        "rms_db": -36.34,
+        "crest_factor_db": 12.9,
+        "quality_score_100": 93.4,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T15:45:26",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/screen_seal_peel_smooth.wav"
+    },
+    "fine_mist_spray_shimmer": {
+      "sfx_key": "fine_mist_spray_shimmer",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/fine_mist_spray_shimmer.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "MIST_SPRAY_TEST / Tiếng xịt tia sương mảnh từ chai xịt thơm quần áo / nước hoa / xịt khoáng (@yuhtt09)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.28,
+        "peak_db": -6.39,
+        "rms_db": -20.34,
+        "crest_factor_db": 13.95,
+        "quality_score_100": 95.7,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/fine_mist_spray_shimmer.wav"
+    },
+    "pen_click_and_paper_write": {
+      "sfx_key": "pen_click_and_paper_write",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/pen_click_and_paper_write.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "PEN_CLICK_WRITE / Tiếng bấm ngòi bút bi gel 'tách' + tiếng ngòi bút sột soạt trên giấy (@yuhtt09 8.1M views)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.14,
+        "peak_db": -5.01,
+        "rms_db": -17.94,
+        "crest_factor_db": 12.93,
+        "quality_score_100": 93.4,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/pen_click_and_paper_write.wav"
+    },
+    "water_pour_splash_test": {
+      "sfx_key": "water_pour_splash_test",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/water_pour_splash_test.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "WATER_PROOF_SPLASH / Tiếng rót nước rào rào lên mu bàn tay hoặc vào bình giữ nhiệt (@yuhtt09 & @3thag8_)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.38,
+        "peak_db": -19.53,
+        "rms_db": -33.32,
+        "crest_factor_db": 13.79,
+        "quality_score_100": 95.3,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/water_pour_splash_test.wav"
+    },
+    "zipper_slide_bag_smooth": {
+      "sfx_key": "zipper_slide_bag_smooth",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/zipper_slide_bag_smooth.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "ZIPPER_BAG_SLIDE / Tiếng kéo khóa túi xách / bóp viết mượt mà (@yuhtt09)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.25,
+        "peak_db": -7.44,
+        "rms_db": -19.65,
+        "crest_factor_db": 12.21,
+        "quality_score_100": 91.9,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/zipper_slide_bag_smooth.wav"
+    },
+    "card_deck_fan_flip_asmr": {
+      "sfx_key": "card_deck_fan_flip_asmr",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/card_deck_fan_flip_asmr.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "ACCORDION_FAN_FLIP / Tiếng xòe quạt và gẩy liên thanh 10 gói mặt nạ / thẻ bài (@yuhtt09)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.32,
+        "peak_db": -6.45,
+        "rms_db": -19.03,
+        "crest_factor_db": 12.58,
+        "quality_score_100": 92.7,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/card_deck_fan_flip_asmr.wav"
+    },
+    "sfx_kien_kirarin_glitter_skincare_done": {
+      "sfx_key": "sfx_kien_kirarin_glitter_skincare_done",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/sfx_kien_kirarin_glitter_skincare_done.wav",
+      "subfolder": "hook_attention",
+      "trigger_context": "SKINCARE_DONE_SPARKLE / Tiếng Kirarin glitter star / Cute announcement sau khi skincare hoặc biến hình (@kieneditcuong #05)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.36,
+        "peak_db": -4.35,
+        "rms_db": -15.53,
+        "crest_factor_db": 11.18,
+        "quality_score_100": 89.6,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:21",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/sfx_kien_kirarin_glitter_skincare_done.wav"
+    },
+    "sfx_kien_poyo_kawaii_skin_touch_bounce": {
+      "sfx_key": "sfx_kien_poyo_kawaii_skin_touch_bounce",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_poyo_kawaii_skin_touch_bounce.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "KAWAII_SKIN_BOUNCE / Tiếng Poyo Poyo / Cute system Pyui khi chạm má đàn hồi hoặc nhún Sticker Chibi (@kieneditcuong #05 & @honghanhxinhgai_01)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.22,
+        "peak_db": -5.94,
+        "rms_db": -16.47,
+        "crest_factor_db": 10.53,
+        "quality_score_100": 88.2,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_poyo_kawaii_skin_touch_bounce.wav"
+    },
+    "sfx_kien_remove_bottle_cap_unscrew": {
+      "sfx_key": "sfx_kien_remove_bottle_cap_unscrew",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_remove_bottle_cap_unscrew.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "BOTTLE_CAP_UNSCREW / Tiếng Remove the bottle cap / Open a new plastic bottle vặn bật nắp lọ serum (@kieneditcuong #05)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.19,
+        "peak_db": -5.4,
+        "rms_db": -17.28,
+        "crest_factor_db": 11.88,
+        "quality_score_100": 91.1,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_remove_bottle_cap_unscrew.wav"
+    },
+    "sfx_kien_pac_low_telop_subtitle_pop": {
+      "sfx_key": "sfx_kien_pac_low_telop_subtitle_pop",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_pac_low_telop_subtitle_pop.wav",
+      "subfolder": "pivot_khen_che",
+      "trigger_context": "TELOP_SUBTITLE_POP / Tiếng Pac (low) telop sound khi hiện phụ đề hoặc thông số Floating Part-Pointer Specs (@kieneditcuong #07 & @byraanni)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.11,
+        "peak_db": -2.81,
+        "rms_db": -16.0,
+        "crest_factor_db": 13.19,
+        "quality_score_100": 94.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/sfx_kien_pac_low_telop_subtitle_pop.wav"
+    },
+    "sfx_kien_money_chakin_deal_alert": {
+      "sfx_key": "sfx_kien_money_chakin_deal_alert",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/sfx_kien_money_chakin_deal_alert.wav",
+      "subfolder": "cta_cart_chime",
+      "trigger_context": "PRICE_DEAL_ALERT / Tiếng Money Chakin(11841) / Cash Register khi báo giá hời Flash Sale (@kieneditcuong #07)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.32,
+        "peak_db": -5.41,
+        "rms_db": -16.71,
+        "crest_factor_db": 11.29,
+        "quality_score_100": 89.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/sfx_kien_money_chakin_deal_alert.wav"
+    },
+    "sfx_kien_cheese_pull_mucus_necha_mlem": {
+      "sfx_key": "sfx_kien_cheese_pull_mucus_necha_mlem",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_cheese_pull_mucus_necha_mlem.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "VISCOUS_STRETCH_PULL / Tiếng Mucus necha(97223) khi kéo sợi phô mai chảy, múc mật táo đỏ sánh đặc hoặc kéo sợi bọt xà phòng tơ tằm (@kieneditcuong #08, @grayunbox, @3thag8_)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.3,
+        "peak_db": -7.19,
+        "rms_db": -16.16,
+        "crest_factor_db": 8.98,
+        "quality_score_100": 84.8,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_cheese_pull_mucus_necha_mlem.wav"
+    },
+    "sfx_kien_sizzling_pan_fry_crackle": {
+      "sfx_key": "sfx_kien_sizzling_pan_fry_crackle",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_sizzling_pan_fry_crackle.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "FOOD_SIZZLE_CRACKLE / Tiếng Fry in oil (Jar + crackle) đồ ăn xèo xèo nóng hổi (@kieneditcuong #08)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.36,
+        "peak_db": -8.39,
+        "rms_db": -22.92,
+        "crest_factor_db": 14.53,
+        "quality_score_100": 97.0,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_kien_sizzling_pan_fry_crackle.wav"
+    },
+    "sfx_minhtien_vacuum_mattress_air_inflate_hiss": {
+      "sfx_key": "sfx_minhtien_vacuum_mattress_air_inflate_hiss",
+      "file_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_minhtien_vacuum_mattress_air_inflate_hiss.wav",
+      "subfolder": "asmr_foley",
+      "trigger_context": "VACUUM_SLICE_INFLATE / Tiếng rạch túi hút chân không xì hơi tự phồng nệm lò xo 25cm / gối / sofa (@minhtienoiii06 #03)",
+      "source_type": "clean_dsp_synthesized_100pct_copyright_free",
+      "not_in_capcut_default": true,
+      "acoustic_metrics": {
+        "passed": true,
+        "duration_sec": 0.42,
+        "peak_db": -19.86,
+        "rms_db": -32.65,
+        "crest_factor_db": 12.79,
+        "quality_score_100": 93.1,
+        "copyright_status": "CLEAN_ORIGINAL_OR_ROYALTY_FREE"
+      },
+      "registered_at": "2026-11-06T16:18:22",
+      "relative_path": "./knowledge_vault/02_external_sfx_not_in_capcut/asmr_foley/sfx_minhtien_vacuum_mattress_air_inflate_hiss.wav"
+    }
+  },
+  "capcut_builtin_sfx_search_dictionary_by_kieneditcuong": {
+    "source_videos": [
+      "7690821254063918343",
+      "7696008660945800468",
+      "7691927548673953042",
+      "7700827989575093524"
+    ],
+    "1_opening_3s_hook_sfx": [
+      "Opening/Conversion Jingle Horn System(83... (00:03 - OTO Ville - Tìm trong mục Âm thanh)",
+      "I'm surprised, den se... (00:01)",
+      "Explosion (00:03)",
+      "Ping Pong Ping Pong (00:01)",
+      "Magic reveal (00:02)"
+    ],
+    "2_ui_text_popup_sfx_keyword_UI_pop_click": [
+      "UI提示-976714 (00:01)",
+      "UI sound/computer (00:01)",
+      "Pop!! Pop UI sound(1 (00:01)",
+      "UI提示-3262 (00:01)",
+      "コ / 琴 / cute (00:01)",
+      "UI telop type cute p... (00:01)",
+      "pop! (tapping the mic) (00:01)",
+      "Mouse click sound (00:01)",
+      "click (00:01)"
+    ],
+    "3_product_reveal_sparkle_sfx_keyword_reveal": [
+      "Glitter sound 02 / m... (00:04)",
+      "Magic reveal (00:02)",
+      "Kirarin glitter star Gl... (00:03)",
+      "Snap finger patch 01 (00:03)"
+    ],
+    "4_transition_sfx_keyword_woosh_swish": [
+      "Woosh (00:01)",
+      "Swish (00:01)",
+      "swish_whoosh (larg... (00:01)",
+      "Fuwa: short wind no... (00:01)",
+      "Remembering woosh (00:03)",
+      "Woosh Wind_4(823... (00:02)",
+      "Scene switching (sc... (00:04)",
+      "Swish sound. Swaying (00:01)",
+      "Wind noise suitable (00:01)"
+    ],
+    "5_cta_and_money_sfx_keyword_ding_money_bye": [
+      "Ding (00:02)",
+      "Bell ding (00:02)",
+      "Bell ring \"ding!\" (00:01)",
+      "Ding (bell sound) (00:01)",
+      "Follow/like notificati... (00:02)",
+      "Culin. It looks like a l... (00:01)",
+      "Money, coin, cash re... (00:01)",
+      "Amount display (pay... (00:01)",
+      "coin! Get shop item (00:01)",
+      "Bye-bye_moe voice( (00:01 - từ khóa: bye bye sound)"
+    ],
+    "6_food_and_drink_review_sfx": {
+      "can_bite": [
+        "【Eat 01-1】 (71390)",
+        "[Raw recording] food...",
+        "I'm going. Eat and bi..."
+      ],
+      "nhai_chew": [
+        "The sound of ramen",
+        "Chewing sound / cri..."
+      ],
+      "ong_hut_straw": [
+        "It is the sound of dri...",
+        "Rinse water with a st..."
+      ],
+      "chien_ran_fry": [
+        "Deep-fried food [dis..."
+      ],
+      "mo_goi_snack_open_bag": [
+        "Open a bag of potat...",
+        "Washa ... Open the b..."
+      ]
     }
   }
 }

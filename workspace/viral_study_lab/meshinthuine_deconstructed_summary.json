@@ -1,0 +1,1637 @@
+[
+  {
+    "video_id": "7700630570442804532",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "Gu hoàng tử công tử hông còn lạ gì nhà @Tiệm Hy Kem nữa rồi 🤩 Set nào cũng xinh xỉu luôn 😚",
+    "breakout_metrics": {
+      "views": 279500,
+      "likes": 3914,
+      "comments": 88,
+      "shares": 459,
+      "saves": 469,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 18.63,
+      "velocity_views_per_hour": 5822.9,
+      "affiliate_intent_rate_pct": 2.63,
+      "bvi_score_100": 83.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 30.0,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.43,
+      "v1_pacing_curve_sec": [
+        0.9,
+        0.83,
+        0.87,
+        0.83,
+        0.6,
+        0.77,
+        0.77,
+        0.6,
+        0.46,
+        1.1,
+        3.54,
+        0.93,
+        5.2,
+        4.27,
+        0.96
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7700630570442804532_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7700630570442804532_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.7,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 1.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.4,
+          "peak_motion_ydif": 33.6
+        },
+        {
+          "at_sec": 2.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.5,
+          "peak_motion_ydif": 39.1
+        },
+        {
+          "at_sec": 3.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.2,
+          "peak_motion_ydif": 43.3
+        },
+        {
+          "at_sec": 4.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.3,
+          "peak_motion_ydif": 34.0
+        },
+        {
+          "at_sec": 4.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.1,
+          "peak_motion_ydif": 33.2
+        },
+        {
+          "at_sec": 5.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.1,
+          "peak_motion_ydif": 34.4
+        },
+        {
+          "at_sec": 6.17,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 150.8,
+          "peak_motion_ydif": 24.1
+        },
+        {
+          "at_sec": 6.63,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.7,
+          "peak_motion_ydif": 19.1
+        },
+        {
+          "at_sec": 7.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 219.0,
+          "peak_motion_ydif": 73.6
+        },
+        {
+          "at_sec": 11.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.9,
+          "peak_motion_ydif": 51.6
+        },
+        {
+          "at_sec": 12.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 210.8,
+          "peak_motion_ydif": 53.6
+        },
+        {
+          "at_sec": 17.4,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 171.8,
+          "peak_motion_ydif": 15.5
+        },
+        {
+          "at_sec": 21.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.1,
+          "peak_motion_ydif": 33.4
+        },
+        {
+          "at_sec": 22.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.8,
+          "peak_motion_ydif": 57.2
+        },
+        {
+          "at_sec": 23.7,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 155.9,
+          "peak_motion_ydif": 18.0
+        },
+        {
+          "at_sec": 26.2,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 145.3,
+          "peak_motion_ydif": 17.1
+        },
+        {
+          "at_sec": 27.5,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 143.7,
+          "peak_motion_ydif": 21.0
+        },
+        {
+          "at_sec": 28.3,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 147.4,
+          "peak_motion_ydif": 16.5
+        },
+        {
+          "at_sec": 28.77,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 145.6,
+          "peak_motion_ydif": 22.3
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 152.4,
+      "avg_saturation_satavg": 7.2,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 2,
+      "beat_sync_ratio_pct": 5.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:13",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7701199527155633429",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Thay bộ ga gối nâu chấm bi này xong phòng ngủ sáng bừng luôn lại hợp vibe thu đông nữa 🤎🍂 #meshinthuine #gagoi3mon",
+    "breakout_metrics": {
+      "views": 57700,
+      "likes": 302,
+      "comments": 28,
+      "shares": 81,
+      "saves": 36,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 3.85,
+      "velocity_views_per_hour": 1202.1,
+      "affiliate_intent_rate_pct": 1.29,
+      "bvi_score_100": 50.7,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.5,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        28.5
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7701199527155633429_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 0,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:22",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702355647072881921",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Bộ ga gối nâu chấm bi cứ về là bay nhanh🪽Còn mỗi shop này đang còn hàng đó các vợ ôi 👀 #meshinthuine",
+    "breakout_metrics": {
+      "views": 34200,
+      "likes": 338,
+      "comments": 32,
+      "shares": 58,
+      "saves": 40,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 2.28,
+      "velocity_views_per_hour": 712.5,
+      "affiliate_intent_rate_pct": 2.15,
+      "bvi_score_100": 34.4,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.6,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        28.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702355647072881921_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 9,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:25",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703160775032048916",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Màu nâu vừa sang vừa ấm áp 🧸✨🤎😚 #meshinthuine #gagoi3mon #gagoigiare #gagiuong #phongnguxinh",
+    "breakout_metrics": {
+      "views": 13800,
+      "likes": 131,
+      "comments": 11,
+      "shares": 13,
+      "saves": 15,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.92,
+      "velocity_views_per_hour": 287.5,
+      "affiliate_intent_rate_pct": 1.83,
+      "bvi_score_100": 16.9,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 161.64,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        161.64
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703160775032048916_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 286,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:32",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7700822381735988500",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Bộ ga gối style Hàn màu xinh yêu lại rẻ quá chừng luôn 🧸✨ #meshinthuine #gagoi3mon #gagoigiare",
+    "breakout_metrics": {
+      "views": 12200,
+      "likes": 61,
+      "comments": 7,
+      "shares": 7,
+      "saves": 7,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.81,
+      "velocity_views_per_hour": 254.2,
+      "affiliate_intent_rate_pct": 1.02,
+      "bvi_score_100": 13.0,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 128.16,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        128.16
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7700822381735988500_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 278,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:32",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7701739314270555412",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Có thể là nằm trên giường 24:7 với bộ ga gối nỉ nhung này 🤎💖 #meshinthuine #gagoi3mon",
+    "breakout_metrics": {
+      "views": 11500,
+      "likes": 133,
+      "comments": 12,
+      "shares": 14,
+      "saves": 15,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.77,
+      "velocity_views_per_hour": 239.6,
+      "affiliate_intent_rate_pct": 2.25,
+      "bvi_score_100": 16.4,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 37.64,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        37.64
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7701739314270555412_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 4,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:36",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702857957536517377",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Trả lời @Em bé Dino say hi Bộ kẻ tim nâu này cũng xinh xỉu luôn á các mom 😚🫶🏻 #meshinthuine #gagoi3mon",
+    "breakout_metrics": {
+      "views": 6452,
+      "likes": 87,
+      "comments": 13,
+      "shares": 8,
+      "saves": 10,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.43,
+      "velocity_views_per_hour": 134.4,
+      "affiliate_intent_rate_pct": 2.74,
+      "bvi_score_100": 13.8,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.26,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        28.26
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702857957536517377_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 17,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:39",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703806438967135489",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Tết này nhà nào đang có ý định thay nệm mới thì nghía qua dòng cao su foam này của Vua Nệm nè 🫶🏻",
+    "breakout_metrics": {
+      "views": 3230,
+      "likes": 20,
+      "comments": 8,
+      "shares": 3,
+      "saves": 2,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.22,
+      "velocity_views_per_hour": 67.3,
+      "affiliate_intent_rate_pct": 1.64,
+      "bvi_score_100": 7.8,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 238.99,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        238.99
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703806438967135489_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 59,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:42",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702000385308757249",
+    "product_archetype": "P6",
+    "author": "meshinthuine",
+    "caption_title": "Cực thích mấy cây tripod để điện thoại dạng magsafe này luôn 😚🫶🏻 #meshinthuine #tripod #giadodienthoai",
+    "breakout_metrics": {
+      "views": 2605,
+      "likes": 33,
+      "comments": 12,
+      "shares": 6,
+      "saves": 3,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.17,
+      "velocity_views_per_hour": 54.3,
+      "affiliate_intent_rate_pct": 3.34,
+      "bvi_score_100": 12.5,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 51.88,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        51.88
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702000385308757249_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 44,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:44",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7700524344690167061",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "#meshinthuine #aolenchobe #dotetchobe #donoelchobe #dothudongchobe",
+    "breakout_metrics": {
+      "views": 1758,
+      "likes": 35,
+      "comments": 11,
+      "shares": 6,
+      "saves": 4,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.12,
+      "velocity_views_per_hour": 36.6,
+      "affiliate_intent_rate_pct": 5.18,
+      "bvi_score_100": 17.6,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 181.19,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        181.19
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7700524344690167061_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 147,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:48",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7699485272446127380",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Em bỉm Việt nhẹ ví tui đang dùng cho Shin gần đây rất ưng luôn á 🫶🏻 Có mom nào trải nghiệm dòng bỉm này chưa",
+    "breakout_metrics": {
+      "views": 1549,
+      "likes": 17,
+      "comments": 5,
+      "shares": 6,
+      "saves": 2,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.1,
+      "velocity_views_per_hour": 32.3,
+      "affiliate_intent_rate_pct": 3.42,
+      "bvi_score_100": 11.9,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 37.97,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        37.97
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7699485272446127380_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 76,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:52",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703016266008775942",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Bộ pyjama ngàn sao này cưng quáaaa @MoiMoi.hí ơi ⭐️🩵 Chiếc brand đồ cho bé mới ra mắt nè các mom 😚",
+    "breakout_metrics": {
+      "views": 1264,
+      "likes": 61,
+      "comments": 20,
+      "shares": 6,
+      "saves": 7,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.08,
+      "velocity_views_per_hour": 26.3,
+      "affiliate_intent_rate_pct": 11.63,
+      "bvi_score_100": 26.0,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 274.83,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        274.83
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703016266008775942_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 23,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:39:58",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702094708033654037",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "#aodaitet #petbychang",
+    "breakout_metrics": {
+      "views": 1087,
+      "likes": 45,
+      "comments": 32,
+      "shares": 6,
+      "saves": 5,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.07,
+      "velocity_views_per_hour": 22.6,
+      "affiliate_intent_rate_pct": 13.52,
+      "bvi_score_100": 25.9,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 27.12,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        27.12
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702094708033654037_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 1,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:01",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702654843420151061",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Từ ngày đổi qua em máy sấy DREYON này tự dưng bị ghiền sấy tóc á mấy mom 🤭 Sấy nhanh mà sấy xong tóc êm mượt",
+    "breakout_metrics": {
+      "views": 1084,
+      "likes": 19,
+      "comments": 10,
+      "shares": 3,
+      "saves": 2,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.07,
+      "velocity_views_per_hour": 22.6,
+      "affiliate_intent_rate_pct": 5.17,
+      "bvi_score_100": 17.0,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 60.0,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        60.0
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702654843420151061_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 122,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:04",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7701371620035808513",
+    "product_archetype": "P1",
+    "author": "meshinthuine",
+    "caption_title": "Hoa mọi cô gái đều mê 😚💖✨🌸🦄 #meshinthuine #hoabiet #flowerknows #flowerknowsunboxing #giftbox",
+    "breakout_metrics": {
+      "views": 1044,
+      "likes": 55,
+      "comments": 17,
+      "shares": 7,
+      "saves": 6,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.07,
+      "velocity_views_per_hour": 21.8,
+      "affiliate_intent_rate_pct": 12.84,
+      "bvi_score_100": 25.8,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 75.86,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        75.86
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7701371620035808513_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 86,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:09",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703596284967423253",
+    "product_archetype": "P3",
+    "author": "meshinthuine",
+    "caption_title": "Chán màu đỏ rồi năm nay đổi qua áo dài màu xanh được hông ta 💚😚🫶🏻 #meshinthuine #aodai #aodaitet",
+    "breakout_metrics": {
+      "views": 784,
+      "likes": 39,
+      "comments": 13,
+      "shares": 4,
+      "saves": 4,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.05,
+      "velocity_views_per_hour": 16.3,
+      "affiliate_intent_rate_pct": 11.86,
+      "bvi_score_100": 25.6,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 31.35,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        31.35
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703596284967423253_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 18,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:13",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7702772027547225365",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "+1 brand đồ cho bé cực yêu nè các mom 🧸🫶🏻 #meshinthuine #moimoihi #domacnhachobe",
+    "breakout_metrics": {
+      "views": 614,
+      "likes": 27,
+      "comments": 8,
+      "shares": 2,
+      "saves": 3,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.04,
+      "velocity_views_per_hour": 12.8,
+      "affiliate_intent_rate_pct": 9.93,
+      "bvi_score_100": 25.5,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 39.97,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        39.97
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7702772027547225365_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 52,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:15",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703953232057339137",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Trả lời @Mẹ Leon đây Chục bộ chưa tới 1 củ nữa mấy mom ơi 🤭 #meshinthuine #tiktokshop1111 #domacnhachobe",
+    "breakout_metrics": {
+      "views": 572,
+      "likes": 22,
+      "comments": 9,
+      "shares": 3,
+      "saves": 2,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.04,
+      "velocity_views_per_hour": 11.9,
+      "affiliate_intent_rate_pct": 9.97,
+      "bvi_score_100": 25.5,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 26.2,
+      "total_shots": 25,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 5,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        0.57,
+        0.63,
+        0.57,
+        0.6,
+        0.6,
+        0.7,
+        1.4,
+        0.76,
+        1.9,
+        1.34,
+        3.36,
+        1.47,
+        2.33,
+        1.3,
+        1.6
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7703953232057339137_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703953232057339137_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.1,
+          "peak_motion_ydif": 28.4
+        },
+        {
+          "at_sec": 1.2,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 151.1,
+          "peak_motion_ydif": 24.8
+        },
+        {
+          "at_sec": 1.77,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 25.9
+        },
+        {
+          "at_sec": 2.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.9,
+          "peak_motion_ydif": 25.6
+        },
+        {
+          "at_sec": 2.97,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 158.0,
+          "peak_motion_ydif": 22.1
+        },
+        {
+          "at_sec": 3.67,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 155.7,
+          "peak_motion_ydif": 18.5
+        },
+        {
+          "at_sec": 5.07,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 157.3,
+          "peak_motion_ydif": 17.1
+        },
+        {
+          "at_sec": 5.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.7,
+          "peak_motion_ydif": 33.5
+        },
+        {
+          "at_sec": 7.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 173.3,
+          "peak_motion_ydif": 25.6
+        },
+        {
+          "at_sec": 9.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 201.5,
+          "peak_motion_ydif": 48.3
+        },
+        {
+          "at_sec": 12.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 195.8,
+          "peak_motion_ydif": 39.6
+        },
+        {
+          "at_sec": 13.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 201.6,
+          "peak_motion_ydif": 34.1
+        },
+        {
+          "at_sec": 16.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 190.1,
+          "peak_motion_ydif": 44.5
+        },
+        {
+          "at_sec": 17.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.1,
+          "peak_motion_ydif": 46.5
+        },
+        {
+          "at_sec": 19.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 196.3,
+          "peak_motion_ydif": 46.7
+        },
+        {
+          "at_sec": 20.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 206.6,
+          "peak_motion_ydif": 37.8
+        },
+        {
+          "at_sec": 20.87,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.8,
+          "peak_motion_ydif": 24.7
+        },
+        {
+          "at_sec": 21.47,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 152.5,
+          "peak_motion_ydif": 15.5
+        },
+        {
+          "at_sec": 22.1,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 154.8,
+          "peak_motion_ydif": 14.7
+        },
+        {
+          "at_sec": 22.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 160.2,
+          "peak_motion_ydif": 19.5
+        },
+        {
+          "at_sec": 23.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.5,
+          "peak_motion_ydif": 16.1
+        },
+        {
+          "at_sec": 23.93,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 154.7,
+          "peak_motion_ydif": 21.5
+        },
+        {
+          "at_sec": 24.5,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 157.5,
+          "peak_motion_ydif": 23.8
+        },
+        {
+          "at_sec": 25.1,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 159.0,
+          "peak_motion_ydif": 16.9
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 155.2,
+      "avg_saturation_satavg": 10.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 6,
+      "beat_sync_ratio_pct": 4.2,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:21",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7703211258169920774",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Trả lời @Nâu Ơii Thiệt luôn chất mềm mịn mát mà có giá này anh cũng bất ngờ luôn mà 🤌🏻 #meshinthuine",
+    "breakout_metrics": {
+      "views": 500,
+      "likes": 13,
+      "comments": 3,
+      "shares": 2,
+      "saves": 1,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.03,
+      "velocity_views_per_hour": 10.4,
+      "affiliate_intent_rate_pct": 5.8,
+      "bvi_score_100": 18.5,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 116.68,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        116.68
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7703211258169920774_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 242,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:23",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7704191901313830165",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Cứ đòi bấm bấm máy tính suốt ngày vậy đó ⌨️ #meshinthuine #dochoichobe #dochoibanphim",
+    "breakout_metrics": {
+      "views": 446,
+      "likes": 10,
+      "comments": 8,
+      "shares": 2,
+      "saves": 1,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.03,
+      "velocity_views_per_hour": 9.3,
+      "affiliate_intent_rate_pct": 8.07,
+      "bvi_score_100": 25.4,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 243.04,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        243.04
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7704191901313830165_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 341,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:27",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7704701415557614868",
+    "product_archetype": "P2",
+    "author": "meshinthuine",
+    "caption_title": "Xỉu up xỉu down với bộ ga gối cún kẻ nâu xanh này luôn á 🤎🩵🧸🫐 #meshinthuine #gagoi3mon",
+    "breakout_metrics": {
+      "views": 331,
+      "likes": 7,
+      "comments": 4,
+      "shares": 1,
+      "saves": 0,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.02,
+      "velocity_views_per_hour": 6.9,
+      "affiliate_intent_rate_pct": 5.44,
+      "bvi_score_100": 17.2,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 50.02,
+      "total_shots": 1,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        50.02
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7704701415557614868_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [],
+      "transitions_signature": []
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 135.0,
+      "avg_saturation_satavg": 85.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 89,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:29",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  },
+  {
+    "video_id": "7704684768889163028",
+    "product_archetype": "P4",
+    "author": "meshinthuine",
+    "caption_title": "Chưa đến trăm ca mà xinh quá chừng luôn các mom ôi 😚 #meshinthuine #domacnhachobe",
+    "breakout_metrics": {
+      "views": 189,
+      "likes": 13,
+      "comments": 4,
+      "shares": 2,
+      "saves": 1,
+      "followers": 15000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 0.01,
+      "velocity_views_per_hour": 3.9,
+      "affiliate_intent_rate_pct": 16.4,
+      "bvi_score_100": 25.1,
+      "is_breakout_viral": false
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 23.87,
+      "total_shots": 15,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.59,
+      "v1_pacing_curve_sec": [
+        0.7,
+        0.67,
+        0.5,
+        2.03,
+        1.77,
+        0.7,
+        0.63,
+        0.67,
+        1.96,
+        0.87,
+        0.63,
+        0.6,
+        8.8,
+        0.84,
+        2.5
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7704684768889163028_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_7704684768889163028_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.7,
+          "transition_type": "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+          "peak_luminance_yavg": 176.9,
+          "peak_motion_ydif": 18.2
+        },
+        {
+          "at_sec": 1.37,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.9,
+          "peak_motion_ydif": 22.7
+        },
+        {
+          "at_sec": 1.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 165.1,
+          "peak_motion_ydif": 48.9
+        },
+        {
+          "at_sec": 3.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 175.8,
+          "peak_motion_ydif": 45.0
+        },
+        {
+          "at_sec": 5.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 167.8,
+          "peak_motion_ydif": 44.6
+        },
+        {
+          "at_sec": 6.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.8,
+          "peak_motion_ydif": 46.1
+        },
+        {
+          "at_sec": 7.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 173.4,
+          "peak_motion_ydif": 44.1
+        },
+        {
+          "at_sec": 7.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 172.2,
+          "peak_motion_ydif": 43.6
+        },
+        {
+          "at_sec": 9.63,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 156.4,
+          "peak_motion_ydif": 24.5
+        },
+        {
+          "at_sec": 10.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.3,
+          "peak_motion_ydif": 34.7
+        },
+        {
+          "at_sec": 11.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.6,
+          "peak_motion_ydif": 27.2
+        },
+        {
+          "at_sec": 11.73,
+          "transition_type": "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+          "peak_luminance_yavg": 175.3,
+          "peak_motion_ydif": 21.8
+        },
+        {
+          "at_sec": 20.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.9,
+          "peak_motion_ydif": 27.3
+        },
+        {
+          "at_sec": 21.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 165.6,
+          "peak_motion_ydif": 28.7
+        }
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 165.8,
+      "avg_saturation_satavg": 8.8,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 44,
+      "beat_sync_ratio_pct": 50.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": []
+    },
+    "learned_timestamp": "2026-11-06T09:40:33",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    }
+  }
+]

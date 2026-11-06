@@ -1,16 +1,1305 @@
 {
-  "version": 1,
-  "episodes_trained": 0,
+  "version": 2,
+  "episodes_trained": 100,
+  "channel_reference": "@meshinthuine (nhà Shin nèee - 13.6K followers, 192.6K likes, 743 videos)",
   "preferred_subtitle_pos_y": -0.5,
+  "preferred_hook_banner_pos_y": 0.62,
   "preferred_font_size_delta": 0.0,
-  "preferred_bgm_volume": 0.06,
-  "preferred_sfx_volume": 0.25,
-  "preferred_avg_clip_duration_sec": 1.85,
-  "favorite_transition_resource_ids": [],
-  "favorite_font_resource_ids": [],
+  "preferred_bgm_volume": 0.08,
+  "preferred_sfx_volume": 0.24,
+  "preferred_avg_clip_duration_sec": 1.43,
+  "target_luminance_yavg_range": [
+    152.0,
+    166.0
+  ],
+  "signature_color_grading": "Warm Creamy Pastel / Kem Nâu Hàn Quốc (Low-Desaturated Beige, YAVG ~155-165)",
+  "signature_props_setup": [
+    "Bàn tròn trắng kem + Đèn nấm inox (Mushroom Chrome Lamp) góc trái trên",
+    "Tấm lót chần bông xanh pastel + Gấu bông nâu lông xù + Ô tô gỗ nhỏ góc phải",
+    "Ánh sáng cửa sổ rèm sáo trắng chiếu xiên 45 độ hoặc màn hình TV bật playlist thẩm mỹ (HOME GROOVE / A Good Day)"
+  ],
+  "signature_typography_templates": [
+    "Tem 1 (Dual-Font): Chữ không chân bo tròn (bedsheet / gagối) + Chữ viết tay uốn lượn bên dưới (~ cozy vibes ~ / style hàn) kèm sao ✦",
+    "Tem 2 (Butter-Yellow Pill): Nhãn chữ nhật bo góc nền vàng bơ (#F6E58D) chữ nâu (vibe Hàn / nệm cao su / bỉm Việt)",
+    "Tem 3 (Crown/Bear Icon Header): Icon vương miện hoặc gấu bông nhỏ đặt ngay trên tiêu đề (Prince Outfit / ĐỒ MẶC NHÀ cho bé)",
+    "Tem 4 (Price Anchor Comparison Pill): Thẻ trắng góc trái 2s đầu: ❌ 1 cốc trà sữa Koi Thé cho mẹ / ✅ bộ dài tay mặc nhà cho con",
+    "Tem 5 (Search Bar Badge): Thanh tìm kiếm nhỏ góc phải trên: 🔍 baby homewear | dưới 100 cành 👉🏻 ⭐️"
+  ],
   "custom_director_rules": [
-    "Luôn gọt sạch 0.45s chết ở đầu clip Hook để đạt Scroll-Stop Rate > 65%.",
-    "Áp dụng công thức Khen 8 - Chê 2 ở giây thứ 15-20 để tăng độ tin cậy và tránh lỗi phóng đại CHR.",
-    "Tuyệt đối không để chữ đè lên vùng tâm sản phẩm (-0.25 < pos_y < 0.30)."
-  ]
+    "Nhịp dựng 2 pha đặc trưng @meshinthuine: 3-6 giây đầu cắt dồn dập 0.57s-0.90s/cảnh (xếp chồng sản phẩm Stop-Motion hoặc lật mẫu nhanh), sau đó mở 1 cú máy dài 3.5s-5.2s để bàn tay kéo giãn cổ áo / luồn tay vuốt chất vải chứng minh độ mềm.",
+    "Chiến lược Vắt Sữa Sản Phẩm Thắng (Winning Product Milk-Series): Khi 1 mã hàng (như Ga gối nâu chấm bi) cắn đề xuất, nhân bản liên tiếp 5-7 video đổi góc máy nhẹ và đổi câu Hook trả lời comment.",
+    "Luôn đặt Tem Tiêu Đề Aesthetic cố định ở vùng trống phía trên (y = +0.58 đến +0.65), tuyệt đối không đè lên sản phẩm ở tâm bàn."
+  ],
+  "learned_koc_color_and_lighting_presets": {
+    "preset_1_meshinthuine_clean_white_daylight": {
+      "target_yavg_luma": 135.5,
+      "lighting": "Ánh sáng trắng ban ngày / Softbox tản sáng góc chéo 45 độ trên nền bàn trắng kem tối giản",
+      "subtitle_pos_y": -0.45
+    },
+    "preset_2_honghanhxinhgai_warm_lamp_korean_cream": {
+      "target_yavg_luma": 168.0,
+      "lighting": "Tắt đèn trần + 1 Đèn bàn học ánh sáng vàng chiếu thẳng từ trên xuống (Top-Down Warm Desk Lamp) trên Thảm vải chần bông (Quilted Desk Mat)",
+      "capcut_adjust_formula": {
+        "brightness": 7,
+        "contrast": -14,
+        "exposure": 22,
+        "sharpen": 30,
+        "brilliance": 35,
+        "highlights": -10,
+        "shadows": 11,
+        "hsl_orange_skin": {
+          "hue": -36,
+          "saturation": -55,
+          "luminance": 70
+        },
+        "uhd_quality_filter": "HD / Ultra HD enabled"
+      },
+      "subtitle_pos_y": 0.46
+    },
+    "preset_3_3thag8_pegboard_dual_temp_studio": {
+      "target_yavg_luma": 165.0,
+      "lighting": "Dual-Temperature Lighting: Đèn chính trắng sáng phía trước (YAVG ~165) + Đèn ngủ vàng ấm hắt ngược sau sách decor & cành lá trên nền bảng lỗ trắng (White Pegboard) + Nến Rubik",
+      "chr_disclaimer_overlay": "*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người* / *giá có thể thay đổi khi CTKM kết thúc*",
+      "outro_transition": "Radial Zoom Blur Seamless Loop (0.3s cuối)"
+    },
+    "preset_4_byraanni_kinfolk_editorial_luxury": {
+      "target_yavg_luma": 156.0,
+      "lighting": "Ánh sáng tự nhiên dịu mịn khuếch tán qua rèm mỏng (Soft Diffused Editorial Daylight, YAVG ~155) trên bàn tròn trắng kem + Đèn ngủ xếp ly kem + Tay áo len nâu Espresso tạo tương phản",
+      "typography_style": "Dual-Font Editorial Magazine (Calligraphy Script + Minimalist Serif/Sans + Split-Spec Micro Labels + Dashed-Circle Magnifier Callout)",
+      "hook_structure_3s": "Shot 1 (1.1s Hand-in-use) -> Shot 2 (1.1s Top-Down Tray Flatlay) -> Shot 3 (1.1s Frosted Paper Unboxing)"
+    },
+    "preset_5_grayunbox_venetian_blinds_studio": {
+      "target_yavg_luma": 128.5,
+      "lighting": "Venetian Blinds Chiaroscuro (Nắng xiên qua rèm sáo ngang tạo vệt bóng sọc chéo trên bàn tròn trắng mờ + Ống lò xo Chrome + iPad Flip-Clock + Áo khoác bò đen chỉ trắng)",
+      "special_vfx": "Torn-Paper Manga Sketch Freeze-Frame (0.4s) + Floating Tea Leaf Scent Particles + Outdoor Sunlight Proof PIP",
+      "emoji_rebus_ocr_shield": {
+        "khử / loại bỏ": "🚮",
+        "giảm": "📉",
+        "củ / triệu đồng": "🍠",
+        "cành / nghìn đồng": "🐟",
+        "hạt dẻ / giá rẻ": "🌰",
+        "giỏ hàng": "🛒",
+        "đuổi muỗi": "🦟🥀"
+      },
+      "subtitle_pos_y": 0.58
+    },
+    "preset_6_minhtienoiii06_cozy_toast_lamp_sensory_desk": {
+      "target_yavg_luma": 144.5,
+      "lighting": "Đèn ngủ lát bánh mì TOAST xanh lá phát sáng vàng ấm + Chậu cây/dây thường xuân rủ + Điện thoại/iPad phát hoạt hình Doraemon chạy ngầm góc trên + Đèn Ring-light cam ấm phản chiếu độ bóng cho đồ ăn vặt",
+      "sensory_props": "Đĩa gốm be mờ + Tấm lót tương phản xanh lá dưới sản phẩm trắng + Nắp hộp thiếc làm bia cộng hưởng âm thanh ASMR",
+      "agricultural_price_and_sensory_ocr_shield": {
+        "45k": "45 🍅 thoi",
+        "49k": "49 🍠",
+        "chụp ảnh": "📸 ảnh xinh",
+        "béo ngậy": "p.é.o ngậyyy",
+        "tan chảy": "t:an ch:ảy",
+        "hữu cơ": "h.ữ.u c.ơ",
+        "dễ thương": "d.ễ th.ư.ơ.ng",
+        "ăn siêu cuốn": "ă:n siu cuốn ✨"
+      },
+      "subtitle_pos_y": 0.62
+    },
+    "preset_7_yuhtt09_highkey_coquette_silent_asmr_unbox": {
+      "target_yavg_luma": 166.1,
+      "lighting": "High-Key Airy Douyin White Studio (YAVG ~166, SAT ~9.1): Mặt bàn trắng tinh + Bảng lỗ trắng (White Pegboard) gắn nơ ruy-băng hồng Coquette 🎀 + Đèn ngủ bánh mì TOAST phát sáng vàng ấm + Bàn phím cơ retro trắng hồng",
+      "audio_architecture": "100% Zero Voiceover (Không đọc lời thoại) — Tầng 1: 100% Native Unboxing ASMR (dao rọc giấy rạch băng keo, bóc màng xốp nổ, lột seal màn hình, xịt sương, gõ móng tay, bấm bút viết, đổ nước lắc bình) + Tầng 2: Nhạc nền Sped-up K-Pop / Pop Pluck 128-134 BPM ở mức 32-38%",
+      "typography_style": "1-Line Rounded Sans-Serif màu Trắng (#FFFFFF) viền Đen dày (#141414) đặt cố định ở y = -0.35 + Tiêu đề mở màn uốn cong hình vòm ⌒ kèm Kaomoji *ੈ✩‧₊˚🌷🎀*ੈ✩‧₊˚ + Huy hiệu đánh giá ⭐ 4.9/5 | Đã bán + So sánh giá ❌ Lẻ 🐣 vs ✅ Combo 🐣 + Mũi tên xanh ↙️ chỉ giỏ hàng",
+      "subtitle_pos_y": -0.35
+    }
+  },
+  "honghanhxinhgai_01_master_insights": {
+    "channel_handle": "@honghanhxinhgai_01",
+    "channel_nickname": "lười học nhất tóp tóp ྀིྀི",
+    "followers": 102900,
+    "total_likes": 4800000,
+    "top_viral_peaks": [
+      {
+        "video_id": "7530967346933009682",
+        "views": 11800000,
+        "likes": 491100,
+        "saves": 21200,
+        "topic": "Unboxing blindbox / đồ xinh desk setup"
+      },
+      {
+        "video_id": "7681699846520179989",
+        "views": 5900000,
+        "likes": 197900,
+        "saves": 7801,
+        "topic": "Son Too Cool For School 03 Bebe Salmon - Ghim 2 comment trái chiều + Popup bằng chứng Idol Hàn"
+      },
+      {
+        "video_id": "7684654908578024725",
+        "views": 3900000,
+        "likes": 89100,
+        "saves": 4954,
+        "topic": "Hộp đựng đồ Hello Kitty - Test ngược công dụng đựng Slime & Can ngăn thật lòng"
+      },
+      {
+        "video_id": "7655756263879494919",
+        "views": 771800,
+        "likes": 25800,
+        "saves": 1445,
+        "topic": "Bí kíp Set Đèn bàn học Rạng Đông ánh sáng vàng & Góc máy POV 60-75 độ"
+      },
+      {
+        "video_id": "7666052268323523848",
+        "views": 714800,
+        "likes": 51100,
+        "saves": 5421,
+        "topic": "Công thức Chỉnh màu CapCut & Làm nét UHD Quality 4K 60fps"
+      }
+    ],
+    "capcut_warm_lamp_korean_pastel_color_recipe": {
+      "source_video_id": "7666052268323523848",
+      "camera_setting": "Camera sau 4K 60fps",
+      "lighting_condition": "Tắt 100% đèn trần trong phòng + Dùng duy nhất 1 đèn bàn học Rạng Đông ánh sáng vàng chiếu thẳng từ trên xuống cách mặt bàn 25-30cm",
+      "capcut_adjust_parameters": {
+        "brightness_do_sang": 7,
+        "contrast_tuong_phan": -14,
+        "exposure_phoi_sang": 22,
+        "sharpen_lam_sac_net": 30,
+        "brilliance_anh_sang_cam_nhan": 35,
+        "highlights_diem_sang": -10,
+        "shadows_bong": 11
+      },
+      "capcut_hsl_skin_pink_brightening": {
+        "target_channel": "Orange/Red (Màu da tay)",
+        "hue_sac_do": -36,
+        "saturation_bao_hoa": -55,
+        "luminance_do_sang": 70
+      },
+      "capcut_uhd_enhancement": "Công cụ Chất lượng UHD (UHD Quality) -> Chọn HD hoặc Ultra HD + Bật Cường độ"
+    },
+    "visual_and_staging_signature": {
+      "surface_mat": "Thảm trải bàn vải chần bông (Quilted Cotton Desk Mat) họa tiết nhí (trắng viền hồng tim nhí, chấm bi đen, sao xanh pastel)",
+      "background_props": "Kệ đựng bút nhựa trắng nhiều ngăn đặt cố định sát mép trên + Gấu bông móc khóa + Blindbox figure nhỏ + Kẹp tóc con cá xanh",
+      "camera_rig": "Chân đỡ điện thoại để bàn mini đặt ngay trước ngực, góc chúc 60-75 độ xuống mặt bàn, 2 tay luồn từ 2 bên vào thao tác POV",
+      "subtitle_zone": "Đặt ở nửa trên khung hình (pos_y = +0.42 đến +0.52, ngay dưới kệ bút và phía trên bàn tay), chữ trắng nhỏ viền nâu đen mỏng 1-2 dòng"
+    },
+    "script_and_psychology_weapons": [
+      "Đấu trường Bình luận (Dual-Comment Controversy Hook): Ghim 2 bình luận trái chiều (1 chê đắt/nghi ngờ vs 1 khen hàng nội địa Hàn xịn) trong 4s đầu để kích thích tranh luận.",
+      "Test Ngược Công Dụng & Can Ngăn Thật Lòng (Counter-Use Case Khen 8 Chê 2): Khán giả đòi mua hộp về đựng Slime -> Lấy Slime nhét vào test thật rồi khuyên ngăn đừng mua làm Slime vì hở viền khô keo, chỉ nên mua đựng dây buộc tóc/khuyên tai.",
+      "Biến Sự Cố Thành Bài Test Độ Bền (Happy Accident Proof): Mua nhầm Griptok dán keo thay vì nam châm, dán lệch phải lấy đồ cạy ra bung cả nắp nhưng chứng minh được keo 3M dính siêu chắc.",
+      "Xưng hô tạo phản tương phản thú vị: Tay nữ làm nail điệu đà nhưng xưng \"anh - mấy vợ\" hoặc \"tui - mấy bà\", giọng kể chuyện tưng tửng lôi cuốn."
+    ]
+  },
+  "kieneditcuong_capcut_master_techniques": {
+    "channel_handle": "@kieneditcuong",
+    "channel_nickname": "Kiên Edit Cường",
+    "followers": 11000,
+    "total_likes": 78400,
+    "specialty": "Hướng dẫn Edit CapCut & Visual Hook thực chiến cho Video Bán Hàng Affiliate",
+    "six_product_reveal_visual_hooks_3s": [
+      {
+        "id": "HOOK_REVEAL_01",
+        "name": "Tô Viền Phát Quang + Đóng Băng Khung Hình (Glowing Stroke Freeze-Frame Hook)",
+        "source_videos": [
+          "7695062266772868373",
+          "7694906253360762120"
+        ],
+        "how_to_shoot": "Cầm sản phẩm đưa lên trước ngực + đẩy nhẹ tay về phía camera hoặc tung nhẹ hộp sản phẩm lên.",
+        "capcut_steps": [
+          "1. Tách (Split) hoặc Dừng hình (Freeze) tại khung hình sản phẩm đưa lên đẹp nhất (1.5s - 2.0s).",
+          "2. Nhân đôi (Duplicate) đoạn đó -> Chọn Lớp phủ (Overlay) kéo xuống tầng dưới khớp 100% với tầng chính.",
+          "3. Chọn Lớp phủ -> Xóa nền (Remove BG) -> Xóa tùy chỉnh (Custom Removal) -> Dùng Cọ nhanh quét chọn sản phẩm.",
+          "4. Bấm Tô viền (Stroke) -> Chọn kiểu Phát quang (Glow) hoặc Nét giấy (Paper Border) màu Đỏ/Xanh/Trắng nổi bật.",
+          "5. Ở tầng chính phía dưới, thêm Hiệu ứng Video -> Mờ (Blur) hoặc Viền mờ dần + Chèn chữ Tên SẢN PHẨM ngay trên đỉnh hộp."
+        ]
+      },
+      {
+        "id": "HOOK_REVEAL_02",
+        "name": "Búng Tay Biến Ra Sản Phẩm (Finger Snap Cutout Reveal)",
+        "source_videos": [
+          "7688222576220458258"
+        ],
+        "how_to_shoot": "Cố định góc máy. Cảnh 1: Đưa tay vào khung hình búng ngón tay trên bàn trống. Cảnh 2: Đặt sản phẩm vào đúng vị trí đó.",
+        "capcut_steps": [
+          "1. Lướt tới đúng frame ngón tay vừa búng -> Đưa Cảnh 2 (có sản phẩm) xuống làm Lớp phủ (Overlay).",
+          "2. Bấm Xóa nền -> Xóa tùy chỉnh để tách riêng sản phẩm hiện ra ngay dưới ngón tay vừa búng.",
+          "3. Chèn hiệu ứng âm thanh: Snap finger patch 01 (00:03) + Magic reveal."
+        ]
+      },
+      {
+        "id": "HOOK_REVEAL_03",
+        "name": "Đảo Ngược Lực Hút Jedi (Reverse Throw-Catch Hook - 3s Mở Đầu)",
+        "source_videos": [
+          "7694529345087474962"
+        ],
+        "how_to_shoot": "Cầm hộp sản phẩm trên tay rồi ném/thả văng ra xa xuống mặt bàn, giữ bàn tay xòe mở.",
+        "capcut_steps": [
+          "1. Cắt lấy đoạn vừa thả sản phẩm bay ra bàn (~1.5s).",
+          "2. Bấm công cụ Đảo ngược (Reverse) trên CapCut -> Sản phẩm sẽ tự động bay từ bàn hút dính vào lòng bàn tay."
+        ]
+      },
+      {
+        "id": "HOOK_REVEAL_04",
+        "name": "Lắc Tay Biến Hình Liên Hoàn (Empty-Hand vs. Product Shake Intercut)",
+        "source_videos": [
+          "7699364162316651797"
+        ],
+        "how_to_shoot": "Quay 2 đúp cùng 1 vị trí đèn: Đúp 1 lắc bàn tay không (không cầm gì); Đúp 2 cầm sản phẩm ở đúng thế tay đó và lắc tiếp.",
+        "capcut_steps": [
+          "1. Cắt đoạn lắc tay không (~0.15s) và đoạn lắc có sản phẩm (~0.15s) sao cho thế tay khớp nhau.",
+          "2. Nhân đôi (Duplicate) và xếp xen kẽ (Tay không -> Có SP -> Tay không -> Có SP) 3-4 nhịp trước khi dừng lại mở nắp sản phẩm."
+        ]
+      },
+      {
+        "id": "HOOK_REVEAL_05",
+        "name": "Camera Bắt Chước Động Tác Tay (Camera Hand-Gesture Mimic - Top 1 Viral 41.9K Views)",
+        "source_videos": [
+          "7686356596615679239"
+        ],
+        "how_to_shoot": "Cầm hũ sản phẩm đưa từ xa lại gần ống kính, xòe 5 ngón tay giữ đáy hũ cho thật rồi xoay nhẹ cổ tay.",
+        "capcut_steps": [
+          "1. Đặt Keyframe ở đầu và cuối chuyển động tay.",
+          "2. Phóng to và xoay khung hình trên CapCut cùng chiều với góc xoay cổ tay để camera như bị hút theo tay."
+        ]
+      },
+      {
+        "id": "HOOK_REVEAL_06",
+        "name": "Keyframe Độ Mờ Nhập Hình (Opacity Ghost-Overlay Keyframe Hook)",
+        "source_videos": [
+          "7690448797079522567"
+        ],
+        "how_to_shoot": "Quay cảnh cầm chai sản phẩm đưa lên dưới ánh đèn.",
+        "capcut_steps": [
+          "1. Nhân đôi video đưa xuống Lớp phủ (Overlay).",
+          "2. Đặt Keyframe 1 giảm Độ mờ (Opacity) xuống 51% và phóng to nhẹ; Keyframe 2 kéo Độ mờ lên 100% và thu về khớp 100% với video gốc."
+        ]
+      }
+    ],
+    "six_capcut_keyframe_zoom_archetypes": {
+      "source_videos": [
+        "7700109478380784917",
+        "7687096732785691922"
+      ],
+      "zoom_types": [
+        "1. Phóng to dần (Slow Push-In): 2 Keyframes (Đầu 100% -> Cuối 130%)",
+        "2. Thu nhỏ dần (Slow Pull-Out): 2 Keyframes (Đầu 130% -> Cuối 100%)",
+        "3. Phóng to + Thu nhỏ (In-Out Bounce): 3 Keyframes (100% -> 135% -> 100%)",
+        "4. Thu nhỏ + Phóng to (Out-In Pulse): 3 Keyframes (135% -> 100% -> 135%)",
+        "5. Phóng to + Nghỉ + Thu nhỏ (Zoom In - Hold - Out): 4 Keyframes (2 key đầu đuôi 100%, 2 key giữa giữ nguyên 135% để đọc chữ trên nhãn)",
+        "6. Thu nhỏ + Nghỉ + Phóng to (Zoom Out - Hold - In): 4 Keyframes (Phóng to 135% ở 2 key rìa đầu/cuối, 2 key giữa nghỉ ở 100%)"
+      ],
+      "seamless_zoom_transition_rule": "Ở cuối Clip 1 đặt Keyframe zoom vào + nghiêng nhẹ; sang đầu Clip 2 phải zoom sẵn cho kích thước sản phẩm khớp với cuối Clip 1 rồi mới đặt Keyframe thu về."
+    },
+    "lazy_editor_effects_and_jitter_cut": {
+      "source_videos": [
+        "7685610215064079623",
+        "7693735773257878792"
+      ],
+      "four_instant_video_effects": [
+        "Ống kính zoom (Zoom Lens) - Tự động phóng to vào nhãn sản phẩm",
+        "Thu nhỏ (Zoom Out / Shrink) - Thu khung hình đầu cảnh flatlay",
+        "Lắc nhẹ (Slight Shake) - Tạo độ rung handheld tự nhiên khi cầm hộp sản phẩm",
+        "Thu phóng nhỏ (Mini Zoom) - Nhịp nhún khi mở nắp chai"
+      ],
+      "pop_candy_jitter_montage_trick": "Gắn Hiệu ứng động -> Vào -> Kẹo nổ (Pop Candy) + kéo nghiêng nhẹ trên 1 clip mẫu 0.5s -> Nhân đôi (Duplicate) ra 6-8 đoạn -> Dùng nút Thay thế (Replace) để nạp từng ảnh/clip sản phẩm vào."
+    },
+    "sharp_filming_and_export_settings": {
+      "source_video": "7686738266367806727",
+      "camera_app_recommendation": "App Blackmagic Camera (miễn phí trên iOS) giúp quay nét căng ngay cả trên iPhone XS Max nhờ khóa sáng và nhiệt độ màu chuẩn từ lúc quay, không phụ thuộc kéo sáng hậu kỳ.",
+      "capcut_export_golden_rule": {
+        "resolution": "Đẩy full thanh ngang (2K/4K)",
+        "fps": "Đẩy full thanh ngang (60fps)",
+        "bitrate_mbps": "Đẩy full thanh ngang (Cao nhất / 100 Mbps)",
+        "must_turn_off": [
+          "TẮT AI Ultra HD ở màn hình xuất file",
+          "TẮT Luồng quang học (Optical Flow)",
+          "TẮT HDR thông minh (Smart HDR)"
+        ]
+      }
+    },
+    "capcut_sfx_exact_search_dictionary": {
+      "source_videos": [
+        "7690821254063918343",
+        "7696008660945800468",
+        "7691927548673953042",
+        "7700827989575093524"
+      ],
+      "1_opening_3s_hook_sfx": [
+        "Opening/Conversion Jingle Horn System(83... (00:03 - OTO Ville - Tìm trong mục Âm thanh)",
+        "I'm surprised, den se... (00:01)",
+        "Explosion (00:03)",
+        "Ping Pong Ping Pong (00:01)",
+        "Magic reveal (00:02)"
+      ],
+      "2_ui_text_popup_sfx_keyword_UI_pop_click": [
+        "UI提示-976714 (00:01)",
+        "UI sound/computer (00:01)",
+        "Pop!! Pop UI sound(1 (00:01)",
+        "UI提示-3262 (00:01)",
+        "コ / 琴 / cute (00:01)",
+        "UI telop type cute p... (00:01)",
+        "pop! (tapping the mic) (00:01)",
+        "Mouse click sound (00:01)",
+        "click (00:01)"
+      ],
+      "3_product_reveal_sparkle_sfx_keyword_reveal": [
+        "Glitter sound 02 / m... (00:04)",
+        "Magic reveal (00:02)",
+        "Kirarin glitter star Gl... (00:03)",
+        "Snap finger patch 01 (00:03)"
+      ],
+      "4_transition_sfx_keyword_woosh_swish": [
+        "Woosh (00:01)",
+        "Swish (00:01)",
+        "swish_whoosh (larg... (00:01)",
+        "Fuwa: short wind no... (00:01)",
+        "Remembering woosh (00:03)",
+        "Woosh Wind_4(823... (00:02)",
+        "Scene switching (sc... (00:04)",
+        "Swish sound. Swaying (00:01)",
+        "Wind noise suitable (00:01)"
+      ],
+      "5_cta_and_money_sfx_keyword_ding_money_bye": [
+        "Ding (00:02)",
+        "Bell ding (00:02)",
+        "Bell ring \"ding!\" (00:01)",
+        "Ding (bell sound) (00:01)",
+        "Follow/like notificati... (00:02)",
+        "Culin. It looks like a l... (00:01)",
+        "Money, coin, cash re... (00:01)",
+        "Amount display (pay... (00:01)",
+        "coin! Get shop item (00:01)",
+        "Bye-bye_moe voice( (00:01 - từ khóa: bye bye sound)"
+      ],
+      "6_food_and_drink_review_sfx": {
+        "can_bite": [
+          "【Eat 01-1】 (71390)",
+          "[Raw recording] food...",
+          "I'm going. Eat and bi..."
+        ],
+        "nhai_chew": [
+          "The sound of ramen",
+          "Chewing sound / cri..."
+        ],
+        "ong_hut_straw": [
+          "It is the sound of dri...",
+          "Rinse water with a st..."
+        ],
+        "chien_ran_fry": [
+          "Deep-fried food [dis..."
+        ],
+        "mo_goi_snack_open_bag": [
+          "Open a bag of potat...",
+          "Washa ... Open the b..."
+        ]
+      }
+    }
+  },
+  "3thag8_master_insights": {
+    "channel_handle": "@3thag8_",
+    "channel_nickname": "Reviewww Đồ Xink",
+    "followers": 6958,
+    "total_likes": 313300,
+    "likes_to_followers_outlier_ratio": 45.0,
+    "studied_videos_count": 21,
+    "deconstructed_21_videos_metrics": [
+      {
+        "rank": 1,
+        "video_id": "7700800453721820436",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 23,
+        "hook_sec": 1.17,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.54,
+        "yavg": 162.5,
+        "beat_sync_pct": 9.1,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 2,
+        "video_id": "7701938287006518548",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 21,
+        "hook_sec": 1.7,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.33,
+        "yavg": 162.5,
+        "beat_sync_pct": 20.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 3,
+        "video_id": "7685589340017184021",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 14,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 2.01,
+        "yavg": 162.5,
+        "beat_sync_pct": 38.5,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 4,
+        "video_id": "7688576016314535189",
+        "archetype": "P4",
+        "views": 0,
+        "shots": 17,
+        "hook_sec": 2.03,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.73,
+        "yavg": 162.5,
+        "beat_sync_pct": 12.5,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 5,
+        "video_id": "7693756037232446740",
+        "archetype": "P2",
+        "views": 0,
+        "shots": 20,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.22,
+        "yavg": 162.5,
+        "beat_sync_pct": 21.1,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 6,
+        "video_id": "7687076710608719124",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 13,
+        "hook_sec": 1.6,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 2.01,
+        "yavg": 162.5,
+        "beat_sync_pct": 41.7,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 7,
+        "video_id": "7695616731233979700",
+        "archetype": "P6",
+        "views": 0,
+        "shots": 18,
+        "hook_sec": 1.73,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.48,
+        "yavg": 162.5,
+        "beat_sync_pct": 11.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 8,
+        "video_id": "7701907434268577044",
+        "archetype": "P2",
+        "views": 0,
+        "shots": 22,
+        "hook_sec": 1.4,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.42,
+        "yavg": 162.5,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 9,
+        "video_id": "7688356567284010261",
+        "archetype": "P2",
+        "views": 0,
+        "shots": 17,
+        "hook_sec": 1.23,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.54,
+        "yavg": 162.5,
+        "beat_sync_pct": 18.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 10,
+        "video_id": "7692640575555702036",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 16,
+        "hook_sec": 1.4,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.8,
+        "yavg": 162.5,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 11,
+        "video_id": "7698208326408097044",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 16,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.94,
+        "yavg": 162.5,
+        "beat_sync_pct": 13.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 12,
+        "video_id": "7693015873279266069",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 25,
+        "hook_sec": 1.27,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.3,
+        "yavg": 162.5,
+        "beat_sync_pct": 41.7,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 13,
+        "video_id": "7691157761568214292",
+        "archetype": "P2",
+        "views": 0,
+        "shots": 14,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.78,
+        "yavg": 162.5,
+        "beat_sync_pct": 7.7,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 14,
+        "video_id": "7694500488720469269",
+        "archetype": "P3",
+        "views": 0,
+        "shots": 17,
+        "hook_sec": 1.6,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.6,
+        "yavg": 162.5,
+        "beat_sync_pct": 25.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 15,
+        "video_id": "7690778463871044865",
+        "archetype": "P2",
+        "views": 0,
+        "shots": 14,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 0,
+        "avg_cut_sec": 1.45,
+        "yavg": 162.5,
+        "beat_sync_pct": 30.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 16,
+        "video_id": "7696408438187822356",
+        "archetype": "P4",
+        "views": 0,
+        "shots": 13,
+        "hook_sec": 2.1,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.74,
+        "yavg": 162.5,
+        "beat_sync_pct": 25.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 17,
+        "video_id": "7697836453434330420",
+        "archetype": "P4",
+        "views": 0,
+        "shots": 18,
+        "hook_sec": 1.47,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.38,
+        "yavg": 162.5,
+        "beat_sync_pct": 35.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 18,
+        "video_id": "7692268146786438420",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 18,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.64,
+        "yavg": 162.5,
+        "beat_sync_pct": 29.4,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 19,
+        "video_id": "7700060415711087892",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 11,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 0,
+        "avg_cut_sec": 2.53,
+        "yavg": 162.5,
+        "beat_sync_pct": 30.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 20,
+        "video_id": "7703058302023830804",
+        "archetype": "P6",
+        "views": 0,
+        "shots": 17,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 4,
+        "avg_cut_sec": 1.2,
+        "yavg": 162.5,
+        "beat_sync_pct": 18.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      },
+      {
+        "rank": 21,
+        "video_id": "7703769281158319381",
+        "archetype": "P1",
+        "views": 0,
+        "shots": 13,
+        "hook_sec": 1.33,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.69,
+        "yavg": 162.5,
+        "beat_sync_pct": 16.7,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ]
+      }
+    ],
+    "signature_studio_setups": {
+      "setup_1_pegboard_dual_temp_lighting_17_of_21_videos": {
+        "left_background": "Bảng lỗ trắng (White Pegboard) gắn 3 hoa bông pastel hồng/xanh + Ống bút lò xo bạc + Gấu bông hồng nhỏ",
+        "left_foreground": "Nến thơm hình khối Rubik trắng kem (Bubble Cube Candle) trên đế gỗ tròn",
+        "right_background": "Sách decor vàng bơ (BUTTER / Book of Jam) đặt nghiêng + Cành lá xanh rủ xuống từ góc phải trên",
+        "lighting_secret": "Dual-Temperature Lighting (Ánh sáng kép 2 nhiệt độ màu): Đèn chính phía trước ánh sáng trắng cao (YAVG 160-175) giúp sản phẩm và da tay trắng hồng chuẩn màu + 1 Đèn ngủ vàng ấm giấu sau sách và cành lá chiếu hắt lên tường tạo chiều sâu ấm cúng."
+      },
+      "setup_2_wooden_table_sunlight_plant_4_of_21_videos": {
+        "surface": "Bàn tròn gỗ nâu trầm đặt cạnh chậu cây lá xanh lớn (Indoor Green Plant)",
+        "lighting": "Ánh nắng vàng chiếu xiên tạo bóng lá tự nhiên trên mặt bàn gỗ"
+      }
+    },
+    "extreme_physical_proof_tests_by_archetype": {
+      "P6_tech_earbuds": "Water Submersion Test (Thả trực tiếp tai nghe Bluetooth Kytech vào cốc nước lọc trong suốt ở giây 16 để chứng minh kháng nước).",
+      "P2_household_tissues": "Wet Tear-Resistance Test (Nhúng đẫm tờ khăn giấy mini TopGia vào cốc nước, vắt mạnh rồi căng phẳng đắp lên cánh tay chứng minh giấy dai không rách không mủn).",
+      "P1_hair_care": "Direct Comb Squeeze & Real Hair Strand Test (Bấm kem duỗi tóc trào ra đầu lược chải lên lòng bàn tay ở 2s đầu; kéo lọn tóc thật vào khung hình POV để vuốt kem ủ trực tiếp).",
+      "P1_sheet_mask": "Essence Squeeze Overflow (Dùng 5 ngón tay bóp chặt miếng mặt nạ trà xanh đen cho tinh chất serum trào ướt đẫm lòng bàn tay ở 3s đầu).",
+      "P4_food_snacks": "Macro Dipping & Cross-Section Tear (Bẻ đôi chiếc bánh đá xanh/vàng rồi chấm ngập vào chén sữa đặc trắng sánh kéo sợi)."
+    },
+    "chr_vietnam_compliance_and_ocr_evasion_shields": [
+      "1. Miễn trừ cơ địa cố định (Skincare/Collagen): Luôn gắn dòng chữ nhỏ màu trắng ở đáy khung hình (y = -0.55) xuyên suốt video: \"*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*\" để tránh lỗi CHR Cam kết tuyệt đối (-20đ).",
+      "2. Miễn trừ biến động giá Flash Sale: Khi chèn ảnh chụp màn hình giỏ hàng khoanh đỏ giá khuyến mãi (Mua 2 giảm 30% còn 64.300đ), luôn gắn dòng chữ: \"*giá có thể thay đổi khi CTKM kết thúc*\" để tránh lỗi CHR Báo giá sai lệch.",
+      "3. Lách bộ lọc OCR từ khóa nhạy cảm trên phụ đề: Chủ động chèn dấu chấm vào giữa các từ nhạy cảm về bệnh lý da liễu hoặc điều hướng mua bán trên text trên màn hình: viết \"da dầu m.ụn\", \"m.ua 1 được 3\", \"siu đinkk\"."
+    ],
+    "editing_and_typography_signatures": {
+      "hook_title_style": "Đặt ở y = +0.58 đến +0.64 (2 dòng chữ bo tròn trắng viền đen đậm + nhấn màu Đỏ Hồng/Xanh Lá/Vàng cho cụm từ khóa chính + 1 Emoji cuối câu).",
+      "social_proof_comment_stack": "Với sản phẩm đồ ăn (Bánh đá) hoặc quà tặng học sinh (Thẻ kẹo mút), ghim liên tiếp 3-4 bình luận khen/rủ nhau mua ở 4 giây đầu tiên.",
+      "outro_seamless_loop_transition": "Ở 0.3s cuối cùng của video, áp dụng hiệu ứng Thu phóng xuyên tâm / Nhòe chuyển động lao thẳng vào sản phẩm (Radial Zoom Blur) để nối vòng lặp (Seamless Loop) mượt mà về cảnh 1."
+    }
+  },
+  "byraanni_master_insights": {
+    "channel_handle": "@byraanni",
+    "channel_nickname": "dessertsoul",
+    "followers": 51000,
+    "total_likes": 1400000,
+    "studied_videos_count": 22,
+    "deconstructed_22_videos_metrics": [
+      {
+        "rank": 1,
+        "video_id": "7691881091442986248",
+        "archetype": "P6",
+        "views": 222800,
+        "likes": 2616,
+        "saves": 897,
+        "shots": 16,
+        "hook_sec": 1.23,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.49,
+        "beat_sync_pct": 33.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "aaa.. butter yellow mini-fan🧈💭🌼 #minifan #portablefan #kipasanginportable #handheldfan #kipasangin  "
+      },
+      {
+        "rank": 2,
+        "video_id": "7694115806816390407",
+        "archetype": "P6",
+        "views": 81000,
+        "likes": 625,
+        "saves": 214,
+        "shots": 18,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "༄ so in love with my new pocket-size fan💭🎱 #minifan #pocketfan #portablefan #kipasminiportable #prom"
+      },
+      {
+        "rank": 3,
+        "video_id": "7698922418944904466",
+        "archetype": "P6",
+        "views": 77000,
+        "likes": 552,
+        "saves": 249,
+        "shots": 16,
+        "hook_sec": 1.23,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.25,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "༄ my burgundy pocket-size fan♥️💭 Mixio GS-20 mini, compact dan anginnya super kenceng!🌪️🌬️ #minifan "
+      },
+      {
+        "rank": 4,
+        "video_id": "7700782004257803527",
+        "archetype": "P2",
+        "views": 48400,
+        "likes": 747,
+        "saves": 146,
+        "shots": 17,
+        "hook_sec": 1.57,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.42,
+        "beat_sync_pct": 18.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "cuffycup☕️💭 aesthetic ukurannya compact 300ml pas bangeet buat bawa kopi atau minuman favorit kemana"
+      },
+      {
+        "rank": 5,
+        "video_id": "7698547936501845256",
+        "archetype": "P1",
+        "views": 48300,
+        "likes": 657,
+        "saves": 269,
+        "shots": 21,
+        "hook_sec": 1.3,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 10.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "obsessed with this makeup book by igoodco🎀༘⋆ #makeupbook #makeuppalette #igoodco #igoodcopalette #ig"
+      },
+      {
+        "rank": 6,
+        "video_id": "7697815760965537042",
+        "archetype": "P3",
+        "views": 43700,
+        "likes": 482,
+        "saves": 215,
+        "shots": 17,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 31.2,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "comfy ballet shoes💭🩰 #sepatuwanita #balletshoes #sepatucantik #flatshoes #sepatuballet  @COROLLA Sho"
+      },
+      {
+        "rank": 7,
+        "video_id": "7701651463977618696",
+        "archetype": "P2",
+        "views": 35900,
+        "likes": 796,
+        "saves": 259,
+        "shots": 14,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 0,
+        "avg_cut_sec": 1.91,
+        "beat_sync_pct": 30.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "so cote! my leopard tumbler🧺💭 udah tahan panas dan dingin, must have!!✨ #tumbler #leopardtumbler #tu"
+      },
+      {
+        "rank": 8,
+        "video_id": "7696771460248931592",
+        "archetype": "P1",
+        "views": 33900,
+        "likes": 1492,
+        "saves": 504,
+        "shots": 8,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.67,
+        "beat_sync_pct": 28.6,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+        ],
+        "description": "obsessed w/ my new nails🤎💭 #kukupalsu #fakenails #pressonnails "
+      },
+      {
+        "rank": 9,
+        "video_id": "7695954139339115783",
+        "archetype": "P2",
+        "views": 33500,
+        "likes": 234,
+        "saves": 90,
+        "shots": 33,
+        "hook_sec": 2.03,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 50.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "finally got this black tumbler💫💭🎱 — JoraMax by @Rosca Indonesia  #rosca #tumbler #tumblersoftiktok #"
+      },
+      {
+        "rank": 10,
+        "video_id": "7704112351687052562",
+        "archetype": "P3",
+        "views": 31600,
+        "likes": 190,
+        "saves": 116,
+        "shots": 23,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 0,
+        "avg_cut_sec": 1.21,
+        "beat_sync_pct": 31.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "Brown wallet reco!🤎🧺💫 #westbronco #wallet #walletforwomen #dompetwanita #dompetlipat "
+      },
+      {
+        "rank": 11,
+        "video_id": "7693865673021246727",
+        "archetype": "P6",
+        "views": 30800,
+        "likes": 165,
+        "saves": 40,
+        "shots": 11,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.22,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "i’m inlove w/ my new polka dots phone case 💭🍷💫 #caseiphone #iphonecase #polkadot #iphone #iphone18pr"
+      },
+      {
+        "rank": 12,
+        "video_id": "7696331542678801682",
+        "archetype": "P2",
+        "views": 26400,
+        "likes": 1678,
+        "saves": 553,
+        "shots": 7,
+        "hook_sec": 1.4,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 2.6,
+        "beat_sync_pct": 0.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "round wooden tray💭🍂 #aesthetic #woodentray #homedecor #fyp #pinterest "
+      },
+      {
+        "rank": 13,
+        "video_id": "7698179957419150608",
+        "archetype": "P3",
+        "views": 25600,
+        "likes": 345,
+        "saves": 150,
+        "shots": 17,
+        "hook_sec": 1.1,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 43.8,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+        ],
+        "description": "non-slip outdoor shoes⛰️🥾 #hikingshoes #sepatuolahraga #shoesrecommendation #outdoorshoes #sepatuwan"
+      },
+      {
+        "rank": 14,
+        "video_id": "7701246030011960577",
+        "archetype": "P3",
+        "views": 25500,
+        "likes": 183,
+        "saves": 99,
+        "shots": 13,
+        "hook_sec": 2.1,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.63,
+        "beat_sync_pct": 8.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "cotton panties = all-day comfort💭🩵  #underwear #panties #cottonpanties #celanadalamwanita #fyp  @GOS"
+      },
+      {
+        "rank": 15,
+        "video_id": "7699354132439715079",
+        "archetype": "P6",
+        "views": 24100,
+        "likes": 178,
+        "saves": 58,
+        "shots": 20,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.94,
+        "beat_sync_pct": 10.5,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "Alat pijat portable berasa kayak di pijat pakai tangan manusia! beneran enak bangeeet🥹🤎 #alatpijat #"
+      },
+      {
+        "rank": 16,
+        "video_id": "7701971379477826824",
+        "archetype": "P6",
+        "views": 22900,
+        "likes": 203,
+        "saves": 76,
+        "shots": 16,
+        "hook_sec": 1.2,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.42,
+        "beat_sync_pct": 40.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+        ],
+        "description": "Invory Gold Flowers handheld fan💭✨ warna terbaru dari INBEX IF01 anginnya kenceng suaranya smooth, s"
+      },
+      {
+        "rank": 17,
+        "video_id": "7700842867371134226",
+        "archetype": "P6",
+        "views": 18600,
+        "likes": 202,
+        "saves": 76,
+        "shots": 21,
+        "hook_sec": 2.2,
+        "cuts_in_3s": 0,
+        "avg_cut_sec": 1.59,
+        "beat_sync_pct": 15.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "💫 cameranya bagus bangeeeet cocok dipake foto/video ala ala vintage💭 worth it cuma 300rb an dapet di"
+      },
+      {
+        "rank": 18,
+        "video_id": "7692249015932538120",
+        "archetype": "P3",
+        "views": 18300,
+        "likes": 249,
+        "saves": 87,
+        "shots": 18,
+        "hook_sec": 1.3,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.35,
+        "beat_sync_pct": 23.5,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "soft, breathable and oh-so-cute🎀💭 #cdwanita #cdwanitamurah #panties #celanadalamwanita #underwear "
+      },
+      {
+        "rank": 19,
+        "video_id": "7696467919055736116",
+        "archetype": "P2",
+        "views": 12700,
+        "likes": 366,
+        "saves": 74,
+        "shots": 21,
+        "hook_sec": 1.4,
+        "cuts_in_3s": 1,
+        "avg_cut_sec": 1.7,
+        "beat_sync_pct": 30.0,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "Mini washing machine🧼🧺🫧 #jamay #miniwashingmachine #portablewashingmachine #laundryessentials #porta"
+      },
+      {
+        "rank": 20,
+        "video_id": "7694530220476468488",
+        "archetype": "P6",
+        "views": 11100,
+        "likes": 144,
+        "saves": 27,
+        "shots": 15,
+        "hook_sec": 1.27,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 14.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "i so obsessed w/ my polkadot phone case💭🎱 #iphonecase #caseiphone #phonecase #casingiphone #iphone18"
+      },
+      {
+        "rank": 21,
+        "video_id": "7699741101065817362",
+        "archetype": "P3",
+        "views": 11000,
+        "likes": 485,
+        "saves": 157,
+        "shots": 15,
+        "hook_sec": 1.27,
+        "cuts_in_3s": 3,
+        "avg_cut_sec": 1.2,
+        "beat_sync_pct": 28.6,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "Matcha girl coded shoes🍵🌱 #sepatuwanita #shoesforwomen #womenshoes #matcha #gajiansale  @Sovella - I"
+      },
+      {
+        "rank": 22,
+        "video_id": "7702039713577700626",
+        "archetype": "P2",
+        "views": 10600,
+        "likes": 298,
+        "saves": 76,
+        "shots": 18,
+        "hook_sec": 1.7,
+        "cuts_in_3s": 2,
+        "avg_cut_sec": 1.38,
+        "beat_sync_pct": 35.3,
+        "transitions": [
+          "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+        ],
+        "description": "coffy cup tumbler from Rosca💭☕️ dapet 2 tutup, pas bangeet buat minum kopi/matcha🍵🍃 @Rosca Indonesia"
+      }
+    ],
+    "kinfolk_pinterest_editorial_studio_dna": {
+      "table_and_furniture": "Bàn tròn trắng kem mờ (Matte White Round Cafe Table) + Ghế bành lông cừu trắng kem (Cream Bouclé Armchair) đặt trên sàn gỗ nâu ấm",
+      "signature_background_props": [
+        "Đèn ngủ chụp xếp ly màu kem đế gỗ nâu (Pleated Cream Lamp)",
+        "Khung tranh thực vật Pháp cổ điển (BERGGRUEN & CIE / MATISSE) dựng sát tường",
+        "Giỏ lưới sắt vuông đựng ly nến thơm nhãn trắng",
+        "Khay mây đan tròn lót khăn vải trắng chấm bi đen + 1 bông hoa dâm bụt vàng/trắng hoặc tấm thảm ren trắng (White Lace Doily) hoặc sách bìa cứng Pháp (Hello, Sourdough Bread / La Pâtisserie)"
+      ],
+      "signature_hand_wardrobe": "Luôn mặc áo len dệt kim dài tay màu Nâu Espresso Đậm (Dark Espresso Ribbed Knit Sleeve) trùm qua cổ tay + Nail màu nâu/đỏ rượu chấm bi trắng -> Tạo độ tương phản cao (High-Contrast Anchor) giúp sản phẩm sáng màu không bị chìm vào mặt bàn trắng!"
+    },
+    "seven_signature_editing_and_visual_weapons": [
+      "1. Vòng Tròn Nét Đứt Phóng Đại Chi Tiết (Dashed-Circle Magnifier Loupe PIP): Khi chỉ vào nút bấm 4 tốc độ hoặc cổng sạc nhỏ, tạo 1 lớp phủ mặt nạ hình tròn viền nét đứt trắng phóng đại 160% vùng ngón tay thao tác kèm nhãn chữ nhỏ trên đỉnh vòng tròn.",
+      "2. Cụm Chữ Tạp Chí Đa Tầng (Editorial Dual-Font Title + Glowing Starlight Arc): Kết hợp chữ Calligraphy Script uốn lượn (Ballerina shoes / wooden / polkadot / Yellow mini fan) đè nhẹ lên chữ Sans-Serif/Serif thanh mảnh + Vòng cung sao lấp lánh (Glowing Arc).",
+      "3. Nhãn Thông Số Đối Xứng Kiểu Poster (Split-Spec Floating Micro-Labels): Đặt 2 nhãn chữ siêu nhỏ đối xứng 2 bên sản phẩm ở cảnh mở đầu (ví dụ: bên trái \"insulated coffee mug\", bên phải \"350 ml\" / \"750 ml\" — \"in black\").",
+      "4. Mở Đầu 3 Giây 3 Góc Máy (3-Shot Editorial Collage Hook): [0.0-1.1s: Cầm trên tay/Đang dùng] -> [1.1-2.2s: Góc Top-Down 90 độ đặt sản phẩm trong khay mây chấm bi/khay gỗ] -> [2.2-3.3s: Bắt đầu mở hộp/kéo giấy nến Unbox].",
+      "5. Đạo Cụ Hóa Hình Tính Năng Vô Hình (Invisible-to-Visible Physics Proof): Dùng khăn giấy/bông gòn bay phần phật và khói nến để chứng minh lực gió quạt mini; rót Matcha Latte xanh mướt + dốc ngược lắc 180 độ trên khay gỗ chứng minh bình giữ nhiệt chống tràn; dùng gương cổ điển phản chiếu màn hình lật của máy ảnh.",
+      "6. Nhịp Cắt Siêu Mượt Chuẩn Tạp Chí: Trung bình 15-21 cảnh/video (20-25s), tốc độ cắt cực đều 1.20s - 1.49s/cảnh, kết hợp Whip Pan nhẹ và Clean Action Cut.",
+      "7. Chống Reup Bằng Dual-Watermark Chìm Tinh Tế: Đặt @byraanni • don't repost! ở đỉnh (y = +0.82) và video milik : @byraanni ở dưới sản phẩm (y = -0.42) với Opacity 65%."
+    ]
+  },
+  "minhtienoiii06_master_insights": {
+    "channel_handle": "@minhtienoiii06",
+    "channel_nickname": "Minh Tiến Ơiii",
+    "studied_videos_count": 22,
+    "total_channel_videos_scanned": 400,
+    "top_viral_peaks": [
+      {
+        "video_id": "7596622550005042439",
+        "views": 19306564,
+        "likes": 229900,
+        "topic": "Bánh phồng sữa lá dứa & sữa dừa - Cầm đôi tương phản màu Xanh Neon vs Trắng Sữa + Gấp tam giác + Xé dẻo sát ống kính (23 cuts / 29s, AvgCut 1.26s)"
+      },
+      {
+        "video_id": "7632125739101424903",
+        "views": 15517545,
+        "likes": 265500,
+        "topic": "Tripod mini 3in1 gấp gọn 1m7 - Live Camera Screen in Frame + Đường kẻ nét đứt đo chiều cao 1m7 + Đèn 3 màu + Remote chụp xa (26 cuts / 35s, AvgCut 1.36s)"
+      },
+      {
+        "video_id": "7599999306845670674",
+        "views": 13831559,
+        "likes": 337800,
+        "topic": "Bánh phồng sữa cuộn kem lạnh ('Ăn kiểu này ngon') - Creative Pairing biến bánh phồng sữa thành vỏ bánh crepe cuộn kem dâu/vani rồi cắn ngập răng"
+      },
+      {
+        "video_id": "7471087275884039442",
+        "views": 12913224,
+        "likes": 124500,
+        "topic": "Bánh tráng Tây Ninh - Hook tranh luận từ vựng vùng miền: 'Bịch Bánh Tráng ❌ / Bao Bánh Tráng ✅ — Cho hỏi là Bịch hay Bao ?' + Đèn Ring-light cam ấm phản chiếu độ bóng"
+      },
+      {
+        "video_id": "7619149684778568981",
+        "views": 11552406,
+        "likes": 162100,
+        "topic": "Bánh phồng sữa nhịp cắt siêu tốc 30 cảnh / 33 giây (AvgCut 1.20s)"
+      },
+      {
+        "video_id": "7531331029970570503",
+        "views": 10903766,
+        "likes": 147100,
+        "topic": "Review đồ ăn vặt bàn học chill với Đèn ngủ lát bánh mì TOAST xanh lá"
+      }
+    ],
+    "seven_signature_viral_weapons": [
+      "1. Nhịp Cắt Siêu Tốc Xúc Giác (Hyper-Kinetic Tactile Micro-Cuts): 22-30 cảnh trong 26-35 giây (AvgCut 1.20s - 1.64s, Hook 1.1s), mỗi cảnh chỉ giữ đúng 1 thao tác tay đắt giá nhất (xé, gập, bấm, cuộn, cắn).",
+      "2. Bối Cảnh Bàn Học Chill Đa Tầng Chuyển Động Ngầm (Cozy Toast Lamp + Ivy + Background Anime Screen): Đặt đèn ngủ lát bánh mì TOAST xanh lá phát sáng vàng ấm + Dây thường xuân rủ + Điện thoại/iPad mở phim hoạt hình Doraemon chạy ngầm ở góc trên tạo chuyển động ngoại vi giữ mắt người xem.",
+      "3. Công Thức Kết Hợp Món Ăn Sáng Tạo ('Ăn Kiểu Này Ngon' - Creative Pairing): Không chỉ ăn sản phẩm nguyên bản mà kết hợp với kem lạnh/sữa đặc/trà xanh để tạo món mới lạ mắt (13.8M views).",
+      "4. Hook Tranh Luận Vùng Miền & Hoài Niệm Tuổi Thơ (Dialect Debate & Nostalgia Meme Hook): Mở đầu bằng câu hỏi gây tranh cãi thân thiện ('Bịch hay Bao?', 'Hũ kem nhưng lại có kem :))', 'Có ai hồi nhỏ hay ăn vụng sữa bột em bé hong?').",
+      "5. Vũ Đạo Thị Giác Cho Đồ Ăn Vặt & Hộp Nhỏ (Tower Stack -> Rainbow Grid / Cup Flip Cascade / Tin-Lid Acoustic Target): Xếp 7 hộp thiếc thành tháp cao rồi trải lưới 3x3; úp ngược hũ kẹo dẻo đổ tràn ra đĩa; bắn viên kẹo vào nắp hộp thiếc để lấy tiếng vang 'tách-keng' ASMR.",
+      "6. Chứng Minh Phụ Kiện Công Nghệ Trực Quan (Live Viewfinder in Frame + Dashed Height Ruler): Khi review Tripod/Gậy selfie, luôn gắn điện thoại thứ 2 đang bật Camera quay trực tiếp để người xem thấy góc rộng thực tế ngay trên màn hình phụ + vẽ đường nét đứt đo chiều cao 1m7.",
+      "7. Khiên Lách OCR Thế Hệ Mới Bằng Emoji Nông Sản & Tách Từ Vị Giác: Dùng '45 🍅 thoi', '49 🍠' thay cho đơn vị tiền tệ; viết 'p.é.o ngậyyy', 't:an ch:ảy', 'h.ữ.u c.ơ', 'd.ễ th.ư.ơ.ng', 'ă:n siu cuốn ✨' để vừa chuẩn vibe Gen-Z vừa miễn nhiễm quét từ khóa nhạy cảm."
+    ]
+  },
+  "yuhtt09_master_insights": {
+    "channel_handle": "@yuhtt09",
+    "channel_nickname": "Thuy Unbox",
+    "total_channel_videos_scanned": 1271,
+    "deep_deconstructed_videos_count": 54,
+    "aggregate_54_video_metrics": {
+      "avg_cut_duration_sec": 1.31,
+      "avg_hook_duration_sec": 1.25,
+      "avg_luma_yavg": 166.1,
+      "avg_saturation": 9.1,
+      "avg_snr_db": 17.57,
+      "voiceover_dependency_pct": 0.0,
+      "cta_signature": "Giỏ hàng ở góc trái màn hình nè ↙️"
+    },
+    "top_viral_and_craftsmanship_peaks": [
+      {
+        "video_id": "7453660055578119432",
+        "views": 8149272,
+        "likes": 179144,
+        "topic": "Stationery / Sổ tay kế hoạch học tập bàn Pegboard Coquette (31 shots / 41s, AvgCut 1.32s, YAVG 168.4)"
+      },
+      {
+        "video_id": "7376158607316634898",
+        "views": 5488369,
+        "likes": 94158,
+        "topic": "Tất vớ trắng thêu họa tiết (28 shots / 24.4s, AvgCut 0.87s — Bàn tay luồn vào trong cổ tất kéo căng 4 chiều kiểm chứng độ dày)"
+      },
+      {
+        "video_id": "7289402291101863170",
+        "views": 4769262,
+        "likes": 135376,
+        "topic": "Xịt thơm quần áo toàn thân (12 shots / 13s, AvgCut 1.09s — Flashback Unbox + Xịt sương ngược sáng)"
+      },
+      {
+        "video_id": "7430833804065647890",
+        "views": 4050445,
+        "likes": 115241,
+        "topic": "Bút bi gel bấm êm nhiều màu (28 shots / 27.6s, AvgCut 0.99s — Viết thử từng mã màu kèm nhãn giá 'Chỉ 9 🌱/chiếc')"
+      },
+      {
+        "video_id": "7382825838469451024",
+        "views": 3746670,
+        "likes": 47000,
+        "topic": "Gương cầm tay mini có đèn LED cảm ứng (22 shots / 24s, AvgCut 1.09s — Lột seal màn hình gương + Chạm cảm ứng đổi 3 màu đèn)"
+      },
+      {
+        "video_id": "7625971684901719303",
+        "views": 18200,
+        "likes": 1350,
+        "topic": "2026 Evolution (#54): KCN Bioré Whipping Cream — So sánh vòi bơm hình ngôi sao với đầu bắt kem bánh ngọt (Circular PIP + Cutout bánh kem dâu) + Test 5 ô giấy thấm dầu xanh trên mu bàn tay"
+      },
+      {
+        "video_id": "7644406110857514260",
+        "views": 15400,
+        "likes": 1120,
+        "topic": "2026 Evolution (#51): Cushion Mistine — Hook so sánh giá '❌ Lẻ cushion gần 300 🐣 / ✅ Combo 6 món hơn 300 🐣' thả rơi 6 món quà xuống thảm tim nhí"
+      },
+      {
+        "video_id": "7638484624414182676",
+        "views": 16800,
+        "likes": 1240,
+        "topic": "2026 Evolution (#52): KCN Tím Beplain — Bơm kem đường lượn sóng chữ S + Highlight hồng 'như [kem nền high-end??]' + Công thức '3in1: Kem chống nắng + Primer + Kem nền'"
+      }
+    ],
+    "eight_industry_visual_proof_playbooks": {
+      "1_flashback_unbox_architecture": "Cảnh 1 (0.0s-1.1s): Mở sẵn nắp hộp carton đầy ắp sản phẩm hoặc thành phẩm đã pha/dùng đẹp nhất kèm Tiêu đề uốn cong ⌒ + Kaomoji *ੈ✩‧₊˚🌷🎀*ੈ✩‧₊˚ -> Cảnh 2 (1.1s-3.5s): Quay ngược lại cảnh dùng dao rọc giấy mini (hình chân mèo hồng) rạch băng keo và bóc màng xốp nổ.",
+      "2_makeup_sunscreen_2026_proofs": "1) Ẩn dụ thị giác kèm ảnh Cutout + PIP tròn (vòi kem hình sao = bắt kem bánh ngọt) + Test 5 ô giấy thấm dầu xanh trên mu bàn tay (#54); 2) Hook so sánh giá Lẻ ❌ vs Combo 6 món ✅ (#51); 3) Bơm kem chữ S + công thức 3in1 (#52); 4) Xịt/đổ nước trực tiếp lên lớp nền trên mu bàn tay rồi áp khăn giấy khô trắng tinh lên kiểm chứng không lem trôi (#03, #06, #14); 5) Xòe quạt 10 miếng mặt nạ và gẩy liên thanh như bài tây (#53).",
+      "3_fashion_apparel_faceless_6step": "Gắn nhãn '⭐ 4.8/5 (2.10k) | Đã bán 23.6K' hoặc 2 khung ảnh Polaroid Idol 'Cheap Moment' (Vương Hạc Đệ / Tiểu Vy #26) -> 6 bước không lộ mặt: Giơ áo trước cửa gỗ -> Rút khỏi túi zip mờ -> Khoe tag mác 🏷️ -> Vạch lót nỉ/cotton bên trong nhéo độ dày -> Macro đường chỉ thêu/túi áo -> Mặc thử cắt ngang cổ xoay trước gương.",
+      "4_bags_footwear_capacity_stuffing": "Bài test 'Nhét Cả Thế Giới Vào Túi' (thả liên hoàn phấn nước, bảng mắt, son, nước hoa hoặc 10 cây bút + AirPods vào túi rồi kéo khóa mượt mà) + Xách túi trên nền sàn bê tông xám nối Seamless Loop.",
+      "5_tech_hair_tools_live_proof": "Cắm sạc hiện tia sét xanh trên màn hình khóa điện thoại ở 0.0s (#33 Anker); Hiện checklist 4 mức nhiệt LED (140°C-200°C) + kẹp xoay uốn tóc thật không lộ mặt (#31); Macro màng loa rung theo bass + màn hình Bluetooth (#34).",
+      "6_fragrance_bodycare_visualization": "Xịt tia sương nước hoa lên cổ tay áo len dệt kim trắng dày dặn để hạt sương bám lên sợi len (#36); Bơm sữa tắm tạo hình bông hoa kem trên khay nhựa trong suốt (#37); Lắc chai nước hoa nhũ kim tuyến xoáy tròn dưới đèn (#38).",
+      "7_home_tumbler_jewelry_trust": "Rót nước ở 0.0s + Dốc ngược 180 độ lắc mạnh chứng minh bình giữ nhiệt không rò nước (#39 Sunhouse 1.6M views); Gõ thìa inox vào thành cốc sứ nghe tiếng ngân (#41); Bộ 3 bảo chứng Trang sức bạc: Thẻ bảo hành + Nước rửa bạc + Khăn lau bạc + Đổi màu đá Moonstone theo góc đèn (#44-#46).",
+      "8_emoji_rebus_and_cta_shield": "Hệ thống Emoji Rebus đa dạng: 🌱 ('9 🌱/chiếc'), 🌿 ('79 🌿'), 🐣 ('300 🐣'), 🧋 ('chỉ bằng ly 🧋 thui'), 🐟 ('2 🐟', '100 🐟'), 🌰 ('hạt dẻ'), 💰 ('đáng 💰 lắm'), 🎁 ('làm 🎁'), 💦 ('Test nước 💦'), tách dấu chấm ('Dưỡng trắ.ng', 'mờ thâ.m') và mũi tên xanh ↙️ ở mọi câu CTA."
+    }
+  },
+  "seven_kocs_deep_catalog_evolution_2026": {
+    "total_8_koc_videos_scanned": 3575,
+    "seven_kocs_catalog_videos": 2304,
+    "deep_storyboards_inspected": 48,
+    "meshinthuine_deep_weapons": [
+      "White-Stroke Cutout PIP Storyteller (#02 7619738011382631700 - 2.27M views): Tách nền 2 mẹ con kèm viền trắng dày kiểu Sticker ở góc trái dưới trên nền V1 quay cận cảnh que chỉ bấm sách điện tử phát âm.",
+      "Pantone 4-Color Swatch Card + Dual-Pill Title + Retro Film Date Stamp (#03 15.04% Like Rate & #05 7704315564059266324): Gắn bảng mã màu Pantone (COCOA / TRUFFLE) ở góc phải trên + Sticker cắt rời họa tiết sản phẩm + Tiêu đề 2 viên thuốc đôi ([set ga gối] xanh pastel + [màu hottrend] vàng bơ) + Dấu ngày tháng máy film OCT 24 2026.",
+      "Hand-Cover Pajama-to-Glam Transition (#04 7697597515113221396 - 13.5% Like Rate): Mặc đồ ngủ kẻ sọc ôm hộp quà -> Đưa tay áo che ống kính ở 1.4s -> Biến hình váy công chúa mở hộp lâu đài mỹ phẩm."
+    ],
+    "honghanhxinhgai_01_deep_weapons": [
+      "Supermarket Sashimi Basket Novelty Hook + Backpack Toss Durability Proof (#01 7654919287001353490 - 21.3M views & #02 10.8M views): Đặt kẹp tóc hình lát cá hồi đóng gói kiểu khay thịt siêu thị vào giỏ siêu thị hồng mini + Ghim 2 bình luận trái chiều + Ném thẳng vào balo đựng sách vở chứng minh không gãy xước + Báo giá '49 🐟'.",
+      "180° Lay-Flat Casio Calculator Capacity Proof + Micro Chibi Reaction Stickers (#05 & #06): Mở khóa túi bút 180 độ phẳng như khay, xếp 30 cây bút + nhét vừa cả máy tính Casio ('để được cả máy tính +-=') + Sticker Chibi biểu cảm nhỏ nổi ngay trên dòng phụ đề (y = +0.52)."
+    ],
+    "kieneditcuong_capcut_encyclopedia_weapons": [
+      "3-Point Organic Handheld Rotation Zoom (#02 7681904975101971720 - 733K views): Thay zoom tuyến tính bằng 3 Keyframe Scale + Micro-Rotation: KF1(0.0s, 1.0x, 0°) -> KF2(0.45s, 1.22x, -3.5°) -> KF3(1.10s, 1.12x, +1.5°) kèm Đồ thị 'Chậm bên ngoài' (Ease-Out Cubic Bezier [0.16, 1.0, 0.3, 1.0]).",
+      "Fixed-Tripod Con Thoi Zoom-Out (#01 7667816118190361863 - 2.04M views): Giữ cố định máy trên tripod, phóng to sẵn 1.35x ở 0.0s -> kéo về 1.0x ở 1.1s -> hồi nhẹ Con thoi lên 1.18x.",
+      "Invisible Hand-Catch Match-Cut (#03 532K views) & Scribble-Draw Product Reveal Hook (#10): Tay không vươn ra chụp không khí khớp sang cảnh tay nắm sản phẩm; hoặc dùng Cọ vẽ tô bóng sản phẩm + Hiệu ứng vào 'Lần lượt vào (1.1s)'.",
+      "Kính Lúp Nét Đứt (#06) & Bộ Lọc Làm Trắng Hồng Da Tay POV (#12): Hiệu ứng 'Kính lúp nét đứt' (Kích thước 40, Cường độ 45) soi chi tiết; Bộ lọc 'Trong như pha lê' (Crystal Clear) ở mức 44% giúp da tay POV trắng hồng tự nhiên.",
+      "5 Font Chữ Đúng Long Mạch Bán Hàng (#11): 1. Anton (Tiêu đề nhấn mạnh), 2. Montserrat (Phụ đề 1 dòng dễ đọc nhất), 3. CalSans-SB (Vlog/Decor nhẹ nhàng), 4. Playfair Display (Văn thơ/Coquette), 5. Volgins (Thời trang/Trang sức/Hàng hiệu sang trọng)."
+    ],
+    "3thag8_byraanni_grayunbox_minhtien_deep_weapons": [
+      "@3thag8_ (#01 2.44M views & #04 815K views): Xếp chồng 3 bình luận khen thật trong 3s đầu + Kéo sợi bọt xà phòng tơ tằm và vẽ trái tim lên bọt trắng trên cánh tay + Biểu diễn 3 cách uống của bình giữ nhiệt ngay 3.5s đầu trước khi khui hộp.",
+      "@byraanni (#01 1.2M views & #02 918K views): Sensory Proxy Proof cho tính năng vô hình (Kẹp mic thu âm vào túi bóng, ly rót nước, bát snack, thìa đá, bàn phím cơ; Bật quạt mini thổi tung kim tuyến bạc và thổi gợn sóng mặt nước) + Floating Part-Pointer Specs bám sát bộ phận sản phẩm.",
+      "@grayunbox (#01 597K views, #02 302K views, #06): Bẻ đôi bánh trung thu lộ nhân phô mai 2 màu tương phản dưới nắng xiên + Múc mật táo đỏ đặc sánh kéo sợi từ thìa sứ trắng + Match-Cut đổi 3 màu bao lì xì trên tay trái rồi mở rộng lưới 5x4 = 20 bao kín mặt bàn.",
+      "@minhtienoiii06 (#01 1.62M views, #03 731K views, #05): Đặt ly nước đầy trên nệm lò xo rồi nhảy mạnh cạnh ly không đổ 1 giọt + Rạch túi hút chân không cho nệm tự phồng kèm tiếng xì hơi + Đo độ dày 25cm bằng gang tay + Khiên miễn trừ giá '*Giá có thể thay đổi tuỳ thời điểm nha !*' ở y = -0.78."
+    ]
+  }
 }

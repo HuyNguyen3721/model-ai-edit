@@ -1,0 +1,150 @@
+[
+  {
+    "project_name": "VIRAL_BENCHMARK_7666052268323523848",
+    "source": "Clean-Room Study @honghanhxinhgai_01",
+    "product_archetype": "P2",
+    "views": 714800,
+    "orders": 2710,
+    "gpm_efficiency_index": 91.2,
+    "winning_dna": {
+      "clip_count": 24,
+      "hook_first_clip_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_clip_dur_sec": 2.31,
+      "v1_pacing_curve_sec": [
+        5.75,
+        2.67,
+        2.11,
+        3.52,
+        2.42,
+        0.91,
+        1.2,
+        1.27,
+        6.62,
+        5.55,
+        1.31,
+        2.15,
+        8.69,
+        1.88,
+        1.4
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ],
+      "beat_sync_ratio_pct": 39.1,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "storyboard_contact_sheet": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7666052268323523848_storyboard_grid.jpg"
+    }
+  },
+  {
+    "project_name": "VIRAL_BENCHMARK_7668255705534647559",
+    "source": "Clean-Room Study @honghanhxinhgai_01",
+    "product_archetype": "P6",
+    "views": 561600,
+    "orders": 892,
+    "gpm_efficiency_index": 91.7,
+    "winning_dna": {
+      "clip_count": 12,
+      "hook_first_clip_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 1,
+      "avg_clip_dur_sec": 2.45,
+      "v1_pacing_curve_sec": [
+        1.03,
+        2.8,
+        2.15,
+        5.55,
+        2.8,
+        7.0,
+        1.55,
+        1.12,
+        1.15,
+        1.33,
+        1.52,
+        1.42
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ],
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "storyboard_contact_sheet": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7668255705534647559_storyboard_grid.jpg"
+    }
+  },
+  {
+    "project_name": "VIRAL_BENCHMARK_7668953719832120594",
+    "source": "Clean-Room Study @honghanhxinhgai_01",
+    "product_archetype": "P2",
+    "views": 377600,
+    "orders": 303,
+    "gpm_efficiency_index": 69.8,
+    "winning_dna": {
+      "clip_count": 26,
+      "hook_first_clip_dur_sec": 1.28,
+      "cuts_in_first_3_sec": 1,
+      "avg_clip_dur_sec": 2.37,
+      "v1_pacing_curve_sec": [
+        1.28,
+        2.89,
+        2.31,
+        3.42,
+        2.77,
+        0.86,
+        1.65,
+        3.72,
+        0.52,
+        2.05,
+        2.46,
+        1.89,
+        2.03,
+        6.73,
+        3.0
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ],
+      "beat_sync_ratio_pct": 52.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "storyboard_contact_sheet": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7668953719832120594_storyboard_grid.jpg"
+    }
+  },
+  {
+    "project_name": "VIRAL_BENCHMARK_7686072245579533588",
+    "source": "Clean-Room Study @honghanhxinhgai_01",
+    "product_archetype": "P1",
+    "views": 99900,
+    "orders": 46,
+    "gpm_efficiency_index": 33.4,
+    "winning_dna": {
+      "clip_count": 25,
+      "hook_first_clip_dur_sec": 1.57,
+      "cuts_in_first_3_sec": 2,
+      "avg_clip_dur_sec": 1.32,
+      "v1_pacing_curve_sec": [
+        1.57,
+        0.78,
+        1.17,
+        0.95,
+        0.53,
+        1.53,
+        1.9,
+        1.52,
+        1.28,
+        1.35,
+        0.84,
+        0.75,
+        0.75,
+        1.05,
+        1.08
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Clean Action Cut (Cắt Thẳng Trên Đà Chuyển Động)"
+      ],
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "storyboard_contact_sheet": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_7686072245579533588_storyboard_grid.jpg"
+    }
+  }
+]

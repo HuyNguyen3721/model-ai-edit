@@ -1,0 +1,189 @@
+{
+  "schema_version": "8.0-SEVEN-KOCS-DEEP-CATALOG-EVOLUTION-2026",
+  "updated_at": "2026-11-06T16:12:00+07:00",
+  "corpus_summary": {
+    "total_8_koc_videos_scanned": 3575,
+    "seven_kocs_deep_catalog_videos": 2304,
+    "yuhtt09_full_catalog_videos": 1271,
+    "deep_deconstructed_videos_this_batch": 48,
+    "koc_breakdown": {
+      "meshinthuine": { "catalog_scanned": 350, "max_views": 3296990, "max_like_rate_pct": 15.04, "deep_storyboards": 6 },
+      "honghanhxinhgai_01": { "catalog_scanned": 308, "max_views": 21317471, "max_like_rate_pct": 14.37, "deep_storyboards": 6 },
+      "kieneditcuong": { "catalog_scanned": 146, "max_views": 2046427, "max_like_rate_pct": 9.81, "deep_storyboards": 12 },
+      "3thag8_": { "catalog_scanned": 350, "max_views": 2443238, "max_like_rate_pct": 8.95, "deep_storyboards": 6 },
+      "byraanni": { "catalog_scanned": 350, "max_views": 1197074, "max_like_rate_pct": 10.22, "deep_storyboards": 6 },
+      "grayunbox": { "catalog_scanned": 400, "max_views": 1618075, "max_like_rate_pct": 13.73, "deep_storyboards": 6 },
+      "minhtienoiii06": { "catalog_scanned": 400, "max_views": 1906778, "max_like_rate_pct": 9.50, "deep_storyboards": 6 }
+    }
+  },
+  "newly_discovered_techniques_across_7_kocs": {
+    "meshinthuine_deep_dna": {
+      "white_cutout_sticker_pip_storyteller": {
+        "video_id": "7619738011382631700",
+        "views": 2274903,
+        "mechanic": "Background V1 plays full-screen macro product interaction (pointing stick tapping words in baby sound book) while V2 overlays a background-removed cutout of Mother & Baby at bottom-left with a thick white sticker stroke border.",
+        "best_for": ["P5_Mother_Baby", "Educational_Toys", "Storytelling_Proof"]
+      },
+      "pantone_color_swatch_card_and_dual_pill_title": {
+        "video_id": "7704315564059266324",
+        "like_rate_pct": 13.5,
+        "mechanic": "Top-right floating Pantone 4-color swatch card (e.g. COCOA / TRUFFLE palette extracted from the product) + cutout icon of the fabric motif (Dachshund dog) + Dual-Pill Title ([set ga gối] in sky-blue pill + [màu hottrend] in butter-yellow pill) + Retro Film Date Stamp (OCT 24 2026) on left edge.",
+        "best_for": ["P4_Home_Bedding", "P2_Fashion_Apparel", "Sweater_Haul"]
+      },
+      "hand_cover_pajama_to_glam_transition": {
+        "video_id": "7697597515113221396",
+        "like_rate_pct": 13.5,
+        "mechanic": "Starts in cute striped pajamas + plush headband holding luxury gift box -> covers camera lens with sleeve at 1.4s -> reveals full glam princess dress & makeup unboxing the castle box.",
+        "best_for": ["P1_Luxury_Cosmetics_Boxgift", "P2_Dress_Transformation"]
+      }
+    },
+    "honghanhxinhgai_01_deep_dna": {
+      "novelty_packaging_sashimi_basket_hook": {
+        "video_ids": ["7654919287001353490", "7645987061962411282"],
+        "views": [21317471, 10817873],
+        "mechanic": "Places novelty product (Sashimi fish hair clip packaged in a supermarket meat tray) inside a mini pink supermarket basket -> Dual Pinned Comment Controversy -> Backpack Toss Durability Test ('nhét balo mang đi tùm lum vẫn lành lặn') -> Rebus Emoji Price ('49 🐟').",
+        "best_for": ["P2_Cute_Accessories", "Stationery", "Novelty_Gifts"]
+      },
+      "180_lay_flat_calculator_capacity_proof_and_chibi_stickers": {
+        "video_ids": ["7695453402062392597", "7695004491833199893"],
+        "mechanic": "Unzips pencil case 180 degrees flat like a tray, packs 30 pens + fits a full Casio scientific calculator ('để được cả máy tính +-=') + floats tiny custom Chibi reaction stickers right above the 1-line subtitle (y = +0.52).",
+        "best_for": ["Stationery", "Bags_Pouches", "School_Supplies"]
+      },
+      "3_split_and_3x3_grid_collage_beat_flash": {
+        "video_id": "7252523916567104773",
+        "like_rate_pct": 14.37,
+        "mechanic": "3-row horizontal split screen (GOOD / BYE / JUNE) + 3x3 9-panel synchronized video grid + halftone blue print flash on beat drops.",
+        "best_for": ["Lifestyle_Montage", "Multi_Item_Haul"]
+      }
+    },
+    "kieneditcuong_capcut_encyclopedia_dna": {
+      "organic_handheld_3_point_rotation_zoom": {
+        "video_id": "7681904975101971720",
+        "views": 733489,
+        "mechanic": "Replaces robotic linear zoom with 3-point Keyframe Scale + Micro-Rotation: KF1(t=0.0s, scale=1.0, rot=0deg) -> KF2(t=0.45s, scale=1.22, rot=-3.5deg) -> KF3(t=1.1s, scale=1.12, rot=+1.5deg) + CapCut Graph 'Chậm bên ngoài' (Ease-Out Cubic Bezier [0.16, 1.0, 0.3, 1.0])."
+      },
+      "fixed_tripod_pendulum_zoom_out_con_thoi": {
+        "video_id": "7667816118190361863",
+        "views": 2046427,
+        "mechanic": "Keep phone locked on tripod (never push handheld). Start clip at Scale 1.35x on product, keyframe pull-out to 1.0x at 1.1s, then pendulum bounce back to 1.18x ('Con thoi')."
+      },
+      "invisible_hand_catch_product_swap_hook": {
+        "video_id": "7683757040958704904",
+        "views": 532639,
+        "mechanic": "Empty hand reaches out and grabs air ('lấy đà trước 1 xíu'); cut on exact frame of finger closure to identical hand position holding the product (repeat across 2-3 products in first 2s)."
+      },
+      "scribble_draw_product_reveal_hook": {
+        "video_id": "7684128896756780296",
+        "mechanic": "Overlay product clip on empty-hand clip, scribble over product silhouette with CapCut Crayon Brush + In-Animation 'Lần lượt vào' (1.1s), then pop real product into the hand."
+      },
+      "dashed_magnifying_loupe_effect": {
+        "video_id": "7700475468914478357",
+        "capcut_effect_name": "Kính lúp nét đứt (Dashed Magnifying Loupe)",
+        "params": { "size": 40, "intensity": 45, "border_color": "#FFFFFF" }
+      },
+      "pov_hand_skin_whitening_filter_formula": {
+        "video_id": "7668917355191323912",
+        "capcut_filter_name": "Trong như pha lê (Crystal Clear)",
+        "intensity_pct": 44,
+        "purpose": "Brightens and smooths POV hands with rosy tone without distorting product colors."
+      },
+      "five_golden_capcut_affiliate_fonts": [
+        { "rank": 1, "font": "Anton", "role": "Bold impact hook headers & enfatized keywords" },
+        { "rank": 2, "font": "Montserrat", "role": "Rounded, ultra-legible 1-line subtitle champion" },
+        { "rank": 3, "font": "CalSans-SB", "role": "Clean modern lifestyle & decor reviews" },
+        { "rank": 4, "font": "Playfair Display", "role": "Poetic, coquette, book & cafe vibe" },
+        { "rank": 5, "font": "Volgins", "role": "Luxury high-fashion, jewelry, and designer cosmetics" }
+      ],
+      "exact_capcut_sfx_search_dictionary": {
+        "skincare_and_beauty": [
+          "Cute announcement",
+          "Glitter sound 02 / magic",
+          "Kirarin glitter star",
+          "Remove the bottle cap",
+          "Sound of opening a lid",
+          "Bottle opening sound",
+          "Open a new plastic bottle",
+          "Sound of rubbing hands",
+          "Soft objects (skin, touch)",
+          "Beautiful Kiran ☆ Glitter",
+          "Poyo Poyo (cute footsteps)",
+          "Poyoi (jump, speech bubble)",
+          "Cute system Pyui",
+          "Sound effect when touching"
+        ],
+        "general_viral_review_10": [
+          "I'm surprised, den se",
+          "pop! (tapping the mic)",
+          "Pac (low) telop sound",
+          "Wow ♡ (Enchanted)",
+          "Money, coin, cash register",
+          "Money Chakin(11841)",
+          "Ping Pong Ping Pong",
+          "Follow/like notification"
+        ],
+        "food_and_cooking_11": [
+          "chopping / 菜刀切菜声",
+          "Spray (spray spray)",
+          "It is the sound made (wipe/squeak)",
+          "put things down / Sound of putting things",
+          "Cut with a knife",
+          "Open canned food(1)",
+          "Eggs cracked _01",
+          "whisk / Sound of stirring with",
+          "Fry in oil (Jar + crackle)",
+          "Mucus necha(97223) (cheese pull / gooey melt)"
+        ]
+      }
+    },
+    "3thag8_deep_dna": {
+      "multi_comment_social_proof_stack_plus_foam_heart_proof": {
+        "video_id": "7674480117107739925",
+        "views": 2443238,
+        "mechanic": "Stacks 3 real buyer comment screenshots sequentially (0.0s-3.0s) while stretching silk soap foam across forearm + drawing a heart in the thick white lather + micro CHR disclaimer at y=-0.78 ('*hiệu quả sản phẩm tuỳ cơ địa mỗi người*')."
+      },
+      "action_first_3_way_function_proof": {
+        "video_id": "7679295801746574612",
+        "views": 815499,
+        "mechanic": "Demonstrates all 3 drinking modes of a thermos in the first 3.5s (straw pop -> direct sip lid -> pouring into cup lid) BEFORE showing the box unboxing."
+      }
+    },
+    "byraanni_deep_dna": {
+      "sensory_proxy_visual_and_audio_proof": {
+        "video_ids": ["7634015677896084754", "7635910949026680072"],
+        "views": [1197074, 918345],
+        "mechanic": "When reviewing invisible performance (Microphone clarity or Fan wind power), open with 3-4 sensory proxy tests in 0.0s-3.5s: for Mic -> clip onto plastic wrap, water glass, chip bowl, ice spoon, keyboard; for Fan -> blow silver confetti toward lens & blow ripples on water bowl."
+      },
+      "floating_part_pointer_specs": {
+        "video_ids": ["7704553418802662674", "7703749690168233223"],
+        "mechanic": "Places tiny minimalist white typography specs ('Hybrid ANC 42dB', 'Driver 12.4mm', 'Leakproof 💦') tracked directly next to the physical part being touched."
+      }
+    },
+    "grayunbox_deep_dna": {
+      "sunlit_cross_section_and_syrup_drip_food_cinematography": {
+        "video_ids": ["7679662945466354964", "7670824856216276245"],
+        "views": [597101, 302203],
+        "mechanic": "Applies dark-wood/Bauhaus sunlight aesthetic to F&B: opens at 0.0s with two-handed cross-section split (purple blueberry + green matcha cheese core) or sunlit ice-stirring clink + slow-motion viscous honey drip from ceramic spoon."
+      },
+      "3_color_match_cut_and_5x4_full_table_grid": {
+        "video_id": "7704573372847361301",
+        "mechanic": "Holds item in fixed left-hand pose and match-cuts across 3 colorways (0.5s each) -> cuts to a 5x4 20-item full-table geometric grid."
+      }
+    },
+    "minhtienoiii06_deep_dna": {
+      "water_glass_jump_and_vacuum_inflation_proof": {
+        "video_id": "7671568813221088520",
+        "views": 731641,
+        "mechanic": "For mattresses/furniture: 0.0s body flop + jumping next to a glass of water on the mattress (zero spill proof) -> slicing vacuum plastic wrap so mattress self-inflates with loud air hiss -> stretched hand-span thickness proof ('độ dày 25cm')."
+      },
+      "micro_price_fluctuation_chr_shield": {
+        "video_id": "7703928813075369234",
+        "mechanic": "Places tiny translucent white text at y=-0.78 ('Giá có thể thay đổi tuỳ thời điểm nha !') whenever a video mentions a flash-sale or cheap price ('chưa đến 1 cành', '152 viên'), preventing TikTok Shop price-mismatch penalties."
+      },
+      "corpus_ocr_dot_colon_evasion_dictionary": [
+        "ă:n", "đá.nh", "ngo:n b.á cháy", "thâ.n", "G:iá", "ng.on", "t:an", "dà.y",
+        "Nhi:ệt", "đa:u", "chố:ng", "m:ón", "ti:ện", "mụ.n", "sạ.ch", "trộ.n",
+        "r.ẻ quá", "mu.a", "g.iá", "g.hẻ", "ng.án", "g.i.á chát", "t.ặng", "k.hô"
+      ]
+    }
+  }
+}

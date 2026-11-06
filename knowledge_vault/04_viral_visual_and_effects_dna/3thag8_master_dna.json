@@ -1,0 +1,354 @@
+{
+  "channel_handle": "@3thag8_",
+  "channel_nickname": "Reviewww Đồ Xink",
+  "followers": 6958,
+  "total_likes": 313300,
+  "likes_to_followers_outlier_ratio": 45.0,
+  "studied_videos_count": 21,
+  "deconstructed_21_videos_metrics": [
+    {
+      "rank": 1,
+      "video_id": "7700800453721820436",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 23,
+      "hook_sec": 1.17,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.54,
+      "yavg": 162.5,
+      "beat_sync_pct": 9.1,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 2,
+      "video_id": "7701938287006518548",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 21,
+      "hook_sec": 1.7,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.33,
+      "yavg": 162.5,
+      "beat_sync_pct": 20.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 3,
+      "video_id": "7685589340017184021",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 14,
+      "hook_sec": 2.2,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 2.01,
+      "yavg": 162.5,
+      "beat_sync_pct": 38.5,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 4,
+      "video_id": "7688576016314535189",
+      "archetype": "P4",
+      "views": 0,
+      "shots": 17,
+      "hook_sec": 2.03,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.73,
+      "yavg": 162.5,
+      "beat_sync_pct": 12.5,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 5,
+      "video_id": "7693756037232446740",
+      "archetype": "P2",
+      "views": 0,
+      "shots": 20,
+      "hook_sec": 1.1,
+      "cuts_in_3s": 3,
+      "avg_cut_sec": 1.22,
+      "yavg": 162.5,
+      "beat_sync_pct": 21.1,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 6,
+      "video_id": "7687076710608719124",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 13,
+      "hook_sec": 1.6,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 2.01,
+      "yavg": 162.5,
+      "beat_sync_pct": 41.7,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 7,
+      "video_id": "7695616731233979700",
+      "archetype": "P6",
+      "views": 0,
+      "shots": 18,
+      "hook_sec": 1.73,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.48,
+      "yavg": 162.5,
+      "beat_sync_pct": 11.8,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 8,
+      "video_id": "7701907434268577044",
+      "archetype": "P2",
+      "views": 0,
+      "shots": 22,
+      "hook_sec": 1.4,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.42,
+      "yavg": 162.5,
+      "beat_sync_pct": 0.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 9,
+      "video_id": "7688356567284010261",
+      "archetype": "P2",
+      "views": 0,
+      "shots": 17,
+      "hook_sec": 1.23,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.54,
+      "yavg": 162.5,
+      "beat_sync_pct": 18.8,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 10,
+      "video_id": "7692640575555702036",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 16,
+      "hook_sec": 1.4,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.8,
+      "yavg": 162.5,
+      "beat_sync_pct": 0.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 11,
+      "video_id": "7698208326408097044",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 16,
+      "hook_sec": 2.2,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.94,
+      "yavg": 162.5,
+      "beat_sync_pct": 13.3,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 12,
+      "video_id": "7693015873279266069",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 25,
+      "hook_sec": 1.27,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.3,
+      "yavg": 162.5,
+      "beat_sync_pct": 41.7,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 13,
+      "video_id": "7691157761568214292",
+      "archetype": "P2",
+      "views": 0,
+      "shots": 14,
+      "hook_sec": 1.1,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.78,
+      "yavg": 162.5,
+      "beat_sync_pct": 7.7,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 14,
+      "video_id": "7694500488720469269",
+      "archetype": "P3",
+      "views": 0,
+      "shots": 17,
+      "hook_sec": 1.6,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.6,
+      "yavg": 162.5,
+      "beat_sync_pct": 25.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 15,
+      "video_id": "7690778463871044865",
+      "archetype": "P2",
+      "views": 0,
+      "shots": 14,
+      "hook_sec": 2.2,
+      "cuts_in_3s": 0,
+      "avg_cut_sec": 1.45,
+      "yavg": 162.5,
+      "beat_sync_pct": 30.8,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 16,
+      "video_id": "7696408438187822356",
+      "archetype": "P4",
+      "views": 0,
+      "shots": 13,
+      "hook_sec": 2.1,
+      "cuts_in_3s": 1,
+      "avg_cut_sec": 1.74,
+      "yavg": 162.5,
+      "beat_sync_pct": 25.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 17,
+      "video_id": "7697836453434330420",
+      "archetype": "P4",
+      "views": 0,
+      "shots": 18,
+      "hook_sec": 1.47,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.38,
+      "yavg": 162.5,
+      "beat_sync_pct": 35.3,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 18,
+      "video_id": "7692268146786438420",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 18,
+      "hook_sec": 1.1,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.64,
+      "yavg": 162.5,
+      "beat_sync_pct": 29.4,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 19,
+      "video_id": "7700060415711087892",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 11,
+      "hook_sec": 2.2,
+      "cuts_in_3s": 0,
+      "avg_cut_sec": 2.53,
+      "yavg": 162.5,
+      "beat_sync_pct": 30.0,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 20,
+      "video_id": "7703058302023830804",
+      "archetype": "P6",
+      "views": 0,
+      "shots": 17,
+      "hook_sec": 1.1,
+      "cuts_in_3s": 4,
+      "avg_cut_sec": 1.2,
+      "yavg": 162.5,
+      "beat_sync_pct": 18.8,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    {
+      "rank": 21,
+      "video_id": "7703769281158319381",
+      "archetype": "P1",
+      "views": 0,
+      "shots": 13,
+      "hook_sec": 1.33,
+      "cuts_in_3s": 2,
+      "avg_cut_sec": 1.69,
+      "yavg": 162.5,
+      "beat_sync_pct": 16.7,
+      "transitions": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    }
+  ],
+  "signature_studio_setups": {
+    "setup_1_pegboard_dual_temp_lighting_17_of_21_videos": {
+      "left_background": "Bảng lỗ trắng (White Pegboard) gắn 3 hoa bông pastel hồng/xanh + Ống bút lò xo bạc + Gấu bông hồng nhỏ",
+      "left_foreground": "Nến thơm hình khối Rubik trắng kem (Bubble Cube Candle) trên đế gỗ tròn",
+      "right_background": "Sách decor vàng bơ (BUTTER / Book of Jam) đặt nghiêng + Cành lá xanh rủ xuống từ góc phải trên",
+      "lighting_secret": "Dual-Temperature Lighting (Ánh sáng kép 2 nhiệt độ màu): Đèn chính phía trước ánh sáng trắng cao (YAVG 160-175) giúp sản phẩm và da tay trắng hồng chuẩn màu + 1 Đèn ngủ vàng ấm giấu sau sách và cành lá chiếu hắt lên tường tạo chiều sâu ấm cúng."
+    },
+    "setup_2_wooden_table_sunlight_plant_4_of_21_videos": {
+      "surface": "Bàn tròn gỗ nâu trầm đặt cạnh chậu cây lá xanh lớn (Indoor Green Plant)",
+      "lighting": "Ánh nắng vàng chiếu xiên tạo bóng lá tự nhiên trên mặt bàn gỗ"
+    }
+  },
+  "extreme_physical_proof_tests_by_archetype": {
+    "P6_tech_earbuds": "Water Submersion Test (Thả trực tiếp tai nghe Bluetooth Kytech vào cốc nước lọc trong suốt ở giây 16 để chứng minh kháng nước).",
+    "P2_household_tissues": "Wet Tear-Resistance Test (Nhúng đẫm tờ khăn giấy mini TopGia vào cốc nước, vắt mạnh rồi căng phẳng đắp lên cánh tay chứng minh giấy dai không rách không mủn).",
+    "P1_hair_care": "Direct Comb Squeeze & Real Hair Strand Test (Bấm kem duỗi tóc trào ra đầu lược chải lên lòng bàn tay ở 2s đầu; kéo lọn tóc thật vào khung hình POV để vuốt kem ủ trực tiếp).",
+    "P1_sheet_mask": "Essence Squeeze Overflow (Dùng 5 ngón tay bóp chặt miếng mặt nạ trà xanh đen cho tinh chất serum trào ướt đẫm lòng bàn tay ở 3s đầu).",
+    "P4_food_snacks": "Macro Dipping & Cross-Section Tear (Bẻ đôi chiếc bánh đá xanh/vàng rồi chấm ngập vào chén sữa đặc trắng sánh kéo sợi)."
+  },
+  "chr_vietnam_compliance_and_ocr_evasion_shields": [
+    "1. Miễn trừ cơ địa cố định (Skincare/Collagen): Luôn gắn dòng chữ nhỏ màu trắng ở đáy khung hình (y = -0.55) xuyên suốt video: \"*hiệu quả sản phẩm tuỳ vào cơ địa mỗi người*\" để tránh lỗi CHR Cam kết tuyệt đối (-20đ).",
+    "2. Miễn trừ biến động giá Flash Sale: Khi chèn ảnh chụp màn hình giỏ hàng khoanh đỏ giá khuyến mãi (Mua 2 giảm 30% còn 64.300đ), luôn gắn dòng chữ: \"*giá có thể thay đổi khi CTKM kết thúc*\" để tránh lỗi CHR Báo giá sai lệch.",
+    "3. Lách bộ lọc OCR từ khóa nhạy cảm trên phụ đề: Chủ động chèn dấu chấm vào giữa các từ nhạy cảm về bệnh lý da liễu hoặc điều hướng mua bán trên text trên màn hình: viết \"da dầu m.ụn\", \"m.ua 1 được 3\", \"siu đinkk\"."
+  ],
+  "editing_and_typography_signatures": {
+    "hook_title_style": "Đặt ở y = +0.58 đến +0.64 (2 dòng chữ bo tròn trắng viền đen đậm + nhấn màu Đỏ Hồng/Xanh Lá/Vàng cho cụm từ khóa chính + 1 Emoji cuối câu).",
+    "social_proof_comment_stack": "Với sản phẩm đồ ăn (Bánh đá) hoặc quà tặng học sinh (Thẻ kẹo mút), ghim liên tiếp 3-4 bình luận khen/rủ nhau mua ở 4 giây đầu tiên.",
+    "outro_seamless_loop_transition": "Ở 0.3s cuối cùng của video, áp dụng hiệu ứng Thu phóng xuyên tâm / Nhòe chuyển động lao thẳng vào sản phẩm (Radial Zoom Blur) để nối vòng lặp (Seamless Loop) mượt mà về cảnh 1."
+  }
+}

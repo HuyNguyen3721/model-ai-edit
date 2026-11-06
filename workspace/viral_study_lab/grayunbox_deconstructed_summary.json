@@ -1,0 +1,4456 @@
+[
+  {
+    "video_id": "7661662310854855944",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "nụ trầm quế Tân Nguyên, thanh lọc không khí khử ẩm móc thư giản#grayu...",
+    "breakout_metrics": {
+      "views": 2800000,
+      "likes": 5633,
+      "comments": 0,
+      "shares": 0,
+      "saves": 675,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 280.0,
+      "velocity_views_per_hour": 58333.3,
+      "affiliate_intent_rate_pct": 0.3,
+      "bvi_score_100": 75.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.37,
+      "total_shots": 19,
+      "hook_first_shot_dur_sec": 1.3,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.49,
+      "v1_pacing_curve_sec": [
+        1.3,
+        3.2,
+        1.43,
+        1.17,
+        0.97,
+        1.3,
+        1.8,
+        1.43,
+        1.23,
+        1.0,
+        0.84,
+        0.86,
+        1.57,
+        2.93,
+        1.27
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7661662310854855944_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7661662310854855944_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.3,
+          "peak_motion_ydif": 34.2
+        },
+        {
+          "at_sec": 4.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 116.4,
+          "peak_motion_ydif": 39.1
+        },
+        {
+          "at_sec": 5.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.3,
+          "peak_motion_ydif": 61.6
+        },
+        {
+          "at_sec": 7.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 125.8,
+          "peak_motion_ydif": 50.3
+        },
+        {
+          "at_sec": 8.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.8,
+          "peak_motion_ydif": 35.1
+        },
+        {
+          "at_sec": 9.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.4,
+          "peak_motion_ydif": 49.4
+        },
+        {
+          "at_sec": 11.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.7,
+          "peak_motion_ydif": 41.8
+        },
+        {
+          "at_sec": 12.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 125.6,
+          "peak_motion_ydif": 51.2
+        },
+        {
+          "at_sec": 13.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 110.9,
+          "peak_motion_ydif": 44.2
+        },
+        {
+          "at_sec": 14.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.4,
+          "peak_motion_ydif": 45.2
+        },
+        {
+          "at_sec": 15.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.9,
+          "peak_motion_ydif": 49.2
+        },
+        {
+          "at_sec": 16.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 114.2,
+          "peak_motion_ydif": 49.7
+        },
+        {
+          "at_sec": 18.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 119.4,
+          "peak_motion_ydif": 45.6
+        },
+        {
+          "at_sec": 21.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 120.6,
+          "peak_motion_ydif": 40.3
+        },
+        {
+          "at_sec": 22.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 127.9,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 23.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.5,
+          "peak_motion_ydif": 41.2
+        },
+        {
+          "at_sec": 24.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.4,
+          "peak_motion_ydif": 34.9
+        },
+        {
+          "at_sec": 26.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.6,
+          "peak_motion_ydif": 42.5
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 119.0,
+      "avg_saturation_satavg": 7.8,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 52,
+      "beat_sync_ratio_pct": 50.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:17:51",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 1,
+    "views": 2800000,
+    "likes": 5633,
+    "duration_sec": 28,
+    "title": "nụ trầm quế Tân Nguyên, thanh lọc không khí khử ẩm móc thư giản#grayu...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_01_7661662310854855944_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7696694636328389908",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "#thiepsinhnhat #thiepsinhnhatconhac #thiepsinhnhatamnhac #quatang #gr...",
+    "breakout_metrics": {
+      "views": 2100000,
+      "likes": 7905,
+      "comments": 0,
+      "shares": 0,
+      "saves": 948,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 210.0,
+      "velocity_views_per_hour": 43750.0,
+      "affiliate_intent_rate_pct": 0.56,
+      "bvi_score_100": 76.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 20.93,
+      "total_shots": 6,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 2.6,
+      "v1_pacing_curve_sec": [
+        5.2,
+        3.13,
+        6.87,
+        0.6,
+        0.9,
+        4.23
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7696694636328389908_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7696694636328389908_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 5.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 87.7,
+          "peak_motion_ydif": 48.6
+        },
+        {
+          "at_sec": 8.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 94.1,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 15.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 95.5,
+          "peak_motion_ydif": 47.0
+        },
+        {
+          "at_sec": 15.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 101.8,
+          "peak_motion_ydif": 38.5
+        },
+        {
+          "at_sec": 16.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 102.1,
+          "peak_motion_ydif": 53.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 85.7,
+      "avg_saturation_satavg": 8.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 1,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:17:57",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 2,
+    "views": 2100000,
+    "likes": 7905,
+    "duration_sec": 20,
+    "title": "#thiepsinhnhat #thiepsinhnhatconhac #thiepsinhnhatamnhac #quatang #gr...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_02_7696694636328389908_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7667597387497475348",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "#grayunbox #sapthomphong #sapthomduoicontrung #sapthomaumira #sapthom...",
+    "breakout_metrics": {
+      "views": 863600,
+      "likes": 1484,
+      "comments": 0,
+      "shares": 0,
+      "saves": 178,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 86.36,
+      "velocity_views_per_hour": 17991.7,
+      "affiliate_intent_rate_pct": 0.25,
+      "bvi_score_100": 75.8,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 31.1,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 2.0,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.48,
+      "v1_pacing_curve_sec": [
+        2.0,
+        1.73,
+        0.97,
+        1.13,
+        1.14,
+        1.03,
+        2.43,
+        0.64,
+        1.5,
+        1.26,
+        1.0,
+        2.84,
+        0.66,
+        1.97,
+        2.83
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7667597387497475348_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7667597387497475348_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 127.6,
+          "peak_motion_ydif": 55.1
+        },
+        {
+          "at_sec": 3.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.3,
+          "peak_motion_ydif": 44.9
+        },
+        {
+          "at_sec": 4.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.5,
+          "peak_motion_ydif": 45.9
+        },
+        {
+          "at_sec": 5.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.8,
+          "peak_motion_ydif": 46.7
+        },
+        {
+          "at_sec": 6.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 129.5,
+          "peak_motion_ydif": 45.6
+        },
+        {
+          "at_sec": 8.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 132.6,
+          "peak_motion_ydif": 58.6
+        },
+        {
+          "at_sec": 10.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.3,
+          "peak_motion_ydif": 49.5
+        },
+        {
+          "at_sec": 11.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.7,
+          "peak_motion_ydif": 31.5
+        },
+        {
+          "at_sec": 12.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.8,
+          "peak_motion_ydif": 59.8
+        },
+        {
+          "at_sec": 13.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.6,
+          "peak_motion_ydif": 27.4
+        },
+        {
+          "at_sec": 14.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.4,
+          "peak_motion_ydif": 44.8
+        },
+        {
+          "at_sec": 17.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.2,
+          "peak_motion_ydif": 75.8
+        },
+        {
+          "at_sec": 18.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 130.7,
+          "peak_motion_ydif": 53.5
+        },
+        {
+          "at_sec": 20.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.7,
+          "peak_motion_ydif": 58.1
+        },
+        {
+          "at_sec": 23.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.8,
+          "peak_motion_ydif": 49.6
+        },
+        {
+          "at_sec": 25.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.5,
+          "peak_motion_ydif": 51.4
+        },
+        {
+          "at_sec": 26.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 120.9,
+          "peak_motion_ydif": 47.3
+        },
+        {
+          "at_sec": 27.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.8,
+          "peak_motion_ydif": 32.9
+        },
+        {
+          "at_sec": 28.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.3,
+          "peak_motion_ydif": 45.4
+        },
+        {
+          "at_sec": 30.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.4,
+          "peak_motion_ydif": 41.8
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 125.4,
+      "avg_saturation_satavg": 14.2,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 34,
+      "beat_sync_ratio_pct": 25.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:05",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 3,
+    "views": 863600,
+    "likes": 1484,
+    "duration_sec": 31,
+    "title": "#grayunbox #sapthomphong #sapthomduoicontrung #sapthomaumira #sapthom...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_03_7667597387497475348_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7666000516190702869",
+    "product_archetype": "P6",
+    "author": "grayunbox",
+    "caption_title": "unboxing iphone 17promax 🤍🩶🖤#iphone17promax #iphone17 #grayunbox #unb...",
+    "breakout_metrics": {
+      "views": 560600,
+      "likes": 44200,
+      "comments": 0,
+      "shares": 0,
+      "saves": 5304,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 56.06,
+      "velocity_views_per_hour": 11679.2,
+      "affiliate_intent_rate_pct": 11.67,
+      "bvi_score_100": 100.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 17.63,
+      "total_shots": 13,
+      "hook_first_shot_dur_sec": 1.23,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.36,
+      "v1_pacing_curve_sec": [
+        1.23,
+        2.04,
+        1.0,
+        1.9,
+        1.16,
+        1.07,
+        1.1,
+        1.77,
+        0.93,
+        1.13,
+        1.0,
+        2.1,
+        1.2
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7666000516190702869_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7666000516190702869_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.23,
+          "transition_type": "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+          "peak_luminance_yavg": 170.6,
+          "peak_motion_ydif": 25.7
+        },
+        {
+          "at_sec": 3.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 166.7,
+          "peak_motion_ydif": 51.2
+        },
+        {
+          "at_sec": 4.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 177.2,
+          "peak_motion_ydif": 55.5
+        },
+        {
+          "at_sec": 6.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 167.9,
+          "peak_motion_ydif": 33.8
+        },
+        {
+          "at_sec": 7.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 170.6,
+          "peak_motion_ydif": 26.1
+        },
+        {
+          "at_sec": 8.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.6,
+          "peak_motion_ydif": 28.6
+        },
+        {
+          "at_sec": 9.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.2,
+          "peak_motion_ydif": 33.2
+        },
+        {
+          "at_sec": 11.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 169.4,
+          "peak_motion_ydif": 36.4
+        },
+        {
+          "at_sec": 12.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.5,
+          "peak_motion_ydif": 68.8
+        },
+        {
+          "at_sec": 13.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.4,
+          "peak_motion_ydif": 35.1
+        },
+        {
+          "at_sec": 14.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 164.2,
+          "peak_motion_ydif": 54.8
+        },
+        {
+          "at_sec": 16.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 166.5,
+          "peak_motion_ydif": 41.9
+        }
+      ],
+      "transitions_signature": [
+        "Punch-In Jump Cut (Cắt Thẳng Giật Cấp 100% -> 118%)",
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 169.4,
+      "avg_saturation_satavg": 3.2,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 0,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:11",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 4,
+    "views": 560600,
+    "likes": 44200,
+    "duration_sec": 17,
+    "title": "unboxing iphone 17promax 🤍🩶🖤#iphone17promax #iphone17 #grayunbox #unb...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_04_7666000516190702869_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7666466006058945813",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "sáp thơm phòng Aumira#grayunbox #sapthomphong #sapthomkhumui #sapthom...",
+    "breakout_metrics": {
+      "views": 435300,
+      "likes": 595,
+      "comments": 0,
+      "shares": 0,
+      "saves": 71,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 43.53,
+      "velocity_views_per_hour": 9068.8,
+      "affiliate_intent_rate_pct": 0.2,
+      "bvi_score_100": 75.6,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 30.77,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.47,
+      "v1_pacing_curve_sec": [
+        2.27,
+        2.1,
+        1.3,
+        1.43,
+        1.17,
+        1.33,
+        1.17,
+        1.1,
+        1.4,
+        1.26,
+        0.74,
+        1.93,
+        2.13,
+        1.47,
+        1.27
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7666466006058945813_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7666466006058945813_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.7,
+          "peak_motion_ydif": 54.7
+        },
+        {
+          "at_sec": 4.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.7,
+          "peak_motion_ydif": 50.2
+        },
+        {
+          "at_sec": 5.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.9,
+          "peak_motion_ydif": 46.1
+        },
+        {
+          "at_sec": 7.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.9,
+          "peak_motion_ydif": 46.4
+        },
+        {
+          "at_sec": 8.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.4,
+          "peak_motion_ydif": 57.5
+        },
+        {
+          "at_sec": 9.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.1,
+          "peak_motion_ydif": 55.7
+        },
+        {
+          "at_sec": 10.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.8,
+          "peak_motion_ydif": 52.4
+        },
+        {
+          "at_sec": 11.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.2,
+          "peak_motion_ydif": 68.1
+        },
+        {
+          "at_sec": 13.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.4,
+          "peak_motion_ydif": 78.0
+        },
+        {
+          "at_sec": 14.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.6,
+          "peak_motion_ydif": 66.1
+        },
+        {
+          "at_sec": 15.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.9,
+          "peak_motion_ydif": 50.7
+        },
+        {
+          "at_sec": 17.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.1,
+          "peak_motion_ydif": 50.5
+        },
+        {
+          "at_sec": 19.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 132.4,
+          "peak_motion_ydif": 47.5
+        },
+        {
+          "at_sec": 20.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.2,
+          "peak_motion_ydif": 45.5
+        },
+        {
+          "at_sec": 22.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.4,
+          "peak_motion_ydif": 54.7
+        },
+        {
+          "at_sec": 24.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.7,
+          "peak_motion_ydif": 49.1
+        },
+        {
+          "at_sec": 26.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.6,
+          "peak_motion_ydif": 53.1
+        },
+        {
+          "at_sec": 26.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.2,
+          "peak_motion_ydif": 49.6
+        },
+        {
+          "at_sec": 28.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.2,
+          "peak_motion_ydif": 42.7
+        },
+        {
+          "at_sec": 29.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.0,
+          "peak_motion_ydif": 44.2
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 131.4,
+      "avg_saturation_satavg": 12.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 37,
+      "beat_sync_ratio_pct": 30.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:21",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 5,
+    "views": 435300,
+    "likes": 595,
+    "duration_sec": 30,
+    "title": "sáp thơm phòng Aumira#grayunbox #sapthomphong #sapthomkhumui #sapthom...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_05_7666466006058945813_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7699120225198853396",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "#banchaichinhnha #banchaidanhrang #banchaidanhranglongmem #grayunbox ",
+    "breakout_metrics": {
+      "views": 381100,
+      "likes": 735,
+      "comments": 0,
+      "shares": 0,
+      "saves": 88,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 38.11,
+      "velocity_views_per_hour": 7939.6,
+      "affiliate_intent_rate_pct": 0.29,
+      "bvi_score_100": 75.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.17,
+      "total_shots": 13,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 2.17,
+      "v1_pacing_curve_sec": [
+        2.6,
+        1.37,
+        2.4,
+        0.83,
+        0.77,
+        3.0,
+        1.73,
+        1.23,
+        1.34,
+        5.13,
+        4.0,
+        1.0,
+        2.77
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7699120225198853396_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7699120225198853396_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 119.5,
+          "peak_motion_ydif": 38.2
+        },
+        {
+          "at_sec": 3.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 132.2,
+          "peak_motion_ydif": 35.9
+        },
+        {
+          "at_sec": 6.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 116.8,
+          "peak_motion_ydif": 33.9
+        },
+        {
+          "at_sec": 7.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 116.7,
+          "peak_motion_ydif": 27.9
+        },
+        {
+          "at_sec": 7.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.9,
+          "peak_motion_ydif": 33.1
+        },
+        {
+          "at_sec": 10.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 126.8,
+          "peak_motion_ydif": 35.1
+        },
+        {
+          "at_sec": 12.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 127.2,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 13.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.3,
+          "peak_motion_ydif": 35.0
+        },
+        {
+          "at_sec": 15.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.1,
+          "peak_motion_ydif": 42.7
+        },
+        {
+          "at_sec": 20.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.5,
+          "peak_motion_ydif": 35.1
+        },
+        {
+          "at_sec": 24.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.7,
+          "peak_motion_ydif": 33.9
+        },
+        {
+          "at_sec": 25.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.4,
+          "peak_motion_ydif": 46.3
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 118.1,
+      "avg_saturation_satavg": 12.3,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 46,
+      "beat_sync_ratio_pct": 16.7,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:27",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 6,
+    "views": 381100,
+    "likes": 735,
+    "duration_sec": 28,
+    "title": "#banchaichinhnha #banchaidanhrang #banchaidanhranglongmem #grayunbox ",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_06_7699120225198853396_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7686526001412640021",
+    "product_archetype": "P1",
+    "author": "grayunbox",
+    "caption_title": "xà phòng tắm Teashell#grayunbox #trangda #xaphongtamtrang #xaphongtra...",
+    "breakout_metrics": {
+      "views": 372500,
+      "likes": 1056,
+      "comments": 0,
+      "shares": 0,
+      "saves": 126,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 37.25,
+      "velocity_views_per_hour": 7760.4,
+      "affiliate_intent_rate_pct": 0.42,
+      "bvi_score_100": 76.3,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 29.1,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 1.63,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.39,
+      "v1_pacing_curve_sec": [
+        1.63,
+        1.27,
+        1.97,
+        1.06,
+        1.0,
+        1.6,
+        0.94,
+        0.56,
+        0.87,
+        1.07,
+        0.73,
+        1.1,
+        1.6,
+        0.83,
+        1.14
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7686526001412640021_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7686526001412640021_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.0,
+          "peak_motion_ydif": 43.6
+        },
+        {
+          "at_sec": 2.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.7,
+          "peak_motion_ydif": 42.0
+        },
+        {
+          "at_sec": 4.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.6,
+          "peak_motion_ydif": 49.4
+        },
+        {
+          "at_sec": 5.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 162.6,
+          "peak_motion_ydif": 63.8
+        },
+        {
+          "at_sec": 6.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.5,
+          "peak_motion_ydif": 42.5
+        },
+        {
+          "at_sec": 8.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.4,
+          "peak_motion_ydif": 52.0
+        },
+        {
+          "at_sec": 9.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.0,
+          "peak_motion_ydif": 37.8
+        },
+        {
+          "at_sec": 10.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.0,
+          "peak_motion_ydif": 50.6
+        },
+        {
+          "at_sec": 10.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.5,
+          "peak_motion_ydif": 31.8
+        },
+        {
+          "at_sec": 11.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.7,
+          "peak_motion_ydif": 39.4
+        },
+        {
+          "at_sec": 12.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.7,
+          "peak_motion_ydif": 33.2
+        },
+        {
+          "at_sec": 13.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.9,
+          "peak_motion_ydif": 45.6
+        },
+        {
+          "at_sec": 15.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.5,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 16.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.9,
+          "peak_motion_ydif": 35.5
+        },
+        {
+          "at_sec": 17.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.2,
+          "peak_motion_ydif": 37.8
+        },
+        {
+          "at_sec": 18.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.4,
+          "peak_motion_ydif": 39.3
+        },
+        {
+          "at_sec": 19.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.6,
+          "peak_motion_ydif": 39.3
+        },
+        {
+          "at_sec": 20.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.7,
+          "peak_motion_ydif": 40.0
+        },
+        {
+          "at_sec": 27.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.4,
+          "peak_motion_ydif": 46.7
+        },
+        {
+          "at_sec": 28.23,
+          "transition_type": "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)",
+          "peak_luminance_yavg": 233.0,
+          "peak_motion_ydif": 99.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 139.3,
+      "avg_saturation_satavg": 6.8,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 29,
+      "beat_sync_ratio_pct": 25.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:39",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 7,
+    "views": 372500,
+    "likes": 1056,
+    "duration_sec": 29,
+    "title": "xà phòng tắm Teashell#grayunbox #trangda #xaphongtamtrang #xaphongtra...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_07_7686526001412640021_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7645319882929638664",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "kệ 12 ngăn đựng đồ chơi hay đồ dùng decor siu xinh#grayunbox #review ...",
+    "breakout_metrics": {
+      "views": 268700,
+      "likes": 823,
+      "comments": 0,
+      "shares": 0,
+      "saves": 98,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 26.87,
+      "velocity_views_per_hour": 5597.9,
+      "affiliate_intent_rate_pct": 0.45,
+      "bvi_score_100": 76.4,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 20.7,
+      "total_shots": 21,
+      "hook_first_shot_dur_sec": 1.3,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        1.3,
+        1.0,
+        1.13,
+        1.1,
+        0.74,
+        1.43,
+        1.33,
+        0.9,
+        0.6,
+        1.1,
+        0.54,
+        1.0,
+        0.73,
+        0.53,
+        0.67
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7645319882929638664_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7645319882929638664_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.2,
+          "peak_motion_ydif": 28.5
+        },
+        {
+          "at_sec": 2.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.0,
+          "peak_motion_ydif": 45.0
+        },
+        {
+          "at_sec": 3.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.9,
+          "peak_motion_ydif": 44.4
+        },
+        {
+          "at_sec": 4.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.3,
+          "peak_motion_ydif": 38.1
+        },
+        {
+          "at_sec": 5.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.9,
+          "peak_motion_ydif": 28.7
+        },
+        {
+          "at_sec": 6.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 129.7,
+          "peak_motion_ydif": 36.2
+        },
+        {
+          "at_sec": 8.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 134.7,
+          "peak_motion_ydif": 43.6
+        },
+        {
+          "at_sec": 8.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.0,
+          "peak_motion_ydif": 37.8
+        },
+        {
+          "at_sec": 9.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.2,
+          "peak_motion_ydif": 46.9
+        },
+        {
+          "at_sec": 10.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.5,
+          "peak_motion_ydif": 68.0
+        },
+        {
+          "at_sec": 11.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.7,
+          "peak_motion_ydif": 43.2
+        },
+        {
+          "at_sec": 12.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.9,
+          "peak_motion_ydif": 41.1
+        },
+        {
+          "at_sec": 12.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.6,
+          "peak_motion_ydif": 55.4
+        },
+        {
+          "at_sec": 13.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 129.6,
+          "peak_motion_ydif": 52.4
+        },
+        {
+          "at_sec": 14.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.4,
+          "peak_motion_ydif": 61.5
+        },
+        {
+          "at_sec": 14.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.6,
+          "peak_motion_ydif": 47.8
+        },
+        {
+          "at_sec": 15.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.4,
+          "peak_motion_ydif": 39.7
+        },
+        {
+          "at_sec": 16.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.1,
+          "peak_motion_ydif": 42.9
+        },
+        {
+          "at_sec": 17.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.2,
+          "peak_motion_ydif": 40.5
+        },
+        {
+          "at_sec": 18.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.0,
+          "peak_motion_ydif": 30.4
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 134.8,
+      "avg_saturation_satavg": 10.3,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 20,
+      "beat_sync_ratio_pct": 30.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:49",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 8,
+    "views": 268700,
+    "likes": 823,
+    "duration_sec": 20,
+    "title": "kệ 12 ngăn đựng đồ chơi hay đồ dùng decor siu xinh#grayunbox #review ...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_08_7645319882929638664_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7650500449937657096",
+    "product_archetype": "P1",
+    "author": "grayunbox",
+    "caption_title": "bodymist Caesars Legend thơm sang, mùi sạch mát nam tính#grayunbox #b...",
+    "breakout_metrics": {
+      "views": 238800,
+      "likes": 553,
+      "comments": 0,
+      "shares": 0,
+      "saves": 66,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 23.88,
+      "velocity_views_per_hour": 4975.0,
+      "affiliate_intent_rate_pct": 0.34,
+      "bvi_score_100": 76.1,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.27,
+      "total_shots": 22,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 0,
+      "avg_shot_dur_sec": 1.28,
+      "v1_pacing_curve_sec": [
+        3.57,
+        1.1,
+        2.3,
+        0.9,
+        1.0,
+        0.93,
+        0.8,
+        1.2,
+        1.23,
+        0.94,
+        1.06,
+        1.24,
+        1.1,
+        1.2,
+        2.03
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7650500449937657096_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7650500449937657096_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 3.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.7,
+          "peak_motion_ydif": 32.7
+        },
+        {
+          "at_sec": 4.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.7,
+          "peak_motion_ydif": 42.8
+        },
+        {
+          "at_sec": 6.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.7,
+          "peak_motion_ydif": 60.2
+        },
+        {
+          "at_sec": 7.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.9,
+          "peak_motion_ydif": 56.3
+        },
+        {
+          "at_sec": 8.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.2,
+          "peak_motion_ydif": 50.5
+        },
+        {
+          "at_sec": 9.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.6,
+          "peak_motion_ydif": 40.0
+        },
+        {
+          "at_sec": 10.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.0,
+          "peak_motion_ydif": 60.0
+        },
+        {
+          "at_sec": 11.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.1,
+          "peak_motion_ydif": 49.4
+        },
+        {
+          "at_sec": 13.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.5,
+          "peak_motion_ydif": 35.0
+        },
+        {
+          "at_sec": 13.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.6,
+          "peak_motion_ydif": 31.9
+        },
+        {
+          "at_sec": 15.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.0,
+          "peak_motion_ydif": 43.2
+        },
+        {
+          "at_sec": 16.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.1,
+          "peak_motion_ydif": 29.7
+        },
+        {
+          "at_sec": 17.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.7,
+          "peak_motion_ydif": 35.6
+        },
+        {
+          "at_sec": 18.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 43.4
+        },
+        {
+          "at_sec": 20.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.1,
+          "peak_motion_ydif": 30.3
+        },
+        {
+          "at_sec": 22.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.9,
+          "peak_motion_ydif": 42.7
+        },
+        {
+          "at_sec": 23.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.9,
+          "peak_motion_ydif": 37.1
+        },
+        {
+          "at_sec": 23.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.4,
+          "peak_motion_ydif": 38.9
+        },
+        {
+          "at_sec": 24.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.9,
+          "peak_motion_ydif": 42.2
+        },
+        {
+          "at_sec": 25.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.2,
+          "peak_motion_ydif": 41.9
+        },
+        {
+          "at_sec": 27.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.8,
+          "peak_motion_ydif": 48.4
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 137.7,
+      "avg_saturation_satavg": 7.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 45,
+      "beat_sync_ratio_pct": 42.9,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:18:59",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 9,
+    "views": 238800,
+    "likes": 553,
+    "duration_sec": 28,
+    "title": "bodymist Caesars Legend thơm sang, mùi sạch mát nam tính#grayunbox #b...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_09_7650500449937657096_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7669289111345237268",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "bình giữ nhiệt K House#grayunbox #binhgiunhiet #lygiunhiet #khouse #b...",
+    "breakout_metrics": {
+      "views": 174300,
+      "likes": 486,
+      "comments": 0,
+      "shares": 0,
+      "saves": 58,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 17.43,
+      "velocity_views_per_hour": 3631.2,
+      "affiliate_intent_rate_pct": 0.41,
+      "bvi_score_100": 76.3,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 29.8,
+      "total_shots": 27,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        0.67,
+        0.63,
+        2.4,
+        1.53,
+        1.37,
+        1.23,
+        0.84,
+        0.83,
+        0.47,
+        0.83,
+        0.77,
+        1.03,
+        0.63,
+        0.64,
+        0.56
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7669289111345237268_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7669289111345237268_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.6,
+          "peak_motion_ydif": 37.6
+        },
+        {
+          "at_sec": 1.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.5,
+          "peak_motion_ydif": 45.5
+        },
+        {
+          "at_sec": 3.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.4,
+          "peak_motion_ydif": 52.1
+        },
+        {
+          "at_sec": 5.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.8,
+          "peak_motion_ydif": 46.1
+        },
+        {
+          "at_sec": 6.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.3,
+          "peak_motion_ydif": 34.6
+        },
+        {
+          "at_sec": 7.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.9,
+          "peak_motion_ydif": 51.7
+        },
+        {
+          "at_sec": 8.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.7,
+          "peak_motion_ydif": 43.9
+        },
+        {
+          "at_sec": 9.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 120.5,
+          "peak_motion_ydif": 50.7
+        },
+        {
+          "at_sec": 9.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.3,
+          "peak_motion_ydif": 54.6
+        },
+        {
+          "at_sec": 10.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.6,
+          "peak_motion_ydif": 58.1
+        },
+        {
+          "at_sec": 11.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.0,
+          "peak_motion_ydif": 64.8
+        },
+        {
+          "at_sec": 12.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.6,
+          "peak_motion_ydif": 44.5
+        },
+        {
+          "at_sec": 13.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 134.7,
+          "peak_motion_ydif": 42.0
+        },
+        {
+          "at_sec": 13.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.6,
+          "peak_motion_ydif": 53.6
+        },
+        {
+          "at_sec": 14.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.5,
+          "peak_motion_ydif": 43.5
+        },
+        {
+          "at_sec": 15.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.6,
+          "peak_motion_ydif": 43.1
+        },
+        {
+          "at_sec": 16.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.0,
+          "peak_motion_ydif": 49.1
+        },
+        {
+          "at_sec": 17.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.6,
+          "peak_motion_ydif": 43.7
+        },
+        {
+          "at_sec": 18.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.6,
+          "peak_motion_ydif": 37.6
+        },
+        {
+          "at_sec": 19.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.5,
+          "peak_motion_ydif": 75.8
+        },
+        {
+          "at_sec": 20.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.1,
+          "peak_motion_ydif": 56.7
+        },
+        {
+          "at_sec": 23.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.0,
+          "peak_motion_ydif": 41.9
+        },
+        {
+          "at_sec": 24.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.6,
+          "peak_motion_ydif": 52.9
+        },
+        {
+          "at_sec": 25.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.0,
+          "peak_motion_ydif": 56.0
+        },
+        {
+          "at_sec": 27.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.2,
+          "peak_motion_ydif": 41.9
+        },
+        {
+          "at_sec": 28.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 43.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 143.9,
+      "avg_saturation_satavg": 5.8,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 52,
+      "beat_sync_ratio_pct": 30.8,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:07",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 10,
+    "views": 174300,
+    "likes": 486,
+    "duration_sec": 29,
+    "title": "bình giữ nhiệt K House#grayunbox #binhgiunhiet #lygiunhiet #khouse #b...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_10_7669289111345237268_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7683524643004779797",
+    "product_archetype": "P6",
+    "author": "grayunbox",
+    "caption_title": "chân kê điện thoại hạt dẻ 🌰 #grayunbox #giadodienthoai #giadodienthoa...",
+    "breakout_metrics": {
+      "views": 125000,
+      "likes": 71,
+      "comments": 0,
+      "shares": 0,
+      "saves": 8,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 12.5,
+      "velocity_views_per_hour": 2604.2,
+      "affiliate_intent_rate_pct": 0.08,
+      "bvi_score_100": 71.3,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 30.47,
+      "total_shots": 25,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.22,
+      "v1_pacing_curve_sec": [
+        1.1,
+        1.3,
+        1.3,
+        1.43,
+        1.37,
+        1.7,
+        1.7,
+        0.77,
+        1.46,
+        1.34,
+        0.8,
+        1.7,
+        1.2,
+        1.66,
+        1.74
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7683524643004779797_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7683524643004779797_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.5,
+          "peak_motion_ydif": 66.0
+        },
+        {
+          "at_sec": 2.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 170.9,
+          "peak_motion_ydif": 63.3
+        },
+        {
+          "at_sec": 3.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.7,
+          "peak_motion_ydif": 40.0
+        },
+        {
+          "at_sec": 5.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.2,
+          "peak_motion_ydif": 47.7
+        },
+        {
+          "at_sec": 6.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.9,
+          "peak_motion_ydif": 38.6
+        },
+        {
+          "at_sec": 8.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.0,
+          "peak_motion_ydif": 30.1
+        },
+        {
+          "at_sec": 9.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.4,
+          "peak_motion_ydif": 48.2
+        },
+        {
+          "at_sec": 10.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.1,
+          "peak_motion_ydif": 58.7
+        },
+        {
+          "at_sec": 12.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.5,
+          "peak_motion_ydif": 37.9
+        },
+        {
+          "at_sec": 13.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.6,
+          "peak_motion_ydif": 31.1
+        },
+        {
+          "at_sec": 14.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.4,
+          "peak_motion_ydif": 50.6
+        },
+        {
+          "at_sec": 15.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.8,
+          "peak_motion_ydif": 41.2
+        },
+        {
+          "at_sec": 17.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.2,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 18.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.3,
+          "peak_motion_ydif": 60.7
+        },
+        {
+          "at_sec": 20.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.6,
+          "peak_motion_ydif": 30.2
+        },
+        {
+          "at_sec": 21.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.7,
+          "peak_motion_ydif": 41.2
+        },
+        {
+          "at_sec": 22.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.4,
+          "peak_motion_ydif": 28.0
+        },
+        {
+          "at_sec": 23.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.3,
+          "peak_motion_ydif": 32.8
+        },
+        {
+          "at_sec": 24.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.8,
+          "peak_motion_ydif": 41.1
+        },
+        {
+          "at_sec": 25.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.5,
+          "peak_motion_ydif": 68.5
+        },
+        {
+          "at_sec": 26.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.4,
+          "peak_motion_ydif": 42.6
+        },
+        {
+          "at_sec": 28.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.0,
+          "peak_motion_ydif": 85.6
+        },
+        {
+          "at_sec": 29.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.7,
+          "peak_motion_ydif": 43.1
+        },
+        {
+          "at_sec": 30.03,
+          "transition_type": "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)",
+          "peak_luminance_yavg": 229.2,
+          "peak_motion_ydif": 79.9
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+        "Flash / Nháy Trắng Máy Ảnh (Camera Shutter)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 139.5,
+      "avg_saturation_satavg": 7.8,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 41,
+      "beat_sync_ratio_pct": 25.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:15",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 11,
+    "views": 125000,
+    "likes": 71,
+    "duration_sec": 30,
+    "title": "chân kê điện thoại hạt dẻ 🌰 #grayunbox #giadodienthoai #giadodienthoa...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_11_7683524643004779797_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7658676359715163410",
+    "product_archetype": "P3",
+    "author": "grayunbox",
+    "caption_title": "Balo Camelia vải kháng nước đi mưa thoải mái, 9 ngăn đựng được siu nh...",
+    "breakout_metrics": {
+      "views": 113000,
+      "likes": 518,
+      "comments": 0,
+      "shares": 0,
+      "saves": 62,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 11.3,
+      "velocity_views_per_hour": 2354.2,
+      "affiliate_intent_rate_pct": 0.68,
+      "bvi_score_100": 70.7,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 27.37,
+      "total_shots": 22,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.24,
+      "v1_pacing_curve_sec": [
+        0.9,
+        0.77,
+        2.33,
+        0.7,
+        2.2,
+        2.13,
+        0.5,
+        0.74,
+        0.63,
+        2.1,
+        0.9,
+        1.63,
+        1.0,
+        0.7,
+        0.9
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7658676359715163410_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7658676359715163410_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 85.6,
+          "peak_motion_ydif": 47.9
+        },
+        {
+          "at_sec": 1.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.8,
+          "peak_motion_ydif": 66.6
+        },
+        {
+          "at_sec": 4.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 117.6,
+          "peak_motion_ydif": 61.6
+        },
+        {
+          "at_sec": 4.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 114.8,
+          "peak_motion_ydif": 59.2
+        },
+        {
+          "at_sec": 6.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 120.0,
+          "peak_motion_ydif": 29.5
+        },
+        {
+          "at_sec": 9.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 104.5,
+          "peak_motion_ydif": 59.6
+        },
+        {
+          "at_sec": 9.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 99.4,
+          "peak_motion_ydif": 42.5
+        },
+        {
+          "at_sec": 10.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 98.6,
+          "peak_motion_ydif": 38.1
+        },
+        {
+          "at_sec": 10.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 85.6,
+          "peak_motion_ydif": 61.7
+        },
+        {
+          "at_sec": 13.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 82.9,
+          "peak_motion_ydif": 60.4
+        },
+        {
+          "at_sec": 13.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 88.7,
+          "peak_motion_ydif": 74.2
+        },
+        {
+          "at_sec": 15.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 87.6,
+          "peak_motion_ydif": 52.6
+        },
+        {
+          "at_sec": 16.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 90.8,
+          "peak_motion_ydif": 64.1
+        },
+        {
+          "at_sec": 17.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 97.6,
+          "peak_motion_ydif": 37.2
+        },
+        {
+          "at_sec": 18.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 93.6,
+          "peak_motion_ydif": 35.7
+        },
+        {
+          "at_sec": 19.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 80.0,
+          "peak_motion_ydif": 34.0
+        },
+        {
+          "at_sec": 20.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 101.7,
+          "peak_motion_ydif": 55.1
+        },
+        {
+          "at_sec": 20.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 85.3,
+          "peak_motion_ydif": 45.0
+        },
+        {
+          "at_sec": 21.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 87.2,
+          "peak_motion_ydif": 55.5
+        },
+        {
+          "at_sec": 22.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 88.0,
+          "peak_motion_ydif": 48.2
+        },
+        {
+          "at_sec": 23.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 79.1,
+          "peak_motion_ydif": 52.1
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 100.4,
+      "avg_saturation_satavg": 4.3,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 2,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:26",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 12,
+    "views": 113000,
+    "likes": 518,
+    "duration_sec": 27,
+    "title": "Balo Camelia vải kháng nước đi mưa thoải mái, 9 ngăn đựng được siu nh...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_12_7658676359715163410_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7677099396252568852",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "vị việt quốc ngon lắmm luôn#grayunbox #banhtrungthu #banhtrungthukinh...",
+    "breakout_metrics": {
+      "views": 109400,
+      "likes": 446,
+      "comments": 0,
+      "shares": 0,
+      "saves": 53,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 10.94,
+      "velocity_views_per_hour": 2279.2,
+      "affiliate_intent_rate_pct": 0.6,
+      "bvi_score_100": 69.7,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 28.73,
+      "total_shots": 24,
+      "hook_first_shot_dur_sec": 1.13,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        1.13,
+        1.37,
+        1.1,
+        1.0,
+        0.9,
+        1.07,
+        0.73,
+        0.97,
+        0.93,
+        1.43,
+        1.1,
+        1.1,
+        1.37,
+        1.07,
+        1.0
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7677099396252568852_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7677099396252568852_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 103.8,
+          "peak_motion_ydif": 38.9
+        },
+        {
+          "at_sec": 2.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 104.4,
+          "peak_motion_ydif": 44.9
+        },
+        {
+          "at_sec": 3.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 101.0,
+          "peak_motion_ydif": 35.6
+        },
+        {
+          "at_sec": 4.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 99.5,
+          "peak_motion_ydif": 54.9
+        },
+        {
+          "at_sec": 5.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 109.6,
+          "peak_motion_ydif": 54.4
+        },
+        {
+          "at_sec": 6.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 106.0,
+          "peak_motion_ydif": 36.7
+        },
+        {
+          "at_sec": 7.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 107.5,
+          "peak_motion_ydif": 48.7
+        },
+        {
+          "at_sec": 8.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 102.4,
+          "peak_motion_ydif": 43.5
+        },
+        {
+          "at_sec": 9.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 85.4,
+          "peak_motion_ydif": 27.1
+        },
+        {
+          "at_sec": 10.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 92.1,
+          "peak_motion_ydif": 37.3
+        },
+        {
+          "at_sec": 11.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 94.6,
+          "peak_motion_ydif": 34.4
+        },
+        {
+          "at_sec": 12.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 102.4,
+          "peak_motion_ydif": 41.5
+        },
+        {
+          "at_sec": 14.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 103.1,
+          "peak_motion_ydif": 45.1
+        },
+        {
+          "at_sec": 15.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 100.2,
+          "peak_motion_ydif": 41.3
+        },
+        {
+          "at_sec": 16.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 98.9,
+          "peak_motion_ydif": 40.3
+        },
+        {
+          "at_sec": 17.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 98.4,
+          "peak_motion_ydif": 34.9
+        },
+        {
+          "at_sec": 18.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 96.8,
+          "peak_motion_ydif": 39.3
+        },
+        {
+          "at_sec": 19.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 98.3,
+          "peak_motion_ydif": 35.1
+        },
+        {
+          "at_sec": 20.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 99.9,
+          "peak_motion_ydif": 43.4
+        },
+        {
+          "at_sec": 22.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 107.2,
+          "peak_motion_ydif": 44.3
+        },
+        {
+          "at_sec": 24.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 100.2,
+          "peak_motion_ydif": 51.3
+        },
+        {
+          "at_sec": 25.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 89.2,
+          "peak_motion_ydif": 42.5
+        },
+        {
+          "at_sec": 27.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 191.9,
+          "peak_motion_ydif": 96.4
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 98.6,
+      "avg_saturation_satavg": 31.6,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 41,
+      "beat_sync_ratio_pct": 21.7,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:34",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 13,
+    "views": 109400,
+    "likes": 446,
+    "duration_sec": 28,
+    "title": "vị việt quốc ngon lắmm luôn#grayunbox #banhtrungthu #banhtrungthukinh...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_13_7677099396252568852_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7653714895069908231",
+    "product_archetype": "P1",
+    "author": "grayunbox",
+    "caption_title": "body mist Svanor#grayunbox #bodymist #svanor #perfume #nuochoanam ",
+    "breakout_metrics": {
+      "views": 103400,
+      "likes": 114,
+      "comments": 0,
+      "shares": 0,
+      "saves": 13,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 10.34,
+      "velocity_views_per_hour": 2154.2,
+      "affiliate_intent_rate_pct": 0.16,
+      "bvi_score_100": 67.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 31.87,
+      "total_shots": 19,
+      "hook_first_shot_dur_sec": 1.3,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.68,
+      "v1_pacing_curve_sec": [
+        1.3,
+        4.2,
+        2.5,
+        1.23,
+        0.64,
+        1.1,
+        1.63,
+        1.23,
+        1.24,
+        1.43,
+        0.8,
+        0.9,
+        0.8,
+        3.23,
+        4.97
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7653714895069908231_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7653714895069908231_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.0,
+          "peak_motion_ydif": 47.4
+        },
+        {
+          "at_sec": 5.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 134.1,
+          "peak_motion_ydif": 45.7
+        },
+        {
+          "at_sec": 8.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.7,
+          "peak_motion_ydif": 40.6
+        },
+        {
+          "at_sec": 9.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.5,
+          "peak_motion_ydif": 34.5
+        },
+        {
+          "at_sec": 9.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.6,
+          "peak_motion_ydif": 37.2
+        },
+        {
+          "at_sec": 10.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.8,
+          "peak_motion_ydif": 52.7
+        },
+        {
+          "at_sec": 12.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.6,
+          "peak_motion_ydif": 31.0
+        },
+        {
+          "at_sec": 13.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.1,
+          "peak_motion_ydif": 30.0
+        },
+        {
+          "at_sec": 15.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.1,
+          "peak_motion_ydif": 34.0
+        },
+        {
+          "at_sec": 16.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 134.9,
+          "peak_motion_ydif": 36.0
+        },
+        {
+          "at_sec": 17.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.3,
+          "peak_motion_ydif": 35.2
+        },
+        {
+          "at_sec": 18.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.8,
+          "peak_motion_ydif": 34.2
+        },
+        {
+          "at_sec": 19.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.3,
+          "peak_motion_ydif": 34.5
+        },
+        {
+          "at_sec": 22.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.4,
+          "peak_motion_ydif": 45.1
+        },
+        {
+          "at_sec": 27.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 133.1,
+          "peak_motion_ydif": 61.2
+        },
+        {
+          "at_sec": 27.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.9,
+          "peak_motion_ydif": 52.9
+        },
+        {
+          "at_sec": 29.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.9,
+          "peak_motion_ydif": 48.6
+        },
+        {
+          "at_sec": 30.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.5,
+          "peak_motion_ydif": 48.5
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 127.8,
+      "avg_saturation_satavg": 6.5,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 50,
+      "beat_sync_ratio_pct": 50.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:45",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 14,
+    "views": 103400,
+    "likes": 114,
+    "duration_sec": 31,
+    "title": "body mist Svanor#grayunbox #bodymist #svanor #perfume #nuochoanam ",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_14_7653714895069908231_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7695667757651660053",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "món quà tinh tế ý nghĩa dành tặng người thương#thiepsinhnhat #thiepsi...",
+    "breakout_metrics": {
+      "views": 89000,
+      "likes": 127,
+      "comments": 0,
+      "shares": 0,
+      "saves": 15,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 8.9,
+      "velocity_views_per_hour": 1854.2,
+      "affiliate_intent_rate_pct": 0.21,
+      "bvi_score_100": 64.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 22.27,
+      "total_shots": 9,
+      "hook_first_shot_dur_sec": 2.2,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 2.47,
+      "v1_pacing_curve_sec": [
+        2.53,
+        2.47,
+        4.23,
+        2.84,
+        0.5,
+        0.93,
+        2.2,
+        3.27,
+        3.3
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7695667757651660053_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7695667757651660053_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.3,
+          "peak_motion_ydif": 37.0
+        },
+        {
+          "at_sec": 5.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 133.8,
+          "peak_motion_ydif": 45.7
+        },
+        {
+          "at_sec": 9.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.4,
+          "peak_motion_ydif": 51.1
+        },
+        {
+          "at_sec": 12.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.8,
+          "peak_motion_ydif": 47.0
+        },
+        {
+          "at_sec": 12.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.8,
+          "peak_motion_ydif": 45.1
+        },
+        {
+          "at_sec": 13.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.7,
+          "peak_motion_ydif": 37.4
+        },
+        {
+          "at_sec": 15.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.6,
+          "peak_motion_ydif": 48.6
+        },
+        {
+          "at_sec": 18.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.1,
+          "peak_motion_ydif": 44.4
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 130.9,
+      "avg_saturation_satavg": 7.8,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 0,
+      "beat_sync_ratio_pct": 0.0,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:19:51",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 15,
+    "views": 89000,
+    "likes": 127,
+    "duration_sec": 22,
+    "title": "món quà tinh tế ý nghĩa dành tặng người thương#thiepsinhnhat #thiepsi...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_15_7695667757651660053_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7667210966253292820",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "#grayunbox #matnamat #miengdanmat #miengdanmatthaoduoc #matnamatgiamt...",
+    "breakout_metrics": {
+      "views": 85100,
+      "likes": 228,
+      "comments": 0,
+      "shares": 0,
+      "saves": 27,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 8.51,
+      "velocity_views_per_hour": 1772.9,
+      "affiliate_intent_rate_pct": 0.39,
+      "bvi_score_100": 63.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 31.5,
+      "total_shots": 19,
+      "hook_first_shot_dur_sec": 2.13,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.66,
+      "v1_pacing_curve_sec": [
+        2.13,
+        2.4,
+        1.07,
+        1.97,
+        1.66,
+        1.87,
+        1.0,
+        0.7,
+        0.57,
+        1.1,
+        0.86,
+        0.67,
+        0.53,
+        2.84,
+        1.66
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7667210966253292820_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7667210966253292820_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.6,
+          "peak_motion_ydif": 36.0
+        },
+        {
+          "at_sec": 4.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.8,
+          "peak_motion_ydif": 31.5
+        },
+        {
+          "at_sec": 5.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.4,
+          "peak_motion_ydif": 43.7
+        },
+        {
+          "at_sec": 7.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.9,
+          "peak_motion_ydif": 41.4
+        },
+        {
+          "at_sec": 9.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.7,
+          "peak_motion_ydif": 52.4
+        },
+        {
+          "at_sec": 11.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.4,
+          "peak_motion_ydif": 56.0
+        },
+        {
+          "at_sec": 12.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.9,
+          "peak_motion_ydif": 67.2
+        },
+        {
+          "at_sec": 12.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.8,
+          "peak_motion_ydif": 31.9
+        },
+        {
+          "at_sec": 13.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.6,
+          "peak_motion_ydif": 54.3
+        },
+        {
+          "at_sec": 14.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.8,
+          "peak_motion_ydif": 41.8
+        },
+        {
+          "at_sec": 15.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.1,
+          "peak_motion_ydif": 61.1
+        },
+        {
+          "at_sec": 16.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.7,
+          "peak_motion_ydif": 59.3
+        },
+        {
+          "at_sec": 16.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.8,
+          "peak_motion_ydif": 58.9
+        },
+        {
+          "at_sec": 19.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.4,
+          "peak_motion_ydif": 41.9
+        },
+        {
+          "at_sec": 21.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.2,
+          "peak_motion_ydif": 39.9
+        },
+        {
+          "at_sec": 23.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.8,
+          "peak_motion_ydif": 36.6
+        },
+        {
+          "at_sec": 25.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.6,
+          "peak_motion_ydif": 45.8
+        },
+        {
+          "at_sec": 28.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.9,
+          "peak_motion_ydif": 50.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 144.3,
+      "avg_saturation_satavg": 13.3,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 47,
+      "beat_sync_ratio_pct": 16.7,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:00",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 16,
+    "views": 85100,
+    "likes": 228,
+    "duration_sec": 31,
+    "title": "#grayunbox #matnamat #miengdanmat #miengdanmatthaoduoc #matnamatgiamt...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_16_7667210966253292820_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7670729298059218196",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "miếng dán nhiệt thảo dược #grayunboxing #miengdanthaoduoc #miengdangi...",
+    "breakout_metrics": {
+      "views": 75500,
+      "likes": 56,
+      "comments": 0,
+      "shares": 0,
+      "saves": 6,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 7.55,
+      "velocity_views_per_hour": 1572.9,
+      "affiliate_intent_rate_pct": 0.11,
+      "bvi_score_100": 61.1,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 30.6,
+      "total_shots": 23,
+      "hook_first_shot_dur_sec": 2.0,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.33,
+      "v1_pacing_curve_sec": [
+        2.0,
+        1.37,
+        1.13,
+        0.87,
+        1.56,
+        2.5,
+        1.24,
+        1.26,
+        0.94,
+        0.93,
+        0.97,
+        0.53,
+        1.67,
+        1.46,
+        1.97
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7670729298059218196_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7670729298059218196_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.1,
+          "peak_motion_ydif": 53.5
+        },
+        {
+          "at_sec": 3.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 115.9,
+          "peak_motion_ydif": 42.9
+        },
+        {
+          "at_sec": 4.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 120.3,
+          "peak_motion_ydif": 42.9
+        },
+        {
+          "at_sec": 5.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 109.0,
+          "peak_motion_ydif": 41.2
+        },
+        {
+          "at_sec": 6.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.9,
+          "peak_motion_ydif": 54.6
+        },
+        {
+          "at_sec": 9.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.2,
+          "peak_motion_ydif": 56.8
+        },
+        {
+          "at_sec": 10.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.2,
+          "peak_motion_ydif": 61.0
+        },
+        {
+          "at_sec": 11.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.9,
+          "peak_motion_ydif": 52.5
+        },
+        {
+          "at_sec": 12.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.3,
+          "peak_motion_ydif": 45.1
+        },
+        {
+          "at_sec": 13.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.1,
+          "peak_motion_ydif": 45.5
+        },
+        {
+          "at_sec": 14.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.0,
+          "peak_motion_ydif": 63.5
+        },
+        {
+          "at_sec": 15.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.2,
+          "peak_motion_ydif": 63.4
+        },
+        {
+          "at_sec": 16.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 119.0,
+          "peak_motion_ydif": 50.5
+        },
+        {
+          "at_sec": 18.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.7,
+          "peak_motion_ydif": 49.2
+        },
+        {
+          "at_sec": 20.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 129.4,
+          "peak_motion_ydif": 45.6
+        },
+        {
+          "at_sec": 21.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 113.3,
+          "peak_motion_ydif": 46.8
+        },
+        {
+          "at_sec": 22.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 114.0,
+          "peak_motion_ydif": 41.6
+        },
+        {
+          "at_sec": 24.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.9,
+          "peak_motion_ydif": 45.7
+        },
+        {
+          "at_sec": 24.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 105.5,
+          "peak_motion_ydif": 40.8
+        },
+        {
+          "at_sec": 26.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.9,
+          "peak_motion_ydif": 50.3
+        },
+        {
+          "at_sec": 28.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.6,
+          "peak_motion_ydif": 51.5
+        },
+        {
+          "at_sec": 29.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.7,
+          "peak_motion_ydif": 68.5
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 113.9,
+      "avg_saturation_satavg": 16.0,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 36,
+      "beat_sync_ratio_pct": 27.3,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:11",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 17,
+    "views": 75500,
+    "likes": 56,
+    "duration_sec": 30,
+    "title": "miếng dán nhiệt thảo dược #grayunboxing #miengdanthaoduoc #miengdangi...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_17_7670729298059218196_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7676865845490093333",
+    "product_archetype": "P6",
+    "author": "grayunbox",
+    "caption_title": "Hidden Case#grayunbox #caseiphone #hiddencase #oplungiphone #viral ",
+    "breakout_metrics": {
+      "views": 67400,
+      "likes": 276,
+      "comments": 0,
+      "shares": 0,
+      "saves": 33,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.74,
+      "velocity_views_per_hour": 1404.2,
+      "affiliate_intent_rate_pct": 0.61,
+      "bvi_score_100": 60.9,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 26.13,
+      "total_shots": 32,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 3,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        0.73,
+        0.9,
+        0.87,
+        0.67,
+        0.7,
+        0.76,
+        0.77,
+        0.5,
+        0.73,
+        0.74,
+        1.36,
+        0.64,
+        0.86,
+        0.67,
+        0.87
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7676865845490093333_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7676865845490093333_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 125.9,
+          "peak_motion_ydif": 71.9
+        },
+        {
+          "at_sec": 1.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.6,
+          "peak_motion_ydif": 84.6
+        },
+        {
+          "at_sec": 2.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 133.3,
+          "peak_motion_ydif": 63.0
+        },
+        {
+          "at_sec": 3.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 134.9,
+          "peak_motion_ydif": 56.2
+        },
+        {
+          "at_sec": 3.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.0,
+          "peak_motion_ydif": 47.4
+        },
+        {
+          "at_sec": 4.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 110.7,
+          "peak_motion_ydif": 55.5
+        },
+        {
+          "at_sec": 5.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 114.9,
+          "peak_motion_ydif": 60.2
+        },
+        {
+          "at_sec": 5.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 106.1,
+          "peak_motion_ydif": 57.8
+        },
+        {
+          "at_sec": 6.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 127.0,
+          "peak_motion_ydif": 55.8
+        },
+        {
+          "at_sec": 7.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 131.5,
+          "peak_motion_ydif": 48.5
+        },
+        {
+          "at_sec": 8.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.2,
+          "peak_motion_ydif": 42.5
+        },
+        {
+          "at_sec": 9.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 124.3,
+          "peak_motion_ydif": 58.9
+        },
+        {
+          "at_sec": 10.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 112.4,
+          "peak_motion_ydif": 64.7
+        },
+        {
+          "at_sec": 10.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 117.9,
+          "peak_motion_ydif": 38.6
+        },
+        {
+          "at_sec": 11.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.2,
+          "peak_motion_ydif": 54.6
+        },
+        {
+          "at_sec": 12.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.6,
+          "peak_motion_ydif": 58.8
+        },
+        {
+          "at_sec": 13.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.1,
+          "peak_motion_ydif": 43.9
+        },
+        {
+          "at_sec": 14.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 129.9,
+          "peak_motion_ydif": 61.9
+        },
+        {
+          "at_sec": 14.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.0,
+          "peak_motion_ydif": 53.7
+        },
+        {
+          "at_sec": 15.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 132.8,
+          "peak_motion_ydif": 46.1
+        },
+        {
+          "at_sec": 16.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.0,
+          "peak_motion_ydif": 44.9
+        },
+        {
+          "at_sec": 17.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 127.0,
+          "peak_motion_ydif": 45.1
+        },
+        {
+          "at_sec": 18.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.2,
+          "peak_motion_ydif": 61.0
+        },
+        {
+          "at_sec": 18.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 118.0,
+          "peak_motion_ydif": 45.7
+        },
+        {
+          "at_sec": 19.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 102.0,
+          "peak_motion_ydif": 68.6
+        },
+        {
+          "at_sec": 20.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 109.7,
+          "peak_motion_ydif": 62.2
+        },
+        {
+          "at_sec": 21.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 110.6,
+          "peak_motion_ydif": 63.1
+        },
+        {
+          "at_sec": 22.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 128.6,
+          "peak_motion_ydif": 70.6
+        },
+        {
+          "at_sec": 23.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.7,
+          "peak_motion_ydif": 78.5
+        },
+        {
+          "at_sec": 24.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 122.6,
+          "peak_motion_ydif": 66.6
+        },
+        {
+          "at_sec": 25.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 126.4,
+          "peak_motion_ydif": 63.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 115.5,
+      "avg_saturation_satavg": 6.4,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 33,
+      "beat_sync_ratio_pct": 19.4,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:19",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 18,
+    "views": 67400,
+    "likes": 276,
+    "duration_sec": 26,
+    "title": "Hidden Case#grayunbox #caseiphone #hiddencase #oplungiphone #viral ",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_18_7676865845490093333_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7689667481975229717",
+    "product_archetype": "P3",
+    "author": "grayunbox",
+    "caption_title": "combo 10 gói giấy bỏ túi Topgia có vài chục cành thui#grayunbox #khan...",
+    "breakout_metrics": {
+      "views": 66800,
+      "likes": 47,
+      "comments": 0,
+      "shares": 0,
+      "saves": 5,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.68,
+      "velocity_views_per_hour": 1391.7,
+      "affiliate_intent_rate_pct": 0.1,
+      "bvi_score_100": 59.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 32.5,
+      "total_shots": 28,
+      "hook_first_shot_dur_sec": 1.1,
+      "cuts_in_first_3_sec": 2,
+      "avg_shot_dur_sec": 1.2,
+      "v1_pacing_curve_sec": [
+        0.77,
+        0.93,
+        1.47,
+        1.23,
+        1.2,
+        1.0,
+        0.7,
+        0.73,
+        0.57,
+        0.93,
+        1.77,
+        0.83,
+        0.87,
+        0.8,
+        2.27
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7689667481975229717_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7689667481975229717_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 0.77,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.6,
+          "peak_motion_ydif": 48.0
+        },
+        {
+          "at_sec": 1.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.2,
+          "peak_motion_ydif": 38.2
+        },
+        {
+          "at_sec": 3.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.8,
+          "peak_motion_ydif": 40.1
+        },
+        {
+          "at_sec": 4.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.0,
+          "peak_motion_ydif": 61.3
+        },
+        {
+          "at_sec": 5.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.3,
+          "peak_motion_ydif": 84.7
+        },
+        {
+          "at_sec": 6.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 105.4,
+          "peak_motion_ydif": 66.2
+        },
+        {
+          "at_sec": 7.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 132.6,
+          "peak_motion_ydif": 73.5
+        },
+        {
+          "at_sec": 8.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.9,
+          "peak_motion_ydif": 56.5
+        },
+        {
+          "at_sec": 8.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.0,
+          "peak_motion_ydif": 57.4
+        },
+        {
+          "at_sec": 9.53,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 181.7,
+          "peak_motion_ydif": 42.4
+        },
+        {
+          "at_sec": 11.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.4,
+          "peak_motion_ydif": 41.3
+        },
+        {
+          "at_sec": 12.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.1,
+          "peak_motion_ydif": 63.1
+        },
+        {
+          "at_sec": 13.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 168.6,
+          "peak_motion_ydif": 54.9
+        },
+        {
+          "at_sec": 13.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.3,
+          "peak_motion_ydif": 72.1
+        },
+        {
+          "at_sec": 16.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.6,
+          "peak_motion_ydif": 40.1
+        },
+        {
+          "at_sec": 17.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.0,
+          "peak_motion_ydif": 77.3
+        },
+        {
+          "at_sec": 18.17,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.7,
+          "peak_motion_ydif": 85.1
+        },
+        {
+          "at_sec": 19.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.1,
+          "peak_motion_ydif": 49.4
+        },
+        {
+          "at_sec": 20.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.3,
+          "peak_motion_ydif": 34.5
+        },
+        {
+          "at_sec": 21.33,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.5,
+          "peak_motion_ydif": 45.3
+        },
+        {
+          "at_sec": 22.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.3,
+          "peak_motion_ydif": 28.1
+        },
+        {
+          "at_sec": 22.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 160.4,
+          "peak_motion_ydif": 40.1
+        },
+        {
+          "at_sec": 23.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.3,
+          "peak_motion_ydif": 78.7
+        },
+        {
+          "at_sec": 24.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.5,
+          "peak_motion_ydif": 82.4
+        },
+        {
+          "at_sec": 24.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 182.6,
+          "peak_motion_ydif": 42.3
+        },
+        {
+          "at_sec": 26.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.9,
+          "peak_motion_ydif": 57.1
+        },
+        {
+          "at_sec": 29.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.6,
+          "peak_motion_ydif": 52.9
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 137.1,
+      "avg_saturation_satavg": 9.5,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 37,
+      "beat_sync_ratio_pct": 18.5,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:30",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 19,
+    "views": 66800,
+    "likes": 47,
+    "duration_sec": 32,
+    "title": "combo 10 gói giấy bỏ túi Topgia có vài chục cành thui#grayunbox #khan...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_19_7689667481975229717_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7659416935343410439",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "máy hút bụi giường nệm BSTY#grayunbox #mayhutbui #mayhutbuicamtay #ma...",
+    "breakout_metrics": {
+      "views": 65000,
+      "likes": 210,
+      "comments": 0,
+      "shares": 0,
+      "saves": 25,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.5,
+      "velocity_views_per_hour": 1354.2,
+      "affiliate_intent_rate_pct": 0.48,
+      "bvi_score_100": 60.0,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 43.63,
+      "total_shots": 33,
+      "hook_first_shot_dur_sec": 1.9,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.32,
+      "v1_pacing_curve_sec": [
+        1.9,
+        2.23,
+        2.07,
+        1.37,
+        1.06,
+        1.2,
+        0.87,
+        2.9,
+        1.0,
+        1.07,
+        0.9,
+        1.06,
+        1.27,
+        0.67,
+        0.8
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7659416935343410439_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7659416935343410439_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.2,
+          "peak_motion_ydif": 60.7
+        },
+        {
+          "at_sec": 4.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.6,
+          "peak_motion_ydif": 64.1
+        },
+        {
+          "at_sec": 6.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.7,
+          "peak_motion_ydif": 53.9
+        },
+        {
+          "at_sec": 7.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.9,
+          "peak_motion_ydif": 56.0
+        },
+        {
+          "at_sec": 8.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 176.7,
+          "peak_motion_ydif": 48.4
+        },
+        {
+          "at_sec": 9.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 161.7,
+          "peak_motion_ydif": 62.0
+        },
+        {
+          "at_sec": 10.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 163.9,
+          "peak_motion_ydif": 61.1
+        },
+        {
+          "at_sec": 13.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 153.4,
+          "peak_motion_ydif": 62.1
+        },
+        {
+          "at_sec": 14.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.8,
+          "peak_motion_ydif": 58.8
+        },
+        {
+          "at_sec": 15.67,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.9,
+          "peak_motion_ydif": 57.9
+        },
+        {
+          "at_sec": 16.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.3,
+          "peak_motion_ydif": 60.9
+        },
+        {
+          "at_sec": 17.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.9,
+          "peak_motion_ydif": 61.5
+        },
+        {
+          "at_sec": 18.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.8,
+          "peak_motion_ydif": 68.6
+        },
+        {
+          "at_sec": 19.57,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.7,
+          "peak_motion_ydif": 52.5
+        },
+        {
+          "at_sec": 20.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 136.3,
+          "peak_motion_ydif": 36.0
+        },
+        {
+          "at_sec": 21.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.2,
+          "peak_motion_ydif": 46.3
+        },
+        {
+          "at_sec": 22.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 143.7,
+          "peak_motion_ydif": 45.2
+        },
+        {
+          "at_sec": 23.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 141.0,
+          "peak_motion_ydif": 43.3
+        },
+        {
+          "at_sec": 23.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 148.2,
+          "peak_motion_ydif": 58.1
+        },
+        {
+          "at_sec": 24.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 155.4,
+          "peak_motion_ydif": 41.7
+        },
+        {
+          "at_sec": 26.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 159.1,
+          "peak_motion_ydif": 41.5
+        },
+        {
+          "at_sec": 27.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 156.8,
+          "peak_motion_ydif": 59.0
+        },
+        {
+          "at_sec": 29.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 147.7,
+          "peak_motion_ydif": 62.3
+        },
+        {
+          "at_sec": 30.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 144.9,
+          "peak_motion_ydif": 59.6
+        },
+        {
+          "at_sec": 32.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 157.7,
+          "peak_motion_ydif": 57.4
+        },
+        {
+          "at_sec": 34.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.9,
+          "peak_motion_ydif": 50.0
+        },
+        {
+          "at_sec": 36.1,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 164.8,
+          "peak_motion_ydif": 66.7
+        },
+        {
+          "at_sec": 37.23,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.4,
+          "peak_motion_ydif": 43.0
+        },
+        {
+          "at_sec": 38.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 133.4,
+          "peak_motion_ydif": 55.8
+        },
+        {
+          "at_sec": 39.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 130.4,
+          "peak_motion_ydif": 76.3
+        },
+        {
+          "at_sec": 41.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.1,
+          "peak_motion_ydif": 98.7
+        },
+        {
+          "at_sec": 42.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 175.5,
+          "peak_motion_ydif": 50.1
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 146.9,
+      "avg_saturation_satavg": 4.0,
+      "color_temperature_style": "True-to-Life Neutral / Trung Tính Chuẩn Màu Thật (KOC Uy Tín)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 68,
+      "beat_sync_ratio_pct": 40.6,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:47",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 20,
+    "views": 65000,
+    "likes": 210,
+    "duration_sec": 43,
+    "title": "máy hút bụi giường nệm BSTY#grayunbox #mayhutbui #mayhutbuicamtay #ma...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_20_7659416935343410439_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7666692630108982549",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "sáp thơm Matcha Latte 🍃 #grayunbox #sapthomphong #kathwi #sapthom #ma...",
+    "breakout_metrics": {
+      "views": 60700,
+      "likes": 80,
+      "comments": 0,
+      "shares": 0,
+      "saves": 9,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 6.07,
+      "velocity_views_per_hour": 1264.6,
+      "affiliate_intent_rate_pct": 0.19,
+      "bvi_score_100": 58.2,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 32.4,
+      "total_shots": 23,
+      "hook_first_shot_dur_sec": 2.0,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.41,
+      "v1_pacing_curve_sec": [
+        2.0,
+        1.63,
+        1.27,
+        1.13,
+        1.0,
+        1.84,
+        1.83,
+        1.43,
+        1.34,
+        1.03,
+        1.23,
+        1.47,
+        0.93,
+        1.27,
+        1.4
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7666692630108982549_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7666692630108982549_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 2.0,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.5,
+          "peak_motion_ydif": 38.0
+        },
+        {
+          "at_sec": 3.63,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 152.7,
+          "peak_motion_ydif": 55.6
+        },
+        {
+          "at_sec": 4.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 59.5
+        },
+        {
+          "at_sec": 6.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 150.9,
+          "peak_motion_ydif": 39.2
+        },
+        {
+          "at_sec": 7.03,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 140.5,
+          "peak_motion_ydif": 52.9
+        },
+        {
+          "at_sec": 8.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 135.7,
+          "peak_motion_ydif": 30.1
+        },
+        {
+          "at_sec": 10.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.4,
+          "peak_motion_ydif": 41.0
+        },
+        {
+          "at_sec": 12.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 139.8,
+          "peak_motion_ydif": 40.5
+        },
+        {
+          "at_sec": 13.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.4,
+          "peak_motion_ydif": 45.0
+        },
+        {
+          "at_sec": 14.5,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.6,
+          "peak_motion_ydif": 47.2
+        },
+        {
+          "at_sec": 15.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 138.4,
+          "peak_motion_ydif": 67.6
+        },
+        {
+          "at_sec": 17.2,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 137.5,
+          "peak_motion_ydif": 66.4
+        },
+        {
+          "at_sec": 18.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 119.5,
+          "peak_motion_ydif": 55.0
+        },
+        {
+          "at_sec": 19.4,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.1,
+          "peak_motion_ydif": 68.7
+        },
+        {
+          "at_sec": 20.8,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.7,
+          "peak_motion_ydif": 38.1
+        },
+        {
+          "at_sec": 22.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 146.8,
+          "peak_motion_ydif": 43.4
+        },
+        {
+          "at_sec": 23.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 149.5,
+          "peak_motion_ydif": 34.3
+        },
+        {
+          "at_sec": 24.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 151.3,
+          "peak_motion_ydif": 36.1
+        },
+        {
+          "at_sec": 25.87,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 142.0,
+          "peak_motion_ydif": 58.6
+        },
+        {
+          "at_sec": 28.07,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 145.8,
+          "peak_motion_ydif": 74.6
+        },
+        {
+          "at_sec": 29.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 154.1,
+          "peak_motion_ydif": 44.3
+        },
+        {
+          "at_sec": 30.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 158.3,
+          "peak_motion_ydif": 51.6
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 143.5,
+      "avg_saturation_satavg": 5.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 50,
+      "beat_sync_ratio_pct": 27.3,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:20:57",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 21,
+    "views": 60700,
+    "likes": 80,
+    "duration_sec": 32,
+    "title": "sáp thơm Matcha Latte 🍃 #grayunbox #sapthomphong #kathwi #sapthom #ma...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_21_7666692630108982549_storyboard_grid.jpg"
+  },
+  {
+    "video_id": "7665595483376700693",
+    "product_archetype": "P2",
+    "author": "grayunbox",
+    "caption_title": "nụ trầm hương#grayunbox #nutramhuong #nutramhuongtannguyen #nutram #t...",
+    "breakout_metrics": {
+      "views": 55300,
+      "likes": 69,
+      "comments": 0,
+      "shares": 0,
+      "saves": 8,
+      "followers": 10000,
+      "hours_since_upload": 48.0,
+      "outlier_ratio_x": 5.53,
+      "velocity_views_per_hour": 1152.1,
+      "affiliate_intent_rate_pct": 0.18,
+      "bvi_score_100": 57.1,
+      "is_breakout_viral": true
+    },
+    "layer1_pacing_dna": {
+      "total_duration_sec": 34.27,
+      "total_shots": 18,
+      "hook_first_shot_dur_sec": 1.97,
+      "cuts_in_first_3_sec": 1,
+      "avg_shot_dur_sec": 1.9,
+      "v1_pacing_curve_sec": [
+        1.97,
+        1.86,
+        1.9,
+        2.54,
+        1.2,
+        0.83,
+        1.0,
+        1.6,
+        0.8,
+        1.23,
+        1.67,
+        1.77,
+        2.06,
+        2.17,
+        3.53
+      ]
+    },
+    "layer2_and_3_visual_transitions_dna": {
+      "storyboard_contact_sheet_path": "./knowledge_vault/04_viral_visual_and_effects_dna/viral_grayunbox_7665595483376700693_storyboard_grid.jpg",
+      "claude_vision_instruction": "Claude Code: Hãy dùng công cụ read_file đọc trực tiếp ảnh './workspace/viral_study_lab/viral_grayunbox_7665595483376700693_storyboard_grid.jpg' để phân tích chuỗi Góc Quay (A1-A8), Bố cục khung hình và Vị trí đặt Text Hook!",
+      "transitions_forensics": [
+        {
+          "at_sec": 1.97,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 115.6,
+          "peak_motion_ydif": 40.0
+        },
+        {
+          "at_sec": 3.83,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 115.6,
+          "peak_motion_ydif": 33.9
+        },
+        {
+          "at_sec": 5.73,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 113.0,
+          "peak_motion_ydif": 41.7
+        },
+        {
+          "at_sec": 8.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 106.8,
+          "peak_motion_ydif": 43.7
+        },
+        {
+          "at_sec": 9.47,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 121.2,
+          "peak_motion_ydif": 51.9
+        },
+        {
+          "at_sec": 10.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 123.1,
+          "peak_motion_ydif": 47.2
+        },
+        {
+          "at_sec": 11.3,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 111.6,
+          "peak_motion_ydif": 40.4
+        },
+        {
+          "at_sec": 12.9,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 110.0,
+          "peak_motion_ydif": 45.9
+        },
+        {
+          "at_sec": 13.7,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 114.7,
+          "peak_motion_ydif": 30.9
+        },
+        {
+          "at_sec": 14.93,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 106.4,
+          "peak_motion_ydif": 33.7
+        },
+        {
+          "at_sec": 16.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 111.5,
+          "peak_motion_ydif": 45.5
+        },
+        {
+          "at_sec": 18.37,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 110.8,
+          "peak_motion_ydif": 31.4
+        },
+        {
+          "at_sec": 20.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 116.4,
+          "peak_motion_ydif": 40.8
+        },
+        {
+          "at_sec": 22.6,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 113.7,
+          "peak_motion_ydif": 49.9
+        },
+        {
+          "at_sec": 26.13,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 112.8,
+          "peak_motion_ydif": 38.7
+        },
+        {
+          "at_sec": 30.27,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 117.2,
+          "peak_motion_ydif": 32.9
+        },
+        {
+          "at_sec": 32.43,
+          "transition_type": "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)",
+          "peak_luminance_yavg": 116.9,
+          "peak_motion_ydif": 37.1
+        }
+      ],
+      "transitions_signature": [
+        "Whip Pan / Kéo Mờ Chuyển Cảnh Nhanh (Directional Blur)"
+      ]
+    },
+    "layer4_color_and_layout_dna": {
+      "avg_luminance_yavg": 112.0,
+      "avg_saturation_satavg": 8.9,
+      "color_temperature_style": "Warm Lifestyle / Kem Ấm Sang Trọng (Nịnh Da & Đồ Gia Dụng)",
+      "recommended_subtitle_y": -0.52,
+      "recommended_hook_banner_y": 0.62
+    },
+    "layer5_audio_and_beat_dna": {
+      "copyright_compliance": "100% Clean-Room (Zero audio ripped from third-party video)",
+      "detected_audio_peaks_count": 42,
+      "beat_sync_ratio_pct": 29.4,
+      "editing_rhythm_style": "M3/M4 Voice & ASMR Driven (Cắt cảnh theo nhịp lời thoại & hành động thật)",
+      "mapped_clean_original_sfx": [
+        "./knowledge_vault/02_external_sfx_not_in_capcut/pivot_khen_che/luxury_soft_pop.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/hook_attention/crystal_aha_shimmer.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/cta_cart_chime/cart_gold_chime.wav",
+        "./knowledge_vault/02_external_sfx_not_in_capcut/kinetic_motion/clean_velvet_whoosh.wav"
+      ]
+    },
+    "learned_timestamp": "2026-11-06T13:21:04",
+    "anti_degradation_gate": {
+      "aesthetic_gate_score_100": 100.0,
+      "passed_gate": true,
+      "rejection_reasons": []
+    },
+    "rank": 22,
+    "views": 55300,
+    "likes": 69,
+    "duration_sec": 34,
+    "title": "nụ trầm hương#grayunbox #nutramhuong #nutramhuongtannguyen #nutram #t...",
+    "storyboard_grid_path": "./knowledge_vault/04_viral_visual_and_effects_dna/grayunbox_22_7665595483376700693_storyboard_grid.jpg"
+  }
+]

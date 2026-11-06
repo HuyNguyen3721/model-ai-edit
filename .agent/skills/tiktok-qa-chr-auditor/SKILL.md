@@ -6,6 +6,8 @@ description: >-
 
 # TikTok 100-Point QA & CHR Vietnam Compliance Auditor (`/kiem-duyet-video`)
 
+> **TÀI LIỆU THAM CHIẾU BẮT BUỘC:** Đọc [TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md](../../TAI_LIEU_BAN_GIAO_HE_THONG_AI_MASTER_HANDOVER.md) và [Cẩm nang Toàn diện TikTok Affiliate (Việt Nam).md](../../Cẩm%20nang%20Toàn%20diện%20TikTok%20Affiliate%20(Việt%20Nam).md) để kiểm định đủ 6 trụ cột QA 100 điểm (bao gồm kiểm chứng Trí tuệ Ngữ cảnh Đa KOC `Pillar 4`, Lá chắn CHR biến động giá CTKM `@3thag8_`, nhãn độ tuổi Sữa trên 2 tuổi và 24 cụm từ tách dấu chấm/hai chấm OCR).
+
 Kích hoạt Skill này khi người dùng muốn kiểm tra chất lượng một dự án video trước khi xuất bản, rà soát rủi ro vi phạm **Chính sách CHR TikTok Shop Việt Nam (`0–1.000 điểm`)**, hoặc tạo gói nội dung đăng bài chuẩn SEO.
 
 ## Quy Trình Kiểm Duyệt 3 Bước
